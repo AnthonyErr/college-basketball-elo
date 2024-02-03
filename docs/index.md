@@ -70,7 +70,7 @@ Teams with * or those written as abbreviations (e.g. BREC) are not D1 programs a
 |         0 | Houston Christian       | 16%              |                11.8 | 9.5                | Nicholls State           | 84%              |               -11.8 |
 |         0 | Bucknell                | 39%              |                 3.2 | 4.5                | American                 | 61%              |                -3.2 |
 |         0 | Delaware State          | 16%              |                11.6 | 8.5                | Norfolk State            | 84%              |               -11.6 |
-|         0 | Morgan State            | 35%              |                 4.5 | 4.5                | South Carolina State     | 65%              |                -4.5 |
+|         0 | Morgan State            | 35%              |                 4.5 | 3.5                | South Carolina State     | 65%              |                -4.5 |
 |         1 | Hampton                 | 24%              |                 7.9 | 7.5                | Howard                   | 76%              |                -7.9 |
 |         0 | Bellarmine              | 30%              |                 5.8 | 5.5                | Queens (NC)              | 70%              |                -5.8 |
 |         0 | Texas A&M-Commerce      | 36%              |                 4   | 1.5                | Northwestern State       | 64%              |                -4   |
