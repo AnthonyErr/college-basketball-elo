@@ -1,19 +1,28 @@
-# 2024-03-11 Game Predictions
+# 2024-03-12 Game Predictions
 Teams with * or those written as abbreviations (e.g. BREC) are not D1 programs and predictions are more uncertain. Check out [the full repository](https://github.com/grdavis/college-basketball-elo) for methodology and more
 
-|   Neutral | Away               | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                  | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-------------------|:-----------------|--------------------:|:-------------------|:----------------------|:-----------------|--------------------:|
-|         1 | Towson             | 25%              |                 7.8 | 5.5                | College of Charleston | 75%              |                -7.8 |
-|         1 | New Orleans        | 23%              |                 8.3 | 8.5                | Lamar                 | 77%              |                -8.3 |
-|         1 | Cleveland State    | 42%              |                 2.4 | 5.5                | Oakland               | 58%              |                -2.4 |
-|         1 | St. Thomas         | 38%              |                 3.5 | 1.5                | South Dakota State    | 62%              |                -3.5 |
-|         1 | Arkansas State     | 30%              |                 6   | 5.5                | James Madison         | 70%              |                -6   |
-|         1 | ETSU               | 30%              |                 6.1 | NL                 | Samford               | 70%              |                -6.1 |
-|         0 | Montana State      | 26%              |                 7.2 | 7.5                | Weber State           | 74%              |                -7.2 |
-|         1 | Stony Brook        | 31%              |                 5.5 | 7.5                | Hofstra               | 69%              |                -5.5 |
-|         0 | Texas A&M-Commerce | 18%              |                10.8 | 4.5                | Nicholls State        | 82%              |               -10.8 |
-|         1 | Santa Clara        | 23%              |                 8.4 | 10.5               | Saint Mary's          | 77%              |                -8.4 |
-|         0 | Milwaukee          | 35%              |                 4.3 | 1.5                | Northern Kentucky     | 65%              |                -4.3 |
-|         1 | Denver             | 44%              |                 1.7 | 1.5                | Omaha                 | 56%              |                -1.7 |
-|         1 | Portland State     | 29%              |                 6.4 | 6.5                | Montana               | 71%              |                -6.4 |
-|         1 | San Francisco      | 22%              |                 8.7 | 8.5                | Gonzaga               | 78%              |                -8.7 |
+|   Neutral | Away                  | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home                     | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:----------------------|:-----------------|--------------------:|-------------------:|:-------------------------|:-----------------|--------------------:|
+|         1 | Davidson              | 65%              |                -4.3 |               -3.5 | Fordham                  | 35%              |                 4.3 |
+|         0 | Oklahoma State        | 25%              |                 7.7 |                3.5 | UCF                      | 75%              |                -7.7 |
+|         1 | George Washington     | 41%              |                 2.6 |                2.5 | La Salle                 | 59%              |                -2.6 |
+|         1 | Georgia Tech          | 44%              |                 1.6 |                1.5 | Notre Dame               | 56%              |                -1.6 |
+|         1 | West Virginia         | 25%              |                 7.8 |                9.5 | Cincinnati               | 75%              |                -7.8 |
+|         1 | Saint Louis           | 60%              |                -2.9 |               -2.5 | Rhode Island             | 40%              |                 2.9 |
+|         1 | Louisville            | 20%              |                 9.8 |                8.5 | NC State                 | 80%              |                -9.8 |
+|         0 | New Hampshire         | 8%               |                17.5 |               14.5 | Vermont                  | 92%              |               -17.5 |
+|         1 | Canisius              | 40%              |                 2.8 |                3.5 | Mount St. Mary's         | 60%              |                -2.8 |
+|         0 | Bryant                | 36%              |                 3.9 |                5.5 | UMass-Lowell             | 64%              |                -3.9 |
+|         0 | Lamar                 | 16%              |                11.7 |               13.5 | McNeese State            | 84%              |               -11.7 |
+|         0 | Miami (FL)            | 30%              |                 6   |               -2.5 | Boston College           | 70%              |                -6   |
+|         0 | Milwaukee             | 32%              |                 5.2 |                4.5 | Oakland                  | 68%              |                -5.2 |
+|         1 | Stony Brook           | 22%              |                 9   |                9.5 | College of Charleston    | 78%              |                -9   |
+|         0 | Wagner                | 20%              |                 9.9 |                7.5 | Merrimack                | 80%              |                -9.9 |
+|         1 | Manhattan             | 27%              |                 6.9 |                7.5 | Iona                     | 73%              |                -6.9 |
+|         1 | Sacramento State      | 30%              |                 6.1 |                5.5 | Montana State            | 70%              |                -6.1 |
+|         1 | Florida International | 39%              |                 3.2 |                4.5 | Jacksonville State       | 61%              |                -3.2 |
+|         1 | Gonzaga               | 61%              |                -3.1 |               -3.5 | Saint Mary's             | 39%              |                 3.1 |
+|         0 | Nicholls State        | 30%              |                 5.8 |                4.5 | Texas A&M-Corpus Christi | 70%              |                -5.8 |
+|         1 | Denver                | 19%              |                10.3 |                9.5 | South Dakota State       | 81%              |               -10.3 |
+|         1 | Siena                 | 18%              |                10.9 |                9.5 | Niagara                  | 82%              |               -10.9 |
+|         0 | Idaho State           | 26%              |                 7.5 |                6.5 | Montana                  | 74%              |                -7.5 |
