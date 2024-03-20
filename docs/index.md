@@ -1,18 +1,17 @@
-# 2024-03-19 Game Predictions
+# 2024-03-20 Game Predictions
 Teams with * or those written as abbreviations (e.g. BREC) are not D1 programs and predictions are more uncertain. Check out [the full repository](https://github.com/grdavis/college-basketball-elo) for methodology and more
 
-|   Neutral | Away              | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home                     | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:------------------|:-----------------|--------------------:|-------------------:|:-------------------------|:-----------------|--------------------:|
-|         1 | Wagner            | 40%              |                 2.8 |                3.5 | Howard                   | 60%              |                -2.8 |
-|         0 | Boston College    | 30%              |                 6.1 |                3.5 | Providence               | 70%              |                -6.1 |
-|         0 | North Texas       | 43%              |                 2   |                2.5 | LSU                      | 57%              |                -2   |
-|         0 | Xavier            | 53%              |                -0.9 |                1.5 | Georgia                  | 47%              |                 0.9 |
-|         0 | Cornell           | 14%              |                13   |               10.5 | Ohio State               | 86%              |               -13   |
-|         0 | Texas Southern    | 13%              |                13.5 |               10.5 | Tarleton State           | 87%              |               -13.5 |
-|         0 | Kansas State      | 41%              |                 2.4 |                5.5 | Iowa                     | 59%              |                -2.4 |
-|         0 | Richmond          | 34%              |                 4.6 |                5.5 | Virginia Tech            | 66%              |                -4.6 |
-|         0 | Minnesota         | 36%              |                 4   |                4.5 | Butler                   | 64%              |                -4   |
-|         0 | South Florida     | 30%              |                 5.8 |                4.5 | UCF                      | 70%              |                -5.8 |
-|         1 | Abilene Christian | 52%              |                -0.7 |                3.5 | Texas A&M-Corpus Christi | 48%              |                 0.7 |
-|         1 | Colorado State    | 54%              |                -1.2 |               -2.5 | Virginia                 | 46%              |                 1.2 |
-|         0 | UC-Irvine         | 38%              |                 3.4 |                7.5 | Utah                     | 62%              |                -3.4 |
+|   Neutral | Away              | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:------------------|:-----------------|--------------------:|:-------------------|:--------------------|:-----------------|--------------------:|
+|         1 | Grambling         | 39%              |                 3   | 4.5                | Montana State       | 61%              |                -3   |
+|         0 | Purdue-Fort Wayne | 46%              |                 1.1 | 1.5                | Bowling Green State | 54%              |                -1.1 |
+|         0 | Abilene Christian | 23%              |                 8.3 | NL                 | Tarleton State      | 77%              |                -8.3 |
+|         0 | St. Joseph's      | 22%              |                 8.7 | 7.5                | Seton Hall          | 78%              |                -8.7 |
+|         0 | Loyola (IL)       | 37%              |                 3.7 | 4.5                | Bradley             | 63%              |                -3.7 |
+|         0 | SMU               | 23%              |                 8.7 | 6.5                | Indiana State       | 77%              |                -8.7 |
+|         0 | Appalachian State | 29%              |                 6.3 | 6.5                | Wake Forest         | 71%              |                -6.3 |
+|         0 | UNLV              | 42%              |                 2.3 | 2.5                | Princeton           | 58%              |                -2.3 |
+|         0 | Alabama A&M       | 19%              |                10.1 | 11.5               | Austin Peay         | 81%              |               -10.1 |
+|         0 | VCU               | 26%              |                 7.3 | 6.5                | Villanova           | 74%              |                -7.3 |
+|         0 | San Francisco     | 24%              |                 8   | 6.5                | Cincinnati          | 76%              |                -8   |
+|         0 | Colorado          | 46%              |                 1.1 | -2.5               | Boise State         | 54%              |                -1.1 |
