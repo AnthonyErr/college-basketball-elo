@@ -1,21 +1,21 @@
-# 2024-03-21 Game Predictions
+# 2024-03-22 Game Predictions
 Teams with * or those written as abbreviations (e.g. BREC) are not D1 programs and predictions are more uncertain. Check out [the full repository](https://github.com/grdavis/college-basketball-elo) for methodology and more
 
-|   Neutral | Away               | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home              | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-------------------|:-----------------|--------------------:|:-------------------|:------------------|:-----------------|--------------------:|
-|         1 | Michigan State     | 46%              |                 1.1 | -1.5               | Mississippi State | 54%              |                -1.1 |
-|         1 | Duquesne           | 38%              |                 3.5 | 9.5                | BYU               | 62%              |                -3.5 |
-|         1 | Akron              | 14%              |                12.7 | 12.5               | Creighton         | 86%              |               -12.7 |
-|         1 | Long Beach State   | 13%              |                13.4 | 19.5               | Arizona           | 87%              |               -13.4 |
-|         1 | Wagner             | 4%               |                23   | NL                 | UNC               | 96%              |               -23   |
-|         1 | Morehead State     | 10%              |                15.6 | 11.5               | Illinois          | 90%              |               -15.6 |
-|         1 | Oregon             | 47%              |                 0.9 | -1.5               | South Carolina    | 53%              |                -0.9 |
-|         1 | Nevada             | 54%              |                -1   | -1.5               | Dayton            | 46%              |                 1   |
-|         1 | Colorado State     | 40%              |                 3   | 2.5                | Texas             | 60%              |                -3   |
-|         1 | Oakland            | 14%              |                13   | 13.5               | Kentucky          | 86%              |               -13   |
-|         1 | McNeese State      | 19%              |                10.1 | 6.5                | Gonzaga           | 81%              |               -10.1 |
-|         0 | South Dakota State | 5%               |                21.2 | 15.5               | Iowa State        | 95%              |               -21.2 |
-|         1 | St. Peter's        | 8%               |                17.2 | 21.5               | Tennessee         | 92%              |               -17.2 |
-|         1 | NC State           | 40%              |                 2.9 | 4.5                | Texas Tech        | 60%              |                -2.9 |
-|         1 | Samford            | 29%              |                 6.1 | 6.5                | Kansas            | 71%              |                -6.1 |
-|         1 | Drake              | 49%              |                 0.3 | -1.5               | Washington State  | 51%              |                -0.3 |
+|   Neutral | Away                  | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home             | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:----------------------|:-----------------|--------------------:|:-------------------|:-----------------|:-----------------|--------------------:|
+|         1 | Northwestern          | 51%              |                -0.3 | 3.5                | Florida Atlantic | 49%              |                 0.3 |
+|         1 | Colgate               | 14%              |                12.6 | 14.5               | Baylor           | 86%              |               -12.6 |
+|         1 | UAB                   | 24%              |                 8.2 | 6.5                | San Diego State  | 76%              |                -8.2 |
+|         1 | Western Kentucky      | 14%              |                12.6 | 14.5               | Marquette        | 86%              |               -12.6 |
+|         1 | Stetson               | 2%               |                26.1 | NL                 | UConn            | 98%              |               -26.1 |
+|         1 | New Mexico            | 67%              |                -4.8 | -2.5               | Clemson          | 33%              |                 4.8 |
+|         1 | Yale                  | 12%              |                13.8 | 12.5               | Auburn           | 88%              |               -13.8 |
+|         1 | Colorado              | 46%              |                 1.2 | 1.5                | Florida          | 54%              |                -1.2 |
+|         1 | Texas A&M             | 44%              |                 1.7 | 1.5                | Nebraska         | 56%              |                -1.7 |
+|         1 | Vermont               | 25%              |                 7.8 | 12.5               | Duke             | 75%              |                -7.8 |
+|         1 | Grambling             | 4%               |                22.9 | 26.5               | Purdue           | 96%              |               -22.9 |
+|         1 | College of Charleston | 36%              |                 4   | 9.5                | Alabama          | 64%              |                -4   |
+|         1 | Longwood              | 6%               |                19.5 | 23.5               | Houston          | 94%              |               -19.5 |
+|         1 | James Madison         | 39%              |                 3.2 | 5.5                | Wisconsin        | 61%              |                -3.2 |
+|         0 | TCU                   | 46%              |                 1.2 | -3.5               | Utah State       | 54%              |                -1.2 |
+|         1 | Grand Canyon          | 37%              |                 3.8 | 5.5                | Saint Mary's     | 63%              |                -3.8 |
