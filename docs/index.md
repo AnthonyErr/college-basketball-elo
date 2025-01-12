@@ -12,7 +12,7 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 |         0 | St. Peter's        | 54%              |                -1.2 | -5.5               | Canisius            | 46%              |                 1.2 |
 |         0 | Quinnipiac         | 50%              |                -0.1 | -2                 | Iona                | 50%              |                 0.1 |
 |         0 | LIU                | 20%              |                 9.9 | 7.5                | Central Connecticut | 80%              |                -9.9 |
-|         0 | Saint Francis (PA) | 22%              |                 9   | 4.5                | Fairleigh Dickinson | 78%              |                -9   |
+|         0 | Saint Francis (PA) | 22%              |                 9   | 4                  | Fairleigh Dickinson | 78%              |                -9   |
 |         0 | Sacred Heart       | 23%              |                 8.5 | 4                  | Mount St. Mary's    | 77%              |                -8.5 |
 |         0 | Washington         | 17%              |                11.3 | 14.5               | Michigan            | 83%              |               -11.3 |
 |         0 | Fairfield          | 20%              |                 9.7 | 7                  | Marist              | 80%              |                -9.7 |
