@@ -3,21 +3,21 @@ Below are predictions for today's Men's college basketball games using an ELO ra
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home                | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-----------------|:-----------------|--------------------:|-------------------:|:--------------------|:-----------------|--------------------:|
-|         0 | Maryland         | 57%              |                -2   |               -3.5 | Indiana             | 43%              |                 2   |
-|         0 | Duquesne         | 67%              |                -5   |               -2.5 | Fordham             | 33%              |                 5   |
-|         0 | UAB              | 20%              |                 9.9 |                7.5 | Memphis             | 80%              |                -9.9 |
-|         0 | Nebraska         | 21%              |                 9.2 |                8   | Wisconsin           | 79%              |                -9.2 |
-|         0 | Chicago State    | 11%              |                14.9 |               14.5 | Central Connecticut | 89%              |               -14.9 |
-|         0 | LIU              | 46%              |                 1.1 |               -2.5 | Mercyhurst          | 54%              |                -1.1 |
-|         0 | Florida Atlantic | 26%              |                 7.4 |                8   | North Texas         | 74%              |                -7.4 |
-|         0 | Wagner           | 57%              |                -2.1 |                2.5 | St. Francis (PA     | 43%              |                 2.1 |
-|         0 | FDU*             | 8%               |                17.2 |                3   | Stonehill           | 92%              |               -17.2 |
-|         0 | Wichita State    | 48%              |                 0.5 |               -5   | Tulsa               | 52%              |                -0.5 |
-|         0 | Northwestern     | 30%              |                 6   |                8   | Illinois            | 70%              |                -6   |
-|         0 | Oklahoma State   | 12%              |                13.8 |               18.5 | Texas Tech          | 88%              |               -13.8 |
-|         0 | Navy             | 27%              |                 7.1 |                2.5 | Army                | 73%              |                -7.1 |
+|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-----------------|:-----------------|--------------------:|:-------------------|:--------------------|:-----------------|--------------------:|
+|         0 | Maryland         | 57%              |                -2   | NL                 | Indiana             | 43%              |                 2   |
+|         0 | Duquesne         | 67%              |                -5   | NL                 | Fordham             | 33%              |                 5   |
+|         0 | Chicago State    | 11%              |                14.9 | NL                 | Central Connecticut | 89%              |               -14.9 |
+|         0 | UAB              | 20%              |                 9.9 | NL                 | Memphis             | 80%              |                -9.9 |
+|         0 | LIU              | 46%              |                 1.1 | NL                 | Mercyhurst          | 54%              |                -1.1 |
+|         0 | Nebraska         | 21%              |                 9.2 | NL                 | Wisconsin           | 79%              |                -9.2 |
+|         0 | FDU*             | 8%               |                17.2 | NL                 | Stonehill           | 92%              |               -17.2 |
+|         0 | Wagner           | 57%              |                -2.1 | NL                 | St. Francis (PA     | 43%              |                 2.1 |
+|         0 | Florida Atlantic | 26%              |                 7.4 | NL                 | North Texas         | 74%              |                -7.4 |
+|         0 | Northwestern     | 30%              |                 6   | NL                 | Illinois            | 70%              |                -6   |
+|         0 | Oklahoma State   | 12%              |                13.8 | NL                 | Texas Tech          | 88%              |               -13.8 |
+|         0 | Wichita State    | 48%              |                 0.5 | NL                 | Tulsa               | 52%              |                -0.5 |
+|         0 | Navy             | 27%              |                 7.1 | NL                 | Army                | 73%              |                -7.1 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
