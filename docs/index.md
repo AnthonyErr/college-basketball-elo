@@ -5,21 +5,21 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 
 |   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home        | Home Win Prob.   |   Home Pred. Spread |
 |----------:|:-----------------|:-----------------|--------------------:|:-------------------|:------------|:-----------------|--------------------:|
+|         0 | Yale             | 46%              |                 1.1 | -2.5               | Princeton   | 54%              |                -1.1 |
+|         0 | Butler           | 40%              |                 2.9 | 3.5                | Georgetown  | 60%              |                -2.9 |
+|         0 | Dayton           | 50%              |                -0   | -1                 | Saint Louis | 50%              |                 0   |
+|         0 | St. Peter's      | 39%              |                 3.1 | -1.5               | Rider       | 61%              |                -3.1 |
+|         0 | Niagara          | 41%              |                 2.6 | -4                 | Canisius    | 59%              |                -2.6 |
+|         0 | Mount St. Mary's | 16%              |                11.8 | 7.5                | Merrimack   | 84%              |               -11.8 |
+|         0 | Iona             | 39%              |                 3   | -1                 | Manhattan   | 61%              |                -3   |
+|         0 | Brown            | 44%              |                 1.8 | 1.5                | Penn        | 56%              |                -1.8 |
+|         0 | Harvard          | 38%              |                 3.5 | 4.5                | Columbia    | 62%              |                -3.5 |
+|         0 | Fairfield        | 13%              |                13.2 | 12.5               | Quinnipiac  | 87%              |               -13.2 |
+|         0 | Dartmouth        | 16%              |                11.4 | 10.5               | Cornell     | 84%              |               -11.4 |
+|         0 | Akron            | 53%              |                -0.8 | 2                  | Kent State  | 47%              |                 0.8 |
+|         0 | Indiana          | 13%              |                13.1 | 12                 | Purdue      | 87%              |               -13.1 |
+|         0 | Siena            | 19%              |                10.4 | 5.5                | Marist      | 81%              |               -10.4 |
 |         0 | UC San Diego     | 49%              |                 0.2 | NL                 | Hawai'i     | 51%              |                -0.2 |
-|         0 | Yale             | 46%              |                 1.1 | NL                 | Princeton   | 54%              |                -1.1 |
-|         0 | Butler           | 40%              |                 2.9 | NL                 | Georgetown  | 60%              |                -2.9 |
-|         0 | Dayton           | 50%              |                -0   | NL                 | Saint Louis | 50%              |                 0   |
-|         0 | St. Peter's      | 39%              |                 3.1 | NL                 | Rider       | 61%              |                -3.1 |
-|         0 | Niagara          | 41%              |                 2.6 | NL                 | Canisius    | 59%              |                -2.6 |
-|         0 | Mount St. Mary's | 16%              |                11.8 | NL                 | Merrimack   | 84%              |               -11.8 |
-|         0 | Iona             | 39%              |                 3   | NL                 | Manhattan   | 61%              |                -3   |
-|         0 | Brown            | 44%              |                 1.8 | NL                 | Penn        | 56%              |                -1.8 |
-|         0 | Harvard          | 38%              |                 3.5 | NL                 | Columbia    | 62%              |                -3.5 |
-|         0 | Fairfield        | 13%              |                13.2 | NL                 | Quinnipiac  | 87%              |               -13.2 |
-|         0 | Dartmouth        | 16%              |                11.4 | NL                 | Cornell     | 84%              |               -11.4 |
-|         0 | Akron            | 53%              |                -0.8 | NL                 | Kent State  | 47%              |                 0.8 |
-|         0 | Indiana          | 13%              |                13.1 | NL                 | Purdue      | 87%              |               -13.1 |
-|         0 | Siena            | 19%              |                10.4 | NL                 | Marist      | 81%              |               -10.4 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
