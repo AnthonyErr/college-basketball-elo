@@ -9,9 +9,9 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 |         0 | Fairfield           | 27%              |                 6.8 | 7                  | Iona             | 73%              |                -6.8 |
 |         0 | South Florida       | 28%              |                 6.5 | 8                  | Florida Atlantic | 72%              |                -6.5 |
 |         0 | Tulsa               | 20%              |                 9.7 | 9.5                | Tulane           | 80%              |                -9.7 |
-|         0 | Manhattan           | 38%              |                 3.4 | 2                  | Sacred Heart     | 62%              |                -3.4 |
+|         0 | Manhattan           | 38%              |                 3.4 | 3                  | Sacred Heart     | 62%              |                -3.4 |
 |         0 | Mount St. Mary's    | 34%              |                 4.6 | 3.5                | St. Peter's      | 66%              |                -4.6 |
-|         0 | Quinnipiac          | 63%              |                -3.8 | -6                 | Siena            | 37%              |                 3.8 |
+|         0 | Quinnipiac          | 63%              |                -3.8 | -5                 | Siena            | 37%              |                 3.8 |
 |         0 | West Virginia       | 34%              |                 4.5 | 5                  | Cincinnati       | 66%              |                -4.5 |
 |         0 | Robert Morris       | 42%              |                 2.3 | 2.5                | Wright State     | 58%              |                -2.3 |
 |         0 | Furman              | 38%              |                 3.5 | NL                 | ETSU             | 62%              |                -3.5 |
@@ -20,7 +20,7 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 |         0 | Evansville          | 19%              |                10   | 11.5               | Belmont          | 81%              |               -10   |
 |         0 | Bradley             | 52%              |                -0.5 | 2                  | Northern Iowa    | 48%              |                 0.5 |
 |         0 | Merrimack           | 51%              |                -0.3 | -5                 | Rider            | 49%              |                 0.3 |
-|         0 | Colorado            | 36%              |                 3.9 | 7                  | TCU              | 64%              |                -3.9 |
+|         0 | Colorado            | 36%              |                 3.9 | 6.5                | TCU              | 64%              |                -3.9 |
 |         0 | North Dakota State  | 33%              |                 4.9 | 1.5                | St. Thomas       | 67%              |                -4.9 |
 |         0 | Seton Hall          | 38%              |                 3.3 | 5                  | DePaul           | 62%              |                -3.3 |
 |         0 | Nebraska            | 34%              |                 4.6 | 7                  | Oregon           | 66%              |                -4.6 |
