@@ -3,29 +3,29 @@ Below are predictions for today's Men's college basketball games using an ELO ra
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away                     | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                   | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-------------------------|:-----------------|--------------------:|:-------------------|:-----------------------|:-----------------|--------------------:|
-|         0 | Colgate                  | 44%              |                 1.8 | NL                 | Lehigh                 | 56%              |                -1.8 |
-|         0 | Virginia                 | 15%              |                12.3 | NL                 | Pitt                   | 85%              |               -12.3 |
-|         0 | Alabama State            | 29%              |                 6.1 | NL                 | Florida A&M            | 71%              |                -6.1 |
-|         0 | Incarnate Word           | 59%              |                -2.4 | NL                 | McNeese                | 41%              |                 2.4 |
-|         0 | Alabama A&M              | 16%              |                11.8 | NL                 | Bethune-Cookman        | 84%              |               -11.8 |
-|         0 | Lamar                    | 40%              |                 2.8 | NL                 | Southeastern Louisiana | 60%              |                -2.8 |
-|         0 | North Carolina Central   | 17%              |                11.1 | NL                 | Norfolk State          | 83%              |               -11.1 |
-|         0 | Jackson State            | 57%              |                -1.9 | NL                 | Southern University    | 43%              |                 1.9 |
-|         0 | Houston Christian        | 24%              |                 8.2 | NL                 | Nicholls State         | 76%              |                -8.2 |
-|         0 | Stephen F. Austin        | 53%              |                -0.8 | NL                 | New Orleans            | 47%              |                 0.8 |
-|         0 | Morgan State             | 25%              |                 7.7 | NL                 | Delaware State         | 75%              |                -7.7 |
-|         0 | UT Rio Grande Valley     | 10%              |                15.5 | NL                 | Northwestern State     | 90%              |               -15.5 |
-|         0 | South Carolina State     | 47%              |                 0.9 | NL                 | Howard                 | 53%              |                -0.9 |
-|         0 | Texas A&M-Corpus Christi | 70%              |                -6   | NL                 | East Texas A&M         | 30%              |                 6   |
-|         0 | College of Charleston    | 60%              |                -2.9 | NL                 | William & Mary         | 40%              |                 2.9 |
-|         0 | Coppin State             | 23%              |                 8.5 | NL                 | Maryland-Eastern Shore | 77%              |                -8.5 |
-|         0 | North Texas              | 46%              |                 1.3 | NL                 | UAB                    | 54%              |                -1.3 |
-|         0 | Northern Arizona         | 48%              |                 0.5 | NL                 | Weber State            | 52%              |                -0.5 |
-|         0 | Iowa State               | 39%              |                 3.2 | NL                 | Kansas                 | 61%              |                -3.2 |
-|         0 | Northern Colorado        | 56%              |                -1.7 | NL                 | Idaho State            | 44%              |                 1.7 |
-|         0 | Alcorn State             | 36%              |                 4.2 | NL                 | Grambling              | 64%              |                -4.2 |
+|   Neutral | Away                     | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home                   | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-------------------------|:-----------------|--------------------:|-------------------:|:-----------------------|:-----------------|--------------------:|
+|         0 | Colgate                  | 44%              |                 1.8 |               -4.5 | Lehigh                 | 56%              |                -1.8 |
+|         0 | Virginia                 | 15%              |                12.3 |               12.5 | Pitt                   | 85%              |               -12.3 |
+|         0 | Alabama State            | 29%              |                 6.1 |               -1   | Florida A&M            | 71%              |                -6.1 |
+|         0 | Incarnate Word           | 59%              |                -2.4 |               17   | McNeese                | 41%              |                 2.4 |
+|         0 | Alabama A&M              | 16%              |                11.8 |                7   | Bethune-Cookman        | 84%              |               -11.8 |
+|         0 | Lamar                    | 40%              |                 2.8 |                3   | Southeastern Louisiana | 60%              |                -2.8 |
+|         0 | North Carolina Central   | 17%              |                11.1 |                9.5 | Norfolk State          | 83%              |               -11.1 |
+|         0 | Jackson State            | 57%              |                -1.9 |                7   | Southern University    | 43%              |                 1.9 |
+|         0 | Houston Christian        | 24%              |                 8.2 |                7   | Nicholls State         | 76%              |                -8.2 |
+|         0 | Stephen F. Austin        | 53%              |                -0.8 |               -7   | New Orleans            | 47%              |                 0.8 |
+|         0 | Morgan State             | 25%              |                 7.7 |                4.5 | Delaware State         | 75%              |                -7.7 |
+|         0 | UT Rio Grande Valley     | 10%              |                15.5 |                1   | Northwestern State     | 90%              |               -15.5 |
+|         0 | South Carolina State     | 47%              |                 0.9 |               -1   | Howard                 | 53%              |                -0.9 |
+|         0 | Texas A&M-Corpus Christi | 70%              |                -6   |               -7.5 | East Texas A&M         | 30%              |                 6   |
+|         0 | College of Charleston    | 60%              |                -2.9 |               -2   | William & Mary         | 40%              |                 2.9 |
+|         0 | Coppin State             | 23%              |                 8.5 |                3.5 | Maryland-Eastern Shore | 77%              |                -8.5 |
+|         0 | North Texas              | 46%              |                 1.3 |                1.5 | UAB                    | 54%              |                -1.3 |
+|         0 | Northern Arizona         | 48%              |                 0.5 |                1   | Weber State            | 52%              |                -0.5 |
+|         0 | Iowa State               | 39%              |                 3.2 |                2.5 | Kansas                 | 61%              |                -3.2 |
+|         0 | Northern Colorado        | 56%              |                -1.7 |               -1.5 | Idaho State            | 44%              |                 1.7 |
+|         0 | Alcorn State             | 36%              |                 4.2 |                4   | Grambling              | 64%              |                -4.2 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
