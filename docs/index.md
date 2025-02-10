@@ -5,25 +5,25 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 
 |   Neutral | Away                     | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                   | Home Win Prob.   |   Home Pred. Spread |
 |----------:|:-------------------------|:-----------------|--------------------:|:-------------------|:-----------------------|:-----------------|--------------------:|
-|         0 | Lafayette                | 21%              |                 9.1 | NL                 | American               | 79%              |                -9.1 |
+|         0 | Lafayette                | 21%              |                 9.1 | 4.5                | American               | 79%              |                -9.1 |
 |         0 | UNC                      | 39%              |                 3   | NL                 | Clemson                | 61%              |                -3   |
-|         0 | Mississippi Valley State | 8%               |                17.5 | NL                 | Alcorn State           | 92%              |               -17.5 |
-|         0 | Southern University      | 25%              |                 7.8 | NL                 | Alabama State          | 75%              |                -7.8 |
-|         0 | East Texas A&M           | 21%              |                 9.1 | NL                 | McNeese                | 79%              |                -9.1 |
-|         0 | Northwestern State       | 13%              |                13.2 | NL                 | Nicholls State         | 87%              |               -13.2 |
-|         0 | UT Rio Grande Valley     | 6%               |                19.1 | NL                 | Stephen F. Austin      | 94%              |               -19.1 |
-|         0 | New Orleans              | 19%              |                10.3 | NL                 | Incarnate Word         | 81%              |               -10.3 |
-|         0 | North Carolina A&T       | 8%               |                17.5 | NL                 | Campbell               | 92%              |               -17.5 |
-|         0 | Arkansas-Pine Bluff      | 11%              |                14.7 | NL                 | Jackson State          | 89%              |               -14.7 |
-|         0 | Bethune-Cookman          | 38%              |                 3.4 | NL                 | Texas Southern         | 62%              |                -3.4 |
-|         0 | Texas A&M-Corpus Christi | 26%              |                 7.5 | NL                 | Lamar                  | 74%              |                -7.5 |
-|         0 | Grambling                | 45%              |                 1.5 | NL                 | Alabama A&M            | 55%              |                -1.5 |
-|         0 | Southeastern Louisiana   | 46%              |                 1   | NL                 | Houston Christian      | 54%              |                -1   |
-|         0 | Howard                   | 43%              |                 1.9 | NL                 | Maryland-Eastern Shore | 57%              |                -1.9 |
-|         0 | Florida A&M              | 50%              |                 0.1 | NL                 | Prairie View           | 50%              |                -0.1 |
-|         0 | Charlotte                | 14%              |                12.8 | NL                 | Florida Atlantic       | 86%              |               -12.8 |
-|         0 | Baylor                   | 22%              |                 9   | NL                 | Houston                | 78%              |                -9   |
-|         0 | Fresno State             | 10%              |                15.4 | NL                 | Nevada                 | 90%              |               -15.4 |
+|         0 | Mississippi Valley State | 8%               |                17.5 | 19.5               | Alcorn State           | 92%              |               -17.5 |
+|         0 | Southern University      | 25%              |                 7.8 | -3                 | Alabama State          | 75%              |                -7.8 |
+|         0 | East Texas A&M           | 21%              |                 9.1 | 19.5               | McNeese                | 79%              |                -9.1 |
+|         0 | Florida A&M              | 50%              |                 0.1 | 1                  | Prairie View           | 50%              |                -0.1 |
+|         0 | Northwestern State       | 13%              |                13.2 | 7                  | Nicholls State         | 87%              |               -13.2 |
+|         0 | UT Rio Grande Valley     | 6%               |                19.1 | 3                  | Stephen F. Austin      | 94%              |               -19.1 |
+|         0 | New Orleans              | 19%              |                10.3 | 11.5               | Incarnate Word         | 81%              |               -10.3 |
+|         0 | North Carolina A&T       | 8%               |                17.5 | 13.5               | Campbell               | 92%              |               -17.5 |
+|         0 | Arkansas-Pine Bluff      | 11%              |                14.7 | 14                 | Jackson State          | 89%              |               -14.7 |
+|         0 | Bethune-Cookman          | 38%              |                 3.4 | 3                  | Texas Southern         | 62%              |                -3.4 |
+|         0 | Texas A&M-Corpus Christi | 26%              |                 7.5 | 1.5                | Lamar                  | 74%              |                -7.5 |
+|         0 | Grambling                | 45%              |                 1.5 | -1                 | Alabama A&M            | 55%              |                -1.5 |
+|         0 | Southeastern Louisiana   | 46%              |                 1   | 2                  | Houston Christian      | 54%              |                -1   |
+|         0 | Howard                   | 43%              |                 1.9 | -7                 | Maryland-Eastern Shore | 57%              |                -1.9 |
+|         0 | Charlotte                | 14%              |                12.8 | 13.5               | Florida Atlantic       | 86%              |               -12.8 |
+|         0 | Baylor                   | 22%              |                 9   | 9                  | Houston                | 78%              |                -9   |
+|         0 | Fresno State             | 10%              |                15.4 | 14.5               | Nevada                 | 90%              |               -15.4 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
