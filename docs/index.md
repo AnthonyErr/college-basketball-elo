@@ -3,28 +3,28 @@ Below are predictions for today's Men's college basketball games using an ELO ra
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away                | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home              | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:--------------------|:-----------------|--------------------:|:-------------------|:------------------|:-----------------|--------------------:|
-|         0 | Bowling Green State | 17%              |                10.9 | NL                 | Toledo            | 83%              |               -10.9 |
-|         0 | St. Peter's         | 26%              |                 7.3 | NL                 | Mount St. Mary's  | 74%              |                -7.3 |
-|         0 | Dayton              | 49%              |                 0.2 | NL                 | Loyola (IL)       | 51%              |                -0.2 |
-|         0 | Marquette           | 61%              |                -3.1 | NL                 | Villanova         | 39%              |                 3.1 |
-|         0 | Fairfield           | 22%              |                 8.9 | NL                 | Rider             | 78%              |                -8.9 |
-|         0 | Niagara             | 24%              |                 8.2 | NL                 | Siena             | 76%              |                -8.2 |
-|         0 | Canisius            | 8%               |                17.1 | NL                 | Marist            | 92%              |               -17.1 |
-|         0 | Manhattan           | 37%              |                 3.6 | NL                 | Iona              | 63%              |                -3.6 |
-|         0 | Dartmouth           | 56%              |                -1.7 | NL                 | Penn              | 44%              |                 1.7 |
-|         0 | Cleveland State     | 87%              |               -13.1 | NL                 | Detroit Mercy     | 13%              |                13.1 |
-|         0 | Northern Kentucky   | 32%              |                 5.4 | NL                 | Wright State      | 68%              |                -5.4 |
-|         0 | Harvard             | 20%              |                 9.8 | NL                 | Princeton         | 80%              |                -9.8 |
-|         0 | Oakland             | 29%              |                 6.3 | NL                 | Purdue-Fort Wayne | 71%              |                -6.3 |
-|         0 | Green Bay           | 6%               |                19.1 | NL                 | Robert Morris     | 94%              |               -19.1 |
-|         0 | Cornell             | 14%              |                13   | NL                 | Yale              | 86%              |               -13   |
-|         0 | Columbia            | 15%              |                12.2 | NL                 | Brown             | 85%              |               -12.2 |
-|         0 | Sacred Heart        | 22%              |                 8.7 | NL                 | Merrimack         | 78%              |                -8.7 |
-|         0 | Michigan State      | 45%              |                 1.5 | NL                 | Michigan          | 55%              |                -1.5 |
-|         0 | Kent State          | 43%              |                 2.1 | NL                 | Miami (OH)        | 57%              |                -2.1 |
-|         0 | Milwaukee           | 38%              |                 3.5 | NL                 | Youngstown State  | 62%              |                -3.5 |
+|   Neutral | Away                | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home              | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:--------------------|:-----------------|--------------------:|-------------------:|:------------------|:-----------------|--------------------:|
+|         0 | Bowling Green State | 17%              |                10.9 |                7.5 | Toledo            | 83%              |               -10.9 |
+|         0 | St. Peter's         | 26%              |                 7.3 |                4.5 | Mount St. Mary's  | 74%              |                -7.3 |
+|         0 | Dayton              | 49%              |                 0.2 |               -1.5 | Loyola (IL)       | 51%              |                -0.2 |
+|         0 | Marquette           | 61%              |                -3.1 |               -1.5 | Villanova         | 39%              |                 3.1 |
+|         0 | Fairfield           | 22%              |                 8.9 |                4.5 | Rider             | 78%              |                -8.9 |
+|         0 | Niagara             | 24%              |                 8.2 |                6.5 | Siena             | 76%              |                -8.2 |
+|         0 | Canisius            | 8%               |                17.1 |               11.5 | Marist            | 92%              |               -17.1 |
+|         0 | Manhattan           | 37%              |                 3.6 |                3.5 | Iona              | 63%              |                -3.6 |
+|         0 | Dartmouth           | 56%              |                -1.7 |                1.5 | Penn              | 44%              |                 1.7 |
+|         0 | Cleveland State     | 87%              |               -13.1 |               -8.5 | Detroit Mercy     | 13%              |                13.1 |
+|         0 | Northern Kentucky   | 32%              |                 5.4 |                3.5 | Wright State      | 68%              |                -5.4 |
+|         0 | Harvard             | 20%              |                 9.8 |                8.5 | Princeton         | 80%              |                -9.8 |
+|         0 | Oakland             | 29%              |                 6.3 |                3.5 | Purdue-Fort Wayne | 71%              |                -6.3 |
+|         0 | Green Bay           | 6%               |                19.1 |               14.5 | Robert Morris     | 94%              |               -19.1 |
+|         0 | Cornell             | 14%              |                13   |                9.5 | Yale              | 86%              |               -13   |
+|         0 | Columbia            | 15%              |                12.2 |                5.5 | Brown             | 85%              |               -12.2 |
+|         0 | Sacred Heart        | 22%              |                 8.7 |                6.5 | Merrimack         | 78%              |                -8.7 |
+|         0 | Michigan State      | 45%              |                 1.5 |                2.5 | Michigan          | 55%              |                -1.5 |
+|         0 | Kent State          | 43%              |                 2.1 |                1.5 | Miami (OH)        | 57%              |                -2.1 |
+|         0 | Milwaukee           | 38%              |                 3.5 |                1.5 | Youngstown State  | 62%              |                -3.5 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
