@@ -3,24 +3,24 @@ Below are predictions for today's Men's college basketball games using an ELO ra
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home            | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-----------------|:-----------------|--------------------:|:-------------------|:----------------|:-----------------|--------------------:|
-|         1 | Creighton        | 47%              |                 0.9 | NL                 | Louisville      | 53%              |                -0.9 |
-|         1 | High Point       | 32%              |                 5.2 | NL                 | Purdue          | 68%              |                -5.2 |
-|         1 | Montana          | 15%              |                12.2 | NL                 | Wisconsin       | 85%              |               -12.2 |
-|         1 | SIU-Edwardsville | 2%               |                26.2 | NL                 | Houston         | 98%              |               -26.2 |
-|         1 | Alabama State    | 3%               |                25.4 | NL                 | Auburn          | 97%              |               -25.4 |
-|         1 | McNeese State    | 27%              |                 6.8 | NL                 | Clemson         | 73%              |                -6.8 |
-|         1 | VCU              | 42%              |                 2.3 | NL                 | BYU             | 58%              |                -2.3 |
-|         1 | Georgia          | 33%              |                 5.1 | NL                 | Gonzaga         | 67%              |                -5.1 |
-|         1 | Wofford          | 10%              |                15.3 | NL                 | Tennessee       | 90%              |               -15.3 |
-|         1 | Arkansas         | 43%              |                 1.9 | NL                 | Kansas          | 57%              |                -1.9 |
-|         1 | Yale             | 31%              |                 5.6 | NL                 | Texas A&M       | 69%              |                -5.6 |
-|         1 | Drake            | 54%              |                -1   | NL                 | Missouri        | 46%              |                 1   |
-|         1 | Utah State       | 43%              |                 2.1 | NL                 | UCLA            | 57%              |                -2.1 |
-|         1 | Omaha            | 7%               |                18.4 | NL                 | St. John's (NY) | 93%              |               -18.4 |
-|         1 | UC-San Diego     | 45%              |                 1.5 | NL                 | Michigan        | 55%              |                -1.5 |
-|         1 | UNC Wilmington   | 15%              |                12   | NL                 | Texas Tech      | 85%              |               -12   |
+|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home            | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-----------------|:-----------------|--------------------:|-------------------:|:----------------|:-----------------|--------------------:|
+|         1 | Creighton        | 47%              |                 0.9 |                3.5 | Louisville      | 53%              |                -0.9 |
+|         1 | High Point       | 32%              |                 5.2 |                7.5 | Purdue          | 68%              |                -5.2 |
+|         1 | Montana          | 15%              |                12.2 |               16.5 | Wisconsin       | 85%              |               -12.2 |
+|         1 | SIU-Edwardsville | 2%               |                26.2 |               28.5 | Houston         | 98%              |               -26.2 |
+|         1 | Alabama State    | 3%               |                25.4 |               32.5 | Auburn          | 97%              |               -25.4 |
+|         1 | McNeese State    | 27%              |                 6.8 |                7.5 | Clemson         | 73%              |                -6.8 |
+|         1 | VCU              | 42%              |                 2.3 |                2.5 | BYU             | 58%              |                -2.3 |
+|         1 | Georgia          | 33%              |                 5.1 |                6.5 | Gonzaga         | 67%              |                -5.1 |
+|         1 | Wofford          | 10%              |                15.3 |               18.5 | Tennessee       | 90%              |               -15.3 |
+|         1 | Arkansas         | 43%              |                 1.9 |                5.5 | Kansas          | 57%              |                -1.9 |
+|         1 | Yale             | 31%              |                 5.6 |                7.5 | Texas A&M       | 69%              |                -5.6 |
+|         1 | Drake            | 54%              |                -1   |                6.5 | Missouri        | 46%              |                 1   |
+|         1 | Utah State       | 43%              |                 2.1 |                5.5 | UCLA            | 57%              |                -2.1 |
+|         1 | Omaha            | 7%               |                18.4 |               18.5 | St. John's (NY) | 93%              |               -18.4 |
+|         1 | UC-San Diego     | 45%              |                 1.5 |                2.5 | Michigan        | 55%              |                -1.5 |
+|         1 | UNC Wilmington   | 15%              |                12   |               14.5 | Texas Tech      | 85%              |               -12   |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
