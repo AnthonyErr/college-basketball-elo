@@ -1,21 +1,26 @@
-# NCAAM ELO Game Predictions for 2025-03-19 - @grdavis
+# NCAAM ELO Game Predictions for 2025-03-20 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away              | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home             | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:------------------|:-----------------|--------------------:|-------------------:|:-----------------|:-----------------|--------------------:|
-|         1 | Mount St. Mary's  | 55%              |                -1.5 |                2.5 | American         | 45%              |                 1.5 |
-|         1 | UAB               | 46%              |                 1   |                5.5 | St. Joseph's     | 54%              |                -1   |
-|         1 | Samford           | 23%              |                 8.6 |                6.5 | George Mason     | 77%              |                -8.6 |
-|         1 | Dayton            | 70%              |                -5.8 |                1   | Florida Atlantic | 30%              |                 5.8 |
-|         1 | North Alabama     | 34%              |                 4.5 |                4.5 | Bradley          | 66%              |                -4.5 |
-|         1 | Furman            | 37%              |                 3.8 |                8.5 | North Texas      | 63%              |                -3.8 |
-|         1 | Northern Iowa     | 36%              |                 4.1 |               10.5 | SMU              | 64%              |                -4.1 |
-|         1 | Xavier            | 64%              |                -3.9 |               -3.5 | Texas            | 36%              |                 3.9 |
-|         1 | Northern Colorado | 35%              |                 4.3 |                7.5 | UC-Irvine        | 65%              |                -4.3 |
-|         1 | Utah Valley       | 43%              |                 2.1 |                7.5 | San Francisco    | 57%              |                -2.1 |
-|         1 | Loyola (IL)       | 73%              |                -6.9 |               -2.5 | San Jose State   | 27%              |                 6.9 |
+|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home            | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-----------------|:-----------------|--------------------:|:-------------------|:----------------|:-----------------|--------------------:|
+|         1 | Creighton        | 47%              |                 0.9 | NL                 | Louisville      | 53%              |                -0.9 |
+|         1 | High Point       | 32%              |                 5.2 | NL                 | Purdue          | 68%              |                -5.2 |
+|         1 | Montana          | 15%              |                12.2 | NL                 | Wisconsin       | 85%              |               -12.2 |
+|         1 | SIU-Edwardsville | 2%               |                26.2 | NL                 | Houston         | 98%              |               -26.2 |
+|         1 | Alabama State    | 3%               |                25.4 | NL                 | Auburn          | 97%              |               -25.4 |
+|         1 | McNeese State    | 27%              |                 6.8 | NL                 | Clemson         | 73%              |                -6.8 |
+|         1 | VCU              | 42%              |                 2.3 | NL                 | BYU             | 58%              |                -2.3 |
+|         1 | Georgia          | 33%              |                 5.1 | NL                 | Gonzaga         | 67%              |                -5.1 |
+|         1 | Wofford          | 10%              |                15.3 | NL                 | Tennessee       | 90%              |               -15.3 |
+|         1 | Arkansas         | 43%              |                 1.9 | NL                 | Kansas          | 57%              |                -1.9 |
+|         1 | Yale             | 31%              |                 5.6 | NL                 | Texas A&M       | 69%              |                -5.6 |
+|         1 | Drake            | 54%              |                -1   | NL                 | Missouri        | 46%              |                 1   |
+|         1 | Utah State       | 43%              |                 2.1 | NL                 | UCLA            | 57%              |                -2.1 |
+|         1 | Omaha            | 7%               |                18.4 | NL                 | St. John's (NY) | 93%              |               -18.4 |
+|         1 | UC-San Diego     | 45%              |                 1.5 | NL                 | Michigan        | 55%              |                -1.5 |
+|         1 | UNC Wilmington   | 15%              |                12   | NL                 | Texas Tech      | 85%              |               -12   |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
@@ -36,11 +41,11 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 14 | Wisconsin         |         1931 |            +34 |
 | 15 | UConn             |         1926 |            -13 |
 | 16 | Saint Mary's      |         1920 |             +0 |
-| 17 | Iowa State        |         1920 |             +3 |
+| 17 | Iowa State        |         1920 |            -14 |
 | 18 | Colorado State    |         1913 |            +49 |
 | 19 | Louisville        |         1907 |             +2 |
 | 20 | Michigan          |         1896 |            +84 |
-| 21 | UNC               |         1888 |            +75 |
+| 21 | UNC               |         1888 |            +62 |
 | 22 | Creighton         |         1885 |            +16 |
 | 23 | Illinois          |         1882 |            -17 |
 | 24 | VCU               |         1879 |            +29 |
@@ -54,19 +59,19 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 32 | Memphis           |         1858 |            +19 |
 | 33 | Drake             |         1855 |             +0 |
 | 34 | Kentucky          |         1852 |            -19 |
-| 35 | Xavier            |         1851 |            -11 |
-| 36 | UCLA              |         1846 |            -26 |
-| 37 | Kansas            |         1843 |            -13 |
-| 38 | Baylor            |         1842 |            +14 |
-| 39 | Missouri          |         1830 |            +14 |
+| 35 | UCLA              |         1846 |            -26 |
+| 36 | Kansas            |         1843 |            -20 |
+| 37 | Baylor            |         1842 |             -7 |
+| 38 | Missouri          |         1830 |            +14 |
+| 39 | Xavier            |         1826 |            -36 |
 | 40 | Boise State       |         1823 |            +19 |
 | 41 | Ole Miss          |         1822 |             +7 |
-| 42 | Georgia           |         1813 |            -21 |
-| 43 | Oklahoma          |         1803 |            +13 |
-| 44 | Arkansas          |         1795 |             -4 |
+| 42 | Georgia           |         1813 |             +0 |
+| 43 | Oklahoma          |         1803 |             -7 |
+| 44 | Arkansas          |         1795 |            -13 |
 | 45 | Utah State        |         1794 |             -2 |
 | 46 | Indiana           |         1790 |            -21 |
-| 47 | Northwestern      |         1788 |             -0 |
-| 48 | Mississippi State |         1788 |             -6 |
-| 49 | Villanova         |         1773 |            -11 |
-| 50 | Penn State        |         1770 |             +0 |
+| 47 | Northwestern      |         1788 |            -13 |
+| 48 | Mississippi State |         1788 |            -25 |
+| 49 | Texas             |         1778 |            +44 |
+| 50 | George Mason      |         1774 |            +39 |
