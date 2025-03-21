@@ -3,24 +3,24 @@ Below are predictions for today's Men's college basketball games using an ELO ra
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home              | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-----------------|:-----------------|--------------------:|:-------------------|:------------------|:-----------------|--------------------:|
-|         1 | Baylor           | 58%              |                -2.2 | NL                 | Mississippi State | 42%              |                 2.2 |
-|         1 | Robert Morris    | 11%              |                14.5 | NL                 | Alabama           | 89%              |               -14.5 |
-|         1 | Lipscomb         | 17%              |                11.3 | NL                 | Iowa State        | 83%              |               -11.3 |
-|         1 | Colorado State   | 58%              |                -2.2 | NL                 | Memphis           | 42%              |                 2.2 |
-|         1 | Mount St. Mary's | 4%               |                22.5 | NL                 | Duke              | 96%              |               -22.5 |
-|         1 | Vanderbilt       | 23%              |                 8.5 | NL                 | Saint Mary's      | 77%              |                -8.5 |
-|         1 | UNC              | 59%              |                -2.6 | NL                 | Ole Miss          | 41%              |                 2.6 |
-|         1 | Grand Canyon     | 21%              |                 9.3 | NL                 | Maryland          | 79%              |                -9.3 |
-|         1 | Norfolk State    | 4%               |                22.7 | NL                 | Florida           | 96%              |               -22.7 |
-|         1 | Troy             | 25%              |                 7.5 | NL                 | Kentucky          | 75%              |                -7.5 |
-|         1 | New Mexico       | 50%              |                -0.1 | NL                 | Marquette         | 50%              |                 0.1 |
-|         1 | Akron            | 19%              |                10.1 | NL                 | Arizona           | 81%              |               -10.1 |
-|         1 | Oklahoma         | 33%              |                 5   | NL                 | UConn             | 67%              |                -5   |
-|         1 | Xavier           | 42%              |                 2.3 | NL                 | Illinois          | 58%              |                -2.3 |
-|         1 | Bryant           | 8%               |                16.7 | NL                 | Michigan State    | 92%              |               -16.7 |
-|         1 | Liberty          | 35%              |                 4.5 | NL                 | Oregon            | 65%              |                -4.5 |
+|   Neutral | Away             | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home              | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-----------------|:-----------------|--------------------:|-------------------:|:------------------|:-----------------|--------------------:|
+|         1 | Baylor           | 58%              |                -2.2 |                1.5 | Mississippi State | 42%              |                 2.2 |
+|         1 | Robert Morris    | 11%              |                14.5 |               21.5 | Alabama           | 89%              |               -14.5 |
+|         1 | Lipscomb         | 17%              |                11.3 |               14.5 | Iowa State        | 83%              |               -11.3 |
+|         1 | Colorado State   | 58%              |                -2.2 |               -1.5 | Memphis           | 42%              |                 2.2 |
+|         1 | Mount St. Mary's | 4%               |                22.5 |               32.5 | Duke              | 96%              |               -22.5 |
+|         1 | Vanderbilt       | 23%              |                 8.5 |                4.5 | Saint Mary's      | 77%              |                -8.5 |
+|         1 | UNC              | 59%              |                -2.6 |               -1.5 | Ole Miss          | 41%              |                 2.6 |
+|         1 | Grand Canyon     | 21%              |                 9.3 |               10.5 | Maryland          | 79%              |                -9.3 |
+|         1 | Norfolk State    | 4%               |                22.7 |               28.5 | Florida           | 96%              |               -22.7 |
+|         1 | Troy             | 25%              |                 7.5 |               11.5 | Kentucky          | 75%              |                -7.5 |
+|         1 | New Mexico       | 50%              |                -0.1 |                3.5 | Marquette         | 50%              |                 0.1 |
+|         1 | Akron            | 19%              |                10.1 |               14.5 | Arizona           | 81%              |               -10.1 |
+|         1 | Oklahoma         | 33%              |                 5   |                5.5 | UConn             | 67%              |                -5   |
+|         1 | Xavier           | 42%              |                 2.3 |                3.5 | Illinois          | 58%              |                -2.3 |
+|         1 | Bryant           | 8%               |                16.7 |               16.5 | Michigan State    | 92%              |               -16.7 |
+|         1 | Liberty          | 35%              |                 4.5 |                6.5 | Oregon            | 65%              |                -4.5 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
