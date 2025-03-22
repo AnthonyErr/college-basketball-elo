@@ -7,14 +7,14 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 |----------:|:--------------|:-----------------|--------------------:|:-------------------|:----------------|:-----------------|--------------------:|
 |         1 | Dayton        | 59%              |                -2.4 | -2.5               | Chattanooga     | 41%              |                 2.4 |
 |         1 | McNeese State | 29%              |                 6.3 | 6.5                | Purdue          | 71%              |                -6.3 |
-|         1 | Bradley       | 40%              |                 2.8 | 6.5                | George Mason    | 60%              |                -2.8 |
+|         1 | Bradley       | 40%              |                 2.8 | 5.5                | George Mason    | 60%              |                -2.8 |
 |         1 | Presbyterian  | 33%              |                 5.1 | NL                 | Illinois State  | 67%              |                -5.1 |
 |         1 | Arkansas      | 21%              |                 9.5 | 7.5                | St. John's (NY) | 79%              |                -9.5 |
 |         1 | Michigan      | 51%              |                -0.4 | 3.5                | Texas A&M       | 49%              |                 0.4 |
-|         1 | Drake         | 38%              |                 3.4 | 6.5                | Texas Tech      | 62%              |                -3.4 |
+|         1 | Drake         | 38%              |                 3.4 | 7.5                | Texas Tech      | 62%              |                -3.4 |
 |         1 | Creighton     | 34%              |                 4.6 | 8.5                | Auburn          | 66%              |                -4.6 |
-|         1 | BYU           | 52%              |                -0.6 | 1                  | Wisconsin       | 48%              |                 0.6 |
-|         1 | Gonzaga       | 28%              |                 6.5 | 4.5                | Houston         | 72%              |                -6.5 |
+|         1 | BYU           | 52%              |                -0.6 | 1.5                | Wisconsin       | 48%              |                 0.6 |
+|         1 | Gonzaga       | 28%              |                 6.5 | 5.5                | Houston         | 72%              |                -6.5 |
 |         1 | UCLA          | 31%              |                 5.7 | 5.5                | Tennessee       | 69%              |                -5.7 |
 
 # Top 50 Teams by ELO Rating
