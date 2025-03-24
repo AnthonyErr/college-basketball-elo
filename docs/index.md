@@ -3,10 +3,11 @@ Below are predictions for today's Men's college basketball games using an ELO ra
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away        | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home               | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:------------|:-----------------|--------------------:|-------------------:|:-------------------|:-----------------|--------------------:|
-|         1 | Army        | 23%              |                 8.6 |                9.5 | Florida Gulf Coast | 77%              |                -8.6 |
-|         1 | Queens (NC) | 41%              |                 2.4 |                3.5 | Cleveland State    | 59%              |                -2.4 |
+|   Neutral | Away           | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home               | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:---------------|:-----------------|--------------------:|-------------------:|:-------------------|:-----------------|--------------------:|
+|         1 | Incarnate Word | 36%              |                 4.1 |                3.5 | Jacksonville       | 64%              |                -4.1 |
+|         1 | Army           | 23%              |                 8.6 |                9.5 | Florida Gulf Coast | 77%              |                -8.6 |
+|         1 | Queens (NC)    | 41%              |                 2.4 |                3.5 | Cleveland State    | 59%              |                -2.4 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
