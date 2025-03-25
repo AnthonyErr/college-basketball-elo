@@ -1,13 +1,14 @@
-# NCAAM ELO Game Predictions for 2025-03-24 - @grdavis
+# NCAAM ELO Game Predictions for 2025-03-25 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away           | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home               | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:---------------|:-----------------|--------------------:|-------------------:|:-------------------|:-----------------|--------------------:|
-|         1 | Incarnate Word | 36%              |                 4.1 |                3.5 | Jacksonville       | 64%              |                -4.1 |
-|         1 | Army           | 23%              |                 8.6 |                9.5 | Florida Gulf Coast | 77%              |                -8.6 |
-|         1 | Queens (NC)    | 41%              |                 2.4 |                3.5 | Cleveland State    | 59%              |                -2.4 |
+|   Neutral | Away               | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home            | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-------------------|:-----------------|--------------------:|-------------------:|:----------------|:-----------------|--------------------:|
+|         1 | Chattanooga        | 50%              |                 0.1 |                3.5 | Bradley         | 50%              |                -0.1 |
+|         1 | Illinois State     | 67%              |                -5.1 |               -6.5 | Incarnate Word  | 33%              |                 5.1 |
+|         1 | North Texas        | 55%              |                -1.5 |                1.5 | Oklahoma State  | 45%              |                 1.5 |
+|         1 | Florida Gulf Coast | 41%              |                 2.5 |                4.5 | Cleveland State | 59%              |                -2.5 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
