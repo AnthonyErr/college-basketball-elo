@@ -1,14 +1,13 @@
-# NCAAM ELO Game Predictions for 2025-03-25 - @grdavis
+# NCAAM ELO Game Predictions for 2025-03-26 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away               | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home            | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-------------------|:-----------------|--------------------:|-------------------:|:----------------|:-----------------|--------------------:|
-|         1 | Chattanooga        | 50%              |                 0.1 |                3.5 | Bradley         | 50%              |                -0.1 |
-|         1 | Illinois State     | 67%              |                -5.1 |               -6.5 | Incarnate Word  | 33%              |                 5.1 |
-|         1 | North Texas        | 55%              |                -1.5 |                1.5 | Oklahoma State  | 45%              |                 1.5 |
-|         1 | Florida Gulf Coast | 41%              |                 2.5 |                4.5 | Cleveland State | 59%              |                -2.5 |
+|   Neutral | Away           | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home            | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:---------------|:-----------------|--------------------:|-------------------:|:----------------|:-----------------|--------------------:|
+|         1 | Illinois State | 55%              |                -1.5 |               -2.5 | Cleveland State | 45%              |                 1.5 |
+|         1 | Kent State     | 39%              |                 3   |                5.5 | Loyola (IL)     | 61%              |                -3   |
+|         1 | UAB            | 48%              |                 0.6 |                4.5 | UC-Irvine       | 52%              |                -0.6 |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
@@ -41,7 +40,7 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 26 | Ole Miss          |         1877 |            +55 |
 | 27 | Louisville        |         1877 |            -30 |
 | 28 | Arkansas          |         1872 |            +77 |
-| 29 | UNC               |         1870 |            +33 |
+| 29 | UNC               |         1870 |            -18 |
 | 30 | VCU               |         1862 |            -17 |
 | 31 | Texas A&M         |         1861 |            -13 |
 | 32 | UC-San Diego      |         1860 |             +0 |
