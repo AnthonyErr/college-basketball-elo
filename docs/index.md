@@ -1,12 +1,13 @@
-# NCAAM ELO Game Predictions for 2025-04-02 - @grdavis
+# NCAAM ELO Game Predictions for 2025-04-03 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away     | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home        | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:---------|:-----------------|--------------------:|-------------------:|:------------|:-----------------|--------------------:|
-|         1 | Butler   | 29%              |                 6.4 |                7.5 | Boise State | 71%              |                -6.4 |
-|         1 | Nebraska | 62%              |                -3.5 |               -8.5 | Georgetown  | 38%              |                 3.5 |
+|   Neutral | Away        | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home       | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:------------|:-----------------|--------------------:|-------------------:|:-----------|:-----------------|--------------------:|
+|         1 | UCF         | 41%              |                 2.5 |                6.5 | Cincinnati | 59%              |                -2.5 |
+|         1 | Chattanooga | 52%              |                -0.6 |                3.5 | UC-Irvine  | 48%              |                 0.6 |
+|         1 | Villanova   | 57%              |                -2   |               -5.5 | USC        | 43%              |                 2   |
 
 # Top 50 Teams by ELO Rating
 |    | Team              |   Elo Rating |   7 Day Change |
@@ -48,8 +49,8 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 35 | Marquette         |         1844 |             +0 |
 | 36 | Baylor            |         1843 |             +0 |
 | 37 | Clemson           |         1843 |             +0 |
-| 38 | Memphis           |         1841 |             +0 |
-| 39 | Boise State       |         1834 |            +11 |
+| 38 | Boise State       |         1843 |            +20 |
+| 39 | Memphis           |         1841 |             +0 |
 | 40 | Kansas            |         1820 |             +0 |
 | 41 | Missouri          |         1814 |             +0 |
 | 42 | Xavier            |         1805 |             +0 |
