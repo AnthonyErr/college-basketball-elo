@@ -1,38 +1,24 @@
-# NCAAM ELO Game Predictions for 2025-11-30 - @grdavis
+# NCAAM ELO Game Predictions for 2025-12-01 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away                  | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home                  | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:----------------------|:-----------------|--------------------:|-------------------:|:----------------------|:-----------------|--------------------:|
-|         1 | Merrimack             | 43%              |                 2   |                3.5 | La Salle              | 57%              |                -2   |
-|         1 | Le Moyne              | 41%              |                 2.5 |               -2.5 | Ball State            | 59%              |                -2.5 |
-|         1 | St. Joseph's          | 73%              |                -6.9 |               -4.5 | Princeton             | 27%              |                 6.9 |
-|         1 | Maine                 | 30%              |                 6   |               11.5 | Siena                 | 70%              |                -6   |
-|         1 | Appalachian State     | 46%              |                 1.2 |                2.5 | UNC Asheville         | 54%              |                -1.2 |
-|         1 | Old Dominion          | 29%              |                 6.3 |                7.5 | William & Mary        | 71%              |                -6.3 |
-|         1 | South Alabama         | 65%              |                -4.3 |               -1.5 | UTSA                  | 35%              |                 4.3 |
-|         1 | Tennessee State       | 25%              |                 7.8 |                8.5 | Chattanooga           | 75%              |                -7.8 |
-|         1 | Stonehill             | 14%              |                12.8 |               15.5 | Quinnipiac            | 86%              |               -12.8 |
-|         1 | New Hampshire         | 39%              |                 3.1 |               11.5 | Fairfield             | 61%              |                -3.1 |
-|         1 | Stetson               | 13%              |                13.4 |               10.5 | Robert Morris         | 87%              |               -13.4 |
-|         1 | Yale                  | 77%              |                -8.5 |               -6.5 | Vermont               | 23%              |                 8.5 |
-|         1 | Cornell               | 70%              |                -6.1 |               -5.5 | Bucknell              | 30%              |                 6.1 |
-|         1 | Hofstra               | 56%              |                -1.6 |               -1.5 | Penn                  | 44%              |                 1.6 |
-|         1 | Monmouth              | 72%              |                -6.5 |               -2.5 | Lafayette             | 28%              |                 6.5 |
-|         1 | Wyoming               | 12%              |                13.7 |               20.5 | Texas Tech            | 88%              |               -13.7 |
-|         1 | Mercyhurst            | 8%               |                17.3 |               22.5 | West Virginia         | 92%              |               -17.3 |
-|         1 | Belmont               | 69%              |                -5.5 |               -1.5 | College of Charleston | 31%              |                 5.5 |
-|         1 | St. Bonaventure       | 55%              |                -1.3 |                3.5 | Florida Atlantic      | 45%              |                 1.3 |
-|         1 | Colgate               | 42%              |                 2.3 |               -1.5 | Fordham               | 58%              |                -2.3 |
-|         1 | Alabama A&M           | 31%              |                 5.6 |                6.5 | Coastal Carolina      | 69%              |                -5.6 |
-|         1 | Prairie View          | 5%               |                20.5 |               15.5 | North Texas           | 95%              |               -20.5 |
-|         1 | Longwood              | 49%              |                 0.3 |                4.5 | American              | 51%              |                -0.3 |
-|         1 | The Citadel           | 24%              |                 8.1 |                7.5 | Presbyterian          | 76%              |                -8.1 |
-|         1 | San Diego             | 60%              |                -2.9 |               -1.5 | Long Beach State      | 40%              |                 2.9 |
-|         1 | UC-Irvine             | 60%              |                -2.8 |               -1.5 | San Jose State        | 40%              |                 2.8 |
-|         1 | Cal State Bakersfield | 35%              |                 4.4 |               11.5 | Fresno State          | 65%              |                -4.4 |
-|         1 | Coppin State          | 41%              |                 2.7 |               12.5 | Loyola (MD)           | 59%              |                -2.7 |
+|   Neutral | Away                 | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home               | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:---------------------|:-----------------|--------------------:|:-------------------|:-------------------|:-----------------|--------------------:|
+|         1 | Louisiana Christian* | 9%               |                16   | NL                 | Southern           | 91%              |               -16   |
+|         1 | South Carolina State | 74%              |                -7.2 | 3.5                | Chicago State      | 26%              |                 7.2 |
+|         1 | Temple               | 17%              |                10.9 | 14.5               | Villanova          | 83%              |               -10.9 |
+|         1 | Central State (OH    | 6%               |                19.9 | NL                 | Toledo             | 94%              |               -19.9 |
+|         1 | Tarleton State       | 19%              |                10.1 | 18.5               | Cincinnati         | 81%              |               -10.1 |
+|         1 | Iona                 | 65%              |                -4.3 | -1.5               | Delaware           | 35%              |                 4.3 |
+|         1 | North Alabama        | 43%              |                 1.9 | 5.5                | Jacksonville State | 57%              |                -1.9 |
+|         1 | West Georgia         | 14%              |                12.5 | 18.5               | Troy               | 86%              |               -12.5 |
+|         1 | Saint Francis (PA)   | 6%               |                19.4 | 27.5               | Xavier             | 94%              |               -19.4 |
+|         1 | UAB                  | 64%              |                -4.2 | -3.5               | Middle Tennessee   | 36%              |                 4.2 |
+|         1 | McNeese State        | 80%              |                -9.7 | -7.5               | Incarnate Word     | 20%              |                 9.7 |
+|         1 | Bowling Green State  | 16%              |                11.7 | 12.5               | Kansas State       | 84%              |               -11.7 |
+|         1 | California Baptist   | 30%              |                 6   | 13.5               | Colorado           | 70%              |                -6   |
+|         1 | Portland             | 17%              |                11.2 | 17.5               | Stanford           | 83%              |               -11.2 |
 
 # Top 50 Teams by ELO Rating
 |    | Team            |   Elo Rating |   7 Day Change |
@@ -48,12 +34,12 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 |  9 | Auburn          |         1943 |            -39 |
 | 10 | Gonzaga         |         1929 |            +36 |
 | 11 | Iowa State      |         1926 |            +47 |
-| 12 | Purdue          |         1907 |             +2 |
-| 13 | Texas Tech      |         1905 |             +2 |
+| 12 | Texas Tech      |         1907 |             +3 |
+| 13 | Purdue          |         1907 |             +2 |
 | 14 | BYU             |         1900 |            +18 |
 | 15 | Vanderbilt      |         1897 |            +89 |
 | 16 | St. John's (NY) |         1885 |             -4 |
-| 17 | UConn           |         1883 |            +22 |
+| 17 | UConn           |         1883 |            +19 |
 | 18 | Indiana         |         1875 |            +16 |
 | 19 | Wisconsin       |         1867 |            -28 |
 | 20 | Missouri        |         1856 |             +5 |
@@ -71,12 +57,12 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 32 | UNC             |         1824 |             -2 |
 | 33 | Nebraska        |         1820 |             +4 |
 | 34 | Texas A&M       |         1816 |            +44 |
-| 35 | Georgia         |         1807 |            -18 |
-| 36 | Northwestern    |         1800 |            -13 |
-| 37 | Clemson         |         1800 |            +21 |
+| 35 | Georgia         |         1807 |             +2 |
+| 36 | Northwestern    |         1800 |            -25 |
+| 37 | Clemson         |         1800 |             +1 |
 | 38 | Oklahoma State  |         1800 |            +25 |
-| 39 | Utah State      |         1800 |            +36 |
-| 40 | Oklahoma        |         1797 |            +11 |
+| 39 | Utah State      |         1800 |             +1 |
+| 40 | Oklahoma        |         1797 |            +10 |
 | 41 | UCLA            |         1796 |            -31 |
 | 42 | Texas           |         1794 |            -10 |
 | 43 | Saint Mary's    |         1793 |            -43 |
