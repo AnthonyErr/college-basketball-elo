@@ -1,19 +1,19 @@
-# NCAAM ELO Game Predictions for 2025-12-11 - @grdavis
+# NCAAM ELO Game Predictions for 2025-12-12 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away               | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                    | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-------------------|:-----------------|--------------------:|:-------------------|:------------------------|:-----------------|--------------------:|
-|         1 | Green Bay          | 65%              |                -4.5 | -1.5               | IU Indy                 | 35%              |                 4.5 |
-|         1 | Appalachian State  | 39%              |                 3   | 3.5                | East Carolina           | 61%              |                -3   |
-|         1 | Western Carolina   | 12%              |                13.8 | 20.5               | Virginia Tech           | 88%              |               -13.8 |
-|         1 | UT Arlington       | 67%              |                -4.8 | 2.5                | Texas-Rio Grande Valley | 33%              |                 4.8 |
-|         1 | Iowa               | 31%              |                 5.5 | 11.5               | Iowa State              | 69%              |                -5.5 |
-|         1 | Alabama State      | 6%               |                19.1 | 26.5               | Missouri                | 94%              |               -19.1 |
-|         1 | St. Joseph's       | 41%              |                 2.4 | 12.5               | Syracuse                | 59%              |                -2.4 |
-|         1 | Alaska Anchorage*  | 12%              |                14.1 | NL                 | Denver                  | 88%              |               -14.1 |
-|         1 | North Dakota State | 74%              |                -7.3 | -6.5               | Cal State Bakersfield   | 26%              |                 7.3 |
+|   Neutral | Away                   | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home               | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-----------------------|:-----------------|--------------------:|:-------------------|:-------------------|:-----------------|--------------------:|
+|         1 | Army                   | 32%              |                 5.4 | 6.5                | UMBC               | 68%              |                -5.4 |
+|         1 | Missouri State         | 10%              |                15.2 | 17.5               | Xavier             | 90%              |               -15.2 |
+|         1 | Brevard College*       | 18%              |                10.8 | NL                 | Gardner-Webb       | 82%              |               -10.8 |
+|         1 | Maryland-Eastern Shore | 33%              |                 4.9 | 6.5                | North Carolina A&T | 67%              |                -4.9 |
+|         1 | South Carolina State   | 29%              |                 6.2 | 15.5               | Queens (NC)        | 71%              |                -6.2 |
+|         1 | Texas                  | 26%              |                 7.4 | 14.5               | UConn              | 74%              |                -7.4 |
+|         1 | ETSU                   | 73%              |                -7   | -4.5               | Austin Peay        | 27%              |                 7   |
+|         1 | East Texas A&M         | 9%               |                16.3 | 19.5               | McNeese State      | 91%              |               -16.3 |
+|         1 | California Baptist     | 84%              |               -11.9 | -3.5               | Eastern Washington | 16%              |                11.9 |
 
 # Top 50 Teams by ELO Rating
 |    | Team            |   Elo Rating |   7 Day Change |
@@ -23,7 +23,7 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 |  3 | Duke            |         2019 |            +25 |
 |  4 | Arizona         |         1995 |            +28 |
 |  5 | Michigan State  |         1987 |            -25 |
-|  6 | Iowa State      |         1978 |            +50 |
+|  6 | Iowa State      |         1983 |            +56 |
 |  7 | Gonzaga         |         1973 |            +44 |
 |  8 | Alabama         |         1973 |             +2 |
 |  9 | Florida         |         1953 |            -13 |
@@ -43,15 +43,15 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 23 | Colorado State  |         1854 |            +11 |
 | 24 | UNC             |         1852 |            +10 |
 | 25 | Wisconsin       |         1852 |            -28 |
-| 26 | Iowa            |         1842 |            +25 |
-| 27 | Indiana         |         1839 |             -1 |
-| 28 | Georgia         |         1837 |             +0 |
+| 26 | Indiana         |         1839 |             -1 |
+| 27 | Georgia         |         1837 |             +0 |
+| 28 | Iowa            |         1836 |            +20 |
 | 29 | Baylor          |         1831 |            -22 |
 | 30 | UCLA            |         1821 |            +14 |
 | 31 | Oklahoma State  |         1817 |            +11 |
 | 32 | New Mexico      |         1815 |            +43 |
 | 33 | USC             |         1812 |            -40 |
-| 34 | Missouri        |         1807 |            -24 |
+| 34 | Missouri        |         1808 |            -23 |
 | 35 | Maryland        |         1805 |            -25 |
 | 36 | Saint Mary's    |         1805 |            +12 |
 | 37 | SMU             |         1798 |            +45 |
@@ -65,6 +65,6 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 45 | Colorado        |         1774 |             -9 |
 | 46 | Kentucky        |         1773 |            -42 |
 | 47 | Creighton       |         1772 |            -23 |
-| 48 | Utah State      |         1768 |            -32 |
+| 48 | Utah State      |         1768 |            +14 |
 | 49 | Northwestern    |         1767 |            -20 |
 | 50 | UC-San Diego    |         1760 |             +3 |
