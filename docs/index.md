@@ -1,91 +1,120 @@
-# NCAAM ELO Game Predictions for 2026-02-17 - @grdavis
+# NCAAM ELO Game Predictions for 2026-02-18 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away                     | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:-------------------------|:-----------------|--------------------:|:-------------------|:--------------------|:-----------------|--------------------:|
-|         0 | Boston College           | 19%              |                10.2 | 12.5               | Florida State       | 81%              |               -10.2 |
-|         0 | Gardner-Webb             | 13%              |                13.4 | 17.5               | Charleston Southern | 87%              |               -13.4 |
-|         0 | Michigan                 | 57%              |                -2.1 | -2.5               | Purdue              | 43%              |                 2.1 |
-|         0 | Central Michigan         | 44%              |                 1.7 | 4.5                | Eastern Michigan    | 56%              |                -1.7 |
-|         0 | Northern Illinois        | 14%              |                12.9 | 8.5                | Buffalo             | 86%              |               -12.9 |
-|         0 | Villanova                | 70%              |                -6   | -4.5               | Xavier              | 30%              |                 6   |
-|         0 | Miami (OH)               | 69%              |                -5.7 | -2.5               | UMass               | 31%              |                 5.7 |
-|         0 | Kent State               | 51%              |                -0.3 | 3.5                | Bowling Green State | 49%              |                 0.3 |
-|         0 | UNC                      | 48%              |                 0.4 | NL                 | NC State            | 52%              |                -0.4 |
-|         0 | South Carolina           | 6%               |                19.7 | 23.5               | Florida             | 94%              |               -19.7 |
-|         0 | TCU                      | 40%              |                 3   | 2.5                | UCF                 | 60%              |                -3   |
-|         0 | Akron                    | 80%              |                -9.5 | -14.5              | Western Michigan    | 20%              |                 9.5 |
-|         0 | Louisville               | 58%              |                -2.1 | -4.5               | SMU                 | 42%              |                 2.1 |
-|         0 | Ball State               | 16%              |                11.7 | 9.5                | Ohio                | 84%              |               -11.7 |
-|         0 | Saint Louis              | 76%              |                -8.1 | -10.5              | Rhode Island        | 24%              |                 8.1 |
-|         0 | Virginia Tech            | 25%              |                 7.9 | 8.5                | Miami (FL)          | 75%              |                -7.9 |
-|         0 | George Washington        | 15%              |                12.1 | 6.5                | VCU                 | 85%              |               -12.1 |
-|         0 | Wisconsin                | 55%              |                -1.4 | -1.5               | Ohio State          | 45%              |                 1.4 |
-|         0 | Southeast Missouri State | 35%              |                 4.4 | 2.5                | UT-Martin           | 65%              |                -4.4 |
-|         0 | UCLA                     | 25%              |                 7.7 | 8.5                | Michigan State      | 75%              |                -7.7 |
-|         0 | Fresno State             | 37%              |                 3.8 | 8.5                | Wyoming             | 63%              |                -3.8 |
-|         0 | Georgia                  | 24%              |                 8.1 | 7.5                | Kentucky            | 76%              |                -8.1 |
-|         0 | Baylor                   | 63%              |                -3.7 | -3.5               | Kansas State        | 37%              |                 3.7 |
-|         0 | Nebraska                 | 53%              |                -0.9 | 1.5                | Iowa                | 47%              |                 0.9 |
-|         0 | LSU                      | 14%              |                12.4 | 11.5               | Texas               | 86%              |               -12.4 |
-|         0 | Air Force                | 2%               |                27.9 | 28.5               | New Mexico          | 98%              |               -27.9 |
-|         0 | Nevada                   | 83%              |               -11.2 | -10.5              | San Jose State      | 17%              |                11.2 |
-|         0 | Grand Canyon             | 25%              |                 7.8 | 8.5                | San Diego State     | 75%              |                -7.8 |
-|         0 | Minnesota                | 39%              |                 3.3 | 4.5                | Oregon              | 61%              |                -3.3 |
-|         0 | Texas Tech               | 78%              |                -8.7 | -8.5               | Arizona State       | 22%              |                 8.7 |
+|   Neutral | Away                   | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home                 | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:-----------------------|:-----------------|--------------------:|:-------------------|:---------------------|:-----------------|--------------------:|
+|         0 | Rutgers                | 44%              |                 1.6 | 4.5                | Penn State           | 56%              |                -1.6 |
+|         0 | VMI                    | 7%               |                18.1 | 13.5               | Wofford              | 93%              |               -18.1 |
+|         0 | Lafayette              | 30%              |                 5.8 | 1.5                | Holy Cross           | 70%              |                -5.8 |
+|         0 | ETSU                   | 43%              |                 1.8 | NL                 | Furman               | 57%              |                -1.8 |
+|         0 | Cleveland State        | 23%              |                 8.4 | 10.5               | Youngstown State     | 77%              |                -8.4 |
+|         0 | Butler                 | 27%              |                 7   | 5.5                | Georgetown           | 73%              |                -7   |
+|         0 | UAB                    | 45%              |                 1.4 | 1.5                | Temple               | 55%              |                -1.4 |
+|         0 | Bradley                | 54%              |                -1.3 | -1.5               | Valparaiso           | 46%              |                 1.3 |
+|         0 | Clemson                | 64%              |                -4.1 | -3.5               | Wake Forest          | 36%              |                 4.1 |
+|         0 | Richmond               | 30%              |                 6   | 5.5                | Davidson             | 70%              |                -6   |
+|         0 | Northern Iowa          | 69%              |                -5.5 | -4.5               | Indiana State        | 31%              |                 5.5 |
+|         0 | St. Joseph's           | 44%              |                 1.7 | 4.5                | St. Bonaventure      | 56%              |                -1.7 |
+|         0 | Arkansas               | 37%              |                 3.6 | 4.5                | Alabama              | 63%              |                -3.6 |
+|         0 | Creighton              | 9%               |                16.2 | 16.5               | UConn                | 91%              |               -16.2 |
+|         0 | James Madison          | 42%              |                 2.1 | -1.5               | Coastal Carolina     | 58%              |                -2.1 |
+|         0 | Western Kentucky       | 47%              |                 0.9 | -3.5               | Delaware             | 53%              |                -0.9 |
+|         0 | Purdue-Fort Wayne      | 29%              |                 6.4 | 6.5                | Northern Kentucky    | 71%              |                -6.4 |
+|         0 | Ole Miss               | 19%              |                10.2 | 9.5                | Texas A&M            | 81%              |               -10.2 |
+|         0 | Wichita State          | 64%              |                -3.9 | -7.5               | East Carolina        | 36%              |                 3.9 |
+|         0 | UNC Greensboro         | 39%              |                 3.3 | 5.5                | Western Carolina     | 61%              |                -3.3 |
+|         0 | Dayton                 | 40%              |                 3   | 2.5                | George Mason         | 60%              |                -3   |
+|         0 | La Salle               | 14%              |                12.7 | 10.5               | Duquesne             | 86%              |               -12.7 |
+|         0 | Loyola (IL)            | 21%              |                 9.3 | 8.5                | Fordham              | 79%              |                -9.3 |
+|         0 | Oklahoma               | 17%              |                10.9 | 10.5               | Tennessee            | 83%              |               -10.9 |
+|         0 | American               | 47%              |                 0.9 | -2.5               | Bucknell             | 53%              |                -0.9 |
+|         0 | Army                   | 18%              |                10.7 | 4.5                | Loyola (MD)          | 82%              |               -10.7 |
+|         0 | Queens (NC)            | 61%              |                -3.1 | -8.5               | North Alabama        | 39%              |                 3.1 |
+|         0 | Jacksonville           | 21%              |                 9.2 | 7.5                | Florida Gulf Coast   | 79%              |                -9.2 |
+|         0 | West Georgia           | 26%              |                 7.2 | 6.5                | Eastern Kentucky     | 74%              |                -7.2 |
+|         0 | Lehigh                 | 14%              |                13   | 9.5                | Navy                 | 86%              |               -13   |
+|         0 | Middle Tennessee       | 22%              |                 8.8 | 5.5                | Sam Houston State    | 78%              |                -8.8 |
+|         0 | Southern Illinois      | 41%              |                 2.4 | -1.5               | Drake                | 59%              |                -2.4 |
+|         0 | Jacksonville State     | 35%              |                 4.4 | 2.5                | Louisiana Tech       | 65%              |                -4.4 |
+|         0 | Troy                   | 80%              |                -9.5 | -15.5              | Louisiana-Monroe     | 20%              |                 9.5 |
+|         0 | Lipscomb               | 52%              |                -0.7 | -3.5               | Bellarmine           | 48%              |                 0.7 |
+|         0 | UIC                    | 76%              |                -7.9 | -8.5               | Evansville           | 24%              |                 7.9 |
+|         0 | Kennesaw State         | 41%              |                 2.5 | 1.5                | Missouri State       | 59%              |                -2.5 |
+|         0 | Oral Roberts           | 9%               |                16.1 | 9.5                | Omaha                | 91%              |               -16.1 |
+|         0 | North Dakota State     | 65%              |                -4.2 | -1.5               | South Dakota State   | 35%              |                 4.2 |
+|         0 | Charlotte              | 14%              |                12.9 | 13.5               | Tulsa                | 86%              |               -12.9 |
+|         0 | Maryland               | 39%              |                 3.2 | 7.5                | Northwestern         | 61%              |                -3.2 |
+|         0 | Florida Atlantic       | 70%              |                -5.8 | -12.5              | UTSA                 | 30%              |                 5.8 |
+|         0 | DePaul                 | 23%              |                 8.6 | 8.5                | Seton Hall           | 77%              |                -8.6 |
+|         0 | North Carolina Central | 35%              |                 4.2 | -2.5               | South Carolina State | 65%              |                -4.2 |
+|         0 | Utah                   | 16%              |                11.4 | 10.5               | West Virginia        | 84%              |               -11.4 |
+|         0 | Virginia               | 86%              |               -12.9 | -13.5              | Georgia Tech         | 14%              |                12.9 |
+|         0 | St. John's (NY)        | 81%              |               -10.2 | -9.5               | Marquette            | 19%              |                10.2 |
+|         0 | Vanderbilt             | 64%              |                -3.9 | -3.5               | Missouri             | 36%              |                 3.9 |
+|         0 | Auburn                 | 58%              |                -2.1 | -5.5               | Mississippi State    | 42%              |                 2.1 |
+|         0 | Murray State           | 35%              |                 4.3 | 2.5                | Illinois State       | 65%              |                -4.3 |
+|         0 | Saint Mary's           | 79%              |                -9.1 | -10.5              | Seattle              | 21%              |                 9.1 |
+|         0 | BYU                    | 23%              |                 8.6 | 12.5               | Arizona              | 77%              |                -8.6 |
+|         0 | Kansas                 | 69%              |                -5.6 | -5.5               | Oklahoma State       | 31%              |                 5.6 |
+|         0 | Pacific                | 46%              |                 1.2 | 1.5                | Washington State     | 54%              |                -1.2 |
+|         0 | Illinois               | 70%              |                -5.8 | -9.5               | USC                  | 30%              |                 5.8 |
+|         0 | Pepperdine             | 18%              |                10.4 | 6.5                | Portland             | 82%              |               -10.4 |
+|         0 | Boise State            | 17%              |                11.2 | 9.5                | Utah State           | 83%              |               -11.2 |
+|         0 | Gonzaga                | 88%              |               -14   | -14.5              | San Francisco        | 12%              |                14   |
+|         0 | Colorado State         | 41%              |                 2.5 | 2.5                | UNLV                 | 59%              |                -2.5 |
 
 # Top 50 Teams by ELO Rating
 |    | Team            |   Elo Rating |   7 Day Change |
 |---:|:----------------|-------------:|---------------:|
-|  1 | Michigan        |         2138 |            +12 |
-|  2 | Houston         |         2092 |            -11 |
-|  3 | Florida         |         2074 |            +25 |
-|  4 | Duke            |         2071 |            +14 |
+|  1 | Michigan        |         2158 |            +32 |
+|  2 | Houston         |         2092 |            -14 |
+|  3 | Florida         |         2075 |            +27 |
+|  4 | Duke            |         2071 |            +10 |
 |  5 | Arizona         |         2070 |            -25 |
-|  6 | Illinois        |         2029 |            -14 |
-|  7 | Purdue          |         2010 |            +53 |
-|  8 | UConn           |         2008 |             +8 |
-|  9 | Texas Tech      |         1998 |            +34 |
-| 10 | Iowa State      |         1994 |             +8 |
-| 11 | St. John's (NY) |         1992 |             +8 |
-| 12 | Gonzaga         |         1979 |            +20 |
-| 13 | Michigan State  |         1962 |            -39 |
+|  6 | Illinois        |         2029 |            +11 |
+|  7 | UConn           |         2008 |             +8 |
+|  8 | Iowa State      |         1994 |            +42 |
+|  9 | St. John's (NY) |         1992 |             +8 |
+| 10 | Purdue          |         1990 |            +15 |
+| 11 | Gonzaga         |         1979 |            +17 |
+| 12 | Michigan State  |         1978 |            -23 |
+| 13 | Texas Tech      |         1966 |             +2 |
 | 14 | Kansas          |         1959 |            -27 |
 | 15 | Alabama         |         1958 |            +22 |
-| 16 | Vanderbilt      |         1958 |            +38 |
-| 17 | Nebraska        |         1955 |            -12 |
-| 18 | Arkansas        |         1951 |            +37 |
-| 19 | Tennessee       |         1939 |            +16 |
-| 20 | Wisconsin       |         1936 |            +63 |
-| 21 | Louisville      |         1929 |            +19 |
-| 22 | Villanova       |         1902 |            +19 |
-| 23 | Utah State      |         1896 |            +12 |
-| 24 | BYU             |         1894 |            +20 |
-| 25 | Kentucky        |         1893 |             -7 |
-| 26 | Virginia        |         1891 |            +22 |
-| 27 | Texas           |         1881 |            +38 |
-| 28 | Auburn          |         1866 |            -41 |
+| 16 | Vanderbilt      |         1958 |            +12 |
+| 17 | Arkansas        |         1951 |            +15 |
+| 18 | Tennessee       |         1939 |            +16 |
+| 19 | Nebraska        |         1938 |            -12 |
+| 20 | Villanova       |         1908 |            +22 |
+| 21 | Louisville      |         1901 |             -9 |
+| 22 | Wisconsin       |         1900 |             +3 |
+| 23 | Utah State      |         1896 |             +9 |
+| 24 | BYU             |         1894 |             +4 |
+| 25 | Virginia        |         1891 |            +17 |
+| 26 | Texas           |         1884 |            +41 |
+| 27 | Iowa            |         1869 |            -50 |
+| 28 | Auburn          |         1866 |            -15 |
 | 29 | Saint Mary's    |         1864 |            +13 |
-| 30 | UNC             |         1858 |            -22 |
-| 31 | Saint Louis     |         1857 |             +6 |
-| 32 | UCLA            |         1852 |             -8 |
-| 33 | Iowa            |         1852 |            -68 |
-| 34 | Indiana         |         1841 |            -11 |
-| 35 | San Diego State |         1841 |            +15 |
-| 36 | Texas A&M       |         1839 |            -28 |
-| 37 | Clemson         |         1835 |            -58 |
-| 38 | New Mexico      |         1827 |            +18 |
-| 39 | Santa Clara     |         1824 |            -14 |
-| 40 | Ohio State      |         1819 |             -4 |
-| 41 | VCU             |         1809 |            +15 |
-| 42 | USC             |         1804 |            -13 |
-| 43 | SMU             |         1794 |             -8 |
-| 44 | Belmont         |         1790 |            +28 |
-| 45 | West Virginia   |         1789 |            +28 |
-| 46 | Cincinnati      |         1789 |            +38 |
-| 47 | NC State        |         1787 |            -14 |
-| 48 | Miami (FL)      |         1784 |            +40 |
-| 49 | Missouri        |         1778 |            -23 |
-| 50 | TCU             |         1777 |            +51 |
+| 30 | Ohio State      |         1854 |            +32 |
+| 31 | Kentucky        |         1854 |            -45 |
+| 32 | Indiana         |         1841 |            -11 |
+| 33 | Texas A&M       |         1839 |            -28 |
+| 34 | UCLA            |         1837 |            -24 |
+| 35 | Clemson         |         1835 |            -58 |
+| 36 | New Mexico      |         1828 |            +20 |
+| 37 | Saint Louis     |         1826 |            -25 |
+| 38 | Santa Clara     |         1824 |            -14 |
+| 39 | NC State        |         1824 |            +23 |
+| 40 | SMU             |         1822 |            +16 |
+| 41 | UNC             |         1821 |            -33 |
+| 42 | VCU             |         1815 |            +21 |
+| 43 | Georgia         |         1812 |            -10 |
+| 44 | USC             |         1804 |            -13 |
+| 45 | San Diego State |         1798 |            -28 |
+| 46 | Belmont         |         1790 |            +28 |
+| 47 | West Virginia   |         1789 |            +28 |
+| 48 | Cincinnati      |         1789 |            +38 |
+| 49 | Miami (FL)      |         1788 |            +18 |
+| 50 | UCF             |         1786 |            -11 |
