@@ -1,12 +1,14 @@
-# NCAAM ELO Game Predictions for 2026-03-25 - @grdavis
+# NCAAM ELO Game Predictions for 2026-03-26 - @grdavis
 Below are predictions for today's Men's college basketball games using an ELO rating methodology. Check out the full [college-basketball-elo](https://github.com/grdavis/college-basketball-elo) repository on github to see methodology and more.
 
 Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.
 
-|   Neutral | Away           | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home   | Home Win Prob.   |   Home Pred. Spread |
-|----------:|:---------------|:-----------------|--------------------:|-------------------:|:-------|:-----------------|--------------------:|
-|         1 | Illinois State | 30%              |                 6   |                7.5 | Dayton | 70%              |                -6   |
-|         1 | Nevada         | 39%              |                 3.1 |                9.5 | Auburn | 61%              |                -3.1 |
+|   Neutral | Away     | Away Win Prob.   |   Away Pred. Spread |   Live Away Spread | Home     | Home Win Prob.   |   Home Pred. Spread |
+|----------:|:---------|:-----------------|--------------------:|-------------------:|:---------|:-----------------|--------------------:|
+|         1 | Texas    | 24%              |                 8   |                7.5 | Purdue   | 76%              |                -8   |
+|         1 | Iowa     | 45%              |                 1.4 |                1.5 | Nebraska | 55%              |                -1.4 |
+|         1 | Arkansas | 30%              |                 5.9 |                7.5 | Arizona  | 70%              |                -5.9 |
+|         1 | Illinois | 42%              |                 2.2 |                2.5 | Houston  | 58%              |                -2.2 |
 
 # Top 50 Teams by ELO Rating
 |    | Team            |   Elo Rating |   7 Day Change |
@@ -50,14 +52,14 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 | 37 | Miami (FL)      |         1830 |            +12 |
 | 38 | UNC             |         1825 |            -19 |
 | 39 | South Florida   |         1809 |             -8 |
-| 40 | New Mexico      |         1809 |            +38 |
+| 40 | New Mexico      |         1809 |            +26 |
 | 41 | Saint Louis     |         1807 |            +69 |
-| 42 | Auburn          |         1797 |             +5 |
-| 43 | Dayton          |         1796 |            +53 |
-| 44 | Villanova       |         1790 |            -29 |
-| 45 | San Diego State |         1787 |             +0 |
-| 46 | Clemson         |         1786 |            -21 |
-| 47 | Georgia         |         1771 |            -73 |
-| 48 | Wichita State   |         1769 |            +51 |
-| 49 | Missouri        |         1769 |            -17 |
-| 50 | UCF             |         1766 |             -5 |
+| 42 | Auburn          |         1805 |            +13 |
+| 43 | Villanova       |         1790 |            -29 |
+| 44 | San Diego State |         1787 |             +0 |
+| 45 | Clemson         |         1786 |            -21 |
+| 46 | Georgia         |         1771 |            -73 |
+| 47 | Wichita State   |         1769 |            +51 |
+| 48 | Missouri        |         1769 |            -17 |
+| 49 | UCF             |         1766 |             -5 |
+| 50 | Tulsa           |         1765 |            +26 |
