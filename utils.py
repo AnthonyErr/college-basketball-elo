@@ -45,7 +45,7 @@ MO_MAP = {'Nov': '11', 'Dec': '12', 'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr'
 YR_MAP = {'Nov': SEASON_START, 'Dec': SEASON_START, 'Jan': SEASON_START+1, 'Feb': SEASON_START+1, 'Mar': SEASON_START+1, 'Apr': SEASON_START+1}
 
 def save_data(filepath, data):
-	with open(filepath, "w") as f:
+	with open(filepath, "w", encoding = 'utf-8', newline = '') as f:
 		wr = csv.writer(f)
 		for row in data:
 			wr.writerow(row)
