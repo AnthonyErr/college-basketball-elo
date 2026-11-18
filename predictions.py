@@ -1,4 +1,5 @@
 import elo
+import difflib
 import random
 import pandas as pd
 import utils
@@ -218,6 +219,13 @@ def main(auto = False, forecast_date = False, matchup = False, neutral = False, 
 	elo_state = elo.main(stop_short = stop_short)
 	if matchup != False:
 		home, away = matchup
+		#an unknown name would silently become a brand-new team at elo.NEW_ELO, so stop and suggest the right spelling
+		unknown = [t for t in (home, away) if t.split('/')[0] not in elo_state.teams or ('/' in t and t.split('/')[1] not in elo_state.teams)]
+		if unknown:
+			for t in unknown:
+				suggestions = difflib.get_close_matches(t, list(elo_state.teams), n = 5, cutoff = 0.4)
+				print(f'Unknown team "{t}". Did you mean: ' + (', '.join(suggestions) if suggestions else '(no close matches)'))
+			return
 		print('Ratings through ' + elo_state.date)
 		if neutral:
 			print(home, "vs.", away, "@ neutral site")
