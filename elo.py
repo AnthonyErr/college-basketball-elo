@@ -5,6 +5,9 @@ import argparse
 import math
 import pandas as pd
 
+# Which rating engine main() uses: 'kalman' (kalman.py, the default: more accurate in held-out backtests) or 'elo' (this file)
+RATING_MODEL = 'kalman'
+
 ELO_BASE = 1500
 NEW_ELO = 985
 K_FACTOR = 34
@@ -209,7 +212,11 @@ def main(topteams = False, stop_short = '99999999', period = 7):
 		filepath = utils.get_latest_data_filepath()
 
 	data = utils.read_csv(filepath)
-	this_sim = sim(data, K_FACTOR, SEASON_CARRY, HOME_ADVANTAGE, stop_short, period)
+	if RATING_MODEL == 'kalman':
+		import kalman
+		this_sim = kalman.cached_sim(filepath, data, stop_short, period)
+	else:
+		this_sim = sim(data, K_FACTOR, SEASON_CARRY, HOME_ADVANTAGE, stop_short, period)
 
 	if topteams != False:
 		output = pd.DataFrame(this_sim.get_top(int(topteams)), columns = ['Team', 'Elo Rating', '%i Day Change' % period])

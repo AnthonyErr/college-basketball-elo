@@ -90,7 +90,7 @@ def create_or_update_predictions_table(predictions_df, date_str, elo_date):
         with suppress_stdout():
             dw.update_metadata(chart_id, {
                 'describe': {
-                    'intro': f"Below are predictions for today's Men's college basketball games using an ELO rating methodology. Ratings are through {elo_date}. Teams with * are new to the model and predictions are more uncertain.",
+                    'intro': f"Below are predictions for today's Men's college basketball games using a Kalman filter rating model (on an Elo-style scale). Ratings are through {elo_date}. Teams with * are new to the model and predictions are more uncertain.",
                     'source-name': 'college-basketball-elo',
                     'source-url': 'https://github.com/grdavis/college-basketball-elo',
                     'byline': '@grdavis'
@@ -387,7 +387,7 @@ def save_datawrapper_embeds(predictions_url, rankings_url, date_str, markdown_co
     <h1>NCAAM ELO Game Predictions - {date_str}</h1>
     
     <div class="info">
-        <p>Below are predictions for today's Men's college basketball games using an ELO rating methodology.</p>
+        <p>Below are predictions for today's Men's college basketball games using a Kalman filter rating model (on an Elo-style scale).</p>
         <p><strong>Interactive features:</strong> Click on any column header to sort by that column. Tables are fully responsive and work on mobile devices.</p>
         {probabilities_info}
         <p>Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.</p>
@@ -533,7 +533,7 @@ def save_fallback_html(predictions_df, rankings_df, date_str, markdown_content, 
     <h1>NCAAM ELO Game Predictions - {date_str}</h1>
     
     <div class="info">
-        <p>Below are predictions for today's Men's college basketball games using an ELO rating methodology.</p>
+        <p>Below are predictions for today's Men's college basketball games using a Kalman filter rating model (on an Elo-style scale).</p>
         {probabilities_info}
         <p>Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new to the model (i.e. they haven't played any/many D1 games) and predictions are more uncertain.</p>
         <p><strong>Note:</strong> This is a static version of the predictions page generated because the interactive charts service is currently unavailable.</p>
