@@ -2,15 +2,26 @@ import scraper
 import utils
 import datetime
 import argparse
+import math
 import pandas as pd
+
+# Which rating engine main() uses: 'kalman' (kalman.py, the default: more accurate in held-out backtests) or 'elo' (this file)
+RATING_MODEL = 'kalman'
 
 ELO_BASE = 1500
 NEW_ELO = 985
-K_FACTOR = 47
+K_FACTOR = 34
 SEASON_CARRY = 0.64
 HOME_ADVANTAGE = 82
 ELO_TO_POINTS_FACTOR = -24.78 #divide an elo margin by this to get the predicted point spread
 GAMES_REQUIRED = 10
+# Market adjustment: after each game, pull the two teams' ratings toward the closing Vegas spread.
+# Early in the season (roster turnover, transfer portal) last year's Elo is a weak prior and the market knows
+# the new rosters, so the pull is strong at first and decays as teams play games and Elo learns on its own.
+# weight = MARKET_FLOOR + MARKET_WEIGHT * exp(-avg_games_played / MARKET_DECAY). Set both to 0 to disable.
+MARKET_WEIGHT = 0.5
+MARKET_DECAY = 10
+MARKET_FLOOR = 0.1
 DATA_FOLDER = utils.DATA_FOLDER
 CONFERENCE_DICT = utils.read_two_column_csv_to_dict('Data/conferences.csv')
 
@@ -123,6 +134,7 @@ def step_elo(this_sim, row, k_factor, home_elo):
 	if away not in this_sim.teams: this_sim.add_team(away)
 
 	home_boost = home_elo if row[0] == '0' else 0
+	pregame_home_margin = (this_sim.get_elo(home) + home_boost - this_sim.get_elo(away)) / -ELO_TO_POINTS_FACTOR
 	Welo_0, Lelo_0 = this_sim.get_elo(winner), this_sim.get_elo(loser)
 	if winner == home: Welo_0 += home_boost
 	else: Lelo_0 += home_boost
@@ -134,8 +146,26 @@ def step_elo(this_sim, row, k_factor, home_elo):
 	MoV_multiplier = calc_MoV_multiplier(elo_margin, MoV)
 	elo_delta = round(k_factor * MoV_multiplier * (1 - w_winp), 2)
 	this_sim.update_elos(winner, loser, elo_delta)
+	market_adjust(this_sim, home, away, row[6] if len(row) > 6 else None, pregame_home_margin)
 
 	return elo_margin, MoV
+
+def market_adjust(this_sim, home, away, away_spread, pregame_home_margin):
+	'''
+	Zero-sum nudge of the home and away ratings toward the closing Vegas spread (see MARKET_* constants).
+	away_spread: Vegas spread for the away team, which equals the market's predicted home scoring margin ('NL' if no line)
+	pregame_home_margin: the Elo model's predicted home scoring margin before the game
+	'''
+	try:
+		market_home_margin = float(away_spread)
+	except (TypeError, ValueError):
+		return
+	if math.isnan(market_home_margin) or abs(market_home_margin) >= 40: return #ignore missing or junk lines
+	games = (this_sim.teams[home].season_game_count + this_sim.teams[away].season_game_count) / 2 - 1
+	weight = MARKET_FLOOR + MARKET_WEIGHT * math.exp(-games / MARKET_DECAY)
+	shift = weight * (market_home_margin - pregame_home_margin) * -ELO_TO_POINTS_FACTOR / 2
+	this_sim.teams[home].elo += shift
+	this_sim.teams[away].elo -= shift
 
 def sim(data, k_factor, new_season_carry, home_elo, stop_short, last_snap):
 	'''
@@ -172,7 +202,9 @@ def main(topteams = False, stop_short = '99999999', period = 7):
 	- 'stop_short' of simulating through the entire dataset by specifying a day to simulate through instead
 	'''	
 	filepath = utils.get_latest_data_filepath() 
-	yesterday = (datetime.date.today() - datetime.timedelta(days = 1)).strftime('%Y%m%d')
+	# Cut off at the last full US day. UTC "yesterday" is still today on the West Coast
+	# and would close an in-progress slate (and then never revisit it).
+	yesterday = (utils.current_basketball_date() - datetime.timedelta(days = 1)).strftime('%Y%m%d')
 	if filepath[len(DATA_FOLDER):][-12:-4] != yesterday:
 		print('updating data...')
 		scrape_start = utils.shift_dstring(filepath[len(DATA_FOLDER):][-12:-4], 1)
@@ -180,7 +212,11 @@ def main(topteams = False, stop_short = '99999999', period = 7):
 		filepath = utils.get_latest_data_filepath()
 
 	data = utils.read_csv(filepath)
-	this_sim = sim(data, K_FACTOR, SEASON_CARRY, HOME_ADVANTAGE, stop_short, period)
+	if RATING_MODEL == 'kalman':
+		import kalman
+		this_sim = kalman.cached_sim(filepath, data, stop_short, period)
+	else:
+		this_sim = sim(data, K_FACTOR, SEASON_CARRY, HOME_ADVANTAGE, stop_short, period)
 
 	if topteams != False:
 		output = pd.DataFrame(this_sim.get_top(int(topteams)), columns = ['Team', 'Elo Rating', '%i Day Change' % period])

@@ -11,16 +11,16 @@ Purchase College,SUNY-Purchase
 St. Elizabeth,College of Saint Elizabeth
 St. Thomas (MN),St. Thomas
 TCNJ,New Jersey
-Texas Southern,TX Southern
-Texas-Rio Grande Valley,TX-Pan Am
-UNC,N Carolina
+Texas Southern,Texas So
+Texas-Rio Grande Valley,UT Rio Grande
+UNC,North Carolina
 Westminster (PA),Westminster
 Westminster (UT),Westminster College
 Abilene Christian,Abl Christian
 Academy of Art,Academy of Art
 Air Force,Air Force
 Akron,Akron
-Alabama A&M,Alab A&M
+Alabama A&M,Alabama A&M
 Alabama,Alabama
 Alabama State,Alabama St
 Albany (NY),Albany
@@ -35,11 +35,11 @@ Anderson (IN),Anderson (IN)
 Anderson (SC),Anderson (SC)
 Antelope Valley,Antelope Valley
 Appalachian State,App State
-Little Rock,AR Lit Rock
+Little Rock,Little Rock
 Arcadia,Arcadia
 Arizona,Arizona
 Arizona State,Arizona St
-Arkansas-Pine Bluff,Ark Pine Bl
+Arkansas-Pine Bluff,AR-Pine Bluff
 Arkansas,Arkansas
 Arkansas Baptist,Arkansas Baptist
 Arkansas State,Arkansas St
@@ -50,13 +50,13 @@ Aurora,Aurora
 Austin Peay,Austin Peay
 Ave Maria,Ave Maria
 Baldwin-Wallace,Baldwin-Wallace College
-Ball State,Ball State
+Ball State,Ball St
 Baylor,Baylor
 Belhaven (MS),Belhaven College
 Bellarmine,Bellarmine
 Belmont,Belmont
 Benedictine,Benedictine University (AZ)
-Bethune-Cookman,Beth-Cook
+Bethune-Cookman,Bethune
 Bethel (TN),Bethel (TN)
 Bethesda University (CA),Bethesda University
 Binghamton,Binghamton
@@ -65,9 +65,9 @@ Blue Mountain College,Blue Mountain College
 Bluffton,Bluffton College
 Bob Jones University,Bob Jones
 Boise State,Boise St
-Boston College,Boston Col
+Boston College,Boston College
 Boston University,Boston U
-Bowling Green State,Bowling Grn
+Bowling Green State,Bowling Green
 Boyce,Boyce
 Bradley,Bradley
 Brandeis,Brandeis
@@ -87,7 +87,7 @@ BYU,BYU
 California Baptist,Cal Baptist
 Cal State Maritime,Cal Maritime
 Cal Poly,Cal Poly
-Cal State Northridge,Cal St Nrdge
+Cal State Northridge,CS Northridge
 Cal State East Bay,Cal. State - East Bay
 Cal State Los Angeles,Cal. State - Los Angeles
 California,California
@@ -101,20 +101,20 @@ Carlow,Carlow University
 Cazenovia,Cazenovia College
 Centenary (LA),Centenary
 Centenary (NJ),Centenary (N.J.)
-Central Arkansas,Central Ark
+Central Arkansas,C Arkansas
 Central Baptist,Central Baptist
-Central Connecticut,Central Conn
+Central Connecticut,C Connecticut
 UCF,UCF
-Central Michigan,Central Mich
+Central Michigan,C Michigan
 Chaminade,Chaminade
 Chapman,Chapman
-Charleston Southern,Charl South
+Charleston Southern,Charleston So
 Charlotte,Charlotte
 Chattanooga,Chattanooga
 Chicago State,Chicago St
 Cincinnati,Cincinnati
 Cincinnati-Clermont,Cincinnati Clermont
-The Citadel,Citadel
+The Citadel,The Citadel
 Clark (MA),Clark
 Clarks Summit,Clarks Summit
 Clayton State,Clayton State
@@ -124,7 +124,7 @@ Clinton College,Clinton College
 Coast Guard,Coast Guard Academy
 Coastal Carolina,Coastal Car
 Coastal Georgia,Coastal Georgia
-College of Charleston,Col Charlestn
+College of Charleston,Charleston
 Colby-Sawyer,Colby-Sawyer
 Colgate,Colgate
 Colorado,Colorado
@@ -135,14 +135,14 @@ Columbia,Columbia
 Columbia International,Columbia International
 Concord,Concord College
 Concordia (MI),Concordia (MI)
-UConn,Connecticut
+UConn,UConn
 Coppin State,Coppin St
 Cornell,Cornell
 Covenant,Covenant
 Creighton,Creighton
 Crowley's Ridge,Crowley's Ridge College
 Crown (MN),Crown College
-Cal State Bakersfield,CS Bakersfld
+Cal State Bakersfield,CS Bakersfield
 Cal State Fullerton,CS Fullerton
 D'Youville,D'Youville
 Dakota State,Dakota State
@@ -157,7 +157,7 @@ Delaware,Delaware
 Delaware State,Delaware St
 Denver,Denver
 DePaul,DePaul
-Detroit,Detroit
+Detroit,Detroit Mercy
 Dillard,Dillard
 District of Columbia,District of Columbia
 Drake,Drake
@@ -168,8 +168,8 @@ East Carolina,E Carolina
 Eastern Illinois,E Illinois
 Eastern Kentucky,E Kentucky
 Eastern Michigan,E Michigan
-ETSU,E Tenn St
-Eastern Washington,E Washingtn
+ETSU,E Tennessee St
+Eastern Washington,E Washington
 Earlham,Earlham
 East-West,East-West University
 Eastern Nazarene,Eastern Nazarene
@@ -188,8 +188,8 @@ Fairmont State,Fairmont State
 Fairleigh Dickinson-Florham,FDU-Florham
 Fisher College,Fisher College
 Fisk,Fisk
-Florida Atlantic,Fla Atlantic
-Florida Gulf Coast,Fla Gulf Cst
+Florida Atlantic,Florida Atlantic
+Florida Gulf Coast,FGCU
 Florida,Florida
 Florida A&M,Florida A&M
 Florida College,Florida College
@@ -205,12 +205,12 @@ Fredonia State,Fredonia St.
 Fresno Pacific,Fresno Pacific
 Fresno State,Fresno St
 Furman,Furman
-Georgia Southern,GA Southern
-Georgia Tech,GA Tech
+Georgia Southern,Georgia So
+Georgia Tech,Georgia Tech
 Gallaudet,Gallaudet University
-Gardner-Webb,Gard-Webb
-George Mason,Geo Mason
-George Washington,Geo Wshgtn
+Gardner-Webb,Gardner-Webb
+George Mason,George Mason
+George Washington,G Washington
 Georgetown,Georgetown
 Georgia,Georgia
 Georgia College,Georgia College St. & U
@@ -221,8 +221,8 @@ Glenville State,Glenville St.
 Gonzaga,Gonzaga
 Goshen,Goshen
 Goucher,Goucher
-Grambling,Grambling St
-Grand Canyon,Grd Canyon
+Grambling,Grambling
+Grand Canyon,Grand Canyon
 Greensboro,Greensboro
 Guilford,Guilford
 Gwynedd-Mercy,Gwynedd-Mercy
@@ -233,7 +233,7 @@ Harding,Harding
 Harris-Stowe,Harris-Stowe State
 Hartford,Hartford
 Harvard,Harvard
-Hawaii,Hawaii
+Hawaii,Hawai'i
 Hawaii Pacific,Hawaii Pacific
 Hendrix,Hendrix College
 High Point,High Point
@@ -244,17 +244,17 @@ Houghton,Houghton
 Houston,Houston
 Howard,Howard
 Howard Payne,Howard Payne
-Houston Christian,Hsn Christian
+Houston Christian,Hou Christian
 Huston-Tillotson,Huston-Tillotson
 Idaho,Idaho
 Idaho State,Idaho St
 IU Indy,IU Indy
-UIC,IL-Chicago
+UIC,Illinois Chicago
 Illinois,Illinois
 Illinois State,Illinois St
 Illinois Tech,Illinois Tech
 Immaculata,Immaculata
-Incarnate Word,Incar Word
+Incarnate Word,Incarnate Word
 Indiana,Indiana
 Indiana State,Indiana St
 Indianapolis,Indianapolis
@@ -262,15 +262,15 @@ Iona,Iona
 Iowa,Iowa
 Iowa State,Iowa St
 Iowa Wesleyan,Iowa Wesleyan
-Purdue-Fort Wayne,IPFW
+Purdue-Fort Wayne,Purdue FW
 Ithaca,Ithaca College
 Indiana-South Bend,IU-SouthBend
 IUPUI,IUPUI
 Jackson State,Jackson St
 Jacksonville,Jacksonville
-James Madison,James Mad
+James Madison,J Madison
 Jarvis Christian,Jarvis Christian
-Jacksonville State,Jksnville St
+Jacksonville State,Jacksonville St
 John Brown,John Brown
 John Jay,John Jay College
 Johnson & Wales (NC),Johnson & Wales (NC)
@@ -292,7 +292,7 @@ Louisiana,Louisiana
 Louisiana-Monroe,UL Monroe
 La Salle,La Salle
 La Sierra,La Sierra University
-Louisiana Tech,LA Tech
+Louisiana Tech,Louisiana Tech
 La Verne,La Verne
 Lafayette,Lafayette
 Lamar,Lamar
@@ -303,7 +303,7 @@ Lees-McRae,Lees-McRae
 Lehigh,Lehigh
 Le Moyne,Le Moyne
 Lewis & Clark,Lewis & Clark
-Long Beach State,Lg Beach St
+Long Beach State,Long Beach St
 Liberty,Liberty
 Life Pacific,Life Pacific
 Lincoln (PA),Lincoln
@@ -319,8 +319,8 @@ Louisville,Louisville
 Lourdes,Lourdes
 Loyola (LA),Loyola (LA)
 Loyola Marymount,Loyola Mymt
-Loyola (IL),Loyola-Chi
-Loyola (MD),Loyola-MD
+Loyola (IL),Loyola Chi
+Loyola (MD),Loyola MD
 LSU,LSU
 Louisiana State-Alexandria,LSU-Alexandria
 Lynchburg,Lynchburg College
@@ -339,14 +339,14 @@ Marshall,Marshall
 Mary Baldwin,Mary Baldwin
 Mary Hardin-Baylor,Mary Hardin-Baylor
 Maryland,Maryland
-UMBC,Maryland BC
+UMBC,UMBC
 Maryland-Eastern Shore,Maryland ES
 Maryville (TN),Maryville (TN)
-UMass-Lowell,Mass Lowell
+UMass-Lowell,UMass Lowell
 Master's,Master's College
 McDaniel,McDaniel College
 McMurry,McMurry
-McNeese State,McNeese St
+McNeese State,McNeese
 Medgar Evers,Medgar Evers
 Memphis,Memphis
 Menlo,Menlo College
@@ -358,7 +358,7 @@ Merrimack,Merrimack
 Methodist,Methodist
 Miami,Miami
 Miami (FL),Miami
-Miami (OH),Miami (OH)
+Miami (OH),Miami OH
 Miami Middletown,Miami (OH) - Middletown
 Miami-Hamilton,Miami-Hamilton
 Michigan,Michigan
@@ -369,11 +369,11 @@ Middle Georgia State,Middle Georgia St.
 Middle Tennessee,Middle Tenn
 Midland Lutheran,Midland Lutheran
 Milligan,Milligan
-Milwaukee,WI-Milwkee
+Milwaukee,Milwaukee
 Minnesota,Minnesota
 Misericordia,Misericordia
-Mississippi State,Miss State
-Mississippi Valley State,Miss Val St
+Mississippi State,Mississippi St
+Mississippi Valley State,Miss Valley St
 Ole Miss,Mississippi
 Mississippi College,Mississippi College
 Mississippi University for Women,Mississippi Univ. For Women
@@ -396,7 +396,7 @@ Mount Marty,Mount Marty
 Mount Olive,Mount Olive
 Mt. St. Mary (NY),Mount Saint Mary College
 Mount Saint Vincent,Mount St. Vincent
-Mount St. Mary's,Mt St Marys
+Mount St. Mary's,Mt St Mary's
 Multnomah,Multnomah
 Murray State,Murray St
 Muskingum,Muskingum
@@ -405,26 +405,27 @@ Northern Arizona,N Arizona
 Northern Colorado,N Colorado
 North Dakota State,N Dakota St
 North Florida,N Florida
-New Hampshire,N Hampshire
+New Hampshire,New Hampshire
 Northern Illinois,N Illinois
 Northern Iowa,N Iowa
 Northern Kentucky,N Kentucky
-New Mexico State,N Mex State
+New Haven,New Haven
+New Mexico State,New Mexico St
 Navy,Navy
 North Carolina A&T,NC A&T
 North Carolina Central,NC Central
 NC State,NC State
-UNC Asheville,NC-Asheville
-UNC Greensboro,NC-Grnsboro
-UNC Wilmington,NC-Wilmgton
-Omaha,Neb Omaha
+UNC Asheville,NC Asheville
+UNC Greensboro,NC Greensboro
+UNC Wilmington,NC Wilmington
+Omaha,Omaha
 Nebraska,Nebraska
 Neumann,Neumann
 Nevada,Nevada
 New England,New England Nor'easters
 New Mexico,New Mexico
 New Mexico Highlands,New Mexico Highlands
-New Orleans,New Orleans
+New Orleans,LSU New Orleans
 Niagara,Niagara
 Nicholls State,Nicholls
 NJIT,NJIT
@@ -434,9 +435,9 @@ North Central (MN),North Central
 North Dakota,North Dakota
 North Greenville,North Greenville
 North Park,North Park
-North Texas,North Texas
+North Texas,N Texas
 North Texas at Dallas,North Texas-Dallas
-Northeastern,Northeastrn
+Northeastern,Northeastern
 Northern New Mexico,Northern New Mexico
 Northwest Indian College,Northwest Indian College
 Northwestern Ohio,Northwest Ohio
@@ -498,28 +499,28 @@ Rhodes,Rhodes
 Rice,Rice
 Richmond,Richmond
 Rider,Rider
-Robert Morris,Rob Morris
+Robert Morris,Robert Morris
 Rochester,Rochester College
 Rockford,Rockford
 Rogers State,Rogers State
 Rust,Rust College
 Rutgers,Rutgers
 South Alabama,S Alabama
-South Carolina State,S Car State
-South Carolina,S Carolina
+South Carolina State,S Carolina St
+South Carolina,South Carolina
 South Dakota State,S Dakota St
 South Florida,S Florida
 Southern Illinois,S Illinois
 Southern Indiana,S Indiana
-SMU,S Methodist
-Southern Miss,S Mississippi
+SMU,SMU
+Southern Miss,Southern Miss
 Southern Utah,S Utah
-Sacramento State,Sac State
-Sacred Heart,Sacred Hrt
+Sacramento State,Sacramento St
+Sacred Heart,Sacred Heart
 Saint Louis,Saint Louis
 Saint Mary-of-the-Woods College,Saint Mary-Of-The-Woods
-Sam Houston,Sam Hous St
-Sam Houston State,Sam Hous St
+Sam Houston,Sam Houston
+Sam Houston State,Sam Houston
 Samford,Samford
 San Diego,San Diego
 San Diego Christian,San Diego Christian
@@ -532,7 +533,7 @@ Sarah Lawrence,Sarah Lawrence
 USC Upstate,SC Upstate
 Schreiner,Schreiner
 Southeastern Louisiana,SE Louisiana
-Southeast Missouri State,SE Missouri
+Southeast Missouri State,SE Missouri St
 Seattle,Seattle
 Seton Hall,Seton Hall
 Shorter,Shorter
@@ -547,13 +548,13 @@ Southern-New Orleans,Southern-New Orleans
 Southwestern (TX),Southwestern
 Spalding,Spalding
 Spring Hill,Spring Hill
-St. Bonaventure,St Bonavent
+St. Bonaventure,St Bonaventure
 St. Francis (NY),St Fran (NY)
-Saint Francis (PA),St Fran (PA)
-St. John's (NY),St Johns
-St. Joseph's,St Josephs
-Saint Mary's,St Marys
-St. Peter's,St Peters
+Saint Francis (PA),St Francis PA
+St. John's (NY),St John's
+St. Joseph's,Saint Joseph's
+Saint Mary's,Saint Mary's
+St. Peter's,Saint Peter's
 St. Ambrose,St. Ambrose
 St. Andrews,St. Andrews Presbyterian
 St. Augustine's,St. Augustine
@@ -565,13 +566,13 @@ St. Katherine,St. Katherine
 Saint Martin's,St. Martin's
 St. Mary's (MD),St. Mary's (MD)
 St. Mary's (TX),St. Mary's (TX)
-St. Thomas,St. Thomas
+St. Thomas,St Thomas
 St. Thomas (FL),St. Thomas (FL)
 St. Thomas (TX),St. Thomas (TX)
 Saint Vincent (PA),St. Vincent
 Saint Xavier (IL),St. Xavier
 Stanford,Stanford
-Stephen F. Austin,Ste F Austin
+Stephen F. Austin,SF Austin
 Stetson,Stetson
 Stonehill,Stonehill
 Stony Brook,Stony Brook
@@ -591,9 +592,9 @@ Texas Lutheran,Texas Lutheran
 Texas State,Texas St
 Texas Tech,Texas Tech
 Thomas (ME),Thomas College
-UT-Martin,TN Martin
-Tennessee State,TN State
-Tennessee Tech,TN Tech
+UT-Martin,UT Martin
+Tennessee State,Tennessee St
+Tennessee Tech,Tenn Tech
 Toccoa Falls,Toccoa Falls
 Toledo,Toledo
 Towson,Towson
@@ -607,22 +608,22 @@ Tufts,Tufts
 Tulane,Tulane
 Tulsa,Tulsa
 Tusculum,Tusculum
-Texas A&M-Corpus Christi,TX A&M-CC
-Texas A&M-Commerce,TX A&M-Com
-East Texas A&M,TX A&M-Com
-TCU,TX Christian
-UTEP,TX El Paso
+Texas A&M-Corpus Christi,Texas A&M-CC
+Texas A&M-Commerce,E Texas A&M
+East Texas A&M,E Texas A&M
+TCU,TCU
+UTEP,UTEP
 UT-Southern,Martin Methodist
-UT Arlington,TX-Arlington
+UT Arlington,UT Arlington
 UTSA,UTSA
-UMass,U Mass
-Penn,U Penn
+UMass,UMass
+Penn,Penn
 UAB,UAB
 UC-Davis,UC Davis
 UC-Irvine,UC Irvine
 UC-Merced,UC Merced
 UC-Riverside,UC Riverside
-UC-San Diego,UC San Diego
+UC-San Diego,UCSD
 UCLA,UCLA
 UCSB,UCSB
 Union (NY),Union
@@ -632,8 +633,8 @@ Utah,Utah
 Utah State,Utah St
 Utah Tech,Utah Tech
 Utah Valley,Utah Valley
-VMI,VA Military
-Virginia Tech,VA Tech
+VMI,VMI
+Virginia Tech,Virginia Tech
 Valley Forge,Valley Forge
 Valparaiso,Valparaiso
 Vanderbilt,Vanderbilt
@@ -650,7 +651,7 @@ Western Carolina,W Carolina
 Western Illinois,W Illinois
 Western Kentucky,W Kentucky
 Western Michigan,W Michigan
-West Virginia,W Virginia
+West Virginia,West Virginia
 Wabash,Wabash
 Wagner,Wagner
 Wake Forest,Wake Forest
@@ -659,7 +660,7 @@ Walla Walla,Walla Walla
 Warner Pacific,Warner Pacific
 Warren Wilson,Warren Wilson
 Wartburg,Wartburg
-Washington State,Wash State
+Washington State,Washington St
 Washington,Washington
 Washington College,Washington College
 Wayne State (MI),Wayne State (MI)
@@ -675,7 +676,7 @@ Western Oregon,Western Oregon
 Western Colorado,Western State Colorado
 Westmont,Westmont
 Whittier,Whittier
-Green Bay,WI-Grn Bay
+Green Bay,Green Bay
 Wichita State,Wichita St
 Wiley,Wiley
 William Carey,William Carey
@@ -687,10 +688,11 @@ Winthrop,Winthrop
 Wisconsin,Wisconsin
 Wisconsin-Parkside,Wisconsin-Parkside
 Wisconsin-Stout,Wisconsin-Stout
-William & Mary,Wm & Mary
+William & Mary,William & Mary
 Wofford,Wofford
-Wright State,Wright State
+Wright State,Wright St
 Wyoming,Wyoming
 Xavier,Xavier
 Yale,Yale
-Youngstown State,Youngs St
+Youngstown State,Youngstown St
+UC Santa Cruz,UC Santa Cruz

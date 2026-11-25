@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# macOS
+.DS_Store
+Outputs/.DS_Store
+
+# cached Kalman filter runs (kalman.cached_sim)
+.cache/

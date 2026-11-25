@@ -16,8 +16,8 @@ URLV2 = 'https://www.scoresandodds.com/ncaab?date=YEAR-MONTH-DAY'
 DATA_FOLDER = utils.DATA_FOLDER
 NEUTRAL_MAP = None #will be set if needed. Maps (team1, team2, date) --> 1/0 depending on if the game is at a neutral site
 TR_NAMES = None #tracking this temporarily to see if there are teams with improper mapping in SR to TR
-TR_NAMES_MAP = utils.read_two_column_csv_to_dict('Data/sr_tr_mapping.csv') #maps sport reference names (our original source of truth for names) to team rankings names
-SR_NAMES_MAP = utils.read_two_column_csv_to_dict('Data/so_sr_mapping.csv') #maps scores & odds names to sports reference names (our original source of truth for names)
+TR_NAMES_MAP = utils.read_two_column_csv_to_dict(DATA_FOLDER + 'sr_tr_mapping.csv') #maps sport reference names (our original source of truth for names) to team rankings names
+SR_NAMES_MAP = utils.read_two_column_csv_to_dict(DATA_FOLDER + 'so_sr_mapping.csv') #maps scores & odds names to sports reference names (our original source of truth for names)
 
 def scrape_neutral_data():
 	'''
@@ -30,7 +30,7 @@ def scrape_neutral_data():
 	table_games_data = BeautifulSoup(data,'html.parser').find_all("tr")
 	all_rows = [i.text.split('\n') for i in table_games_data]
 
-	global NEUTRAL_MAP
+	global NEUTRAL_MAP, TR_NAMES
 	NEUTRAL_MAP = {}
 	TR_NAMES = set() #set of teams mentioned in TR
 	this_date = utils.format_tr_dates(all_rows[0][1])
@@ -49,12 +49,11 @@ def scrape_neutral_data():
 		else:
 			this_date = utils.format_tr_dates(val)
 
-scrape_neutral_data()
-
 def scrape_scores(date_obj):
 	'''
 	scrape and return stats in the form of a list of lists where each sublist is information from a single game played on the specified day 
 	'''
+	if NEUTRAL_MAP is None: scrape_neutral_data() #fetched on first use rather than on import, so imports stay fast and offline
 	day, month, year = str(date_obj.day), str(date_obj.month), str(date_obj.year)
 	day_stats = []
 	url = URLV2.replace("DAY", day).replace("MONTH", month).replace("YEAR", year)
@@ -66,6 +65,19 @@ def scrape_scores(date_obj):
 	table_divs = BeautifulSoup(data, 'html.parser').find_all('tbody')
 	this_day_string = date_obj.strftime('%Y%m%d')
 	print(this_day_string)
+
+	def game_is_final(game):
+		'''
+		Scores and Odds renders in-progress games with a live score. Those rows must not
+		be stored as results. A finished game's header state starts with FINAL (including OT).
+		'''
+		header = game.find_previous('tr', class_ = 'event-card-header')
+		if header == None:
+			return False
+		for span in header.find_all('span', {'data-field': 'state'}):
+			if span.get_text(strip = True).upper().startswith('FINAL'):
+				return True
+		return False
 
 	def get_info_from_row(row):
 		team = row.find('span', {'class': 'team-name'})
@@ -85,10 +97,19 @@ def scrape_scores(date_obj):
 		else:
 			return team, team_score.text.strip()
 
+	n_final = 0
 	for game in table_divs:
-		away_row, home_row = game.find_all('tr')
+		rows = game.find_all('tr')
+		if len(rows) < 2:
+			continue
+		away_row, home_row = rows[0], rows[1]
 		away, away_score = get_info_from_row(away_row) #away is now mapped to sports reference names
 		home, home_score = get_info_from_row(home_row) #home is now mapped to sports reference names
+		if game_is_final(game):
+			n_final += 1
+		else:
+			# Keep the matchup for predictions, but drop partial scores so they are not logged as finals.
+			away_score, home_score = '', ''
 
 		#if the game hasn't happened yet, no need to grab spreads from this source. This function will grab source of truth spreads when the games are final
 		spread_field = away_row.find('td', {'data-field': 'live-spread'})
@@ -97,7 +118,8 @@ def scrape_scores(date_obj):
 			away_span = spread_field.find('span')
 			if away_span == None: away_spread = 'NL'
 			else: 
-				away_spread = away_span.text.strip('+')
+				away_spread = away_span.text.strip()  # First strip whitespace
+				away_spread = away_spread.replace('+', '')  # Then remove plus sign
 				away_spread = 'NL' if away_spread == '' else away_spread
 
 		if away not in TR_NAMES_MAP:
@@ -115,11 +137,15 @@ def scrape_scores(date_obj):
 
 		if (TR1, TR2, this_day_string) in NEUTRAL_MAP:
 			n_flag = NEUTRAL_MAP[(TR1, TR2, this_day_string)]
+		elif (TR2, TR1, this_day_string) in NEUTRAL_MAP:
+			n_flag = NEUTRAL_MAP[(TR2, TR1, this_day_string)]
 		else:
-			n_flag = NEUTRAL_MAP.get((TR2, TR1, this_day_string), 0) #if this other orientation of names isn't there, default to non-neutral (0)
+			print(f"Warning... {TR1} or {TR2} not found in teamrankings schedule. The mapping in sr_tr_mapping.csv may be incorrect")
+			n_flag = 0
 
 		day_stats.append([n_flag, away, away_score, home, home_score, this_day_string, away_spread])
 
+	print(f"{this_day_string}: {n_final} final of {len(day_stats)} games")
 	return day_stats
 
 def check_for_incomplete(new):
