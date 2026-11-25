@@ -1,0 +1,4697 @@
+pid,team,class,min_per,bpm,recruit
+15366,BYU,Jr,67.7,3.30773,
+16925,Oral Roberts,So,3.4,2.34626,78.4
+18583,North Carolina Central,Sr,17.3,-5.08848,
+19470,Kansas State,Sr,77.5,8.637,
+19481,Southern,Sr,81.7,-1.45418,
+19615,Oral Roberts,Jr,84.4,1.34845,
+19683,Virginia,Sr,69.8,7.12654,81.4
+19691,Kent State,Sr,41.2,0.887291,
+19719,Oakland,Sr,56.1,0.124576,38.6
+19738,Texas Tech,Sr,71.5,7.3887,11.2
+19792,UNLV,Sr,68.2,1.46231,81.0
+19860,Jackson State,So,1.4,-6.12113,
+19861,Grambling,Sr,32.7,-11.499,
+19896,UTEP,Sr,53.7,-1.76005,
+19953,California,Sr,0.8,4.44845,29.2
+20051,SMU,Sr,83.1,3.8813,53.0
+20061,Tennessee State,Sr,79.7,1.1947,
+20078,BYU,Sr,85.3,3.04386,53.2
+20097,IU Indy,Sr,72.2,2.33087,
+20266,Albany (NY),Sr,82.1,-0.576728,
+20283,North Carolina Central,Sr,81.1,-1.03392,
+20348,ETSU,Sr,79.1,1.03172,37.8
+20370,Alcorn State,Sr,59.6,-2.70507,
+20373,VMI,Sr,35.6,-4.96346,
+20405,Memphis,Sr,6.6,-8.45128,83.2
+20490,Morehead State,Sr,73.7,1.52683,
+20588,Norfolk State,Sr,60.6,-4.06465,
+20645,UNC Wilmington,Sr,66.5,1.27087,
+20654,UNC,Jr,1.9,-5.69705,14.0
+20660,Davidson,Sr,83.8,2.31378,
+20661,UC-Irvine,Sr,36.8,0.525346,54.4
+20675,St. Joseph's,Sr,65.8,0.948853,70.6
+20726,Northwestern,Sr,90.8,1.63587,38.0
+20754,Ole Miss,Sr,68,1.91049,
+20762,Boise State,Sr,73.6,3.09442,
+20768,UNC Asheville,Sr,6.5,-7.19633,33.4
+20769,Memphis,Sr,73.4,2.25101,10.0
+20787,Drake,Sr,34.1,-9.20113,
+20790,UAB,Sr,75.2,-0.417508,84.0
+20969,UNC Wilmington,Sr,29,1.51356,
+21297,Wichita State,Sr,52.5,4.06013,17.2
+21324,Houston Christian,Sr,72.9,-0.428813,9.8
+21334,Detroit,Sr,50.6,-0.189488,82.8
+21472,Colgate,Sr,86.4,2.19836,
+21520,Troy,Sr,73.9,-2.30664,
+21570,South Dakota,Sr,73.5,-2.1282,
+21571,Texas A&M,Sr,62.4,2.31928,10.8
+21626,DePaul,Sr,72,1.8852,88.0
+21687,Purdue-Fort Wayne,Sr,93.5,1.65416,
+21695,Bethune-Cookman,Sr,69.4,0.457909,6.2
+21786,Winthrop,Sr,46.7,-5.94452,88.6
+21798,UT-Martin,Sr,60.6,1.94062,
+21808,Northwestern,Sr,22.2,0.824681,72.8
+21814,Southern Illinois,Sr,21.4,-1.99047,13.0
+21852,Mercer,Sr,3.5,-0.396042,
+21854,Vanderbilt,Sr,24.5,2.49598,64.4
+21858,Texas A&M-Corpus Christi,Sr,56.9,0.302262,
+21866,Michigan State,Sr,13.3,3.02321,
+21871,Yale,Sr,70.1,4.76453,
+21893,Syracuse,Sr,93.8,6.77288,94.6
+21897,Southeastern Louisiana,Sr,81,-2.44143,
+21898,UC-Riverside,Sr,86.7,1.37459,
+21940,Tulsa,Sr,49.1,2.89721,8.4
+22032,Howard,Sr,8.6,-4.6069,
+22075,Fordham,Sr,9.3,-0.47079,30.8
+22105,BYU,Sr,38.3,2.56335,
+22146,Florida International,Sr,73.2,5.36425,38.4
+22399,Campbell,Sr,50.5,-1.4655,56.4
+22458,Miami (FL),Sr,75.1,7.29586,56.2
+22465,Xavier,Sr,60.9,2.67401,36.8
+22476,Wagner,Sr,42.9,-2.4894,54.2
+22502,Eastern Washington,Sr,94.2,-0.620276,48.0
+22504,Middle Tennessee,Sr,58.4,0.916957,
+22582,Montana,Sr,76,4.93017,74.4
+22595,UConn,Sr,81.2,3.35589,65.6
+22665,Texas A&M-Corpus Christi,Sr,76.8,0.570405,
+22708,Old Dominion,Sr,87.1,2.97538,
+22712,Temple,Sr,67.2,3.07723,37.0
+22746,Boston College,Sr,66.5,-0.281279,46.0
+22820,Wofford,Sr,34.3,-0.727037,
+22930,Arkansas,Sr,36.8,-0.0144251,52.8
+22991,McNeese State,Sr,63.8,-3.50834,
+22996,Northeastern,Sr,75.4,4.73335,45.2
+23051,UC-Irvine,Sr,47.4,1.64356,
+23052,UC-Irvine,Sr,55.9,-1.81663,
+23111,St. Joseph's,Sr,41.2,3.79803,
+23113,Miami (OH),Sr,75.9,3.38033,
+23142,Quinnipiac,Sr,18.6,-3.11346,
+23194,Western Carolina,Sr,86.6,1.03057,
+23196,Hampton,Sr,77.5,-2.40892,
+23227,UNLV,Jr,3.8,-2.46681,
+23228,Louisville,Sr,81.1,6.18059,50.8
+23272,TCU,Sr,24.1,-0.658912,71.2
+23296,Drexel,Sr,75.2,-2.33843,
+23340,Bethune-Cookman,Sr,81.5,-4.96391,
+23349,Temple,Sr,63.2,0.856349,15.6
+23407,The Citadel,Sr,62.5,-2.21232,
+23432,Purdue,Sr,43.7,8.4155,
+23439,Butler,Sr,27.6,5.35419,62.4
+23454,Columbia,Sr,63.4,0.451809,
+23492,Little Rock,Sr,8.8,-0.734744,15.8
+23613,Butler,Sr,83.7,6.43382,71.8
+23637,Savannah State,Sr,68.4,-1.89933,
+23742,SMU,Sr,66.5,4.80282,43.2
+23786,Florida Gulf Coast,Sr,30,-2.35502,
+23836,Seton Hall,Sr,58.8,1.68557,79.0
+23887,The Citadel,Sr,67.3,-2.66222,
+23892,Army,Sr,0.5,-16.3235,
+24024,Cleveland State,Sr,50,-1.24533,66.0
+24027,Northern Kentucky,Sr,17.5,-3.86496,
+24031,Northern Illinois,Jr,52.1,-6.24401,37.0
+24038,Eastern Washington,Sr,80.5,2.78524,
+24046,UCLA,Sr,61.9,2.02239,95.4
+24055,North Dakota,Sr,1.4,-8.88957,
+24068,Vanderbilt,Sr,2.2,2.35946,
+24070,Vanderbilt,Sr,7.3,-2.67977,
+24079,Army,Sr,80.5,-2.72559,
+24085,Iona,Sr,75.8,6.62168,
+24093,Duquesne,Sr,89.7,0.543703,
+24094,Duquesne,Sr,1.4,-14.611,
+24097,Eastern Kentucky,Sr,2.5,-0.610586,
+24112,William & Mary,Sr,75,7.40778,
+24113,Baylor,Sr,59.4,3.65498,93.4
+24114,Baylor,Sr,76.2,5.92391,62.6
+24118,Rice,Sr,83.7,-5.09807,
+24122,Nebraska,Sr,64.1,1.85739,34.6
+24147,Quinnipiac,Sr,69,-2.75546,
+24151,Kansas,Sr,75.1,6.77275,93.8
+24153,Kansas,Sr,2.3,8.94579,
+24155,Kansas,Jr,1.8,-13.079,
+24156,Kansas,Sr,32.6,7.27373,73.0
+24188,Southeast Missouri State,Jr,50,-7.43535,
+24207,Alcorn State,Sr,34.2,-5.12458,
+24211,Detroit,Sr,82,3.57591,
+24215,Murray State,Jr,57.2,-0.323997,57.0
+24216,Texas A&M,Sr,71.1,8.87644,83.2
+24240,Fresno State,Sr,91,5.91497,
+24251,Miami (OH),Sr,42.3,-2.59033,
+24254,Florida Atlantic,Sr,10,-7.20899,
+24257,Florida Atlantic,Sr,69.3,-1.82148,
+24263,Davidson,Jr,8,-2.49532,
+24264,Canisius,Sr,83.5,0.147865,18.0
+24298,Georgia State,Sr,72.6,1.38258,
+24309,Texas-Rio Grande Valley,Sr,81.4,-0.507243,
+24313,Valparaiso,Jr,54.8,2.24387,
+24315,Morehead State,Jr,59.8,2.01139,54.8
+24322,Lafayette,Sr,1.3,-10.2578,
+24331,Fordham,Sr,78.4,5.64577,47.4
+24332,Fordham,Sr,57,2.13191,
+24334,UC-Irvine,Sr,74.6,5.55025,
+24342,Tulsa,Sr,80.2,5.64315,
+24345,Auburn,Sr,53.5,1.57435,53.6
+24346,Florida Gulf Coast,Jr,6,2.4899,55.8
+24348,Duke,Sr,75.8,8.36073,87.4
+24381,Purdue,Sr,57.5,9.72793,85.2
+24382,Indiana State,Sr,22.4,-5.05488,
+24387,George Washington,Sr,70.1,4.50163,
+24396,Duquesne,Sr,21.7,1.96135,
+24400,Northern Kentucky,Sr,76.7,-3.7774,
+24409,Florida Gulf Coast,Jr,82.1,2.28348,
+24412,Tulane,Jr,3.7,-5.89827,
+24413,Tulane,Sr,78.3,-0.241442,
+24416,UNC,Sr,67.2,7.33953,94.2
+24417,UNC,Sr,70.1,11.2518,91.2
+24419,Kennesaw State,Sr,41.2,1.06511,
+24420,Cleveland State,Jr,9.1,-4.78108,
+24421,Delaware State,Sr,27.5,-6.79175,
+24422,Kennesaw State,Sr,96.7,-1.6263,
+24433,Cal State Bakersfield,Jr,29.8,2.30175,
+24444,Wake Forest,Sr,3.5,-7.28117,
+24448,Washington,Sr,83,7.03309,36.6
+24488,Clemson,Jr,76.7,3.26587,
+24526,Ole Miss,Jr,3.9,-7.04584,66.4
+24530,Cal Poly,Sr,49.8,-2.04865,
+24532,Cal Poly,Sr,62.5,4.41481,46.2
+24533,High Point,Sr,18.8,0.665514,
+24552,VCU,Sr,69.6,2.95379,
+24561,Oral Roberts,Jr,55.3,-2.01318,
+24573,San Diego State,Sr,71.9,4.35772,93.6
+24576,McNeese State,Sr,21.7,-7.08634,
+24580,Davidson,Sr,32.1,-1.40755,
+24595,Western Carolina,Sr,77.2,4.07407,
+24597,Loyola (MD),Sr,68.1,-2.44761,
+24612,Texas A&M,Jr,1.9,-2.42148,
+24635,San Francisco,Jr,64.2,-1.35397,37.8
+24637,Lafayette,Sr,71.8,0.581968,
+24638,Lafayette,Sr,55.5,0.430329,
+24642,Pepperdine,Sr,85,2.86895,
+24644,Baylor,Sr,1.9,-2.16548,
+24645,Pepperdine,Sr,3.3,-3.83632,
+24649,Pepperdine,Sr,67.9,1.20641,
+24653,Wofford,Sr,1.7,4.16386,
+24654,Longwood,Sr,55.1,-2.48224,78.4
+24660,Florida,Sr,1.6,-7.13312,93.0
+24667,Texas,Sr,70.6,6.59833,69.6
+24682,Hampton,Sr,88.1,-0.860846,
+24707,Holy Cross,Sr,67.6,-4.88359,
+24712,Mercer,Jr,29.7,-2.80624,
+24713,Houston,Sr,2.1,-0.678079,83.6
+24716,Gardner-Webb,Sr,62,-2.07752,
+24724,Cal State Fullerton,Sr,15.5,-7.60889,
+24738,High Point,Sr,65.5,9.86493,73.2
+24748,Navy,Sr,66.4,6.0253,
+24756,UCSB,Sr,82.3,6.42166,
+24757,UCSB,Sr,39.5,3.56366,
+24764,UCSB,Sr,48,3.72341,
+24770,Central Michigan,Sr,74,2.13432,
+24774,Central Michigan,Sr,31.9,-2.10871,
+24781,Gonzaga,Sr,78.4,7.90119,68.4
+24790,Cornell,Sr,12.6,-1.13355,
+24854,Colorado,Sr,1.1,-4.1302,37.4
+24855,Colorado,Sr,51.2,2.02404,49.4
+24866,Western Carolina,Sr,64.4,-1.15519,
+24867,Western Carolina,Sr,70.3,-1.99466,
+24871,Alabama State,Jr,55.1,0.812068,
+24872,North Carolina A&T,Sr,66.6,-5.63756,
+24876,Texas,Sr,22,7.6812,96.2
+24882,Chattanooga,Sr,14.5,5.18874,
+24927,Penn,Sr,66.2,1.73823,
+24928,Penn,Sr,19.2,-9.28497,
+24934,Weber State,Sr,75.6,2.81853,
+24937,Loyola (MD),Sr,71.9,-4.00597,1.6
+24940,Nicholls State,Sr,69.9,-2.77861,
+24949,Dartmouth,Sr,41.3,-2.1011,
+24950,George Washington,Sr,38.7,2.05857,
+24951,Texas A&M-Corpus Christi,Sr,27,-3.09482,
+24952,Texas A&M-Corpus Christi,Sr,57.8,-3.216,
+24957,Incarnate Word,Jr,10.8,-2.89739,
+24963,Ball State,Sr,15,-3.69227,
+24976,Mount St. Mary's,Sr,46.1,-0.973731,
+24980,Arizona State,Jr,45.6,0.107194,84.2
+24981,UNLV,Jr,0.3,-4.73926,51.0
+24982,Coastal Carolina,Sr,62.4,0.362222,
+24983,Coastal Carolina,Sr,60.8,0.65592,
+25001,San Diego State,Sr,60.8,7.87614,72.0
+25006,Colorado State,Sr,28,-1.72548,
+25015,Kent State,Jr,78.9,-1.75407,
+25028,Boston University,Sr,58.8,-0.554814,
+25057,Buffalo,Sr,69.4,0.0894203,
+25075,Nebraska,Sr,67.2,4.2621,45.6
+25078,Evansville,Jr,2.5,0.299624,
+25121,Utah Valley,So,4.2,-12.8727,
+25127,Utah,Sr,81.3,3.95447,54.2
+25130,Utah,Sr,77,4.34018,76.6
+25138,Towson,Sr,62.8,4.76428,
+25148,Coastal Carolina,Sr,10.3,0.523547,
+25157,Northern Iowa,Sr,87.3,4.53101,70.4
+25160,Oklahoma State,Sr,40,-0.0231351,
+25161,Nevada,Sr,65.9,0.804121,
+25163,Colorado,Sr,71.6,8.62189,89.8
+25184,Valparaiso,Sr,62.6,6.93316,
+25193,NJIT,Sr,79.4,-1.04654,
+25195,NJIT,Jr,41.8,-2.37136,
+25196,Sacramento State,Sr,53.9,-2.50662,
+25202,James Madison,Sr,81.2,6.65531,
+25218,St. Bonaventure,Sr,92,2.18566,
+25226,Tulane,Jr,77.3,2.46774,74.2
+25227,San Jose State,Sr,71.8,0.0348251,
+25230,NC State,Sr,0.2,-22.0712,
+25236,Columbia,Sr,82.1,5.83689,
+25247,Columbia,Sr,37.5,2.15352,
+25249,Seattle,Sr,75.4,-2.88383,
+25258,Houston Christian,Sr,53.8,-4.15929,
+25260,Dartmouth,Sr,21.9,-5.16177,7.4
+25261,Dartmouth,Sr,71,2.05884,3.2
+25262,Dartmouth,Sr,40.6,0.786396,
+25263,Dartmouth,Sr,4.2,-9.19589,
+25270,Louisiana,Sr,12.8,-1.07407,
+25306,Campbell,Sr,1.9,-0.443686,
+25311,George Mason,Sr,4.3,-6.45292,77.0
+25312,Kent State,Sr,62.7,-1.4688,
+25314,Kent State,Sr,56,3.68752,
+25328,Bucknell,Sr,3,-4.49382,
+25329,Bucknell,Sr,66.4,-1.7107,
+25330,Bucknell,Sr,44.7,4.60564,
+25344,Texas-Rio Grande Valley,Sr,78.1,-2.80816,
+25358,Providence,Jr,76.9,9.89077,97.0
+25371,Creighton,Sr,53,7.13082,
+25374,Hawaii,Jr,61.4,6.21839,59.4
+25387,Cal State Northridge,Sr,25.4,-5.06515,
+25396,South Dakota,Jr,22.7,3.61748,
+25400,South Dakota,Sr,51.2,-4.1046,
+25401,South Dakota,Sr,82.9,0.321187,
+25415,St. Peter's,Sr,41.5,-6.02569,
+25417,St. Peter's,Jr,78.9,-0.315129,
+25427,Boise State,Sr,80,2.4216,
+25436,Northern Arizona,Sr,7.2,-6.89733,
+25445,Loyola (IL),Sr,46.6,-1.05737,
+25449,Loyola (IL),Sr,61.3,0.536573,
+25459,UC-Davis,Jr,83,-2.28599,
+25467,New Orleans,Sr,4.2,-7.30872,
+25476,Tulsa,Sr,48.7,2.29273,9.0
+25519,Iowa State,Sr,82.1,7.35651,86.0
+25540,San Diego,Sr,58.7,1.57694,
+25544,Stephen F. Austin,Sr,67.8,2.23688,
+25546,Sacramento State,Sr,64.5,-2.38512,
+25550,William & Mary,Sr,62.7,2.18495,
+25551,Montana State,Sr,53.9,-1.80084,
+25558,Purdue,Sr,1.8,-3.88222,
+25562,Purdue,Sr,65.2,4.06164,81.6
+25568,Hartford,Jr,77.9,2.45377,
+25576,Georgia Tech,Sr,80.8,7.34352,83.8
+25587,Indiana State,Sr,81.5,-0.44814,
+25591,Loyola Marymount,Sr,53.7,2.33564,
+25594,Utah,Sr,45.6,3.88964,
+25638,McNeese State,Sr,33.1,-3.39194,
+25641,Campbell,Sr,62.9,-1.57195,
+25652,Evansville,Sr,73.2,4.1539,
+25667,Navy,Sr,77.5,-2.0785,
+25668,Navy,Sr,33.4,-0.69694,
+25680,Lafayette,Sr,31.2,-4.63791,
+25684,Temple,Jr,50.9,0.284989,75.0
+25685,Temple,Sr,4,-5.94227,35.4
+25689,Lafayette,Sr,27.1,-5.7482,
+25692,Stetson,Jr,71.6,-1.80189,
+25694,Washington State,Sr,34.6,2.82026,
+25698,Florida A&M,Jr,78.6,1.42609,
+25702,Radford,Sr,78.6,0.99666,
+25703,Radford,Sr,29.6,-3.54165,
+25705,Radford,Sr,56.6,-2.24287,
+25708,Harvard,Sr,78,2.64341,
+25710,Harvard,Sr,58.9,4.26712,
+25712,Richmond,Sr,82.2,4.27265,
+25714,Richmond,Sr,50.2,2.37665,
+25717,Richmond,Sr,3.8,-1.4869,
+25731,Kennesaw State,Jr,84.8,1.45138,
+25734,Xavier,Sr,0.5,-4.56461,
+25763,New Orleans,Sr,52,-4.74125,
+25819,Cal State Bakersfield,Sr,62.2,2.95012,
+25824,USC,Jr,66.2,3.30891,92.4
+25836,DePaul,Sr,18.7,-2.61183,
+25838,DePaul,Sr,1.4,-6.26403,
+25849,Delaware State,Jr,18.9,-9.21342,
+25850,Indiana State,Sr,72.3,0.940484,
+25853,Appalachian State,Sr,77.8,0.563757,
+25856,Appalachian State,Sr,52.7,-1.07305,
+25882,South Alabama,Sr,69.6,-3.77654,
+25901,North Carolina Central,Jr,19.3,-6.73563,52.8
+25909,Cleveland State,Jr,66.7,-3.18105,41.4
+25913,Evansville,Sr,79.5,3.63313,
+25926,Bryant,Sr,90.9,-6.29226,
+25944,Bradley,Sr,26.3,-6.74886,
+25960,UNC Wilmington,Jr,29.9,3.18008,
+25970,La Salle,Sr,1.7,-7.13605,
+25988,Milwaukee,Sr,56.2,3.8805,3.6
+25995,Appalachian State,Sr,40.9,-1.46451,
+26008,St. John's (NY),Sr,47.7,-2.52524,
+26017,St. Joseph's,Sr,85.7,7.44971,
+26020,American,Sr,93.8,-1.29524,
+26021,American,Sr,63,-1.84104,
+26032,Old Dominion,Sr,3.5,-9.14517,
+26043,San Diego State,Jr,1,-3.75083,
+26044,Hartford,Jr,38.7,-3.83729,
+26048,East Carolina,Sr,50.7,-1.64478,38.4
+26049,Western Kentucky,Sr,25,-1.44828,
+26070,Little Rock,Jr,14.6,-2.70701,
+26073,Belmont,Sr,8.4,-4.40757,
+26074,Belmont,Sr,80.6,3.15523,
+26089,Houston,Sr,9.9,-2.38528,
+26109,Utah Valley,Sr,83.6,-0.0309058,
+26121,Western Michigan,Sr,26.7,-0.868137,
+26136,NC State,Sr,0.5,-24.121,61.6
+26143,Wichita State,Sr,65.7,8.7659,
+26167,Holy Cross,Sr,2.3,-14.1498,
+26170,ETSU,Sr,49.5,-1.11389,
+26203,Texas,Sr,66.8,4.32529,80.8
+26205,Michigan,Sr,4,0.65786,56.0
+26206,Texas,Sr,34.5,2.0839,35.2
+26219,Chattanooga,Jr,60.8,4.35247,63.4
+26221,Northwestern State,Sr,40.9,-5.86932,
+26226,Marist,Sr,13.9,-5.39319,
+26231,Clemson,Sr,82.3,2.49685,57.4
+26279,Virginia Tech,Jr,75.6,7.80653,56.6
+26291,Wyoming,Sr,88.2,7.32609,
+26313,Clemson,Sr,55.3,5.16768,60.8
+26315,Boston College,Sr,1.9,-11.6641,
+26321,Arizona,Sr,1.9,5.96038,38.2
+26322,Arizona,Sr,51.2,5.27644,98.6
+26327,Arizona,Sr,81.6,5.29899,87.8
+26335,Hampton,Sr,73,0.836481,30.4
+26346,UNC,Sr,18.1,-5.21885,88.0
+26353,Cal State Northridge,Sr,78.4,2.93723,
+26355,Colgate,Sr,56.8,-2.27228,
+26363,Tulsa,Sr,81.9,4.69309,
+26364,Tulsa,Sr,43.6,1.14737,
+26366,Tulsa,Sr,44,-2.97232,
+26367,Tulsa,Sr,0.6,-6.38342,
+26375,Bryant,Jr,9.2,-6.45111,
+26384,Stony Brook,Sr,84,10.0616,
+26385,Stony Brook,Sr,86.2,0.255248,
+26393,Denver,Sr,69.3,1.69332,
+26407,Army,Sr,4.7,-5.72284,
+26408,Army,Sr,65.6,-0.0841501,
+26411,Army,Sr,59.2,3.6962,
+26412,Army,Sr,65.8,-0.346131,
+26418,Army,Sr,61.1,-0.114884,
+26421,Wofford,Sr,78.6,-0.173368,
+26422,Wofford,Sr,74.2,0.632857,
+26423,Wofford,Sr,63.8,-2.60456,
+26432,Alabama A&M,Sr,6.7,-5.65114,
+26434,Jacksonville,Sr,4.5,-6.99515,
+26438,Richmond,Sr,72.8,1.05312,45.8
+26442,Oklahoma State,Sr,5.9,-0.910779,49.8
+26445,Purdue-Fort Wayne,Jr,1.6,-9.35009,
+26448,Lehigh,Sr,36.8,-3.62136,
+26454,Lehigh,Sr,37.1,-1.64476,
+26471,Oral Roberts,Sr,49.3,-0.0916312,
+26484,Murray State,Sr,1.7,-5.20045,
+26498,Boston University,Sr,13.3,-3.38274,
+26525,Tennessee State,Jr,75.4,4.3774,
+26527,Richmond,Jr,74.2,5.43299,
+26536,Jacksonville State,Jr,62.7,-4.05335,
+26540,UNC Greensboro,Sr,75.7,-3.47643,
+26551,Michigan,Sr,31,9.49935,52.4
+26556,VMI,Sr,64.2,-1.7288,
+26557,Pitt,Sr,80.2,4.56796,86.2
+26560,Sacred Heart,Sr,63,-0.120218,
+26561,East Carolina,Sr,0.3,-9.3869,
+26569,Rhode Island,Sr,0.8,-13.0895,
+26572,Notre Dame,Sr,73.7,2.10539,78.6
+26574,Notre Dame,Sr,6.7,4.54688,49.0
+26595,Gardner-Webb,Sr,59.9,-1.128,
+26620,Montana State,Sr,83.4,0.137596,
+26630,Richmond,Jr,54.1,1.0114,57.6
+26662,Coastal Carolina,Sr,4,-6.16488,
+26669,Gonzaga,Sr,8.8,1.34365,
+26672,Sam Houston State,Sr,0.9,-12.2039,
+26674,Gonzaga,Jr,2,4.52715,
+26694,North Carolina A&T,Sr,86.4,-3.54677,
+26701,Wichita State,Sr,78.5,9.54632,
+26714,Denver,Sr,41.1,-2.1805,
+26716,Georgia,Sr,70.8,0.802514,61.2
+26717,Georgia,Sr,72.4,3.51657,71.6
+26720,Vermont,Sr,67.7,2.50264,
+26739,Elon,Sr,0.8,-19.9726,
+26743,Elon,Sr,69.9,4.70376,
+26754,Clemson,Sr,15.3,-3.90681,57.2
+26762,VMI,Sr,49.8,-6.23966,
+26771,Georgia Tech,Sr,62.4,2.73101,75.4
+26772,Texas,Jr,30.2,-1.5282,91.8
+26773,Maryland,Sr,79.1,6.91528,86.4
+26775,Virginia Tech,Jr,69.1,1.67945,60.6
+26776,Iona,Sr,66,4.72946,62.2
+26779,Syracuse,Sr,43.4,3.74182,95.8
+26801,La Salle,Sr,33.2,-1.43153,
+26822,USC,Sr,3.3,-2.296,52.0
+26843,UIC,Sr,22.5,-1.52142,
+26851,Fairleigh Dickinson,Jr,27.6,-3.23929,
+26872,Wagner,Sr,68.5,0.819222,76.4
+26884,Cal Poly,Jr,32.1,-3.42813,
+26886,Cal Poly,Sr,48.9,-3.20437,
+26889,South Dakota State,Sr,48.4,1.88617,
+26893,High Point,Sr,57.8,0.938936,
+26902,Siena,Jr,81.5,0.632882,
+26915,Saint Francis (PA),Sr,67.3,-1.22541,
+26917,Villanova,Sr,53.9,12.6355,90.4
+26918,Villanova,Sr,1.6,-11.1278,
+26922,Kentucky,Sr,50.3,5.38423,98.8
+26932,Furman,Sr,31.5,-1.81278,
+26947,Lipscomb,Jr,20.7,-6.90412,
+26956,Siena,Sr,7.1,-2.27721,4.8
+26984,Michigan State,Sr,72.5,14.3436,77.8
+26986,Bowling Green State,Sr,74.8,-0.401048,
+26988,Michigan State,Sr,56.9,9.73451,82.4
+27001,Miami (OH),Sr,78,-1.30254,
+27003,Yale,Sr,47.3,2.0193,
+27004,Yale,Sr,71.5,5.77862,
+27006,Rutgers,Sr,3.1,-12.4094,
+27010,South Carolina,Sr,73,4.12123,65.6
+27012,South Carolina,Sr,65.6,7.08794,42.8
+27015,South Carolina,Sr,55.7,3.88106,54.0
+27025,Yale,Sr,74.6,8.26922,
+27034,Arkansas State,Sr,23,-4.95999,
+27036,UT-Martin,Sr,81.3,-1.04685,78.8
+27040,Akron,Sr,66.3,4.20299,
+27042,Arkansas State,Sr,8.6,-2.7894,
+27043,Hampton,Sr,47.2,0.403112,
+27063,Northwestern State,Sr,3.1,6.45414,
+27077,Elon,Sr,0.8,3.41369,
+27082,Northeastern,Sr,94.5,6.23123,
+27083,Northeastern,Sr,70.8,-0.290385,
+27084,Maryland-Eastern Shore,Sr,37.1,3.96777,
+27088,North Carolina Central,Jr,68.5,-3.20507,
+27097,Santa Clara,Jr,28.6,-2.91039,37.6
+27101,Providence,Jr,60.4,-0.144048,
+27109,UC-Riverside,Sr,38.4,-4.05902,
+27110,UC-Riverside,Sr,50.7,0.434533,
+27120,Murray State,Sr,90.6,2.0913,
+27124,Oklahoma,Sr,82.4,5.18893,48.2
+27126,Oklahoma,Sr,87.6,8.97231,69.0
+27150,Rider,Sr,51,-0.980778,
+27165,Michigan State,Sr,69.6,6.45409,
+27204,Southern,Sr,90.5,2.18655,
+27212,ETSU,Sr,42.6,0.223995,
+27214,Wright State,Sr,76.5,0.181676,
+27215,New Hampshire,Jr,68.8,-1.94697,
+27217,Wright State,Sr,3.9,-2.71008,
+27226,Villanova,Sr,1.9,0.913975,
+27228,Penn State,Sr,34.3,-2.32281,32.8
+27229,High Point,Sr,71.3,-1.4609,
+27230,High Point,Sr,66.2,1.98577,
+27231,Villanova,Sr,79.9,8.08556,88.8
+27234,Penn State,Sr,80,0.810463,49.6
+27269,George Mason,Sr,56.1,1.7612,
+27272,George Mason,Sr,1.4,-11.7084,
+27273,Tennessee,Sr,48,3.33835,59.0
+27274,Tennessee,Sr,79.4,4.66789,56.8
+27281,Kansas State,Sr,46.4,-0.230379,
+27282,UCF,Sr,69.9,0.68853,
+27283,Lipscomb,Jr,82.1,-1.36956,
+27288,San Francisco,Sr,81.1,2.9064,
+27305,Georgetown,Sr,87.5,5.856,93.0
+27315,Portland,Sr,78.5,4.63356,
+27323,California,Jr,23.2,3.47523,88.4
+27332,Alabama A&M,Sr,23.3,-3.55833,
+27359,Florida State,Sr,44.8,7.20398,
+27360,Florida State,Sr,63.5,6.41223,55.2
+27361,Florida State,Sr,48,1.502,88.2
+27366,TCU,Jr,40.5,0.49359,
+27393,Evansville,Sr,92.5,2.82045,
+27394,Chattanooga,Sr,5.6,3.32847,
+27397,California,Sr,65.5,6.31767,81.8
+27400,Missouri State,Sr,46.5,-1.38564,42.8
+27404,Mississippi State,Sr,67.6,5.1963,78.0
+27405,Mississippi State,Sr,72.7,2.5905,73.4
+27407,Mississippi State,Sr,50.4,2.20376,61.0
+27413,Loyola (MD),Jr,58.7,-0.29465,
+27426,Radford,Sr,42.3,-5.4026,
+27440,Furman,Sr,31.8,-1.51254,75.6
+27442,Louisiana,Sr,56.5,2.8702,
+27446,Louisiana,Sr,43.3,-0.0601634,
+27451,Oklahoma,Jr,1.8,-10.7675,
+27489,Hartford,Jr,62.3,-2.5236,
+27490,Iowa,Sr,73.4,2.98047,37.2
+27498,Stanford,Sr,85,4.32426,84.4
+27499,Southern Utah,Sr,9.6,-6.18657,
+27500,Stanford,Sr,33.1,1.33313,80.4
+27502,Iowa,Sr,62.9,3.66646,91.0
+27511,UNC Asheville,Sr,66.7,1.78878,
+27513,UNC Asheville,Jr,61.9,0.772982,
+27520,Stephen F. Austin,Sr,75.3,13.8091,
+27521,Little Rock,Jr,40.4,3.11304,
+27522,Siena,Sr,59.6,-1.30178,
+27523,Little Rock,Sr,76.8,7.79267,
+27531,Miami (FL),Sr,70.7,4.40856,61.4
+27544,Maine,Sr,38.1,-9.20192,
+27546,Maine,Sr,48.9,-1.93036,
+27554,Toledo,Sr,79.4,5.37876,
+27556,Saint Francis (PA),Sr,81,-0.620401,
+27563,Saint Francis (PA),Sr,82.1,-4.05289,
+27567,Brown,Sr,73.3,0.568695,
+27568,Bucknell,Sr,75.4,0.26701,
+27571,Cleveland State,Jr,14.9,-7.76315,
+27579,UIC,Sr,29.2,-6.56963,
+27589,East Carolina,Sr,69.2,0.979293,
+27600,Arkansas,Sr,70.3,2.57218,60.0
+27607,Charlotte,Jr,84.4,0.346278,87.6
+27621,Western Michigan,Sr,52.6,-2.68447,
+27628,Purdue-Fort Wayne,Sr,74,0.419493,
+27638,Air Force,Sr,43,-2.31136,
+27639,Northern Colorado,Jr,9,-3.46993,
+27640,Cal State Fullerton,Jr,71.8,0.20325,
+27641,Milwaukee,Jr,77.4,2.01668,
+27643,Duke,Sr,18.8,8.80254,94.4
+27647,Delaware,Sr,77.7,-2.04894,45.0
+27649,UMass,Sr,41.6,1.98743,
+27650,Mount St. Mary's,Sr,66.8,-2.95851,
+27668,Central Connecticut,Jr,67,-6.54931,
+27675,Central Connecticut,Sr,73.4,-0.917673,
+27687,Drexel,Sr,74.6,-0.45358,
+27688,Eastern Michigan,Jr,52.8,0.241349,
+27694,Wake Forest,Sr,56.1,1.35884,84.8
+27696,Wake Forest,Sr,71.3,5.97494,46.6
+27699,Charleston Southern,Jr,62.8,-1.69158,73.8
+27703,The Citadel,Sr,63.5,-2.97227,
+27712,Ole Miss,Sr,64.7,3.67919,73.2
+27715,Ole Miss,Sr,56,2.05593,82.0
+27720,Syracuse,Sr,90.1,3.00632,79.2
+27725,Texas A&M,Sr,74.3,4.51124,95.0
+27729,Washington State,Jr,26.7,5.00087,35.6
+27736,Texas A&M-Corpus Christi,Sr,77.4,-1.64349,
+27738,Houston Christian,Sr,46.3,-5.03041,
+27743,Bryant,Sr,37.7,-9.08278,
+27747,Texas A&M-Corpus Christi,Sr,0.2,-6.28366,
+27749,Illinois,Jr,21.8,0.528231,
+27768,Memphis,Sr,71.2,4.28877,93.2
+27779,Drake,Jr,66.7,-1.89175,71.2
+27781,Northwestern,Sr,47.7,4.2018,36.8
+27794,Denver,Sr,52.9,1.567,
+27796,UNLV,Jr,38.3,5.28955,71.4
+27802,Kent State,Jr,41,1.2123,
+27824,Arkansas-Pine Bluff,Sr,52.5,-2.92099,
+27832,Iowa,Sr,74.2,2.9644,83.0
+27848,Alabama State,Sr,83.2,2.11311,
+27882,Morgan State,Sr,70.6,-1.95477,
+27885,Morgan State,Sr,66.7,-0.562213,
+27887,UConn,Sr,35,3.09876,91.4
+27891,UConn,Sr,23.4,0.354605,67.6
+27901,Oregon State,Sr,59.4,2.78218,
+27902,Oregon State,Sr,25.1,-3.25709,38.0
+27904,Oregon State,Sr,41.5,1.36793,66.2
+27906,Arizona State,Sr,56,3.38353,50.8
+27920,Austin Peay,Sr,84.1,4.48603,
+27928,Bethune-Cookman,Jr,63.7,1.43553,
+27932,Georgia State,Sr,65.1,0.595399,32.4
+27933,Duquesne,Sr,86.2,3.77915,
+27958,Green Bay,Sr,79.6,5.57059,
+27959,Radford,Sr,52.3,-0.454572,
+27967,Jackson State,Sr,78.1,3.03621,
+27981,Old Dominion,Sr,64.9,2.00912,
+27995,Fairfield,Sr,75.8,0.0821067,
+28002,Fairfield,Sr,32.2,1.58802,
+28024,Northwestern,Jr,58,3.072,50.6
+28026,UCF,Sr,21.7,-4.72625,
+28029,UCF,Jr,64.3,-0.558042,
+28048,Alabama,Sr,80.2,5.03006,
+28057,Long Beach State,Jr,39.4,-0.902175,
+28081,St. John's (NY),Sr,68.4,-0.204265,82.0
+28092,San Francisco,Sr,19.2,-7.09699,
+28105,Hartford,Sr,40.5,-5.21091,
+28112,Louisiana Tech,Sr,88,5.96277,
+28140,Seattle,Jr,54.4,-2.90575,
+28149,Virginia Tech,Jr,0.6,-11.4416,
+28153,VCU,Sr,78.2,5.21443,82.2
+28167,Northern Kentucky,Sr,48.8,-0.127668,
+28177,Alabama State,Sr,63.2,-5.87735,
+28180,Tennessee Tech,Sr,58.6,0.80567,77.6
+28184,Marist,Sr,46,-2.52055,
+28192,Arkansas State,Jr,10.2,-6.12118,
+28208,Georgetown,Sr,43.3,2.76582,
+28216,Stephen F. Austin,Sr,62.6,4.19313,
+28219,Colorado State,Sr,80.2,1.59677,
+28249,Towson,Sr,16.2,-5.55299,
+28271,Sacred Heart,Sr,65,-0.802755,
+28284,Rider,Sr,46.3,-3.10792,
+28287,Rider,Sr,53.6,-0.30938,
+28311,Florida International,Jr,21.1,-4.84965,
+28312,Texas State,Sr,60.5,-3.64473,
+28315,North Florida,Sr,81.5,2.14131,76.0
+28323,Milwaukee,Jr,77.4,0.94062,33.4
+28329,Northern Illinois,Sr,74,2.07129,
+28372,Furman,Sr,72.9,0.529352,
+28395,Pitt,Jr,44.4,6.39104,63.6
+28412,North Dakota State,Sr,59.5,3.76809,
+28435,Coastal Carolina,Jr,78.5,3.49252,
+28436,Louisiana,Sr,74.2,4.5646,10.2
+28442,North Dakota State,Sr,34.5,0.982071,31.0
+28444,Chattanooga,Sr,69.9,1.19069,
+28445,Ball State,Sr,67,1.10086,
+28447,Youngstown State,Sr,25.7,-1.73822,
+28449,Murray State,Jr,74.6,1.70096,
+28460,South Dakota State,Sr,1.7,-7.21404,
+28465,Temple,Sr,84.9,4.26552,53.0
+28470,Oklahoma State,Sr,0.7,-13.0194,
+28474,Creighton,Jr,78.6,3.13789,65.2
+28484,Virginia,Sr,39.2,6.55684,84.6
+28485,Eastern Kentucky,Jr,70.4,-0.677195,67.8
+28486,Belmont,Jr,73,1.62195,52.2
+28487,Virginia,Sr,1.3,-5.31082,
+28489,Virginia,Sr,20.1,4.31485,85.0
+28493,Alcorn State,Sr,64.4,-2.44866,
+28494,Boston University,Sr,90.8,0.014468,
+28498,Southeast Missouri State,Sr,74.4,-2.51012,
+28506,George Washington,Sr,79.5,5.84157,
+28507,George Washington,Sr,84.1,6.64563,
+28517,Iona,Sr,5.2,-7.9727,
+28532,Youngstown State,Jr,38.5,-2.63594,
+28534,St. Bonaventure,Sr,92.3,2.73724,
+28535,Ball State,Sr,65.7,1.38378,
+28542,Kansas State,Jr,48.4,4.57057,35.8
+28543,Indiana,Sr,50,3.69084,
+28544,Akron,Sr,30,0.515098,52.0
+28545,Akron,Sr,61.4,4.10193,
+28548,Xavier,Sr,51.5,6.66217,
+28549,James Madison,Jr,11.8,1.55402,32.6
+28550,Butler,Sr,80.7,3.64209,82.6
+28552,UMass,Sr,83.6,1.77028,
+28553,Morgan State,Sr,71.6,-3.46476,
+28558,Green Bay,Sr,81.8,3.29392,
+28570,Washington State,Sr,23.8,-1.6986,52.6
+28595,Dayton,Sr,54.7,4.83945,
+28654,Manhattan,Sr,89.6,-0.477572,
+28667,Texas,Sr,43.5,4.06786,88.6
+28674,Northern Kentucky,Sr,20.9,-1.75329,
+28688,College of Charleston,Sr,1.2,-8.56438,
+28701,Ohio,Sr,69.9,0.433281,25.6
+28713,Delaware,Sr,2.2,-13.1506,
+28716,Delaware,Jr,54.8,-4.80622,
+28724,Toledo,Jr,61.1,3.32357,17.0
+28727,Vanderbilt,Jr,65.1,5.35812,82.8
+28728,Vanderbilt,Jr,57.7,9.62597,27.4
+28733,Kentucky,Jr,54,8.004,96.6
+28740,LSU,Jr,10.4,-6.34925,
+28741,LSU,Jr,0.5,6.22111,
+28746,Hawaii,Jr,54.6,-0.227265,46.2
+28748,Hawaii,Jr,38.6,-1.31687,
+28763,Marshall,Jr,71.8,1.84019,
+28765,UAB,Jr,15.7,-7.57542,
+28768,Ohio,So,90.9,0.598264,45.8
+28773,Michigan,Jr,77.3,6.25202,91.0
+28774,UC-Irvine,Jr,36.4,0.402418,
+28775,UC-Irvine,Jr,56.1,4.50071,80.4
+28780,Michigan,Jr,81.6,0.727517,94.4
+28785,Oklahoma,Sr,81.4,7.09213,62.2
+28786,North Florida,Sr,64.2,0.694805,
+28791,The Citadel,Jr,40.8,-6.59838,9.6
+28793,The Citadel,Jr,68.9,-2.90959,
+28794,The Citadel,Jr,19.7,-6.80641,
+28799,North Florida,Jr,53.5,1.06117,
+28802,Canisius,Sr,52.8,-0.0450765,
+28803,ETSU,Jr,58.1,-0.571228,
+28806,Colorado State,Sr,72,1.58526,
+28810,Grambling,Jr,34.4,-3.33418,
+28819,Kansas,Jr,43.1,7.6963,50.0
+28833,Howard,Jr,9.2,-4.41841,49.2
+28834,Howard,Jr,23.3,-5.90638,
+28835,Howard,Jr,77.8,-4.33625,
+28836,Howard,Jr,62.3,-4.77707,
+28891,Southern Illinois,Jr,59.4,2.6818,
+28899,Houston Christian,Jr,38.9,-3.5471,
+28918,Kentucky,Jr,1.1,-12.8645,
+28927,Michigan State,Jr,21.3,2.45429,73.4
+28949,Northern Arizona,Jr,75.2,-0.613942,21.2
+28955,Northern Arizona,Jr,78.5,-5.08456,
+28959,Illinois,Sr,53.1,-1.93251,17.8
+28967,Morehead State,Sr,0.6,0.271019,
+28982,Omaha,Sr,83.8,0.0983489,
+28987,UT-Martin,Jr,15.1,-4.15288,
+28988,Cal Poly,So,49.7,1.92442,
+28989,UT-Martin,Jr,26.9,-2.90487,
+29011,Hawaii,Sr,65.9,2.60466,
+29018,Cal Poly,So,47.6,-2.7848,32.4
+29019,Gonzaga,Jr,17.9,-0.899452,
+29026,Cincinnati,Jr,1.3,-2.76073,
+29028,Cincinnati,Jr,81.5,3.53816,57.8
+29029,Cincinnati,Jr,51.7,0.940488,72.6
+29048,Kentucky,Jr,41,9.40649,75.0
+29050,Kentucky,Jr,17.1,5.18101,61.8
+29052,Northern Kentucky,Jr,18.8,-5.33472,
+29057,Temple,Jr,21.7,-0.577512,56.4
+29058,Temple,Jr,88.8,4.02977,69.4
+29059,Florida,Jr,59.3,2.54147,98.6
+29061,Florida,Sr,79.1,8.72538,95.4
+29063,Kennesaw State,Jr,52.3,-1.74234,37.6
+29075,UAB,Jr,48.4,0.205768,50.6
+29078,UAB,Jr,35.9,-3.28312,16.8
+29082,Northern Colorado,Jr,71.8,-3.0268,
+29083,Colorado,Jr,48.2,1.26488,82.6
+29085,Loyola (IL),Jr,70.8,-0.438266,
+29093,Incarnate Word,Sr,80.7,-0.434209,
+29100,Towson,Jr,48,-0.511243,
+29101,Towson,Jr,63.4,-0.285269,6.4
+29106,Arkansas-Pine Bluff,Jr,78.8,-4.47955,
+29109,Arkansas-Pine Bluff,Jr,10.9,-7.15908,
+29123,Xavier,Jr,49,3.99231,80.2
+29128,Ohio State,So,44.2,0.661938,53.4
+29129,Mount St. Mary's,Sr,2.1,-10.3993,
+29130,Mount St. Mary's,Jr,48.7,-3.68974,
+29132,Mount St. Mary's,Jr,31.8,-1.51119,
+29135,Valparaiso,Jr,2.3,5.2485,
+29141,Nebraska,Jr,68.7,2.74712,58.0
+29150,Michigan,Jr,7.8,0.660528,
+29151,UC-Irvine,Jr,48.9,0.67345,
+29152,UC-Irvine,Jr,77.9,5.33259,
+29161,Penn State,Sr,45,3.3455,39.6
+29166,Drexel,Jr,62.6,0.20531,
+29169,Longwood,So,61.1,-2.63537,
+29178,Charleston Southern,Jr,14.7,-9.00116,
+29184,Saint Louis,Jr,0.1,-4.12964,
+29192,Georgia Tech,So,22.8,-0.657064,70.2
+29193,North Carolina A&T,Sr,2.1,-17.1908,
+29202,Butler,Jr,75.2,6.46472,48.6
+29205,Fresno State,Sr,63.2,0.89997,78.0
+29207,Western Michigan,Jr,79,0.0224381,
+29211,UC-Davis,So,13.8,1.58317,72.2
+29212,Butler,Jr,3.8,-2.64518,
+29217,California,So,41.2,5.46484,55.0
+29223,San Diego State,Jr,14.6,-0.847718,50.2
+29231,Air Force,Jr,26.4,-7.80284,
+29232,Notre Dame,Jr,87.1,5.02279,93.2
+29234,TCU,Jr,45,-1.15276,86.6
+29238,Binghamton,Jr,81.7,-0.316418,
+29240,Canisius,Jr,76.5,1.30302,
+29243,Loyola (MD),Jr,1.3,-7.00575,74.0
+29245,Loyola (MD),Sr,2,-2.49781,
+29246,TCU,Jr,77.3,0.830971,64.4
+29267,Lafayette,Jr,76,-4.76547,
+29274,Stephen F. Austin,Jr,42.5,-2.61115,
+29279,SMU,Sr,53.9,5.95451,78.8
+29284,Central Michigan,Sr,82.3,-0.508134,
+29288,Central Michigan,So,55.9,1.15995,
+29290,Central Michigan,Jr,78.1,-0.81258,24.2
+29296,Incarnate Word,Jr,7,-9.71858,
+29297,Incarnate Word,So,44.1,-8.4611,
+29303,Cal Poly,Jr,55.2,-2.62709,
+29304,Texas-Rio Grande Valley,So,22.9,-9.13275,
+29335,Kansas State,Jr,79.6,3.81218,61.2
+29339,Winthrop,Jr,88.6,0.759878,
+29343,Nevada,Sr,13.6,-0.964974,
+29344,DePaul,Jr,57.8,-0.406685,
+29347,DePaul,Jr,67.4,0.6989,83.2
+29349,Creighton,Jr,37.1,3.41856,
+29354,Troy,Jr,0.4,-3.87931,
+29364,Holy Cross,Sr,22.9,-5.18956,
+29370,UNLV,Sr,62.4,-0.177537,29.8
+29371,Missouri State,Jr,16.2,-2.46911,
+29372,St. John's (NY),Sr,66.6,-0.570927,
+29380,Arkansas,Sr,19.5,0.789512,76.0
+29382,Missouri State,Jr,5.5,-7.04312,23.0
+29391,Utah,Sr,2.2,2.01116,
+29393,Presbyterian,So,76.2,-3.18967,
+29398,Florida State,Jr,35.9,2.34448,78.0
+29400,Elon,Jr,0.2,-32.8404,
+29401,Elon,Jr,67.1,-2.37733,3.4
+29402,Elon,Jr,54.2,1.56143,
+29403,Elon,So,29,-3.4235,
+29410,Minnesota,Sr,68,2.63897,
+29418,Lamar,Jr,49.6,-4.99999,
+29421,Rider,Jr,67.8,-0.743808,22.0
+29424,James Madison,Jr,33,-0.980608,
+29425,Coastal Carolina,Jr,45.1,1.56279,
+29431,Central Michigan,Sr,87.7,1.62941,
+29433,Alabama A&M,Jr,15.8,-6.09328,
+29436,UTEP,Sr,23.2,1.41149,
+29439,ETSU,Jr,23.3,-2.39708,
+29443,Quinnipiac,So,4.6,-5.00202,
+29450,Virginia Tech,Jr,48.2,0.773289,17.2
+29452,South Florida,Jr,49.4,-1.26642,67.0
+29453,Sacred Heart,Sr,27.5,-7.43375,
+29454,Southern Illinois,Jr,52.9,-0.470507,
+29466,Alcorn State,Jr,72.4,-2.98738,
+29468,Alcorn State,Sr,51.4,0.725645,
+29475,UT Arlington,Jr,59.4,0.964232,
+29476,UT Arlington,Sr,4.7,-1.56789,
+29478,Princeton,Jr,71.8,4.84695,
+29486,Winthrop,Jr,1.2,-16.312,
+29493,Central Arkansas,Sr,75.1,-5.54341,
+29495,Central Arkansas,Sr,63.4,-3.89939,
+29505,Southern Illinois,Jr,77,2.66216,
+29507,Louisville,Jr,10.2,7.07357,
+29510,West Virginia,Jr,45,7.20333,41.2
+29513,Xavier,Jr,1.3,-2.24928,
+29517,Colorado,Jr,68.9,6.60102,62.4
+29522,Arizona,Jr,10.7,2.06709,80.6
+29542,Texas,Jr,0.5,3.80135,
+29546,Old Dominion,Jr,6,-6.11941,
+29555,Binghamton,Jr,14.7,-1.48223,
+29558,Mississippi Valley State,Jr,48.1,-4.44836,
+29562,Southeastern Louisiana,So,28.8,-3.11706,
+29564,NJIT,Sr,38,-1.67895,
+29580,Lafayette,Jr,56.9,-5.13786,13.8
+29591,Weber State,Jr,58.8,3.49534,
+29601,Drake,So,74.7,-3.47301,24.8
+29608,Kansas City,Jr,80.1,-1.25609,62.4
+29615,Dartmouth,Sr,18.4,-3.06881,
+29633,Colorado,So,63.8,2.20123,
+29638,Lipscomb,Jr,22.5,-1.41855,
+29644,Coastal Carolina,Jr,28.2,-2.64464,
+29652,Maryland-Eastern Shore,Jr,63,-4.92821,15.0
+29654,Mississippi State,Jr,71.2,1.77929,62.6
+29658,Brown,Jr,7.5,-3.97503,
+29660,Morehead State,Jr,6.5,-5.75365,32.0
+29661,Brown,Jr,78.2,-3.20957,
+29664,West Virginia,Jr,63,3.43307,89.4
+29667,Winthrop,Jr,8.4,-6.70513,
+29669,Winthrop,Jr,49.3,1.16948,43.6
+29670,Nevada,Sr,2.7,-4.43986,
+29681,Valparaiso,So,1.3,5.31908,
+29685,Wake Forest,Sr,1,-16.3763,
+29686,Wake Forest,Jr,18.7,-1.56161,
+29688,Eastern Washington,Jr,82.3,0.564789,
+29692,Chattanooga,Jr,74.4,-0.339309,
+29700,Tennessee Tech,So,40.2,-1.69321,
+29710,Liberty,Jr,57.8,-0.576784,39.2
+29715,Iowa State,Jr,34.5,5.93365,90.0
+29721,La Salle,Jr,0.2,-17.0986,
+29741,College of Charleston,Jr,32.2,-1.51529,
+29744,Valparaiso,Jr,82,6.96181,50.0
+29747,Valparaiso,So,3.2,-12.759,
+29752,Delaware State,Sr,19.2,-9.0219,
+29753,Georgia Tech,Jr,41.5,1.05218,
+29758,Florida,So,59.3,3.40966,88.2
+29767,VCU,Jr,40,8.63094,57.2
+29768,VCU,Jr,4.6,-0.752266,
+29776,Wyoming,So,38.4,-4.5307,
+29796,Georgetown,Sr,3.4,-4.71513,
+29799,South Carolina,Jr,15.6,-2.29445,26.4
+29802,Princeton,Jr,9.1,-4.68623,
+29804,Princeton,Jr,52.6,3.05681,
+29806,Princeton,Jr,69.5,3.95523,
+29807,Mercer,So,40.9,-1.66965,63.6
+29808,South Carolina,Jr,68.9,4.03978,33.2
+29812,Lipscomb,Jr,57.1,0.862994,
+29814,South Carolina,Jr,82.9,5.12528,94.0
+29816,Coastal Carolina,Jr,74,-1.42353,24.6
+29826,Montana,Jr,28.1,-2.88626,39.8
+29827,Montana,Jr,10.7,-6.77127,
+29829,Montana,Jr,59.5,2.77047,
+29832,Idaho,Sr,64.3,0.6517,
+29836,Montana,Jr,58.1,1.14228,
+29844,UTEP,Sr,0.4,-17.1401,
+29851,Iona,Jr,7,-4.7768,
+29866,Houston Christian,Jr,59.5,-3.31864,10.0
+29874,Brown,Jr,76.4,2.38065,
+29887,Weber State,Jr,43.8,-0.761342,
+29888,Brown,Jr,62.5,-1.86657,
+29890,NJIT,Sr,16.7,-0.429551,
+29894,San Diego,Jr,60.1,-1.72572,40.6
+29897,Northern Iowa,Sr,85.5,4.87997,15.4
+29909,Oregon,Sr,79.7,5.03495,30.2
+29923,Little Rock,Jr,37.1,-2.13765,
+29934,South Alabama,So,25.8,-2.05199,
+29936,Eastern Washington,Jr,36.7,-0.967328,
+29943,Seattle,Jr,48.6,-3.39652,
+29956,Nevada,Jr,84.1,0.107062,20.8
+29965,BYU,Sr,84.7,7.76519,69.0
+29981,Akron,Jr,63.4,5.01042,18.2
+29982,Northeastern,Jr,14,-1.19468,
+29984,Northeastern,Jr,48.7,-1.92144,
+30000,VCU,Jr,66.2,8.73455,
+30001,UIC,So,72.1,-1.93384,23.6
+30002,Tulsa,Jr,67.4,0.690292,13.4
+30005,UIC,Jr,19.1,-7.43999,11.4
+30014,Yale,Jr,49.9,2.21483,
+30019,UC-Davis,Jr,78.1,-0.661184,
+30020,Yale,Jr,2.4,-6.34034,
+30024,Yale,Jr,35.8,3.13289,
+30031,North Carolina Central,Jr,0.3,-22.7386,
+30049,Texas Southern,Sr,47.5,-1.99973,
+30050,Texas Southern,Jr,1.1,-14.0961,7.2
+30056,Auburn,Sr,68.5,-0.434727,75.6
+30061,Savannah State,Jr,29.2,-1.77617,
+30067,Hampton,Jr,64.9,-1.87595,
+30075,Saint Mary's,So,70.4,2.84963,63.4
+30080,Ohio State,Jr,83.7,2.06756,88.0
+30087,Western Illinois,Sr,57.5,-0.391507,
+30088,Western Illinois,Jr,86.6,-0.114986,12.0
+30089,Western Illinois,Jr,38,0.761899,
+30090,Western Illinois,Jr,83.5,-0.40218,
+30111,Columbia,Jr,15.4,-1.01229,
+30112,Columbia,Jr,59.6,3.18531,
+30113,Columbia,Jr,3,-3.9913,
+30114,Columbia,Jr,37.2,0.186131,
+30117,Stanford,Jr,27.2,-4.53586,53.2
+30118,Columbia,Jr,2.5,-3.01697,
+30119,LSU,Jr,0.4,7.01794,
+30120,LSU,Jr,71.6,4.66757,86.0
+30130,Houston Christian,Jr,26.1,-3.87496,
+30136,Texas A&M,Jr,25.8,1.33117,54.2
+30144,Pacific,Jr,71,1.57083,
+30153,UMBC,So,59,0.755283,60.8
+30154,Saint Francis (PA),Jr,32.8,-2.88624,
+30158,Pacific,Jr,36,-5.3679,
+30160,St. Peter's,Jr,76.9,1.21167,
+30161,McNeese State,Sr,16.6,-3.48561,
+30171,Navy,Jr,0.5,-32.8004,
+30179,Maryland-Eastern Shore,Jr,22.6,-2.75814,
+30180,Long Beach State,Jr,53.3,4.16879,
+30196,Penn State,So,37.2,-2.18485,61.0
+30202,Duke,Jr,76.8,4.6919,92.4
+30207,Cornell,Jr,63,-2.58215,
+30208,Cornell,Jr,63,2.55131,
+30211,Iowa,Jr,66.7,5.49607,39.4
+30229,North Texas,Sr,42.1,-2.6414,75.2
+30230,UTEP,Jr,0.8,-21.4923,
+30233,Nicholls State,Jr,41.8,-5.40832,
+30237,Weber State,Jr,89.4,2.98127,8.0
+30238,San Diego State,Jr,53.9,4.18389,84.6
+30241,Toledo,Jr,45.9,0.20359,44.4
+30243,Toledo,Jr,78,-0.895763,
+30265,New Mexico,Jr,2.2,-5.03705,
+30266,Wofford,Jr,0.5,15.5162,
+30267,Georgia Tech,Jr,1.5,-3.63202,
+30276,Troy,Jr,17.1,-6.46568,
+30305,George Mason,Jr,70.5,1.49552,
+30310,North Dakota,Sr,11.9,-5.97185,
+30313,Mercer,Jr,11.5,-3.93503,
+30314,Mercer,Sr,67.9,0.170798,
+30319,Indiana,Jr,65.2,4.80001,89.6
+30321,North Florida,Sr,2.7,-27.5131,
+30335,Cleveland State,Jr,54.4,-2.15182,38.4
+30353,Abilene Christian,Sr,73.9,-1.68895,
+30360,Arkansas,Jr,48.2,1.90703,
+30362,Arkansas,Jr,72.4,7.10444,90.2
+30363,Oklahoma,Jr,1,3.67766,
+30364,Oklahoma,Sr,1.1,-8.08811,
+30365,Oklahoma,Jr,73.7,7.69484,66.6
+30367,St. Francis (NY),Jr,72,-4.59198,
+30369,Tennessee State,Jr,61.6,-3.16099,53.6
+30371,St. Francis (NY),Sr,60.6,0.448616,
+30375,Wisconsin,Jr,63,3.47845,54.8
+30415,Fresno State,Jr,52.2,-1.00908,67.2
+30416,Duquesne,Jr,50.5,-0.150593,
+30425,Abilene Christian,Sr,46,-3.08309,
+30426,Houston Christian,Jr,62.6,-2.13894,
+30427,UNC Asheville,Jr,21.8,-6.78341,
+30440,Saint Francis (PA),Jr,14.5,-4.9968,
+30450,Bucknell,Jr,24.2,-4.01649,
+30451,Bucknell,Jr,4.1,-14.2499,
+30454,Wisconsin,Sr,0.6,-10.6891,
+30455,Bucknell,Jr,30,3.37114,
+30471,Pepperdine,Jr,59.8,-1.63593,
+30477,Miami (OH),Sr,39.1,-4.00427,59.2
+30482,USC,Jr,0.6,0.596882,
+30484,Miami (OH),Sr,6.7,-5.58017,
+30490,Buffalo,Jr,25.8,-0.247704,
+30508,Dayton,Sr,8.9,-0.360335,
+30509,Dayton,Jr,77.1,4.75148,73.6
+30510,Dayton,Jr,64.2,4.68492,76.4
+30515,Wisconsin,Jr,86.7,2.59003,78.2
+30516,Wisconsin,Jr,89.9,4.69882,72.8
+30517,Wisconsin,So,33.1,0.33959,29.6
+30519,Dayton,Jr,52.7,-0.0731393,
+30541,Louisiana,Jr,30.9,-2.39633,
+30546,USC Upstate,Jr,66.7,-1.02868,
+30548,William & Mary,Jr,70.9,0.20553,
+30564,West Virginia,Jr,8.9,-0.493209,72.4
+30579,Longwood,Jr,11.4,-4.33439,
+30580,UNC,Jr,45.2,7.09734,97.0
+30601,Valparaiso,Jr,45.2,3.41596,
+30608,Creighton,Jr,70.3,7.04355,46.4
+30612,Northern Kentucky,Jr,31.3,-2.97606,
+30614,Valparaiso,Sr,72.6,6.26089,
+30615,UConn,Sr,1,-7.3358,
+30618,Howard,Jr,67.9,-2.71167,
+30623,North Dakota,Jr,1,-4.35586,
+30626,SMU,Jr,23.3,3.04634,94.6
+30631,Western Kentucky,Jr,39.3,3.44784,
+30633,Indiana,Jr,54.4,5.55469,55.2
+30640,Marquette,Jr,69.6,4.55358,82.2
+30643,Liberty,Sr,59.7,-7.58168,45.6
+30646,NJIT,So,34.5,-3.29986,45.0
+30669,DePaul,Jr,15.3,-1.3207,56.8
+30681,Colgate,Jr,1.6,-0.245331,
+30684,Colgate,Jr,0.2,-6.42152,27.0
+30685,Hawaii,Jr,1.7,-3.42569,
+30686,Appalachian State,Sr,7.9,-3.86093,26.2
+30700,Oakland,Sr,61.4,2.00334,3.0
+30704,Saint Mary's,Jr,67.1,9.69008,
+30714,New Hampshire,Jr,58.4,-0.710582,
+30721,Navy,Jr,29.5,0.0288492,
+30722,Navy,Jr,44.5,2.22548,
+30724,Navy,Jr,4.7,-9.96045,
+30731,Navy,Jr,20.4,-2.31162,
+30739,Jacksonville,Jr,29.5,-5.14784,
+30740,Jacksonville,Jr,80.3,-0.800752,
+30746,American,Jr,29.3,-3.75638,
+30749,Lehigh,Jr,68,-0.399561,
+30758,Ball State,Jr,46.5,-3.33086,
+30760,Texas State,Sr,66.3,1.99461,2.8
+30762,Texas State,Jr,72.6,1.90625,
+30763,Texas State,Jr,15.3,-3.49364,0.2
+30767,Cal State Northridge,Jr,40.8,-2.16474,
+30769,South Carolina State,Jr,59.6,-4.25499,
+30773,McNeese State,Jr,88.9,-3.41732,
+30780,Seattle,Jr,75.4,-1.10694,
+30804,Northwestern State,Jr,47.1,-5.59347,
+30807,UAB,Jr,60.3,-2.88457,8.6
+30818,Maryland-Eastern Shore,Jr,22.5,-5.43058,
+30824,Monmouth,Jr,81.7,6.2188,
+30829,Monmouth,Jr,45.2,2.36604,
+30838,Wichita State,Jr,2.6,3.40489,
+30844,Davidson,Jr,83.4,4.98759,
+30852,Virginia,Jr,1.2,-15.2682,
+30856,Iona,Sr,79.2,4.07944,
+30861,UCLA,Jr,89.5,3.98468,21.0
+30866,Idaho,Jr,58.5,1.22688,
+30870,Princeton,Jr,79.8,4.41367,
+30871,Idaho,Sr,4.7,-10.2757,
+30877,Bowling Green State,Jr,23.4,-3.0731,
+30893,North Dakota State,Jr,56.1,-0.862714,
+30917,Clemson,Jr,84.8,6.46674,76.8
+30921,Marist,Jr,83.7,-0.128527,
+30934,LIU,Jr,21.2,-7.91207,
+30938,Portland State,Jr,55.9,-0.167219,
+30939,Evansville,Jr,10.8,-2.26091,
+30947,Radford,So,40.8,-3.61091,
+30951,North Carolina Central,Jr,56.3,-1.02806,
+30963,Grand Canyon,Sr,5,-5.27848,
+30966,Virginia,Jr,78.2,8.50232,70.8
+30989,Delaware,Jr,18.5,0.185488,
+30996,Delaware,Jr,46.3,-3.05151,
+31000,Jackson State,Jr,0.2,-7.20283,
+31022,Northern Colorado,Jr,79.8,-1.4809,41.4
+31023,New Hampshire,Jr,80.6,2.70068,
+31024,New Hampshire,Jr,52.6,-4.10172,
+31026,Rice,Jr,49,-2.33968,
+31029,Duke,So,1.9,-6.34379,
+31038,High Point,Jr,27.7,-3.60754,
+31039,High Point,Jr,24.8,-4.31518,
+31041,High Point,Jr,66.6,-0.554399,
+31051,Northern Illinois,Jr,74.4,-0.333871,
+31053,Northern Illinois,So,0.1,-4.31433,
+31068,Kent State,Jr,0.3,0.328606,
+31076,American,Jr,53.8,0.95863,
+31078,Wichita State,Jr,7.9,2.43875,
+31083,UTSA,Jr,26.8,-5.36817,
+31084,UTSA,Jr,52.9,-4.02319,
+31093,USC Upstate,Jr,54.5,0.844623,
+31109,NJIT,Jr,49.6,-1.70215,
+31110,NJIT,Jr,94.8,0.163596,
+31112,NJIT,Jr,68.8,3.41588,
+31113,Incarnate Word,Jr,69,-3.78657,
+31116,Rhode Island,Jr,56.1,5.84176,68.2
+31123,Maryland,Sr,7.1,-2.76408,
+31130,Santa Clara,Jr,67.5,0.76155,
+31133,VCU,Jr,42.2,2.72785,
+31149,Little Rock,Jr,47.9,2.70053,
+31150,Texas Tech,Jr,53.5,3.09861,48.6
+31158,Louisville,Jr,15.2,6.68849,
+31164,Elon,Jr,0.2,3.68555,
+31168,UCSB,Sr,45.1,1.42874,67.4
+31169,Eastern Kentucky,Jr,71.5,1.00399,
+31189,Boston College,Jr,54.5,-1.28881,35.2
+31197,Idaho,Jr,36.2,0.059437,
+31202,Longwood,Jr,80,-0.514892,
+31224,Robert Morris,Jr,74.7,-6.69862,
+31227,Dartmouth,Jr,4.1,-11.5297,
+31228,Robert Morris,Sr,3.6,-5.31968,
+31245,Army,Jr,0.2,-23.2137,
+31249,Penn,Jr,0.6,-8.53579,30.0
+31252,Penn,Jr,75.7,0.228064,53.0
+31254,Army,Jr,21.8,-2.80803,
+31265,Texas,Jr,76.6,5.76764,35.6
+31266,Texas,Jr,24.3,3.12324,78.8
+31271,Oakland,So,42.8,2.69556,40.2
+31272,Murray State,Jr,67,-2.63107,73.8
+31280,Oakland,Jr,60.6,0.850733,67.0
+31284,South Alabama,Jr,72,-0.689958,
+31286,South Alabama,Jr,62.4,0.425706,
+31293,LIU,Jr,72.2,-3.19801,43.4
+31302,Baylor,Sr,1.1,-4.70191,
+31310,Northern Iowa,Jr,20.3,-1.71463,
+31312,Northern Iowa,Jr,80.1,10.2249,62.8
+31322,Central Arkansas,Jr,59.9,-7.35668,
+31333,UC-Davis,Jr,5.4,-4.37593,
+31335,Harvard,So,0.2,-21.1577,
+31342,Boston College,Sr,80.5,0.647124,68.8
+31343,Harvard,Jr,61.7,2.57736,81.4
+31346,Harvard,Jr,0.1,-23.0341,
+31347,Bowling Green State,Jr,68,-0.0283654,11.8
+31349,Dartmouth,Jr,4.6,-3.4332,46.6
+31351,Hartford,So,1.1,-22.7763,
+31353,Sam Houston State,Jr,71.5,-2.92261,
+31359,College of Charleston,Jr,25.8,-5.03124,48.8
+31360,Kennesaw State,Jr,55.3,0.645195,
+31372,California,Jr,64.2,5.77806,96.0
+31373,Hartford,Jr,11.3,-4.6068,
+31386,Texas A&M-Corpus Christi,Jr,66.7,1.2645,
+31389,Texas A&M-Corpus Christi,Jr,19.8,-0.924956,
+31406,Georgia,Jr,39.1,0.0802345,74.6
+31416,Hartford,Jr,56.9,-7.69239,
+31419,Rhode Island,Jr,0.8,-18.4146,80.8
+31421,UMBC,Jr,68.7,-2.91168,
+31432,UMass-Lowell,Sr,9,-8.50071,
+31435,Northern Kentucky,Jr,31.3,-1.56392,
+31436,Northern Kentucky,Jr,69.2,0.128947,
+31456,UTSA,Sr,6.9,-3.01836,37.2
+31460,Middle Tennessee,Jr,9,-11.5442,47.2
+31463,Oakland,So,74.1,-0.044414,
+31470,Hampton,Sr,43.9,-4.29612,
+31471,Santa Clara,Jr,87.6,1.22987,19.2
+31476,Lipscomb,Sr,19.4,-11.9005,
+31477,Niagara,Jr,29.1,-7.75932,7.8
+31482,Chicago State,Sr,0.9,-11.9572,
+31484,Chicago State,Jr,39.8,-5.27765,
+31491,Montana State,Jr,35.7,-3.11032,
+31502,Chicago State,Jr,44.2,-7.19438,
+31514,Manhattan,Jr,70.5,-5.03945,
+31534,Kansas City,Jr,52.9,-0.209567,
+31535,Illinois,Jr,37.6,-3.26038,59.6
+31538,Monmouth,Sr,50.4,1.45526,40.0
+31539,Illinois,Jr,51.3,-0.521334,69.8
+31540,Illinois,Jr,85.7,5.5463,86.2
+31541,Monmouth,Jr,41,-0.468857,
+31562,Southeast Missouri State,Jr,46.6,-3.98383,
+31564,Southeast Missouri State,Jr,72.9,0.205309,
+31570,Alabama State,So,46.6,-5.89813,
+31578,Pitt,Sr,1.6,-19.563,
+31579,Pitt,Jr,47.7,3.55769,58.6
+31582,South Florida,So,20.2,-5.3632,92.0
+31584,California,Jr,49.3,1.57744,65.8
+31589,Maryland,Jr,38.7,2.3864,75.6
+31599,UCSB,Jr,67.6,3.30722,
+31619,Kansas,Jr,24.7,7.30094,93.0
+31622,Wichita State,So,35,4.60026,91.4
+31624,Drexel,Jr,27.6,-4.5732,
+31625,Kansas,Jr,74.1,6.81287,97.6
+31644,Sacred Heart,Jr,54.1,-4.01125,
+31659,Portland,Jr,79,1.51563,25.6
+31677,Colorado,Sr,1.3,-6.48006,
+31685,Fordham,Jr,0.3,-0.252999,
+31691,New Mexico,Jr,56.3,2.4029,
+31693,Ball State,Jr,0.4,-15.0916,
+31695,Ball State,Jr,66.6,2.76458,18.6
+31696,Wright State,So,66.6,3.82853,40.8
+31698,St. Joseph's,Jr,6.9,1.57612,
+31708,Miami (FL),Jr,71.7,5.81845,77.6
+31711,Auburn,Jr,57.8,2.05433,66.6
+31719,NC State,Jr,0.2,-2.81356,
+31723,North Dakota State,Jr,55.7,1.11501,
+31732,Evansville,Jr,4.3,-1.75471,
+31747,Jackson State,Jr,17.4,-2.68384,
+31749,Jackson State,Jr,54,-1.2138,
+31752,Jackson State,Jr,39.4,-7.30282,
+31756,Dartmouth,Jr,8.1,-2.22548,
+31759,Saint Louis,Jr,66.7,0.521559,26.6
+31772,Elon,Jr,0.6,-19.1525,
+31774,San Jose State,So,30.9,-7.03892,59.8
+31776,Wagner,Jr,19.7,-4.95308,
+31783,Northeastern,Jr,31.4,-3.99593,
+31790,Manhattan,Jr,70,-0.314087,22.4
+31795,Maine,Jr,43.7,-6.49414,
+31805,Maine,Jr,18.1,-8.10751,
+31811,UNC Asheville,Jr,4.3,-9.35051,
+31815,Manhattan,Jr,8.7,-5.56178,22.2
+31816,Jacksonville,Jr,61,-0.820008,
+31833,Lehigh,Jr,83.3,2.2291,
+31834,Coastal Carolina,Jr,78.4,-1.47441,
+31846,Northwestern,Jr,21.6,3.39037,57.4
+31849,VMI,Jr,86.4,-2.51467,
+31851,VMI,Jr,85.4,2.01532,3.6
+31864,UCF,So,77.9,0.862429,55.4
+31869,Duquesne,Jr,74.7,0.562067,
+31871,Evansville,Jr,12,-0.119133,
+31886,Western Kentucky,Sr,51.9,0.688783,39.2
+31887,UMass,Sr,41.3,-1.81246,86.4
+31892,UT Arlington,Sr,39.3,-0.481989,3.8
+31902,Akron,Jr,0.4,-14.1171,
+31910,Georgia State,Jr,41.2,-0.0237034,
+31911,Tulane,So,44.4,-3.49153,
+31936,North Carolina A&T,Jr,21.9,-8.79837,
+31946,Evansville,Jr,75.1,1.99478,20.2
+31960,Old Dominion,Jr,65.6,5.29636,
+31963,Old Dominion,Jr,63.9,0.649723,
+31965,St. Joseph's,Jr,92.8,8.78242,56.0
+31967,Rider,Jr,73.2,-1.63827,
+31972,George Mason,Jr,53.2,1.11314,
+31974,Missouri,Sr,49.6,1.52067,59.8
+31983,Charlotte,Jr,13.6,-2.23868,
+31986,Charlotte,Jr,2.7,-17.0451,4.0
+31988,Charlotte,Sr,0.4,-24.926,
+31993,Portland,Jr,34.5,-5.8655,
+31999,St. Joseph's,Jr,1.3,-0.976062,
+32008,Davidson,Jr,0.5,-13.3653,
+32015,Davidson,Jr,29.2,-2.0213,
+32024,Southeastern Louisiana,Jr,50.1,-5.73507,38.6
+32025,Samford,So,12.5,1.00808,
+32026,North Carolina A&T,Sr,44.8,-2.4434,
+32027,Albany (NY),Jr,34.7,-1.13698,
+32029,Albany (NY),Jr,72.2,2.59295,
+32051,Gardner-Webb,Jr,68.6,-0.236982,
+32055,Siena,Jr,76.9,3.01209,
+32059,Duke,Jr,0.7,-7.03102,
+32060,Siena,Jr,70.8,1.22359,
+32072,San Diego State,Jr,7.1,-3.62483,54.6
+32094,Vermont,Jr,38.5,1.98706,
+32095,Vermont,Jr,73,2.538,
+32101,Texas Tech,Jr,30.3,-1.28651,
+32102,Utah State,Jr,59.7,-0.373099,57.0
+32103,Louisiana-Monroe,Sr,62.2,2.97756,
+32107,San Jose State,Jr,48,1.27562,
+32112,Missouri,Jr,53.4,0.500925,85.2
+32134,UNC,Jr,42.4,8.06749,88.6
+32136,UNC,Jr,37.5,3.12436,76.0
+32140,Cal State Bakersfield,Sr,70.7,-1.40609,
+32142,Southeastern Louisiana,Jr,75.6,-2.14122,25.2
+32147,Georgia Tech,Jr,50.2,4.10124,64.8
+32151,Charlotte,Sr,68.8,1.38835,
+32161,New Orleans,Jr,71.6,-2.7955,
+32171,Iowa State,Jr,83.1,5.67825,89.2
+32183,Ohio,Jr,0.6,17.6873,
+32187,Bowling Green State,Sr,3.2,-2.17419,
+32192,Sam Houston State,Jr,60.1,1.67622,
+32194,Sam Houston State,So,7,2.22003,
+32199,California,Jr,13.6,0.471321,
+32201,Eastern Michigan,Jr,76.2,-1.85039,
+32202,Auburn,Jr,4.7,-3.45033,50.2
+32207,Miami (OH),So,44.4,2.57549,45.4
+32212,Howard,Jr,2.1,-8.7775,
+32213,Howard,Jr,41.6,-4.85316,
+32214,Howard,Jr,32.7,-9.49277,
+32217,Howard,Jr,86.6,-0.274707,
+32231,Lipscomb,Jr,1.8,-4.90412,
+32241,Texas Southern,Jr,15.5,-5.00803,
+32247,Ole Miss,Jr,57.4,2.26294,34.4
+32248,Clemson,Jr,37.4,3.82928,51.6
+32269,Tulane,Jr,25.8,0.0783338,
+32289,East Carolina,Jr,73.7,0.78206,31.8
+32290,Southern,Jr,81.4,-4.20939,
+32298,North Carolina A&T,Jr,43.6,-0.9895,
+32304,Nicholls State,Jr,62.4,-3.68995,
+32307,Grand Canyon,Sr,3.1,-8.82382,
+32315,Army,Jr,4,-3.69663,
+32331,Coppin State,Jr,5.1,-8.36374,
+32338,UCF,Jr,28.4,-3.76101,
+32341,Southern Illinois,Jr,0.2,-24.2636,
+32342,Michigan State,Jr,17.8,7.83437,36.8
+32366,Iowa,Sr,1.6,4.02253,
+32370,Monmouth,Jr,62.1,-0.15533,
+32379,Niagara,Jr,53.2,-5.05029,
+32380,UNC Greensboro,Jr,82.8,1.11997,30.2
+32381,UNC Greensboro,Jr,7.6,-7.68338,
+32386,Monmouth,Jr,22.6,1.33809,
+32387,Oklahoma State,Jr,61.2,2.05187,74.4
+32404,North Florida,Jr,67.7,1.99934,
+32418,Purdue-Fort Wayne,Jr,51.9,-0.178044,
+32434,VMI,Jr,55.6,-5.94081,14.6
+32452,Lehigh,Sr,78.6,3.10525,
+32459,Cal State Fullerton,Jr,10.1,-0.557694,
+32464,Louisiana-Monroe,Jr,91.2,-0.350465,
+32469,Southeastern Louisiana,Sr,12.8,-3.10113,
+32481,Furman,Jr,57.7,-0.731107,
+32486,Bryant,So,23.1,-10.3431,
+32487,Pitt,Jr,73.6,4.67393,84.0
+32490,Pitt,Jr,75,5.09755,58.4
+32492,Tulsa,Sr,60.1,2.52577,
+32497,Tennessee Tech,Sr,5.4,-10.8686,9.2
+32501,Holy Cross,Jr,43.2,-2.2348,
+32502,Holy Cross,Jr,79.6,-3.57852,
+32504,Holy Cross,Jr,80.5,1.20226,
+32505,Holy Cross,Jr,67.6,-0.782616,
+32507,Oregon State,Jr,63,-1.0908,40.4
+32515,New Orleans,Jr,76.5,-1.41482,1.8
+32522,Utah Valley,Sr,24.3,-1.72254,
+32529,Sacramento State,Jr,68.2,-1.42055,
+32531,New Mexico State,Jr,82.8,3.71704,
+32536,Wofford,Jr,77,1.14533,
+32537,Wofford,Jr,36.2,-1.79704,
+32544,Jackson State,Jr,1.1,-10.635,
+32554,Alabama,Sr,51.7,-2.89753,83.4
+32563,UConn,Jr,30.5,4.56088,81.8
+32571,Fresno State,Jr,55.1,2.43981,51.0
+32574,Iowa,Sr,78.2,8.68154,77.4
+32579,Providence,Jr,0.8,-16.7992,
+32581,TCU,Jr,56.3,-1.73395,60.6
+32615,San Diego State,Jr,0.8,13.5584,
+32619,SMU,Jr,4.9,-4.67071,
+32620,Alabama State,Jr,44.8,-3.22162,
+32627,Morgan State,Jr,47.7,-5.02192,
+32637,Loyola (MD),Jr,11.2,-7.41994,44.6
+32644,Grambling,Jr,41.6,-7.47618,
+32650,North Dakota,Jr,86.4,6.11467,
+32656,UNC Wilmington,Jr,14.4,0.12364,
+32663,Notre Dame,Jr,77.9,5.33077,85.4
+32672,Florida,Sr,1,-0.928451,
+32682,UMBC,Jr,12.8,-4.88675,
+32695,Pepperdine,Jr,71.7,3.49143,40.0
+32697,James Madison,Jr,7.1,-1.24592,
+32698,Washington State,Jr,76.1,-0.0668138,72.0
+32699,Washington State,Jr,79.3,2.87304,33.6
+32700,James Madison,Jr,39.4,-0.365179,
+32701,James Madison,Jr,59.5,-0.183248,
+32703,James Madison,Jr,49.3,0.304997,
+32707,Cal State Fullerton,Sr,50.1,-1.6518,
+32714,Oregon State,Jr,10.6,-0.817939,
+32724,UMass-Lowell,Sr,47.4,-1.47294,
+32740,Northwestern State,Jr,70.5,-2.1529,
+32741,Northwestern State,Jr,83.5,0.270534,
+32745,Air Force,Jr,88.9,1.09931,
+32750,Air Force,Jr,75,-0.565236,
+32751,William & Mary,So,9.1,-6.30241,
+32754,UNC Greensboro,Jr,5,-6.11259,
+32759,Notre Dame,Jr,90,1.79968,79.0
+32760,Boise State,Jr,80.6,4.63058,
+32773,San Francisco,Sr,13.1,-2.54627,14.2
+32776,North Florida,Jr,90.8,1.44806,
+32784,Purdue-Fort Wayne,Jr,39.4,-3.27928,
+32788,UConn,Jr,36.2,8.3583,52.0
+32793,LIU,Jr,42.9,-4.97719,
+32796,LIU,Jr,75,-3.06824,
+32798,Alabama,Jr,52.2,3.35393,87.4
+32801,Charlotte,So,19,-4.79495,32.6
+32803,Auburn,Jr,13.7,-5.66333,
+32804,Campbell,Jr,66.8,-1.7295,
+32805,Campbell,Jr,0.4,-37.6493,
+32806,Campbell,Jr,41,-5.26867,13.0
+32807,Belmont,Jr,27.6,-0.95829,
+32808,Belmont,Jr,76.5,4.2012,43.0
+32809,James Madison,Jr,67.7,0.656543,36.2
+32814,McNeese State,Jr,47.4,-3.52168,
+32815,McNeese State,Jr,0.7,-1.38397,
+32824,St. Peter's,Jr,78.4,0.88639,
+32825,Milwaukee,Jr,37.7,2.58534,
+32862,SIU-Edwardsville,Sr,35.9,-5.59266,
+32866,Lamar,Jr,52.7,-3.57624,
+32873,Idaho State,Sr,14.2,-5.83891,
+32878,Idaho State,Jr,9.9,-6.10752,
+32892,Marist,Jr,36.5,-4.93688,
+32902,Sacramento State,Jr,12.1,-8.84769,
+32905,Sacramento State,Jr,50,-3.49633,
+32906,North Carolina A&T,Jr,5,-9.1803,20.6
+32914,Fairleigh Dickinson,Jr,0.3,-16.9989,
+32918,NC State,Jr,58,4.94233,87.0
+32919,Charleston Southern,Jr,61.1,-2.99779,
+32920,NC State,Jr,48,2.1892,37.0
+32929,Prairie View,Sr,45.6,-6.54,
+32931,Mississippi Valley State,Jr,45.2,-5.32824,2.2
+32933,UMBC,So,64.7,-3.74099,
+32938,Hawaii,Jr,66.5,5.52427,
+32946,Illinois State,Jr,63.2,1.41073,43.2
+32965,Incarnate Word,Sr,85.3,2.06033,
+32983,St. Bonaventure,Jr,58.3,2.3791,
+32989,SMU,Jr,68.8,6.77964,78.4
+32991,SMU,Jr,71.9,7.57934,49.8
+33018,Cornell,Jr,10.1,-2.62927,
+33019,Cornell,Jr,59.4,-1.70164,
+33026,Cornell,Jr,40.1,-3.11142,
+33039,Evansville,Jr,69,1.17441,
+33040,Pepperdine,Jr,8.7,-0.938927,
+33041,Pepperdine,Jr,78.9,0.648099,28.2
+33065,Green Bay,Jr,53.2,1.36799,
+33069,Villanova,Jr,42.7,6.02822,28.6
+33071,Green Bay,Jr,47.7,-1.38473,
+33072,Green Bay,Jr,31.1,-3.01021,
+33075,Eastern Illinois,Sr,14.6,-1.14627,41.4
+33078,Eastern Illinois,Jr,9.2,-8.35664,11.0
+33083,William & Mary,Jr,80.3,2.38439,12.8
+33091,Longwood,Sr,26.3,-5.82995,
+33122,Delaware,Jr,84.6,-0.325338,
+33127,Houston,Jr,43.4,1.52259,86.8
+33129,Hampton,Jr,1.4,-21.4002,
+33132,San Diego,Sr,60.8,-2.16563,
+33140,North Dakota,So,76.1,-1.23347,
+33146,Presbyterian,Jr,58.9,-4.08634,26.0
+33149,Milwaukee,Sr,74.9,1.5409,
+33151,Presbyterian,Jr,48.1,-5.03052,
+33152,Presbyterian,Jr,32.7,-3.62169,
+33159,Appalachian State,Jr,2.1,-15.5613,
+33160,Saint Louis,Jr,60.3,-1.57084,23.8
+33163,Oregon State,Sr,6.3,-4.52547,59.0
+33169,Rutgers,Sr,51.2,-3.35514,69.8
+33184,Fresno State,So,18,2.2306,53.6
+33198,USC,Jr,63.6,0.2008,45.2
+33203,USC,Jr,69.6,4.83661,39.6
+33204,Lamar,Jr,59.1,-2.28082,
+33217,Kansas State,Sr,4.6,2.36731,
+33222,Rider,Jr,59.6,0.838568,
+33226,Cal State Fullerton,Jr,30.7,-2.15859,12.4
+33227,Marshall,Jr,66.3,4.02134,
+33228,Alabama,Sr,71.1,2.98838,
+33229,Florida Atlantic,Jr,47.7,-0.921024,
+33234,NC State,Jr,96.1,3.35601,95.0
+33236,Radford,Sr,3.1,-3.8056,
+33237,Boston University,Jr,0.9,-5.80674,26.8
+33239,Boston University,Jr,22.2,-2.66492,
+33275,Southern Utah,Jr,58.4,-4.19423,12.2
+33276,Southern Utah,Jr,52.5,-4.02432,
+33277,Nicholls State,Jr,62.5,3.12369,0.6
+33279,Southern Utah,Jr,50.2,-9.08016,
+33281,Fairfield,Jr,0.8,-10.8286,
+33282,Southern Utah,Jr,57.4,-1.78916,
+33286,Southern Utah,Sr,63.8,-4.49793,
+33287,Illinois State,Jr,75.7,2.49947,
+33296,Saint Francis (PA),Jr,66.5,-4.48427,
+33299,Bryant,Jr,56.9,-3.01386,
+33304,Bryant,Jr,1.9,-8.9768,
+33311,Xavier,Jr,72.9,6.46401,67.2
+33324,Fairfield,Jr,6.9,-3.89291,
+33328,Utah State,Jr,89.4,2.95193,
+33335,Virginia,Sr,85.1,9.41661,80.6
+33338,Ohio,Jr,72.4,4.72813,
+33339,Ohio,Jr,18.8,1.15082,29.0
+33354,Long Beach State,Sr,62.8,-0.910698,
+33355,UMass-Lowell,Jr,39.6,-4.94411,
+33361,South Dakota State,Jr,14.6,4.81408,
+33372,Siena,Jr,48.5,1.24555,
+33373,New Orleans,Jr,40.5,-7.89089,
+33379,Bryant,Jr,14.5,-8.11049,2.6
+33382,Long Beach State,Jr,4.3,-5.24542,
+33388,Stanford,Jr,73,2.44669,79.8
+33390,Maine,Jr,14.7,-6.62252,
+33396,UTEP,So,31.4,-2.95152,29.8
+33408,Oakland,Jr,91.5,8.67975,
+33410,Detroit,Jr,29.4,-4.19465,
+33411,Detroit,Jr,25.1,-4.70182,
+33414,Stony Brook,Sr,69.9,-1.68876,
+33415,Stony Brook,Jr,15.3,-4.64296,
+33417,Villanova,Jr,78.2,8.9302,84.4
+33418,Villanova,Jr,70.7,9.10307,85.0
+33435,Sacred Heart,Jr,9.3,-7.27755,
+33437,Georgia,Jr,0.5,-33.4842,
+33438,Portland State,Sr,74.6,0.841533,
+33441,Georgia,Jr,79.6,9.36981,58.6
+33442,Georgia,Jr,48,3.52527,31.6
+33446,Furman,Jr,0.6,-9.26751,
+33454,Rhode Island,Jr,58.6,3.11448,92.8
+33462,Memphis,Jr,9.4,-3.60778,
+33474,Maryland-Eastern Shore,Sr,76.9,-1.78684,
+33477,Maryland-Eastern Shore,So,4.5,-12.9023,
+33478,Maryland-Eastern Shore,So,53.9,-4.17884,
+33479,Clemson,Sr,1,-3.88125,
+33488,Mercer,Sr,43.7,2.21595,
+33489,Mercer,So,73.1,3.64332,
+33490,Mercer,Jr,17.3,-3.14301,
+33493,Mercer,So,2.5,-14.8774,
+33513,Loyola (MD),So,50.2,0.270264,
+33523,Hawaii,So,7,-7.62009,
+33534,St. Francis (NY),Fr,37.9,-4.20038,
+33535,St. Francis (NY),So,10.3,-7.68173,
+33539,Southeastern Louisiana,Fr,39.8,-4.43188,
+33544,St. Francis (NY),Sr,82.8,-1.49508,
+33550,UC-Irvine,Sr,2.1,-9.09424,
+33556,Michigan,So,46.2,3.25005,83.0
+33558,Oral Roberts,So,60.3,-1.92012,
+33559,Oral Roberts,So,12.8,-2.25532,
+33562,Oral Roberts,Jr,45.7,-0.672772,
+33564,Purdue,So,35.3,4.0188,83.8
+33566,Purdue,Fr,4.2,6.94031,50.4
+33567,Purdue,So,47,5.11489,56.6
+33568,Purdue,So,55.9,7.00886,29.4
+33570,Rutgers,Sr,66.9,-2.94737,58.4
+33572,Rutgers,Jr,5.2,-2.43608,
+33573,Portland State,Sr,39.7,0.971144,
+33575,Omaha,Sr,40.3,-1.97113,
+33580,UMass,So,59.5,-0.594435,43.2
+33581,UMass,Sr,72.8,1.9498,83.4
+33582,Omaha,So,2.4,-16.568,
+33583,Omaha,So,69.5,1.74326,
+33587,California,So,0.9,-11.6789,
+33589,California,So,24.4,4.7776,25.8
+33592,Gonzaga,Sr,84.1,6.08003,96.2
+33600,Morgan State,So,8.2,-8.37174,
+33602,Morgan State,So,25.5,-6.34125,
+33605,NC State,So,70.2,1.68486,91.0
+33606,NC State,So,0.2,3.08445,
+33620,Nebraska,So,13.8,-0.558284,66.4
+33628,Boston University,So,67,-2.21528,
+33631,SIU-Edwardsville,So,39.6,-7.04279,
+33634,Lamar,So,15.2,-5.8628,
+33635,Ohio State,Fr,8.9,0.286697,62.4
+33637,Ohio State,So,73.2,4.66866,94.4
+33640,Grand Canyon,So,76.3,5.14703,
+33642,North Texas,So,77.5,1.03373,
+33645,Penn,So,23,-3.74184,
+33646,North Texas,So,10.2,-7.85713,
+33650,North Texas,Sr,1.2,-19.4621,
+33651,North Texas,Sr,4.6,-12.7794,
+33654,Wagner,So,39,-3.91093,
+33655,Wagner,So,75.2,1.68043,
+33661,IU Indy,So,5.2,-7.49004,
+33662,Marshall,So,1.7,-11.7307,
+33663,Marshall,So,1.7,-19.6957,
+33664,Penn,So,34.2,-4.46624,49.4
+33666,Penn,So,61,-1.30989,
+33667,Purdue-Fort Wayne,Sr,65,-3.51063,
+33668,Lipscomb,So,68,1.04607,
+33672,Cal Poly,So,0.3,-5.25512,
+33674,Cal Poly,Fr,5.8,-8.25277,
+33677,Cal Poly,So,1.6,-10.6953,
+33679,Eastern Illinois,So,94.6,-0.921695,
+33680,Sacramento State,So,23.3,-5.51809,
+33684,Bucknell,So,64.9,-2.20227,
+33688,Cal State Northridge,So,28.7,-4.2656,
+33689,Cal State Northridge,Fr,62.2,-1.86837,
+33690,Cal State Northridge,So,33.5,-2.46528,
+33692,UMBC,So,16.3,-10.1191,
+33694,UMBC,So,60.4,-5.38156,
+33695,UMBC,Sr,47,-8.78898,
+33699,Evansville,Jr,8.7,-8.59344,
+33702,Alabama,So,65.1,-1.14397,83.2
+33703,Eastern Illinois,Sr,59.7,-1.88214,
+33706,Harvard,Jr,61.6,-2.07436,28.8
+33707,Drexel,So,70.4,-0.306185,
+33709,UMass-Lowell,So,74,-1.66939,
+33714,Wisconsin,Jr,77.9,5.03236,41.8
+33718,Fresno State,So,20.4,-4.52825,30.6
+33723,Florida International,Sr,84.8,-0.877047,
+33726,West Virginia,Sr,55.7,7.78167,
+33733,Sam Houston State,Fr,36.4,-2.04488,
+33734,Sam Houston State,So,76.1,0.84609,
+33735,South Dakota,Fr,5.7,-3.19969,
+33737,Sam Houston State,Fr,54.5,-0.193838,
+33739,West Virginia,So,68.8,6.49316,40.4
+33743,Northern Illinois,So,0.2,-34.4881,
+33751,Seton Hall,So,10.1,1.18676,
+33752,Syracuse,Sr,4.5,2.62493,64.2
+33753,South Carolina State,Jr,0.5,-12.2037,
+33757,North Texas,So,0.7,-9.30113,
+33768,Arkansas State,Fr,5.3,-5.92226,
+33772,Arkansas State,Sr,33.8,-0.666173,
+33773,Arkansas State,Sr,55.3,-3.0779,
+33774,Savannah State,Sr,58.7,-4.56874,
+33775,Savannah State,So,49.1,-8.26573,
+33780,Army,Jr,31.8,-1.74404,
+33782,Central Michigan,So,0.8,2.46706,
+33787,Wright State,So,18.7,2.64692,3.2
+33789,Wright State,So,65.5,0.453847,
+33790,Wright State,Sr,47.1,-4.26603,
+33792,Omaha,Sr,48.4,-1.21597,
+33798,Princeton,So,6.6,1.15073,
+33803,Miami (OH),Sr,18.4,-7.15237,
+33805,Alabama A&M,Jr,28.5,-3.38793,
+33811,NJIT,Jr,24.5,-5.16746,
+33815,Western Michigan,So,78.9,3.50345,
+33821,Gonzaga,Fr,25.1,2.34901,20.4
+33822,Gonzaga,So,79.9,7.47496,60.2
+33823,Gonzaga,Fr,77.1,5.42869,86.4
+33828,Gonzaga,So,3.6,14.237,
+33840,Maryland,Sr,1.4,-8.0293,
+33841,Central Connecticut,So,5.9,-14.0532,
+33843,Central Connecticut,So,44.7,-9.65924,
+33846,Fairleigh Dickinson,So,4.2,-17.4414,
+33850,Mercer,So,62.7,-1.44094,
+33851,Loyola (IL),So,22.9,2.21752,
+33852,Northwestern State,Sr,40.5,-6.16103,
+33853,Northwestern State,So,14.2,-10.8966,
+33855,Northwestern State,So,71.9,-3.14569,
+33881,George Mason,Sr,2.5,-12.5968,84.4
+33882,Iona,Sr,65.4,0.458661,
+33884,George Mason,Jr,5.2,-3.86503,
+33899,St. Francis (NY),Jr,26.1,-5.5943,
+33900,St. Francis (NY),Sr,53.5,2.92313,
+33901,St. Francis (NY),Sr,61.2,-1.94828,
+33902,UCSB,So,80.2,3.21838,
+33903,UCSB,Sr,27.4,-0.718041,
+33904,UCSB,Fr,4.8,-5.45415,
+33905,UCSB,So,1.8,-3.92378,27.2
+33906,Florida Atlantic,So,20.1,-5.67691,69.2
+33912,Wyoming,So,70.5,1.1101,
+33915,Coppin State,Sr,22,-7.08136,
+33916,Coppin State,So,45.6,-4.01222,
+33917,Notre Dame,So,0.4,-19.5204,
+33918,Old Dominion,Fr,52.7,1.12978,
+33922,Oregon,So,8.1,1.15418,
+33924,Missouri State,So,1.4,-16.5015,
+33925,Missouri State,Sr,60.3,-0.873282,
+33926,Missouri State,So,64.7,0.837008,
+33927,Omaha,So,19.3,-5.90862,
+33928,Missouri State,Fr,9.8,0.815105,
+33929,Missouri State,Sr,20.8,-9.18328,
+33931,Oregon,Sr,1.7,-5.80577,
+33936,Oregon,Jr,0.9,-1.00892,
+33940,California,So,2.8,-7.7961,17.8
+33948,California,So,0.1,0.371582,
+33955,BYU,So,8.5,-0.761093,49.0
+33961,Davidson,So,0.5,-10.904,
+33962,Davidson,Sr,0.8,-10.6478,
+33963,Mount St. Mary's,So,54.1,-3.03255,
+33965,Davidson,So,86.2,4.55243,31.6
+33966,Davidson,So,36.7,-2.83093,
+33967,Davidson,So,42.8,-1.00898,
+33969,Ole Miss,Sr,83.1,5.68536,
+33970,Old Dominion,So,56.8,2.67868,37.6
+33975,Princeton,Sr,4.3,-10.3727,
+33978,Southern Miss,So,16.7,-0.946743,
+33983,Missouri,So,3.8,-6.58418,
+33984,Missouri,So,14.3,0.59435,68.6
+33986,Missouri,So,66.2,-0.353989,86.0
+33987,Missouri,So,37.7,1.48053,89.6
+33990,Oklahoma State,Sr,26.6,1.42058,
+33991,Oklahoma State,Sr,74.7,4.87953,
+33992,Oklahoma State,So,44,0.871534,80.8
+33993,Oklahoma State,So,29.1,0.82237,85.4
+33994,Oklahoma State,So,63.3,0.321633,43.4
+33996,Oklahoma State,So,43.7,1.51625,
+33998,Wagner,So,29.5,-3.46554,
+34000,Wagner,So,51.9,-3.46152,
+34001,Wagner,So,45.5,2.44652,
+34006,Wofford,So,7.4,-0.708097,
+34009,Eastern Washington,So,42.2,-2.8124,13.6
+34010,Wofford,So,1.1,-30.865,
+34018,Colgate,So,62.8,-1.85349,21.4
+34022,Western Illinois,So,7.8,1.16508,
+34023,Western Illinois,Sr,74.3,-3.02174,
+34024,Western Illinois,Sr,45.4,-1.73981,
+34025,Portland State,Jr,4,-1.95389,
+34027,Middle Tennessee,Jr,27.5,-3.65799,
+34030,Dartmouth,So,32.5,-2.55595,
+34032,Rutgers,So,66.9,-0.769689,53.2
+34034,Portland State,Jr,25.7,-5.12572,
+34042,Milwaukee,Jr,1.4,-13.9431,
+34046,Toledo,So,76.5,0.867197,
+34063,Omaha,Sr,39.3,-3.06741,
+34065,Kansas City,So,61.8,-3.95773,40.2
+34066,Kansas City,Jr,20.4,-1.51056,
+34070,Kansas City,Sr,25.6,-2.62367,
+34075,Brown,So,1.7,-15.0533,
+34076,Brown,So,12,-10.976,
+34078,Brown,So,1.1,-12.989,
+34079,Brown,So,25.1,-4.87881,
+34080,Brown,So,46.9,-3.8643,
+34087,Coastal Carolina,Sr,34.2,-0.481307,
+34096,Tennessee,So,4.8,0.303552,49.8
+34111,Charlotte,Sr,18.7,-5.20075,82.4
+34112,Stetson,So,56.9,-0.857712,
+34115,Long Beach State,Sr,76.8,6.42888,91.8
+34116,Youngstown State,Jr,0.2,-20.2191,
+34118,Arkansas State,Sr,34.2,-3.43031,
+34127,Southeast Missouri State,So,18.5,-4.02072,
+34129,Wright State,Sr,75.1,2.83266,
+34131,Loyola (IL),Sr,59.8,-1.82585,
+34145,UT-Martin,Sr,34.5,-4.01424,
+34151,Arizona,So,51.9,3.00093,90.2
+34152,LSU,So,50.6,-0.26827,
+34153,Arizona,So,40.4,4.04769,69.6
+34154,Wright State,So,3.3,-5.05154,
+34156,Arizona,Sr,69.3,4.64648,73.4
+34157,Arizona,Jr,60.9,5.91378,
+34164,Hartford,So,34.7,-4.12851,
+34167,Hartford,So,1.9,-11.3882,
+34168,Marquette,So,55.6,2.95983,85.0
+34193,Winthrop,So,39.8,1.44727,
+34197,Elon,So,62.2,-1.78105,50.8
+34199,Auburn,Sr,1.2,-1.28059,
+34200,ETSU,So,49.3,3.91896,
+34201,Elon,So,9.5,-3.1256,
+34204,Fairleigh Dickinson,So,76,-1.91954,
+34208,UNC Greensboro,Fr,19.5,-3.1553,8.2
+34209,UNC Greensboro,So,6.6,2.12396,0.2
+34214,Fairleigh Dickinson,So,79.3,0.108802,
+34215,Fairleigh Dickinson,So,75.8,-5.30914,
+34216,Detroit,Jr,81.3,1.32917,45.0
+34219,Wichita State,So,15.6,0.0879852,40.8
+34221,Wichita State,So,48.2,6.67059,
+34222,Wichita State,So,39.7,3.00741,43.0
+34226,South Carolina State,So,51.3,-4.70855,
+34227,Iona,Jr,21.4,-3.81059,
+34229,Samford,Sr,57.1,-1.41587,
+34230,Samford,Sr,58.4,-1.84958,
+34233,Iona,So,7.3,-1.88862,
+34234,Washington State,So,27.2,-5.23743,
+34235,Detroit,So,56.5,-1.16121,
+34238,Samford,So,83.2,-2.47162,
+34248,Tennessee,So,49,-2.10994,79.4
+34253,DePaul,Sr,2.4,-12.1926,
+34256,Tennessee,Sr,65.1,5.25048,
+34262,Austin Peay,So,1.1,-9.04519,
+34264,Austin Peay,Sr,78.6,-0.771454,
+34265,Austin Peay,So,13.4,-7.91085,
+34267,Butler,Jr,41.7,2.68323,90.8
+34276,UT Arlington,Jr,59.2,2.4762,
+34277,LIU,So,52.2,-6.36886,17.4
+34290,Marshall,Sr,17.7,-6.70305,
+34292,Stephen F. Austin,Sr,28.7,-1.40534,
+34293,Cal Poly,Sr,68.3,3.47703,
+34329,South Florida,So,53.9,0.622985,64.0
+34336,Texas Southern,Sr,0.2,-12.6664,
+34338,Marist,So,3.7,-11.0411,
+34339,Marist,So,12.1,-6.94714,
+34346,Akron,So,67.5,2.71654,25.4
+34347,Michigan State,So,24.9,2.96546,70.2
+34353,IU Indy,Sr,62.6,-2.47235,
+34359,Texas State,Sr,70.4,0.0834056,
+34361,Illinois State,Sr,42.9,0.465658,
+34376,Michigan State,Fr,18.9,6.87607,
+34378,Michigan State,So,37.1,-2.36249,79.6
+34379,Michigan State,Jr,51.9,2.44087,58.2
+34382,Vermont,So,67.7,-0.226916,
+34383,Vermont,So,0.9,-13.0146,
+34384,Vermont,Jr,47.4,-3.18393,
+34385,Vermont,So,59.7,0.0498894,
+34387,Kansas,Sr,12.6,11.2918,86.6
+34388,Kansas,So,28.7,4.95816,52.4
+34391,Kansas,So,80.6,8.85182,80.4
+34396,Sacred Heart,Jr,0.3,-28.79,
+34398,Sacred Heart,So,8.9,-10.5059,
+34399,Sacred Heart,So,39.3,-7.12566,
+34414,UCF,Sr,48,-4.77474,
+34426,Canisius,So,8.4,-3.35751,
+34429,Fordham,So,45.5,-2.72865,
+34434,Miami (OH),So,21.6,-4.72178,38.0
+34442,Maine,So,66.9,-6.20782,
+34444,Maine,So,3.8,-9.29854,
+34446,Maine,Jr,0.9,-0.682152,
+34452,Green Bay,So,17.1,-5.82046,
+34461,Butler,So,60.8,8.29733,42.8
+34465,Butler,So,70.6,2.59093,72.2
+34484,Cal State Bakersfield,Jr,62.9,2.34672,
+34492,San Diego,So,27.2,-1.18949,
+34494,San Diego,So,4.7,-5.10303,
+34496,BYU,Jr,11.6,-7.87952,51.4
+34498,Southeast Missouri State,So,6.3,-5.14949,
+34505,Southeast Missouri State,So,13,-6.62265,
+34516,Penn State,So,71.4,-0.323407,58.2
+34526,American,Jr,37,-6.22697,
+34534,Eastern Michigan,Fr,23.3,1.77967,
+34536,Alabama A&M,Sr,53.5,-1.77356,
+34537,American,So,8.6,-9.38769,
+34544,Iowa State,Sr,76.9,3.81608,51.6
+34553,Mississippi State,So,3.6,-3.0813,33.0
+34559,Canisius,Fr,21,-4.8857,
+34565,Providence,So,81.2,3.5155,68.8
+34573,Clemson,So,48.5,-0.140504,45.6
+34574,Clemson,So,80.8,4.08411,81.8
+34575,UNC Greensboro,So,66.4,-1.96186,
+34581,Southern,Sr,0.9,-7.78053,
+34582,Idaho,So,57.2,4.50404,
+34588,Creighton,So,41.5,1.92344,23.2
+34590,Albany (NY),So,56.1,0.471583,
+34592,Troy,So,87.5,-0.191638,
+34593,Troy,Jr,67.4,-3.1011,
+34598,William & Mary,So,13.8,-0.0448444,
+34599,Appalachian State,So,46.9,-3.98223,
+34601,Belmont,So,19.5,1.21998,35.8
+34602,Belmont,So,54.7,2.93633,44.2
+34608,Samford,So,24.9,-6.0247,
+34609,Wyoming,So,46.8,-2.41457,
+34610,Samford,Sr,80.5,-3.20305,
+34611,Samford,So,1.2,-14.8052,
+34612,Wyoming,So,22.6,-6.60616,11.8
+34621,The Citadel,So,26,-7.00058,
+34640,Colorado State,Fr,0.7,-10.9591,0.8
+34641,Colorado State,Sr,25.8,4.53601,
+34647,Middle Tennessee,Sr,68.2,1.44866,
+34657,Jacksonville State,Fr,12.5,-5.76325,
+34663,Cornell,So,1.2,-16.273,
+34665,Prairie View,Sr,60.1,-5.62791,
+34679,Wake Forest,So,38.8,-0.500805,
+34684,Florida Gulf Coast,So,38,-0.346117,59.4
+34708,St. Bonaventure,Fr,29.1,-5.00289,
+34709,St. Bonaventure,So,90,5.67253,
+34711,Pitt,So,31.4,4.40562,25.2
+34714,UMass,So,36.9,-0.156832,66.2
+34717,Rider,Fr,3.1,-13.7289,
+34725,Iowa,So,42.7,3.46363,46.8
+34727,Fresno State,Sr,55.5,-0.18369,87.0
+34733,Southern Miss,Sr,68.1,0.870908,
+34736,Loyola (IL),So,63.9,-0.630207,
+34738,Notre Dame,So,3.3,-4.90813,75.0
+34740,Tennessee Tech,So,81.5,-0.255736,
+34744,Milwaukee,Fr,18.8,-3.24985,4.4
+34745,Milwaukee,Fr,3.2,5.02811,
+34746,Sacred Heart,So,93.1,-1.79987,
+34747,Florida,Fr,21.7,-3.33461,94.0
+34750,UTEP,Fr,21.5,-5.4192,
+34751,UTEP,So,57.6,0.0023393,59.4
+34752,UTEP,Sr,63.5,-0.325362,
+34753,Milwaukee,So,3,2.07361,9.8
+34754,UTEP,Fr,57.3,-4.1263,
+34761,Louisville,So,1.5,-9.00075,
+34764,Oklahoma,Sr,29.2,1.15651,
+34768,Oklahoma,Fr,13.8,0.279946,45.8
+34784,Canisius,So,82.7,-1.04054,
+34790,New Orleans,So,51,-2.76943,
+34791,Southern,So,41.3,-6.84084,
+34799,Notre Dame,So,63,5.70568,72.4
+34801,Providence,So,84.7,5.02748,81.2
+34804,Providence,So,60.8,2.32075,84.8
+34807,Providence,So,2.3,2.86134,
+34808,Little Rock,Sr,57.1,4.22696,
+34809,Rice,So,85.6,-1.22003,32.2
+34811,Rice,So,0.7,-17.0209,
+34812,Rice,So,57.8,-4.56643,37.0
+34815,California,Sr,1.2,-15.958,
+34817,Alcorn State,So,41.8,-4.79789,
+34820,Alcorn State,Sr,76.4,-4.56059,
+34821,McNeese State,So,34.8,-3.53919,
+34827,South Dakota State,Sr,81.3,1.79557,
+34828,Omaha,So,0.9,-14.1566,
+34832,Detroit,Fr,23.6,-1.69546,
+34835,Wake Forest,So,70,1.58166,47.2
+34838,South Dakota State,So,43.6,1.54327,38.4
+34839,South Dakota State,Fr,52.9,4.5122,
+34842,UConn,Jr,71.4,3.13799,97.6
+34849,Idaho State,So,30.3,-5.51132,
+34859,Bryant,Sr,3.1,-23.0345,
+34877,Florida,So,0.6,-19.8489,
+34878,Georgia State,Sr,87.5,0.720029,86.0
+34886,Northeastern,Sr,48.2,-0.798785,
+34890,Akron,So,19.2,-3.19933,
+34895,Morgan State,Sr,4.3,-2.53715,
+34896,Bucknell,So,70.9,1.95178,
+34899,Creighton,So,10,1.71527,
+34901,Towson,Jr,70.9,-1.70165,80.0
+34905,Bucknell,So,47.9,1.64478,
+34906,Central Connecticut,So,49.4,-4.0169,
+34916,St. Joseph's,So,0.8,-10.8508,
+34920,Presbyterian,So,38,-5.54062,
+34921,Presbyterian,So,1,-32.4166,
+34922,Presbyterian,So,22.4,-8.67948,
+34925,Presbyterian,So,32.4,-5.8535,
+34930,Wisconsin,Fr,69.6,7.21906,69.8
+34933,Utah Valley,Sr,21.4,-5.60284,29.0
+34934,Utah Valley,Sr,85.2,-1.69931,
+34936,Utah Valley,Sr,22,-4.3311,35.0
+34957,UT-Martin,Sr,80.8,-1.03632,
+34959,UT-Martin,Fr,0.2,-13.0519,
+34965,Arkansas-Pine Bluff,Sr,67.9,-6.71918,
+34969,Indiana,So,53.2,4.06298,90.4
+34972,Indiana,So,22.7,7.26225,96.2
+34975,TCU,So,75.1,2.12413,12.8
+34976,TCU,So,5.2,-5.49729,
+34987,San Jose State,Fr,14.8,-3.99939,
+34988,Ohio State,So,53.9,3.11739,85.8
+34991,San Jose State,So,0.3,-6.14599,
+35004,Niagara,So,76.3,0.656839,
+35006,Tennessee Tech,Sr,73.7,0.596706,
+35029,Kent State,Jr,18.2,-4.27453,
+35036,West Virginia,Jr,55.2,6.54046,15.4
+35039,Texas-Rio Grande Valley,Sr,39.4,-6.89777,
+35040,Miami (OH),So,48.8,-5.39182,5.4
+35050,James Madison,Fr,1.2,-2.31653,
+35052,VMI,So,7.5,-20.5986,
+35056,Alcorn State,So,4.2,-11.2447,
+35059,Louisiana Tech,Jr,42.6,-3.45892,
+35060,Louisiana Tech,Fr,29.4,-2.56238,
+35061,Louisiana Tech,So,68.2,-0.247605,16.4
+35064,Louisiana Tech,So,7,2.29188,58.6
+35065,Louisiana Tech,Jr,71.6,-2.23146,
+35067,UNC Greensboro,Sr,0.9,-2.03847,
+35069,Louisiana Tech,Sr,11.4,1.34844,
+35081,Louisiana,Sr,31.6,-1.24356,
+35082,Louisiana,Jr,66.8,-0.343542,
+35086,St. Bonaventure,So,64.1,3.04683,
+35090,Louisiana,So,63.2,-0.578303,
+35098,Cornell,So,32.2,-7.74561,
+35099,Cornell,So,47.4,-3.94535,
+35106,Maryland-Eastern Shore,Sr,75.9,-0.564495,
+35108,UCSB,So,13.2,-1.12721,
+35111,Grambling,So,22.9,-7.32997,
+35114,Cincinnati,Sr,61.6,4.56863,58.0
+35116,Cincinnati,So,14,-5.76997,75.2
+35117,Saint Louis,So,12.2,-4.01734,23.8
+35118,Cincinnati,Sr,35.7,2.9605,
+35119,Tennessee,Jr,58.9,0.138962,96.2
+35121,Dayton,Jr,0.3,-16.2715,
+35122,Texas Tech,So,29.3,0.713645,28.6
+35128,Nebraska,So,22.7,0.234644,61.0
+35134,UC-Irvine,Fr,1.2,-5.87819,
+35135,UC-Irvine,So,6.3,-3.84906,
+35140,UC-Irvine,Fr,34.6,0.621743,
+35145,Temple,Jr,0.5,-11.9441,
+35147,Southern Miss,Sr,31.2,-2.35534,
+35149,Richmond,Fr,50.2,2.24372,
+35151,South Alabama,So,5.6,-2.12389,14.8
+35155,Texas Tech,So,3.4,-11.4676,62.2
+35157,Richmond,So,0.5,-4.87735,
+35159,DePaul,Sr,41.3,1.32255,
+35162,UAB,So,61.8,6.27473,73.6
+35167,UCF,So,1.2,-18.1427,
+35169,UCF,So,68.1,1.22488,71.6
+35184,San Diego,Jr,14.1,-3.47287,
+35188,UCSB,Sr,32.9,-4.51278,79.0
+35190,Eastern Kentucky,Sr,35.6,-1.99191,
+35193,Alabama State,Sr,24.6,-7.65675,
+35195,Alabama State,So,58.6,-5.25083,
+35207,Northern Kentucky,Sr,0.3,-5.36827,20.4
+35209,Troy,So,27.7,-0.445482,
+35218,North Carolina A&T,So,14.5,-7.79674,
+35219,Utah,So,59.6,2.26221,62.8
+35220,Utah,So,75.4,9.5731,
+35222,Utah,Fr,1.3,3.52441,
+35226,Delaware,So,21.9,-5.41842,
+35229,Delaware,So,10,0.881245,
+35230,Delaware,So,78,-2.08605,
+35247,Butler,Jr,3.1,1.62004,
+35248,LSU,Sr,45.7,3.60777,
+35249,Hofstra,Sr,92.7,4.87998,
+35254,UNC Wilmington,Sr,1.7,-4.75039,
+35258,Drexel,So,11,-7.009,
+35260,Gardner-Webb,Sr,73.7,-0.0253732,
+35261,Utah State,Sr,78.3,4.29734,
+35263,Gardner-Webb,Sr,59.7,-1.38889,
+35264,Gardner-Webb,Sr,14,-2.60483,
+35265,Gardner-Webb,Fr,34.4,-3.97782,
+35266,Gardner-Webb,Fr,23.8,-5.32217,
+35269,Seton Hall,Fr,33.6,2.9945,24.8
+35270,Seton Hall,So,76.8,3.83084,71.4
+35274,Arkansas,So,38.5,3.79761,49.6
+35275,Longwood,So,68.2,-3.99806,
+35277,Utah State,So,35.8,-0.293166,13.2
+35280,Utah Valley,So,42.8,-1.56651,
+35298,UT-Martin,So,41.6,-2.81402,
+35299,Wisconsin,Fr,0.3,-21.0582,37.8
+35302,Cleveland State,So,17.1,-5.08587,
+35310,Wisconsin,So,0.4,-33.2991,49.6
+35311,North Dakota State,Fr,0.2,-14.8338,
+35314,North Dakota State,Fr,2.5,-4.17732,
+35326,Lehigh,So,85.7,0.550852,
+35327,UT Arlington,So,35,-4.06363,63.2
+35329,Southern,So,25.1,-3.58305,
+35331,UT Arlington,So,33.3,5.77414,
+35335,Southern,So,9.3,-7.51893,
+35336,UT Arlington,So,48,1.87199,
+35348,Mississippi State,Sr,28.8,0.160314,
+35351,Mississippi State,Sr,54.4,3.04137,
+35354,Southern Utah,Sr,30.5,-9.09035,
+35358,Mississippi Valley State,Sr,26,-2.51883,
+35362,Duquesne,So,12.8,-2.99042,79.4
+35368,Oklahoma,Fr,1.1,-21.6206,
+35381,Canisius,So,48.1,-3.04636,
+35388,Morehead State,Sr,48.3,0.330376,2.0
+35397,Wright State,So,2.2,12.2259,
+35403,Pepperdine,Fr,3.3,-6.42537,
+35411,George Washington,Jr,75.6,3.81217,51.8
+35414,George Washington,Jr,21.8,0.706793,
+35417,UMass-Lowell,So,52.1,-3.5509,
+35422,UMass-Lowell,Fr,2.7,-8.77433,
+35423,Pepperdine,Sr,3.9,-6.923,
+35428,Cincinnati,Sr,61.3,3.68664,
+35430,Cincinnati,So,73.9,9.63447,82.2
+35432,Eastern Michigan,So,5,-9.58067,
+35434,Eastern Michigan,Sr,4.6,-2.0775,21.6
+35435,Rhode Island,So,82.1,2.96035,48.8
+35440,DePaul,Sr,57.7,1.31263,
+35442,Louisiana-Monroe,Sr,82,2.84414,
+35444,Louisiana-Monroe,Fr,3.2,-6.65792,
+35446,Louisiana-Monroe,Sr,28.1,-0.236533,
+35447,Duquesne,So,64.6,0.448369,
+35448,Cornell,So,1.9,-11.4181,
+35451,DePaul,Jr,42.5,-1.73336,68.4
+35457,South Dakota State,Sr,70.6,3.39161,62.8
+35462,Longwood,Sr,76.2,-2.79616,
+35463,Vermont,So,36.9,-4.29902,
+35468,Boston College,Fr,23.5,-5.64407,66.2
+35471,Wisconsin,So,3.4,2.47329,
+35482,North Florida,So,42.2,-6.0789,
+35483,Louisville,So,61.5,10.8645,86.6
+35485,Murray State,Sr,76.4,2.92353,
+35488,UNC Greensboro,Sr,55,-1.40112,
+35489,Cal State Fullerton,Jr,37.1,-3.15459,
+35491,Cal State Fullerton,Sr,42.9,-3.12262,
+35495,UMass,Jr,1,-8.73616,
+35504,Drake,So,82.9,-0.160702,
+35507,USC Upstate,Jr,14.9,-3.0801,
+35512,UAB,So,67.5,2.89185,
+35513,UAB,So,1.3,-4.43846,
+35516,New Mexico,Fr,0.2,-17.8607,
+35517,New Mexico,Sr,19.6,0.0140889,
+35538,Saint Francis (PA),So,0.4,-28.8383,
+35540,Rhode Island,Sr,0.6,-10.5055,
+35544,Quinnipiac,So,43.7,-4.60486,
+35546,Liberty,Fr,37.3,-4.55724,
+35547,Davidson,So,49.7,2.29847,15.6
+35556,Saint Mary's,Fr,58.8,3.77133,42.2
+35574,New Mexico,Jr,83.9,4.03794,
+35575,Cal State Bakersfield,So,71.2,2.12149,
+35576,Oklahoma,So,54.5,9.69896,74.2
+35577,Winthrop,So,70,2.26495,
+35579,Winthrop,So,0.9,-4.37942,
+35580,Winthrop,So,1,-8.87263,
+35581,Winthrop,Jr,19.4,-3.21303,
+35582,Winthrop,So,1.9,-7.95027,
+35584,Norfolk State,So,65.1,-1.89276,
+35590,Norfolk State,So,16.1,-1.79563,
+35591,UC-Davis,Sr,75.6,1.46352,
+35592,UC-Davis,Jr,70,-1.55859,
+35593,UC-Davis,So,2.1,-10.1453,
+35608,Montana State,So,62.7,-0.926501,
+35609,Montana State,So,0.6,-10.5704,
+35612,Idaho,Fr,56.9,-1.48108,
+35613,Idaho,Sr,32.3,-6.40941,
+35614,Idaho,So,43,-3.48972,
+35615,Hofstra,Sr,85.6,1.02127,
+35616,Stony Brook,Jr,64.4,1.61306,
+35618,Stony Brook,So,37.3,0.163922,
+35619,Hofstra,Jr,89,0.173465,32.2
+35621,Grand Canyon,So,38.6,-0.300668,
+35622,Seton Hall,So,80.4,6.70843,97.4
+35623,Grand Canyon,Fr,7.5,-13.3792,
+35624,Troy,Fr,3,-14.0938,
+35625,Grand Canyon,Fr,57.2,2.78244,
+35629,DePaul,So,12.3,-3.51317,
+35630,New Mexico,So,34.7,2.0094,53.8
+35637,Loyola Marymount,Sr,41.9,-0.0335509,
+35639,Mount St. Mary's,Fr,9.1,-8.13702,
+35643,USC Upstate,Jr,5.2,-18.1455,
+35645,UCLA,So,14,-0.662495,29.6
+35649,Lamar,Sr,26.6,-9.55719,
+35650,Lamar,Sr,34.8,-7.76272,
+35659,UConn,So,79,6.60891,96.8
+35662,Virginia,So,35.4,4.11882,67.0
+35664,Virginia,Fr,9.3,-3.50472,29.0
+35665,Virginia,So,53.3,9.92989,71.0
+35667,Ohio,So,22.1,-5.63852,
+35670,Ohio,So,0.5,-39.657,
+35674,Texas A&M,So,0.9,-9.95964,
+35675,Texas A&M,Sr,60.1,0.815791,41.6
+35676,North Dakota State,So,6.3,-5.17405,
+35677,North Dakota State,So,66.7,-0.362384,
+35684,Davidson,So,46.3,-0.019871,9.8
+35685,Illinois State,Sr,70,0.332924,
+35689,Wake Forest,So,24.1,-1.09209,77.4
+35691,Hawaii,Fr,2.7,-7.7121,
+35710,Lipscomb,Jr,43.2,-2.97302,
+35722,Southern Utah,Sr,57.3,-4.17197,
+35723,Southern Utah,So,66.6,-1.13382,
+35727,Charleston Southern,Sr,1.7,-17.3851,
+35728,Charleston Southern,So,29.3,-7.54631,
+35729,Charleston Southern,Sr,67.2,1.13109,65.4
+35730,Charleston Southern,So,25,-1.94387,
+35733,Charleston Southern,Sr,37.1,-1.54874,
+35734,Seton Hall,So,67.5,8.07749,24.6
+35739,Western Kentucky,So,72,2.39645,23.6
+35743,Temple,So,60.2,2.05662,73.2
+35748,Niagara,Jr,0.2,16.8444,
+35749,George Mason,Sr,54.2,-0.834087,
+35762,Denver,So,5.7,-14.5253,
+35767,Seton Hall,So,64.7,6.99671,30.4
+35769,Quinnipiac,So,21.8,-5.98476,
+35773,Washington,So,0.9,-12.5621,
+35774,Quinnipiac,So,49.1,-3.85561,
+35778,William & Mary,So,1,-23.3412,
+35780,UConn,Fr,57.3,2.20978,95.6
+35782,UT Arlington,So,6.2,-4.09417,
+35789,Louisiana-Monroe,Jr,9.4,-10.7829,
+35807,Syracuse,So,7.6,-1.62152,90.6
+35810,South Alabama,So,1.7,-6.70659,
+35812,South Alabama,Sr,38.4,-0.243083,
+35814,Texas Southern,Sr,81.8,-1.80406,
+35817,Texas Southern,Sr,85.1,-0.231183,
+35820,Texas Southern,Sr,79.6,-0.0513565,
+35825,Lafayette,So,63.1,-4.28477,
+35829,Buffalo,So,1.1,-9.32381,9.0
+35830,Lafayette,So,22.6,-7.21851,
+35834,Buffalo,Sr,41.5,-2.91496,
+35835,Buffalo,So,0.8,-16.6031,
+35839,Kentucky,So,88.5,8.93687,96.4
+35841,Appalachian State,So,29,-6.09108,
+35842,Appalachian State,So,0.6,-19.2169,
+35847,Appalachian State,So,1.6,-17.2212,
+35851,UTSA,So,40.9,-4.35392,
+35854,UTSA,Sr,84.6,-1.83107,
+35861,Rider,Sr,87.2,-0.0500605,38.6
+35864,Idaho,So,56.9,-1.21256,
+35868,Rider,So,1.6,-13.9473,
+35869,Prairie View,So,64.4,-3.71927,
+35871,UT Arlington,So,74.8,4.25041,
+35872,Rider,So,8.6,-4.10861,
+35873,Indiana State,So,76.4,2.14093,46.8
+35882,Xavier,So,76.6,7.30816,92.4
+35883,Xavier,So,7,6.93676,82.6
+35885,Xavier,So,24.6,0.938941,73.8
+35886,Xavier,Fr,59,5.14031,79.0
+35887,Xavier,So,56.8,8.07478,79.8
+35888,Xavier,So,16.5,3.13537,69.0
+35889,Texas A&M-Corpus Christi,So,46.5,4.32636,
+35890,Kent State,Jr,75.4,0.739756,26.2
+35892,North Dakota State,So,86.8,0.527714,
+35893,Kent State,So,14.6,-8.61886,26.6
+35898,Long Beach State,So,45.3,-2.08359,74.2
+35899,Long Beach State,Fr,0.7,-8.99597,
+35900,Long Beach State,So,74.2,4.06411,11.0
+35910,SIU-Edwardsville,So,53.3,-1.14961,
+35914,North Florida,Sr,87.8,-0.376953,
+35916,SIU-Edwardsville,Sr,31.5,-3.78891,
+35917,SIU-Edwardsville,So,64.9,-3.96797,0.4
+35925,Howard,So,44.7,-2.83122,
+35932,Houston Christian,So,34.8,-1.07087,
+35934,Oregon,So,72.1,3.98827,61.6
+35936,Binghamton,So,54.9,-2.3434,
+35939,Binghamton,So,14.5,-7.3182,
+35944,Oregon,Sr,54.3,3.46188,
+35958,Valparaiso,Sr,30.2,-3.73049,65.0
+35960,Valparaiso,So,8.1,-1.77953,
+35961,Valparaiso,Sr,49.2,0.813656,
+35962,Fairfield,So,70.9,-5.23581,
+35963,Fairfield,Sr,4.6,-8.37069,
+35964,Georgia State,So,0.3,-3.99223,
+35965,Fairfield,So,86.9,1.4679,
+35969,Jacksonville State,Sr,60.8,-5.98927,
+35972,Virginia,So,54.5,4.62637,75.8
+35973,Memphis,Sr,55.9,7.4825,
+35982,Arkansas-Pine Bluff,Jr,27.5,-7.02282,
+35983,Loyola Marymount,So,29.2,0.631402,
+35986,Loyola Marymount,Jr,6.6,-6.94754,
+36006,Drake,Fr,31.5,-2.65383,37.2
+36013,Colorado,So,55.9,1.6582,82.0
+36014,Colorado,So,0.5,14.2393,
+36016,Northern Arizona,So,0.2,-27.0634,
+36017,Northern Arizona,Sr,19.2,-2.31184,
+36021,Northern Arizona,So,12.1,-7.3227,
+36023,Northern Arizona,Fr,71.6,-5.64722,
+36029,Chattanooga,Jr,77.7,4.11298,
+36030,Chattanooga,Sr,37.1,-1.52602,
+36031,Chattanooga,Jr,61.8,-0.103945,
+36032,Chattanooga,So,1,6.05963,
+36040,VCU,So,40.9,2.47998,77.6
+36041,USC Upstate,So,7.3,-6.04138,
+36042,VCU,So,23.9,2.5861,71.8
+36054,Weber State,Fr,0.8,-12.0295,
+36059,Syracuse,Jr,0.3,-10.4537,
+36063,Weber State,So,41.6,-0.511217,
+36064,Weber State,Fr,50.5,-1.74158,
+36071,Norfolk State,Sr,68.7,-1.59993,
+36074,Tulane,So,79.1,1.19509,
+36080,San Jose State,Sr,64,-2.94588,
+36112,Cleveland State,So,16.1,-1.17369,
+36114,Cleveland State,So,53.2,-1.57089,
+36116,Cleveland State,So,51.3,-0.793423,
+36120,Duquesne,So,32.8,2.0531,
+36123,Duquesne,So,0.1,-3.73089,
+36127,Texas-Rio Grande Valley,Jr,18.4,-6.99198,
+36128,NJIT,So,20.1,-6.6344,
+36133,Houston,So,12.1,3.7361,
+36135,Houston,Jr,16.6,4.35592,
+36136,Houston,Sr,72.9,2.4119,95.2
+36144,Denver,So,68.1,0.509678,
+36145,Denver,So,30.8,1.03337,
+36147,Cal State Bakersfield,Fr,4.3,-4.04311,
+36151,Yale,So,82.2,0.913735,22.4
+36152,Yale,So,12.3,-4.44953,
+36153,Stony Brook,So,4.9,-3.39058,
+36157,William & Mary,So,74.4,1.7209,19.8
+36160,South Dakota State,So,18.8,-0.426005,
+36162,South Dakota State,Sr,56.7,2.68325,
+36186,Stony Brook,So,27.5,1.64533,
+36188,Canisius,Fr,0.4,-18.6769,
+36191,Canisius,So,14.5,-4.0188,
+36192,Canisius,Sr,44.3,-0.327731,
+36193,Villanova,Sr,1.7,-8.70977,
+36195,Arizona State,Sr,74.6,2.50913,
+36196,Arizona State,So,1.4,-9.53141,
+36198,Florida A&M,So,11.7,-9.37715,
+36200,New Orleans,So,45.3,-4.09653,
+36206,North Carolina A&T,Sr,8.6,-8.73839,
+36210,Stony Brook,So,14.9,-6.69686,
+36215,Boston College,So,27.2,-4.66751,38.0
+36218,Mississippi Valley State,So,18,-7.17269,
+36222,Incarnate Word,So,68.2,0.645972,
+36223,Bryant,So,23.6,-6.12916,
+36227,Mississippi Valley State,Sr,38.9,-9.87233,
+36228,Mississippi Valley State,Jr,61.9,-3.23514,
+36234,Idaho,So,40.3,-2.80535,
+36241,Troy,So,15.9,-3.77667,
+36244,Grand Canyon,So,48.5,0.751612,
+36251,Dartmouth,Jr,1.2,-4.4557,
+36262,New Mexico State,So,50.6,-0.0586418,
+36269,North Florida,So,0.5,-13.2389,
+36275,North Florida,Fr,6.3,-9.40151,
+36281,Princeton,So,9,-4.85387,20.6
+36283,Alabama State,Sr,6.9,-9.0271,
+36301,North Carolina A&T,So,74.7,-3.35786,
+36302,Stephen F. Austin,Sr,61.8,3.22153,
+36308,Stephen F. Austin,So,62.3,2.89064,
+36322,UTSA,So,35.9,-5.20017,
+36331,UMass-Lowell,Fr,57.9,-3.22658,
+36333,LSU,So,19.9,0.162718,16.2
+36334,LSU,So,46.4,1.89818,48.4
+36335,Baylor,So,52.2,6.38986,74.8
+36337,Baylor,So,74.7,3.26635,
+36339,Georgetown,So,47,-0.128656,78.8
+36340,George Washington,So,68.7,3.89537,37.4
+36342,Georgetown,So,61.7,3.88016,87.2
+36343,LSU,So,16,-4.1381,88.8
+36344,LSU,Sr,37.3,-0.973985,43.0
+36346,Georgetown,So,8.8,1.47013,44.8
+36350,Santa Clara,So,50.9,-1.13651,
+36351,Santa Clara,So,46.1,-3.58178,
+36354,Villanova,So,54.5,3.43856,85.2
+36360,Albany (NY),Sr,68.5,3.05425,
+36361,Austin Peay,Jr,5.9,-11.9488,
+36366,Wyoming,Jr,87.4,1.50521,
+36367,Providence,So,59.9,-0.0556486,46.2
+36377,Cincinnati,Sr,42.3,2.45595,83.6
+36380,Radford,Sr,71.5,-0.295487,
+36381,Radford,Fr,9,-5.46708,
+36405,Marist,So,27.2,-6.46258,
+36407,Prairie View,Sr,65.2,1.06849,
+36411,Prairie View,So,17,-4.07952,
+36413,Prairie View,Sr,21.4,-8.69825,
+36417,Pepperdine,So,14.6,1.7446,
+36420,McNeese State,So,1.2,-11.3616,
+36421,Northern Colorado,So,21,-4.5666,
+36427,Delaware,Jr,13.8,-5.99807,
+36428,Delaware State,Fr,0.7,-13.7071,
+36439,USC Upstate,So,73.1,-4.27301,
+36440,Furman,So,40.1,-0.789922,
+36443,USC Upstate,So,43.5,-1.25423,
+36445,USC Upstate,Sr,49.9,-6.23544,
+36447,Furman,So,70.4,-2.8446,
+36450,Furman,So,0.6,-20.0243,
+36458,UCLA,Jr,87.2,4.25611,96.4
+36468,Belmont,So,7.2,-8.44259,
+36473,Wichita State,So,37.6,6.28289,31.4
+36476,Nevada,So,59.2,-2.26679,14.0
+36478,Nevada,So,38.6,-2.04023,
+36479,Nevada,Jr,9.5,-4.43043,47.2
+36484,Alabama A&M,Jr,30.7,-6.35499,
+36486,William & Mary,So,29.3,1.57032,7.0
+36487,William & Mary,So,46.1,0.790326,
+36491,Florida A&M,So,10.5,-11.1442,
+36494,Florida A&M,Jr,26.9,-8.18779,
+36498,Navy,So,75,0.297776,
+36499,Navy,So,19.8,-7.54928,
+36501,Oakland,So,50.6,0.0102565,5.0
+36510,Auburn,So,62,0.834751,42.0
+36511,Auburn,So,12.1,-6.4549,
+36513,Auburn,Sr,68.6,-2.82598,
+36515,North Dakota,So,4.9,-8.6193,
+36528,Bowling Green State,So,8.8,-4.09372,
+36529,Bowling Green State,Fr,50.4,-1.24501,
+36531,Bowling Green State,Sr,0.7,-23.2986,
+36533,Bowling Green State,Sr,52.3,-0.996167,
+36540,Wake Forest,So,0.6,-19.2217,
+36545,LIU,So,14.4,-7.62733,
+36546,Arizona State,So,61.4,2.66957,61.4
+36547,Arizona State,Sr,67.1,3.79427,
+36551,Chicago State,So,21.8,-8.82041,
+36553,Chicago State,Sr,29.7,-7.29258,
+36557,IU Indy,So,2.9,-7.84926,14.0
+36558,Boise State,Sr,31.3,-1.97754,
+36559,Boise State,So,47.2,2.40268,77.8
+36560,Boise State,So,4.3,-0.826632,25.0
+36561,Kennesaw State,So,54.8,-4.72442,
+36578,Washington,So,2.2,-8.93188,
+36579,Arkansas,Jr,66.4,2.2918,35.0
+36580,Arkansas,Sr,68.2,2.95885,
+36583,Western Carolina,So,0.1,-6.44804,
+36584,Western Carolina,So,7.1,-5.27386,
+36588,UNC,So,76.8,8.35677,94.2
+36589,UNC,So,46.7,6.0681,97.2
+36590,Arkansas,So,36.9,0.72178,77.4
+36604,College of Charleston,So,54.3,0.222593,57.8
+36605,Texas A&M,So,42.9,7.35436,70.4
+36606,Seton Hall,So,75.2,3.95158,90.8
+36608,Texas State,Jr,79.7,-0.406323,
+36612,Bryant,So,78.1,-4.05838,2.2
+36613,Florida Gulf Coast,Fr,66,-1.24524,45.0
+36614,Rhode Island,Sr,47.5,1.74377,
+36615,Michigan,So,73,5.59193,
+36617,High Point,So,7.1,-6.82868,
+36618,High Point,So,0.9,-10.3182,
+36619,Michigan,Fr,9.6,2.51235,75.6
+36624,High Point,So,36.1,-3.13026,
+36626,Milwaukee,So,8.2,-3.18033,
+36639,Illinois State,So,62.2,3.26318,
+36652,Texas,So,0.2,-19.4346,
+36653,Louisiana-Monroe,Sr,81.7,4.63337,
+36666,Florida Atlantic,Sr,43.1,-5.66364,89.2
+36668,Georgia Southern,So,38.2,-7.19585,
+36669,Georgia Southern,Fr,1.7,-9.41515,
+36673,Saint Mary's,So,36.4,2.6231,
+36680,Air Force,So,55.8,1.26754,
+36684,Grand Canyon,Sr,39.4,1.97439,
+36687,Oklahoma State,So,57.5,0.927052,
+36690,Louisiana-Monroe,Sr,63.7,-0.706537,
+36693,UNC,Sr,1.3,-12.2848,
+36717,UC-Riverside,So,24.4,-3.43231,
+36729,Oregon State,So,0.6,-11.669,
+36731,Fordham,So,55.2,-1.75739,
+36746,Colgate,So,68.9,0.960768,
+36747,Loyola (MD),So,10.5,-7.82924,
+36751,Western Illinois,Sr,19.2,-4.84109,
+36752,Saint Louis,So,46,0.859929,47.6
+36753,Saint Louis,Jr,30.5,-5.07157,
+36754,Jackson State,Sr,34.9,-3.90306,
+36756,Saint Louis,So,36.2,-0.937065,36.4
+36758,Saint Louis,So,49.1,-0.325486,56.4
+36759,Saint Louis,So,40.1,-2.39426,29.2
+36764,Minnesota,So,10.4,-5.30054,17.6
+36767,Jackson State,Jr,74.4,-2.16047,
+36768,Illinois,Fr,48.1,0.824593,59.6
+36769,Illinois,So,7.2,-3.80023,91.8
+36773,Pepperdine,So,27.6,-3.8454,
+36779,Colgate,So,35.8,-5.08632,
+36780,Hawaii,Fr,2.6,-0.403818,
+36783,Elon,So,21.2,-2.86905,
+36787,Northern Iowa,So,46.3,-3.3082,
+36789,Western Illinois,Fr,22,-4.16495,
+36793,Maryland-Eastern Shore,Jr,7.4,-10.4252,
+36795,Dayton,So,47.3,-1.85096,72.6
+36806,Western Michigan,So,58.3,1.06753,
+36807,Rutgers,So,65.1,-3.30753,72.8
+36809,Providence,So,1.7,-2.33283,
+36815,Monmouth,So,68.7,1.56935,
+36821,Minnesota,Sr,48.8,-2.73903,
+36822,Minnesota,So,70.8,0.546019,65.0
+36823,Minnesota,So,53,-1.40743,52.6
+36830,Idaho State,So,0.2,-15.0738,
+36832,Idaho State,So,34.7,-4.84137,
+36834,Idaho State,So,77.8,-0.508286,
+36837,Ole Miss,So,43.8,3.81749,69.4
+36845,Southeastern Louisiana,So,0.1,2.55706,
+36846,William & Mary,Fr,0.9,-3.93966,
+36850,Rutgers,Fr,15.9,-7.05468,28.0
+36853,Navy,So,23.7,-4.88748,
+36854,Navy,So,42.9,-1.28285,
+36856,Navy,So,54.9,-3.49773,
+36861,UNC Wilmington,So,1,-20.8412,
+36862,UNC Wilmington,So,61.8,2.26322,
+36864,Harvard,So,23.7,-2.99348,67.8
+36867,Loyola (IL),So,58.9,2.62005,
+36871,Tulsa,Sr,1.2,-9.18635,
+36876,Boston University,Jr,53,-1.62621,
+36877,Harvard,So,13.3,-0.408481,25.6
+36878,Boston University,So,7.3,-3.10964,
+36881,Boston University,So,26.9,-2.37484,
+36882,Boston University,So,51.2,2.14751,
+36884,UCLA,So,64.2,4.52493,92.6
+36885,Southern Illinois,Sr,4.4,-2.36628,59.2
+36886,New Orleans,So,4.1,-8.16625,
+36887,Morehead State,So,39.3,0.313682,
+36890,Morehead State,Sr,47.5,-0.487735,
+36891,Western Carolina,So,5.2,-6.82456,29.2
+36898,Norfolk State,Sr,69.8,1.0388,
+36900,Harvard,So,1.2,-6.28426,
+36902,Vanderbilt,So,65.9,5.96485,74.6
+36903,Vanderbilt,So,75.3,6.89495,74.0
+36905,San Diego State,So,73,2.94416,83.6
+36916,Kennesaw State,So,47.6,-2.98425,
+36918,Akron,So,71.6,0.71692,
+36921,Miami (OH),Sr,35.8,0.420078,
+36922,UNC,So,70.9,7.15677,98.4
+36929,Indiana State,Jr,54.3,-2.54323,
+36931,Indiana State,Fr,15.5,-5.00846,
+36932,Indiana State,Jr,8.6,-4.13065,
+36934,Indiana State,So,41,-5.61405,
+36935,Indiana State,Jr,0.5,-4.18105,
+36940,Charleston Southern,So,62.6,-4.0017,18.0
+36942,Georgia,So,74.5,3.10598,55.2
+36948,Old Dominion,Sr,46.1,2.15737,
+36954,Loyola (IL),Sr,66,-0.363936,
+36962,Norfolk State,So,65.6,1.73643,
+36963,UNC,Sr,1.1,-6.4231,
+36969,Stetson,Fr,3.8,-14.0477,
+36970,Stetson,So,60.2,-1.01447,
+36975,College of Charleston,So,0.2,-22.6865,
+36978,Prairie View,Jr,33.3,-5.6938,
+37004,Duquesne,So,1,-6.11492,
+37005,Long Beach State,So,0.2,5.31736,
+37006,Sacramento State,So,87,-1.69339,
+37010,Georgia State,Fr,40.3,-0.0413828,22.2
+37012,Georgia Southern,So,58.7,-3.2609,
+37014,Georgia State,Sr,1.8,-15.5193,
+37016,Georgia State,So,21.3,-5.11002,12.4
+37018,Hofstra,Sr,25.4,1.70387,
+37019,Hofstra,So,74.6,3.86371,30.2
+37020,Hofstra,So,8.7,-1.45217,64.2
+37025,Air Force,So,0.7,-18.2463,
+37027,Air Force,So,8.5,-2.05311,
+37028,Air Force,So,28.3,-0.294483,
+37029,Air Force,So,30.4,-7.23597,
+37031,Air Force,So,30.4,-2.52487,
+37032,Air Force,So,53.2,-1.46855,
+37037,Gonzaga,Sr,67.6,4.7176,8.2
+37042,South Dakota,So,12.2,-6.18602,
+37050,Northeastern,So,26.5,-6.68519,
+37052,West Virginia,So,56.5,5.29953,29.8
+37053,College of Charleston,So,0.1,-40.7016,
+37054,Villanova,Fr,50.7,10.5574,84.0
+37064,UConn,Sr,63.4,5.9642,
+37068,Washington,So,1.2,-2.99009,
+37069,Texas A&M,Sr,1.5,-5.86357,
+37070,Wagner,Sr,47.6,-2.0537,
+37071,Baylor,Jr,61.5,7.09991,88.8
+37075,Arkansas-Pine Bluff,So,20.8,-3.83909,
+37078,Kansas City,Sr,52.5,-2.79734,
+37085,Florida,So,57.6,4.54454,96.6
+37106,George Washington,So,38.9,-0.187375,23.2
+37108,East Carolina,So,35.5,-4.24059,63.6
+37109,East Carolina,So,7,-3.16772,13.6
+37111,East Carolina,Sr,30.4,-5.42105,
+37112,East Carolina,So,82.1,-0.520498,
+37113,Jackson State,Fr,0.5,-5.60301,
+37121,Siena,Jr,0.9,1.97056,
+37122,New Mexico State,So,66.6,1.35164,
+37123,New Mexico State,So,87,7.22599,
+37125,North Carolina Central,Jr,58.4,-2.89651,
+37127,New Mexico State,So,33.2,-1.66297,
+37128,New Mexico State,So,63.5,-2.47385,
+37134,Eastern Illinois,Sr,16.5,-6.72282,
+37135,Ball State,So,42,1.45178,10.8
+37141,Denver,So,23.1,-1.50685,
+37144,Tennessee Tech,Fr,7.4,-1.05302,7.4
+37146,Quinnipiac,So,0.1,-13.4015,
+37154,Kansas State,So,0.8,-9.24496,
+37155,Middle Tennessee,So,72.9,3.35627,
+37163,Florida State,So,9.7,0.928497,70.6
+37166,Saint Louis,Sr,74.6,0.410834,75.8
+37169,Tennessee,Sr,68.6,3.44043,
+37170,North Carolina A&T,So,19.5,-4.48146,
+37171,ETSU,Sr,54.2,0.215148,88.2
+37173,UMass,So,76.5,0.738978,71.8
+37179,Illinois State,Sr,38.3,-0.524686,
+37181,Army,So,4,-1.1947,
+37183,Siena,So,4.5,-2.77454,
+37184,Army,So,16.3,-2.33874,
+37185,Portland,Sr,13.4,0.0238258,
+37187,Houston Christian,So,8.9,-10.6748,
+37192,Northern Kentucky,So,49.3,-1.34538,39.4
+37200,West Virginia,So,32.8,2.64499,87.2
+37203,West Virginia,Sr,50.8,10.1272,61.2
+37207,Jacksonville State,So,62.3,-2.01507,
+37214,UNLV,So,4.2,0.0611156,94.6
+37216,UNLV,So,83.4,7.22139,60.6
+37217,UNLV,So,38.4,-3.73659,95.6
+37218,UNLV,So,52.8,-3.21199,64.0
+37225,Bowling Green State,So,6,-11.5917,
+37227,UCLA,So,0.5,5.86759,
+37239,Liberty,So,3.4,-9.72104,
+37251,Lehigh,Sr,17,-6.11232,
+37254,Eastern Michigan,Sr,68.6,1.70942,
+37255,Eastern Michigan,So,78.9,2.87564,
+37258,Eastern Michigan,So,10.1,-5.26425,
+37266,Middle Tennessee,So,44.7,-0.211517,
+37267,Kansas City,So,3,5.83178,
+37271,VCU,So,31.4,0.689925,54.6
+37273,Tennessee State,So,57.4,-4.36193,
+37274,Tennessee State,Sr,58.5,3.81744,
+37276,Tennessee State,Sr,37,1.57984,
+37277,Maryland,So,48.7,1.7755,81.4
+37278,Ball State,Sr,0.9,5.85662,
+37279,Maryland,So,82.8,4.87295,93.8
+37283,Appalachian State,Sr,38.6,3.54193,60.4
+37286,Binghamton,So,39.2,-4.41553,
+37289,Binghamton,So,40,-7.22308,
+37290,Binghamton,So,10.5,-9.12074,
+37291,Binghamton,So,0.8,-8.50575,
+37294,Binghamton,So,78.4,-0.311413,
+37301,Portland,So,52.2,-2.09404,
+37307,Stanford,Sr,48.4,-2.83571,45.8
+37311,Pacific,Sr,21.3,-0.151525,
+37313,Southern,So,67.7,0.529897,
+37314,Oregon State,Sr,86,11.4314,
+37320,Sacramento State,So,4.4,-15.0942,
+37327,Middle Tennessee,So,59.4,5.91806,
+37329,Ball State,So,66.5,-1.1501,6.8
+37331,Tennessee State,Sr,45.9,0.817317,
+37335,Lehigh,So,20.9,-5.324,
+37336,UCLA,So,51.9,4.59285,93.6
+37341,Michigan,So,70.2,2.53867,13.4
+37342,Sacramento State,So,5.5,-9.71476,
+37349,Charlotte,Sr,4.8,-4.41432,
+37360,Georgia Southern,So,74.1,4.0405,
+37361,Marquette,Sr,0.7,-7.60961,
+37363,Indiana,Sr,5.5,2.59461,
+37364,Georgia Southern,Fr,35,0.587479,
+37367,UNC Asheville,So,71.2,2.22001,
+37368,UNC Asheville,So,14.8,1.29991,
+37370,Georgia Southern,So,67.4,-0.755208,8.8
+37371,UNC Asheville,So,6,-7.26815,
+37372,UNC Asheville,So,86.4,2.05458,
+37383,North Carolina Central,So,2.7,0.973622,
+37385,Oregon,So,82.3,6.18534,88.4
+37386,North Carolina A&T,So,17.3,-7.52697,
+37387,Saint Mary's,So,93.5,5.92415,
+37394,Florida Gulf Coast,So,73.4,3.8928,
+37395,Florida Gulf Coast,Jr,32,-1.08018,66.0
+37402,UIC,Sr,32.7,-7.00095,
+37407,UIC,So,68,0.427856,6.6
+37417,St. Joseph's,So,53.9,1.13104,66.8
+37432,St. Joseph's,So,0.7,-1.73404,
+37437,Central Michigan,So,28.3,-2.19832,
+37438,Central Michigan,So,53.9,1.54086,
+37439,San Diego State,Sr,31.6,1.85095,88.4
+37441,San Diego State,Fr,51,3.46875,85.8
+37443,San Diego State,So,52.7,1.77218,90.0
+37463,Texas-Rio Grande Valley,Sr,73.8,-6.81933,38.8
+37465,Illinois State,Jr,49.2,-0.908075,
+37474,Hartford,So,9.4,-5.69452,
+37476,Niagara,So,44.1,-5.11032,
+37477,South Florida,So,0.2,-16.3519,
+37478,South Florida,So,57.7,2.1865,30.8
+37481,South Florida,Sr,68.6,-3.07995,
+37488,Texas Tech,So,56.4,5.78907,22.8
+37489,Columbia,So,37.2,-3.64729,
+37490,Columbia,So,23.2,-3.84296,
+37500,San Jose State,Sr,3.8,-3.01325,
+37507,Ball State,So,56,-1.3043,36.2
+37510,San Francisco,So,85.9,-0.579727,54.4
+37511,San Francisco,So,43.5,-2.758,
+37516,Oregon State,Sr,0.3,-15.8641,
+37523,Pacific,So,69.1,1.64908,
+37530,Minnesota,So,2.1,-1.90045,
+37537,New Hampshire,So,74.2,-1.64171,
+37548,Southern,Jr,48.8,1.15514,
+37552,Siena,So,1.6,-9.4378,
+37557,College of Charleston,So,82.6,2.70039,
+37559,Louisiana-Monroe,So,1.2,-10.1112,
+37560,Pepperdine,So,13.6,-0.421351,38.2
+37564,College of Charleston,Fr,47.4,1.16654,10.0
+37572,Eastern Kentucky,Sr,5,-1.51381,
+37578,Delaware State,So,42.6,-5.04448,
+37581,Eastern Kentucky,So,65.8,-2.86581,
+37589,Grand Canyon,Sr,77.1,0.3699,
+37598,Georgia,So,3.9,-6.327,20.2
+37600,Alabama,So,69.9,2.30786,78.6
+37601,South Dakota,Sr,6.4,-10.3417,
+37602,Baylor,Sr,81.3,3.06799,
+37604,Ball State,Sr,26.3,-3.50528,35.2
+37620,Richmond,Fr,2,-6.70729,
+37623,Appalachian State,So,0.1,-49.8223,
+37627,Iowa,Fr,18.6,0.600133,31.0
+37629,La Salle,So,19.8,-2.10986,
+37630,La Salle,Jr,92.4,0.944262,
+37631,La Salle,So,62.7,0.258349,
+37634,La Salle,Jr,95.1,-0.5592,85.6
+37635,Boston University,Jr,35.1,-2.45654,53.2
+37641,Boise State,So,19.3,-2.19418,33.2
+37644,Towson,So,70.6,1.02608,
+37646,IU Indy,So,44.4,-2.5306,
+37649,Towson,So,54.2,0.900788,33.8
+37651,Towson,So,76.5,0.9958,
+37654,Towson,Fr,23.8,-5.15724,
+37659,Abilene Christian,Sr,50.9,-3.38405,
+37660,Abilene Christian,So,22.1,-9.82408,
+37667,Saint Francis (PA),So,39.5,-9.43673,
+37671,Portland,So,50.2,1.01263,
+37672,Marquette,Jr,19,1.22221,47.0
+37674,North Carolina Central,Sr,29.2,-3.56409,31.2
+37678,UTSA,So,59.9,-2.02249,
+37679,South Carolina State,So,76.6,0.206374,
+37682,South Carolina State,Sr,62.7,-2.80695,
+37684,UTSA,So,23.1,-4.49749,
+37686,Georgetown,So,79.2,3.54382,95.4
+37688,LSU,Jr,11.4,-1.72709,61.4
+37690,UAB,So,54.6,4.3598,12.6
+37696,Louisiana,Fr,2.7,-6.00497,
+37707,LIU,So,38.6,-3.84596,
+37710,Colgate,So,60.8,-1.34171,
+37711,LIU,So,89.6,2.00564,
+37716,Weber State,So,0.2,-3.02273,
+37717,Western Carolina,So,37.2,-0.452964,
+37718,Notre Dame,Jr,8.3,4.74286,27.2
+37722,South Dakota State,So,76.1,2.55071,
+37723,Miami (OH),So,19.9,-4.74269,51.6
+37727,New Mexico,So,65.1,1.75766,65.2
+37731,Duke,So,90.8,7.44075,95.0
+37742,Nicholls State,So,2.3,-13.7776,
+37745,Nicholls State,So,25.3,-3.09069,
+37748,Sacramento State,So,80.3,0.7122,
+37750,New Mexico,So,83.8,4.47719,58.8
+37754,Northern Iowa,So,45.5,-2.4487,
+37760,Texas-Rio Grande Valley,So,64.5,-5.72109,
+37771,Lamar,Sr,33.2,-1.60895,
+37774,Penn,So,9.2,-8.3707,
+37777,Lamar,So,52.1,-3.71056,
+37778,Penn,So,46.1,-2.65979,
+37780,Purdue-Fort Wayne,Fr,89.6,7.39988,
+37783,Saint Mary's,Jr,4.8,1.28697,
+37827,Northern Iowa,Sr,75.1,2.4832,77.8
+37837,BYU,So,39.2,1.98053,
+37843,North Carolina A&T,So,12.7,-7.54066,
+37846,Presbyterian,Sr,30,-3.16766,
+37861,Air Force,Jr,37.8,-4.09676,
+37866,Pacific,Jr,14.5,-3.67927,
+37867,New Mexico,So,26.2,1.9512,56.2
+37868,Pacific,So,53.1,-1.69027,
+37869,Pacific,Sr,55.2,1.6695,
+37873,Boise State,Jr,75,4.45994,
+37875,Pacific,So,30.8,-0.410805,
+37884,Middle Tennessee,So,18,-1.62339,
+37886,UMBC,So,6.4,-14.2733,
+37889,Santa Clara,So,32.4,-4.27258,
+37895,Santa Clara,So,17.6,-2.60512,
+37897,Georgia Tech,So,37,9.70843,51.4
+37902,Robert Morris,So,28.1,-3.20142,
+37903,Georgia Tech,So,34.3,1.12012,84.4
+37904,Northern Colorado,So,50.5,-4.40065,
+37906,Alabama,Jr,41.1,2.9015,
+37917,Notre Dame,So,25.9,-2.00448,15.8
+37920,Belmont,So,68.9,-2.98791,
+37922,Belmont,So,7.6,0.966647,
+37925,Belmont,So,2.5,-8.96197,
+37928,Creighton,Sr,65.8,2.61744,
+37929,Northwestern,So,28.7,3.2552,27.8
+37930,Northwestern,So,87.5,2.97615,57.4
+37932,Indiana,So,1.2,3.01545,13.0
+37945,UC-Riverside,So,52,-4.40828,
+37946,Wyoming,So,51.9,-3.21034,8.0
+37948,American,Jr,17.6,-0.533827,
+37949,Fairleigh Dickinson,So,82.2,-3.11416,
+37950,American,So,1.4,-12.7104,
+37971,Stanford,So,22.4,0.334461,93.0
+37973,Omaha,Sr,65.7,-2.53801,46.4
+37981,Delaware State,So,24.3,-8.73002,
+37987,Delaware State,So,35.4,-8.34415,
+37988,Northern Illinois,So,0.3,-36.6422,
+37991,Northern Illinois,Sr,40.9,2.63978,
+37998,Miami (FL),So,50,2.09798,91.2
+37999,Nicholls State,So,5.4,-12.3728,
+38001,Jacksonville,Jr,1.8,-7.06554,
+38011,Idaho State,Sr,77.9,-2.52492,
+38015,Miami (FL),So,0.9,-6.06251,
+38019,Florida State,Sr,2.2,-4.59071,
+38023,Youngstown State,So,34.9,-6.178,
+38026,Rhode Island,So,87.8,1.36654,87.4
+38027,Iowa,Fr,35.9,8.3502,
+38028,Bradley,So,59.4,-1.73238,39.0
+38029,Florida State,So,70.9,1.59647,90.8
+38038,La Salle,So,89.8,-1.69183,18.8
+38039,Tennessee Tech,Sr,91.6,-0.596335,
+38040,UMass-Lowell,Fr,22.7,-5.1968,
+38041,Vanderbilt,Jr,27.8,1.36777,
+38044,Texas A&M-Corpus Christi,So,0.3,-19.5503,
+38045,Texas A&M-Corpus Christi,Sr,14.4,-5.6818,
+38048,Lipscomb,So,42.9,-3.43579,
+38049,ETSU,Jr,30.3,-5.46072,61.8
+38057,Florida Gulf Coast,Sr,68.2,0.324806,
+38064,Saint Louis,So,21.7,1.03937,
+38065,Texas Tech,So,80.7,6.1151,
+38066,Texas Tech,So,61.9,2.89993,41.8
+38069,Texas Tech,Sr,64.6,1.46429,
+38077,Abilene Christian,Sr,60.8,-2.67319,
+38078,Abilene Christian,So,24.9,-4.0526,
+38079,UAB,So,30.1,0.0364682,46.0
+38083,Virginia Tech,Sr,20,-1.56358,
+38090,Liberty,So,72.1,-1.44236,10.2
+38091,Drexel,So,74.3,-4.0828,
+38093,Drexel,So,16,-6.27176,
+38094,North Florida,So,2.9,-18.2949,
+38096,Mount St. Mary's,So,39.5,3.90723,
+38099,Mount St. Mary's,Fr,1.9,-8.81352,
+38107,La Salle,So,77.8,-4.41346,11.2
+38113,Arizona State,So,78.8,2.12821,78.4
+38114,Illinois,So,0.7,-7.62331,
+38116,Grambling,Jr,15,-5.24058,
+38123,Drake,So,58.8,-1.07074,18.4
+38127,Louisville,So,69.4,3.21701,92.8
+38129,Louisville,So,43.6,1.69078,82.8
+38131,Drake,So,26.2,-1.01851,6.0
+38133,Louisville,So,11.5,2.83703,59.2
+38134,Louisville,So,23.2,6.5954,67.6
+38138,Vermont,Fr,62.6,1.74667,32.8
+38141,Albany (NY),Sr,82.9,0.469128,
+38146,Creighton,Fr,21.1,1.2496,83.4
+38149,Creighton,Jr,55.5,3.32531,32.0
+38153,Robert Morris,Jr,11.8,-4.72678,
+38155,Incarnate Word,So,54.3,-4.47912,
+38157,SIU-Edwardsville,Sr,25,5.64278,
+38162,Eastern Washington,Sr,9.9,-1.94475,
+38163,Eastern Washington,Fr,13.5,-2.84987,
+38164,Eastern Washington,So,83.2,0.607533,
+38170,Penn,So,0.5,-30.4602,
+38171,Wofford,So,28.9,-3.20528,20.0
+38178,Maryland,So,16.5,-1.01119,74.8
+38190,Texas-Rio Grande Valley,Jr,1.4,-17.638,
+38195,Northern Iowa,So,50.3,1.85444,
+38200,South Florida,Jr,1.3,-16.1986,
+38201,Kennesaw State,So,0.1,-44.1972,
+38211,Youngstown State,So,78.6,1.01597,
+38215,Stanford,So,73.2,4.65364,70.8
+38217,St. John's (NY),So,38.7,-3.88548,
+38218,Stanford,So,60.3,3.88009,87.6
+38221,Stetson,So,47.9,-5.38796,
+38222,Stetson,So,80.7,0.829364,
+38234,Evansville,Jr,59.9,3.8889,46.0
+38241,Arkansas State,Sr,78.8,-2.14215,
+38243,Eastern Kentucky,Jr,30.6,1.87549,
+38245,Georgia Tech,Jr,0.9,-6.5362,
+38246,William & Mary,So,23.9,1.98297,
+38251,Pacific,So,36.3,-2.91621,31.8
+38252,Vanderbilt,So,64.5,6.56672,47.4
+38255,Florida A&M,So,64.4,-5.40019,
+38260,VMI,So,29.6,1.15399,
+38261,Houston Christian,So,25.5,-8.28974,
+38265,Portland,So,46.4,0.411488,
+38268,Portland,So,27.5,-0.0994239,
+38269,Vanderbilt,So,61.7,1.94696,75.8
+38275,Texas Southern,Sr,2.3,-2.21913,
+38279,Austin Peay,So,85.3,-2.46025,
+38281,Hawaii,Sr,86.1,5.60821,
+38283,Furman,So,49.9,-3.54981,
+38285,Austin Peay,Fr,30.1,-1.80462,
+38286,Central Connecticut,Jr,0.1,-9.17907,
+38287,Furman,So,57.9,0.0608366,
+38289,Nicholls State,Jr,38.1,-1.47173,
+38293,Samford,Jr,0.3,-30.0282,
+38295,Alabama A&M,Fr,13,-5.51649,
+38296,Alabama A&M,Sr,85.4,-2.04897,
+38299,Alabama A&M,Sr,36.1,-6.72752,
+38303,South Carolina State,So,54,-5.5497,
+38304,Northwestern,So,44.8,2.47103,44.0
+38306,Charlotte,Sr,0.2,-24.9503,
+38308,Florida,So,59.2,3.27159,91.4
+38313,Milwaukee,So,1,-9.22297,
+38320,Montana,So,48.8,-0.318751,
+38324,Montana,Fr,7.3,-10.3346,
+38325,Montana,Fr,7.9,-4.98167,
+38326,Dartmouth,So,42.9,1.63899,
+38330,Marshall,So,3.9,-5.39612,
+38336,Loyola (MD),So,44.4,-3.00479,
+38340,Oregon,So,41.5,8.0117,80.2
+38343,Utah State,Sr,2.7,-5.73514,
+38347,Monmouth,So,2.4,-9.9573,
+38348,Monmouth,So,42.8,0.0637548,
+38350,Chicago State,Jr,71,-1.59074,
+38359,Green Bay,So,60.2,-0.120608,
+38367,Jacksonville,Sr,53.3,-2.12975,
+38368,Jacksonville,Sr,89.7,-3.24797,
+38370,Jacksonville,So,49.5,0.0333676,
+38372,Jacksonville,Jr,39.6,-2.48082,
+38382,North Carolina Central,Sr,57.2,-0.994055,
+38386,Utah State,So,4.2,1.54555,
+38389,Utah Valley,Jr,70.2,-3.29147,
+38390,Utah State,So,57.2,-0.700793,
+38392,Utah State,Sr,61.6,-0.496299,
+38400,Texas,Jr,0.6,5.78232,
+38403,Louisiana,So,60.9,3.67841,
+38404,Tulane,Fr,1.2,-15.2457,
+38421,James Madison,So,47.9,0.611289,
+38422,James Madison,Sr,40.2,2.13639,
+38429,South Florida,So,17.9,-5.3749,
+38431,Fairfield,So,0.4,-4.62415,
+38436,Valparaiso,So,48.1,1.01396,
+38444,Colorado,So,38.3,-1.90243,60.4
+38445,Loyola (IL),So,1.6,-10.4334,
+38446,Virginia Tech,So,79.8,3.36918,83.0
+38449,Virginia Tech,So,49.1,-1.13926,60.8
+38453,Fairfield,So,0.1,48.0997,
+38455,Manhattan,So,43.1,-0.436075,
+38456,Manhattan,So,58.1,-1.47682,13.8
+38458,Manhattan,So,17.6,-5.12536,
+38460,Buffalo,Fr,38.7,-2.29411,
+38461,Buffalo,Sr,1.2,-3.21263,
+38465,Western Carolina,So,50.5,-5.97389,
+38467,Ohio State,So,57.3,4.606,88.6
+38479,Baylor,So,29.5,2.80861,
+38485,Arkansas-Pine Bluff,Sr,20.9,-2.5481,
+38486,Hawaii,So,37.1,2.76051,40.0
+38490,Arkansas-Pine Bluff,Sr,7.5,-14.8186,
+38492,Princeton,So,22.6,4.64874,49.2
+38499,Lipscomb,So,24.4,-5.19407,26.8
+38501,Lipscomb,So,9.6,-5.43734,19.8
+38503,Hampton,So,24.9,-4.21641,
+38505,Ball State,Jr,0.2,-15.9287,
+38524,Georgia Southern,Fr,9.1,-5.97452,
+38529,Ohio,So,20.7,-1.89585,
+38543,Seattle,So,49.5,-6.07227,
+38546,Seattle,Fr,39.3,-6.67648,
+38551,Eastern Washington,Fr,10.9,-7.48655,
+38554,Miami (FL),Sr,30,4.03265,
+38559,Miami (FL),Sr,81.9,7.57057,91.2
+38567,Central Arkansas,Sr,13.6,-4.91128,
+38570,Central Arkansas,So,18.8,-12.254,
+38571,Central Arkansas,So,64,-3.49811,
+38572,Central Arkansas,So,22.9,-6.11464,
+38573,Central Arkansas,So,87.1,-1.88726,
+38578,South Dakota,Sr,57.6,0.27806,
+38580,New Hampshire,Sr,64.4,-1.35333,
+38583,Iowa State,Sr,69,5.40369,
+38584,New Hampshire,So,25.4,-3.29004,
+38592,Loyola Marymount,So,26.7,-1.16456,
+38593,Texas State,So,2.2,-1.96677,
+38594,South Dakota State,So,0.6,-21.8711,7.6
+38596,Green Bay,Jr,1.5,-21.0905,
+38599,Penn State,Fr,26.5,-5.28265,16.8
+38600,Penn State,So,87.4,2.96726,64.8
+38601,Penn State,Sr,45.6,-1.23354,
+38606,South Florida,Sr,62.5,-0.543089,
+38609,USC,So,65,4.99956,86.2
+38610,USC,So,79.7,5.72044,91.6
+38618,Georgia State,So,61.4,0.411967,
+38619,Dartmouth,So,69.2,-0.24318,
+38624,Detroit,So,61.3,1.01798,
+38628,Stony Brook,So,21.4,-2.53006,
+38636,Florida A&M,Sr,35.9,-7.68277,
+38638,Gonzaga,So,54,2.77858,55.6
+38644,North Dakota,So,36.7,-6.88009,
+38645,Princeton,So,68.6,1.46833,
+38646,St. Joseph's,So,58.7,1.20045,56.8
+38652,Princeton,So,6,-0.105499,
+38655,Mississippi Valley State,Jr,5.9,-10.05,
+38656,New Hampshire,So,54.7,-2.73331,
+38660,Fordham,So,73.2,-0.0837976,
+38662,Nevada,Sr,74.9,2.91271,
+38666,Memphis,So,48.2,0.824949,79.6
+38673,Wright State,Fr,9.9,1.47697,
+38680,Harvard,Fr,19.2,-5.91495,21.0
+38683,NJIT,Fr,1.7,-11.1459,
+38684,NJIT,Fr,29,0.21161,
+38687,Lipscomb,Fr,51.5,0.186868,
+38688,Kennesaw State,Fr,8.2,-6.73112,
+38689,Lipscomb,Fr,56.9,-1.37263,
+38695,USC Upstate,Fr,56,-2.68714,
+38703,Iowa State,Jr,94.1,7.15501,83.6
+38705,Penn,Fr,32.9,-6.21387,
+38711,Fresno State,Fr,11.1,-1.64911,
+38712,Colorado State,Jr,57.7,-0.111064,
+38713,Colorado State,Fr,34.4,-2.9527,55.2
+38723,Fresno State,Jr,63.7,4.30266,
+38725,Southern Illinois,Sr,85,-0.0353671,
+38728,Rice,Fr,75.4,-2.52358,14.4
+38729,Duquesne,Fr,16.5,-1.0941,
+38733,Iowa State,So,24.6,1.45197,52.8
+38745,St. John's (NY),Fr,1.6,1.51045,
+38746,Akron,Jr,0.4,-6.66765,
+38747,Oklahoma State,Jr,1.8,-9.32275,
+38748,Oklahoma State,Fr,49,6.05808,94.8
+38749,Oklahoma State,Fr,1.9,-1.95237,68.0
+38750,Kansas State,Jr,1.3,-13.163,
+38752,Kansas State,Fr,64.4,4.87965,65.8
+38753,Kansas State,Fr,42.9,2.13853,40.0
+38756,Kansas State,Fr,1.4,-6.29421,
+38761,Buffalo,Fr,0.1,-4.94425,
+38767,Penn,Fr,12.8,-3.88936,
+38781,Mount St. Mary's,Fr,51.5,-4.62931,
+38786,IU Indy,Jr,47.2,-3.78831,
+38789,IU Indy,Jr,69.4,2.49995,
+38791,Penn,Fr,2.1,-10.8391,
+38792,California,Fr,68.3,2.59309,99.4
+38797,Cincinnati,Fr,59.5,4.91402,74.2
+38805,Boston College,Fr,0.5,-3.78395,
+38806,Boston College,Fr,0.5,-3.17619,
+38807,Texas Southern,Sr,0.3,-31.7329,
+38810,IU Indy,Jr,73.8,-2.17733,
+38828,Maine,Fr,33.3,-5.61646,
+38831,Maine,Fr,35.4,-6.61422,
+38832,Vermont,So,30.2,1.65581,
+38834,Maine,Fr,41.7,-3.72682,
+38835,Maine,Fr,3.2,-6.69137,
+38838,South Dakota,So,73.1,0.777134,
+38842,Tennessee State,Sr,35.9,-3.27634,
+38848,SMU,Fr,0.3,-28.9439,
+38852,Fresno State,Jr,30.9,-2.03867,
+38870,Colorado State,So,14.2,-5.68503,
+38871,UConn,So,0.9,-8.14272,
+38876,Cornell,Fr,1.7,-5.85209,
+38878,Bryant,Sr,3.7,-5.24863,
+38885,St. Joseph's,So,0.6,-18.2285,
+38910,Denver,Fr,77.5,1.15675,
+38912,Denver,Fr,17.7,-6.09056,
+38914,Denver,Fr,43.3,-3.89954,
+38915,Denver,Fr,0.2,-5.27994,
+38917,College of Charleston,Sr,24.9,-1.9512,
+38918,IU Indy,Fr,40.2,-1.63807,
+38921,Kansas City,Jr,30.2,-3.00826,
+38932,Texas Southern,Fr,24,-7.27927,
+38933,Texas Southern,Sr,4.4,-10.7059,
+38934,New Mexico State,Fr,0.8,-6.57719,55.8
+38935,New Mexico State,Fr,2.8,-0.321198,
+38936,Chicago State,So,0.6,-19.3474,
+38937,Chicago State,Sr,26.2,-6.18189,
+38940,New Mexico State,Jr,7.4,-6.24251,
+38942,Florida Atlantic,Jr,11.1,-7.47403,
+38943,Florida Atlantic,Fr,5.4,-2.40582,
+38944,Florida Atlantic,Fr,42,-3.9371,
+38945,Florida Atlantic,Fr,65.7,-3.28445,
+38946,Florida International,So,49.8,-1.24427,
+38947,Florida International,Jr,36.7,-2.64337,
+38948,Florida International,Fr,49.3,-3.10863,
+38949,Florida International,Jr,78.5,-1.78214,
+38950,Florida International,Fr,14.4,-7.30234,
+38951,Florida International,So,28.4,-2.15667,
+38954,New Mexico,Sr,0.6,-9.81182,
+38972,Portland State,Jr,26.3,-6.50024,
+38973,Sacramento State,Fr,8.1,-10.6933,
+38975,Portland State,Fr,10.6,-7.73631,
+38976,Portland State,Jr,41,-2.74046,
+38977,Portland State,Jr,8.4,-9.9018,
+38978,Portland State,Jr,6.5,-7.62068,
+38979,Northern Colorado,Fr,9.5,-8.37986,
+38980,Northern Colorado,Jr,48.5,-6.89746,
+38998,Loyola Marymount,Jr,78.1,-1.61204,
+39000,Loyola Marymount,Jr,25,-0.60505,
+39001,Loyola Marymount,Jr,51.1,-2.07485,
+39002,Wichita State,Fr,8.9,0.369087,27.6
+39003,Wichita State,Fr,45.3,4.28501,74.4
+39004,Niagara,Fr,67.4,-1.76114,
+39005,Niagara,Fr,2.8,-13.7992,
+39006,Niagara,Fr,42.8,-6.21597,
+39007,Winthrop,Fr,14.7,-2.59876,
+39008,Winthrop,Fr,71.5,-1.53307,
+39010,UNC Asheville,Fr,77,2.60782,33.6
+39011,UNC Asheville,Fr,68.1,-2.10387,39.4
+39013,UNC Asheville,Fr,15.1,-5.81031,
+39014,Savannah State,Fr,27.3,-6.10576,
+39015,Savannah State,Fr,37.7,-1.95541,
+39016,Savannah State,Jr,11.9,-4.94457,
+39017,Savannah State,Jr,19.8,-7.42414,
+39019,Savannah State,Jr,73.9,-0.0926884,
+39020,North Carolina Central,Fr,23.9,-9.81036,
+39021,North Carolina Central,Fr,4.9,-10.5261,
+39022,Elon,Fr,0.2,-14.9433,
+39034,Portland,Jr,46.7,-2.34011,
+39038,Wofford,Fr,6.2,-2.96639,
+39042,Youngstown State,So,2.1,-7.69328,
+39043,SMU,Fr,81.7,3.65537,82.2
+39044,Hartford,Fr,61.1,-4.31382,
+39045,Hartford,Fr,45.3,-4.06997,
+39046,UMBC,Fr,16.8,-9.61345,
+39047,UMBC,Fr,17.1,-6.42295,
+39048,UMBC,Fr,11.1,-5.75618,
+39049,UMBC,Fr,19.2,-4.86513,
+39050,UMBC,Fr,79.5,-2.2612,
+39051,UMBC,Fr,21,-6.85204,
+39052,New Hampshire,Fr,0.6,-18.396,
+39053,New Hampshire,Fr,5.1,-10.3872,
+39062,Marshall,Sr,75.9,2.08448,
+39071,Montana State,Jr,24.6,-8.53239,
+39072,Montana State,So,17.3,-6.02879,
+39073,Montana State,Jr,51.3,-1.11924,
+39076,Duquesne,Fr,19.8,-2.34174,51.0
+39077,Montana State,Fr,79.8,1.77044,
+39078,Montana State,Fr,22.2,-0.739208,
+39081,Montana State,Jr,52.1,0.387975,
+39082,Montana State,Jr,16.7,-8.17764,
+39083,Portland State,Jr,72.6,-1.05883,44.6
+39085,Syracuse,Fr,0.2,-34.5873,
+39096,USC Upstate,Fr,38.5,-1.00765,
+39104,Winthrop,Sr,86.6,1.17121,
+39106,Wisconsin,Fr,0.3,-16.0975,81.4
+39107,Stony Brook,Fr,0.2,-4.373,
+39108,Penn State,Fr,48.1,2.88534,79.0
+39110,Ohio State,Fr,33.7,-3.638,83.6
+39111,Purdue,Fr,2,-7.72781,
+39112,Purdue,Fr,61.8,2.29875,96.4
+39114,Purdue,Fr,33.6,3.83697,68.4
+39115,Vanderbilt,So,1.4,-7.42098,
+39116,Central Michigan,Fr,0.7,-7.49456,
+39122,Arizona State,So,11.5,-4.81922,
+39125,Fresno State,Jr,37.5,-1.205,71.0
+39131,Lafayette,Fr,11.5,-6.03353,
+39146,Oregon State,Fr,53.9,2.89908,88.0
+39147,Oregon State,Fr,58.5,4.4661,84.6
+39149,Oregon State,Fr,14.8,-3.29825,26.8
+39150,Oregon State,Fr,26.5,-2.13002,54.4
+39151,Oregon State,Fr,53.2,1.68989,75.6
+39158,Stanford,Fr,38.5,-1.87124,78.8
+39159,Stanford,Fr,16.2,3.30304,74.6
+39174,Grambling,Jr,11.4,-4.79775,
+39177,Chicago State,Sr,35.2,-1.84122,
+39187,Robert Morris,Fr,0.7,-26.5261,
+39191,Campbell,Fr,20.1,-3.35414,
+39193,Campbell,Fr,14.1,-7.51091,
+39197,Campbell,Fr,0.9,-3.97302,
+39202,St. Joseph's,Fr,4,-2.28036,46.4
+39204,Loyola Marymount,Fr,44.7,-2.55986,27.6
+39229,Hampton,Fr,6.5,-5.31584,
+39230,Hampton,Fr,31.6,-5.85682,
+39232,Hampton,Fr,2.4,-13.259,
+39237,Middle Tennessee,Jr,17.7,-1.21951,
+39238,Monmouth,Fr,23.9,0.15865,
+39243,Oregon,Fr,70.9,3.86563,94.6
+39247,Jacksonville,Jr,20.1,-1.83911,
+39252,Yale,Fr,4.2,-2.64769,
+39254,Army,Fr,21.6,-3.25312,
+39255,UCSB,Fr,0.8,-23.2882,
+39256,Florida Gulf Coast,Fr,0.9,9.51979,
+39258,Army,Fr,3.1,-11.7943,
+39268,Saint Francis (PA),Fr,3.8,-8.59159,
+39269,Saint Francis (PA),Fr,0.8,-4.14327,
+39270,St. Francis (NY),So,1.7,-8.10215,
+39272,Saint Francis (PA),Fr,57.2,-1.01293,
+39275,Saint Francis (PA),Fr,34.2,-0.171767,
+39278,Wagner,Jr,73,3.86393,
+39279,Wagner,Fr,5.4,-2.84168,
+39283,Cornell,Fr,23.6,-8.57948,
+39286,Quinnipiac,So,33.2,-4.94268,
+39297,Seattle,Fr,17.6,1.9247,
+39298,Seattle,Jr,83,1.90362,
+39299,New Mexico State,Fr,9.9,-1.37425,
+39301,SIU-Edwardsville,Sr,43.5,-5.66474,46.8
+39302,Seattle,Fr,8.6,-0.856648,
+39304,Stetson,Fr,37.7,-3.03507,
+39305,Kansas City,Jr,48.7,-2.27555,
+39306,Texas-Rio Grande Valley,Fr,71.9,-5.06708,
+39307,Niagara,Fr,42.3,-1.93689,
+39308,Houston Christian,Fr,0.6,-16.6121,
+39309,Appalachian State,Jr,29.9,-3.49158,
+39310,Appalachian State,Fr,0.1,-4.96637,
+39311,Appalachian State,Fr,18.7,-2.00226,
+39312,Appalachian State,Fr,42.8,-4.97469,
+39313,Appalachian State,Fr,0.3,-17.8069,
+39314,Appalachian State,Fr,46.6,-5.7612,0.2
+39316,Texas A&M-Corpus Christi,Fr,1.6,-15.4468,
+39317,Appalachian State,Fr,63.4,-2.49886,19.0
+39318,Appalachian State,Fr,0.1,22.7861,
+39320,College of Charleston,Fr,75.2,0.304215,
+39321,Fairleigh Dickinson,Fr,8.3,-6.01844,
+39322,Fairleigh Dickinson,Fr,32.4,-4.27414,
+39323,American,Fr,35,-6.85312,
+39324,Fairleigh Dickinson,Fr,8.8,-9.99607,
+39325,American,Fr,18.2,-9.4612,
+39327,American,Fr,79.8,-4.07607,1.0
+39328,American,Fr,62.7,-7.33304,
+39329,Central Connecticut,Jr,20.4,-10.9767,
+39330,Central Connecticut,Fr,19.3,-3.94018,
+39335,Miami (OH),Jr,1.3,-13.9718,
+39336,Southern Utah,Fr,22.4,-8.25366,
+39340,Southern Utah,Jr,12.7,-4.46739,
+39343,Sacramento State,Fr,42.7,-5.34531,
+39344,Kent State,Fr,33.6,-1.13033,5.2
+39347,Kent State,Fr,17.5,-6.61715,18.8
+39362,Southern Illinois,Fr,2.9,-3.09873,46.4
+39364,Long Beach State,Fr,48.2,-0.781932,36.0
+39365,Long Beach State,Fr,33.4,-1.51696,
+39366,Wichita State,Fr,10,-2.23717,
+39367,Southern Illinois,Fr,8.7,-5.30465,
+39368,Southern Illinois,Jr,71,0.19059,25.4
+39369,Southern Illinois,Jr,0.7,-8.92384,
+39370,Cal State Northridge,Fr,0.5,24.0649,
+39371,Cal State Northridge,Fr,0.4,-14.0731,
+39372,Cal State Fullerton,Jr,2,-17.2077,
+39373,Cal State Northridge,Fr,45.6,-5.01225,
+39374,Hawaii,Fr,0.2,-28.6536,
+39375,Hawaii,Fr,32.2,-1.11035,
+39378,Norfolk State,Jr,39,-3.83732,
+39379,Norfolk State,Jr,40,-1.50139,
+39382,Morgan State,So,75,-0.303716,
+39385,Morgan State,Fr,0.3,-20.408,
+39389,UNC Wilmington,Jr,79.7,6.76982,
+39390,Norfolk State,Fr,7.6,-12.0838,
+39403,Georgia Tech,Sr,36.1,4.78501,
+39406,Arkansas State,Jr,89.7,1.6083,
+39410,Hartford,Fr,37,-3.68852,
+39411,Hartford,Fr,21.8,-3.95306,
+39412,Binghamton,Fr,59.3,-1.36589,
+39414,Binghamton,Fr,34.4,-5.00807,
+39417,Albany (NY),Fr,51.3,2.72813,
+39418,Albany (NY),Jr,8,-4.16688,
+39420,Southeastern Louisiana,Jr,15.3,-5.5911,
+39421,Southeastern Louisiana,Jr,0.5,9.38548,
+39422,Southeastern Louisiana,Jr,35.1,-8.52198,
+39423,Southeastern Louisiana,Sr,59.1,-2.99821,
+39426,Sam Houston State,Jr,19.3,-5.2336,
+39427,Sam Houston State,Jr,49.2,0.0578457,
+39432,Duquesne,So,8.6,-11.7413,59.0
+39435,Central Michigan,Fr,6.1,3.53768,4.8
+39437,Buffalo,Fr,47.4,-3.11983,2.2
+39438,Buffalo,Fr,10.4,-1.18603,
+39439,Eastern Michigan,Fr,81.5,3.94911,
+39440,Central Michigan,Jr,0.1,-4.46323,
+39445,Eastern Michigan,Jr,60.6,-3.47636,
+39446,Eastern Michigan,Fr,0.7,-2.05352,
+39451,Abilene Christian,Fr,53.2,0.017586,
+39458,Bethune-Cookman,Jr,94,-2.6599,
+39468,Wichita State,Sr,37.4,0.466046,61.6
+39469,Eastern Michigan,Fr,4.9,-5.17913,
+39471,Old Dominion,So,13.5,-0.679343,
+39474,Ohio State,Fr,8.1,-3.12886,89.2
+39475,Ohio State,Fr,20.8,-2.222,76.2
+39476,Nebraska,Fr,6.4,-7.46152,33.2
+39477,Nebraska,Fr,42.1,0.737451,47.2
+39479,Nebraska,Fr,45.5,3.94445,47.6
+39480,Northwestern,Fr,25.4,1.32671,40.2
+39482,Northwestern,Fr,60.2,3.16683,77.4
+39483,Northwestern,Fr,12,-2.02021,57.2
+39486,Miami (FL),Jr,56.7,3.8071,46.2
+39488,Drexel,So,3.9,-15.1968,35.4
+39493,UTEP,Jr,79.8,0.831312,90.0
+39495,Colorado,Fr,38.3,0.274416,
+39507,UCLA,So,1,-18.5526,
+39508,UCLA,Jr,0.8,-10.4581,
+39509,USC,Fr,45.5,4.38446,92.6
+39510,USC,Fr,58.3,3.34908,87.6
+39511,UCLA,Fr,12.4,-2.03965,42.0
+39513,UCLA,Fr,26.4,-2.49221,92.0
+39514,UCLA,Fr,78.2,1.63154,89.4
+39516,Utah,Jr,66,4.98115,
+39517,Utah,Fr,0.4,-9.52628,
+39519,Tulane,Fr,47.6,-0.0974621,63.8
+39527,Towson,Fr,0.3,-4.52251,
+39535,Illinois State,So,59.8,2.91766,48.2
+39540,Pitt,Sr,42.9,4.16806,
+39546,UCSB,Fr,15.3,-1.85996,
+39548,Western Kentucky,Sr,78.1,-1.44845,60.2
+39554,San Diego State,Fr,65.9,1.47992,85.4
+39556,Oregon State,Fr,0.2,-26.0201,
+39573,Louisiana,So,4.3,-3.30215,
+39591,Northern Colorado,Sr,47.8,-3.70104,
+39600,Ohio,Fr,0.4,-4.89247,
+39603,Toledo,Fr,1.3,-12.3594,
+39606,Hampton,Fr,8.6,-7.07657,
+39608,Hampton,Fr,6.4,-5.80661,
+39609,Hampton,Fr,23.7,-4.51326,
+39617,Delaware State,So,8.8,-10.0919,
+39620,High Point,Fr,19.3,-7.09768,
+39625,Delaware State,Jr,60.6,-1.8732,
+39629,Navy,Fr,2.8,-15.1122,17.2
+39631,Army,Fr,29.3,-5.8228,
+39636,Army,Fr,1.5,-6.79979,
+39640,Furman,Fr,9.9,-11.2033,
+39641,Sacred Heart,Fr,56,-4.37554,
+39642,St. Francis (NY),Fr,41.8,-9.48339,
+39643,Furman,Fr,60.5,5.17612,
+39644,St. Francis (NY),Fr,5,-10.0543,
+39645,Houston,Sr,55,5.95519,11.8
+39646,Mercer,Fr,18.6,-4.09864,
+39647,St. Francis (NY),Fr,1.8,-17.6581,
+39648,Mercer,Fr,6.7,-4.59266,
+39649,Mercer,Fr,59.5,-2.12179,20.6
+39650,VMI,Fr,47.5,-8.21818,
+39651,Dayton,Fr,20,-1.35569,50.4
+39652,Indiana,Fr,7.8,3.29435,
+39660,Eastern Kentucky,So,0.6,-9.72697,
+39670,NC State,Fr,82.9,-0.62591,91.6
+39672,Notre Dame,Fr,0.1,-18.3652,
+39674,Georgia Southern,Fr,62.2,-1.9509,
+39675,Georgia Southern,Fr,25,-1.56116,
+39677,Arkansas State,Jr,65.6,0.0467085,
+39678,Arkansas State,Fr,17.6,-11.6236,4.2
+39685,Bucknell,Fr,2,-2.5715,
+39686,Bucknell,Fr,37.6,-4.25278,
+39687,Fairleigh Dickinson,Fr,20.7,-4.13171,
+39688,Fairleigh Dickinson,Fr,57.6,-0.258508,
+39691,Boston University,Fr,63.5,-2.67082,
+39692,Boston University,Fr,8.8,-4.922,
+39693,Boston University,Fr,1.3,-13.0418,
+39694,Fairleigh Dickinson,Fr,26.9,-4.78592,
+39719,UC-Davis,Fr,34.1,-3.99153,
+39720,Loyola (MD),Fr,25.1,-5.96616,
+39722,Northern Iowa,Jr,7.3,-2.64965,
+39725,Long Beach State,So,0.4,-21.8499,
+39726,UC-Davis,Fr,72.8,-3.76806,
+39731,UC-Davis,Fr,14,-3.32801,
+39733,Maryland-Eastern Shore,Fr,1.9,-9.80093,
+39734,Maryland-Eastern Shore,Fr,28.1,-4.17491,
+39768,Baylor,Fr,31.7,6.14636,86.4
+39771,Duke,Fr,0.1,-32.1745,
+39773,Duke,Fr,1,-4.57087,59.6
+39775,Baylor,Fr,30.6,0.147761,54.6
+39778,Stephen F. Austin,Fr,11.3,-0.182733,11.6
+39779,Stephen F. Austin,Fr,50.3,3.767,
+39782,Stephen F. Austin,Jr,21.3,-4.41804,
+39785,Stephen F. Austin,Fr,4.6,-3.82872,
+39788,Green Bay,Jr,67.1,-1.79059,
+39789,Milwaukee,Jr,88,1.60685,
+39794,Youngstown State,So,78.5,-2.97115,
+39795,Indiana,Sr,43.6,5.6391,36.0
+39797,Northern Colorado,Fr,36.2,-4.94697,
+39799,Northern Colorado,So,25.9,-5.07207,
+39800,Northern Colorado,Jr,9.5,-6.47597,
+39801,Northern Arizona,Fr,59,-6.38853,
+39802,Northern Colorado,Fr,66.7,-1.92218,
+39803,Northern Arizona,Fr,21.4,-6.85503,
+39804,Northern Arizona,Fr,16.2,-6.1291,16.2
+39805,Northern Arizona,Fr,0.7,-14.0864,
+39812,Detroit,Fr,52.6,-2.3442,
+39815,Syracuse,Fr,0.3,-1.79602,
+39817,St. Joseph's,Fr,4.5,-11.8988,46.0
+39818,St. Bonaventure,Fr,2.4,-9.67522,30.4
+39819,St. Bonaventure,Fr,31.5,-2.91756,
+39820,St. Bonaventure,Fr,40.2,0.27236,16.6
+39822,Pitt,Sr,30.1,4.7967,
+39826,Nebraska,Fr,2,-2.08418,
+39831,Florida Atlantic,So,51.7,-0.355488,36.4
+39856,Ball State,Fr,47,1.11521,
+39862,Jacksonville State,Jr,6.8,-6.05636,
+39867,VCU,Jr,29.2,-1.52191,
+39870,Rhode Island,Sr,82.9,1.37908,2.4
+39871,Morehead State,Jr,27.2,-0.780469,
+39872,Idaho State,Jr,15.1,-6.8702,
+39873,Utah,Jr,7,4.52602,
+39875,Utah,Fr,2.5,8.30426,
+39876,Washington,Fr,61.2,4.47485,88.6
+39877,Washington,Fr,52.6,0.340125,65.4
+39878,Washington,Fr,53.1,-1.22907,85.6
+39879,Washington,Jr,51.9,5.3001,
+39880,Washington,Fr,9.7,-6.91338,47.0
+39881,Washington,Fr,24.4,-3.34771,67.4
+39884,Creighton,Fr,45.2,4.74429,35.0
+39885,College of Charleston,Jr,71.8,4.73858,22.6
+39888,West Virginia,Sr,1.5,-6.0277,
+39904,Florida Atlantic,Jr,68,-1.87353,60.2
+39909,Missouri State,Jr,16.5,-5.8749,
+39913,Missouri State,Fr,56.4,-0.304783,
+39916,UC-Davis,Jr,51.1,0.403686,
+39917,Missouri State,Jr,86.8,-3.19992,
+39919,Missouri State,Fr,67.4,2.94385,
+39920,Loyola (IL),Fr,2.1,-10.0709,
+39922,Southern Miss,Jr,55.6,-2.06533,
+39923,Loyola (IL),So,33.8,-0.793945,
+39924,Holy Cross,Fr,0.5,-30.5671,
+39926,Quinnipiac,So,0.1,-6.37189,
+39930,UMass,Fr,0.8,-14.9129,
+39952,Maryland-Eastern Shore,Fr,13.2,-12.6284,
+39953,Maryland,Sr,83.1,4.55616,97.4
+39961,Morgan State,Jr,45.9,-1.27127,
+39964,Southern Utah,Fr,0.3,-8.29771,
+39966,Southern Utah,Jr,16.5,-11.5482,
+39969,Wisconsin,Fr,0.1,-1.78881,
+39970,Wisconsin,Jr,0.2,-34.5482,
+39971,Ohio State,Fr,0.8,-14.8135,
+39972,Penn State,Jr,0.1,-5.67707,
+39973,Nebraska,Fr,2,-13.4238,
+39974,Northwestern,Fr,0.9,-2.57468,
+39975,Maryland,Fr,1.1,-3.38297,
+39976,Maryland,Fr,0.9,2.90066,
+39978,Delaware State,So,45.8,-4.90792,
+39979,Delaware State,Fr,33.6,-5.37908,
+39981,Delaware State,Fr,30.7,-9.27548,
+39982,Delaware State,Jr,31.7,-4.97975,
+39983,Delaware State,Fr,6.4,-9.84484,
+39995,Georgia Southern,Fr,78.4,2.73854,57.8
+40001,Saint Mary's,Jr,92.9,4.57546,57.8
+40004,Florida Atlantic,Fr,65.8,-4.67104,18.4
+40010,Furman,Fr,16.4,-3.67976,
+40012,ETSU,Jr,8.3,-6.79204,
+40013,ETSU,Jr,20.7,-4.67578,
+40014,ETSU,Jr,2,2.81542,
+40015,The Citadel,Fr,3.7,-13.9257,
+40019,Cleveland State,Fr,12.4,-0.91712,
+40027,Ole Miss,Jr,16.6,-4.76071,24.0
+40037,South Carolina,Fr,30.5,0.0172979,72.0
+40039,Wofford,Fr,0.5,-28.7591,
+40042,Michigan State,Fr,46.1,9.23871,95.0
+40044,Michigan State,Fr,6.1,2.34032,67.0
+40045,Wichita State,Fr,2.7,14.4127,70.6
+40047,Colgate,Fr,30.3,-4.10461,
+40048,LIU,Fr,4.4,-8.02048,
+40052,LIU,Fr,6.9,-7.34736,
+40053,Bucknell,Fr,24.9,-2.17889,
+40054,Bucknell,Fr,3.8,1.41809,
+40055,LIU,Fr,0.2,-30.9135,
+40056,Colgate,Fr,7.2,-4.50845,
+40058,Colgate,Fr,34.4,-7.51732,
+40064,Drake,Jr,39.8,-2.01996,
+40071,Southern Miss,Jr,73.1,-0.402222,
+40078,Austin Peay,Jr,19.1,-5.87737,
+40081,Austin Peay,Jr,37.5,-5.75487,
+40082,Austin Peay,Fr,48.8,0.652569,
+40083,Cal Poly,Fr,48.3,-1.97551,
+40084,Austin Peay,Fr,0.1,-18.4582,
+40092,Stanford,So,0.4,-12.5597,
+40096,Indiana State,Fr,27.7,0.601789,
+40097,UT-Martin,Jr,60.4,0.0135522,
+40099,Indiana State,Jr,35.9,0.64943,
+40100,Illinois State,Fr,26.7,-0.05059,
+40102,Indiana State,Jr,63.8,1.97258,
+40105,Illinois State,Jr,0.8,-1.75379,
+40107,USC Upstate,Fr,0.2,-12.3542,
+40108,Maryland-Eastern Shore,Jr,11.2,-9.18241,
+40109,Howard,Fr,11,-6.11613,
+40110,Howard,Jr,0.7,-11.0505,
+40111,Howard,Fr,28.3,-3.29815,
+40112,Howard,Fr,2.3,-10.3758,
+40116,Florida A&M,Fr,27,-6.66688,
+40121,Wichita State,Sr,12.3,1.20863,
+40138,Charleston Southern,Sr,47.7,-5.10045,
+40139,Gardner-Webb,So,42.1,-1.30126,
+40142,Duke,Fr,64.5,-0.336236,97.4
+40143,Duke,Fr,66.3,5.11637,96.0
+40144,Denver,Fr,70.4,-0.415461,
+40148,Tulane,Fr,42.3,-4.47016,49.8
+40149,Tulane,Fr,26.5,-1.05866,
+40150,Tulane,Fr,7.3,-9.21398,31.8
+40151,Clemson,So,3.5,-1.83374,
+40152,Duke,Fr,85.9,6.22047,99.6
+40153,Duke,Fr,17.4,-1.60889,97.2
+40154,Clemson,Fr,13.9,-1.91107,78.4
+40155,Wright State,Fr,14.3,-4.04727,
+40156,Wright State,Fr,46.9,1.96848,
+40159,Nicholls State,Jr,59.8,-4.03808,
+40161,Nicholls State,So,0.2,-20.0081,
+40163,UIC,Fr,13.2,-4.27027,15.4
+40164,UIC,Fr,16.1,-7.00764,
+40166,UIC,Fr,47.9,-5.9276,
+40169,UIC,Jr,53.8,-3.18077,
+40171,Northern Arizona,Fr,2,-12.3459,
+40172,Northern Arizona,Fr,34.2,-6.45867,
+40174,UTSA,Jr,18.6,-10.1647,
+40175,Northern Arizona,Fr,29.5,-6.98737,
+40176,North Dakota,Fr,48.1,-3.73436,
+40178,Northern Arizona,Fr,73.1,-3.95757,
+40179,North Dakota,Fr,8.6,-6.41584,
+40180,North Dakota,Jr,51.6,0.76689,
+40181,North Dakota,Fr,44.9,-2.90639,
+40182,North Dakota,Fr,56.5,0.123418,
+40183,Central Arkansas,Fr,17.5,-11.4683,
+40190,Oakland,Fr,20.6,-2.05693,
+40193,Saint Louis,Fr,18.8,-5.5665,14.6
+40194,Saint Louis,Fr,43.5,-1.03413,
+40197,Syracuse,Fr,0.1,-2.93055,
+40198,Syracuse,Fr,0.1,33.5026,
+40201,Akron,So,18.8,-3.47003,
+40203,Illinois,Fr,25.1,-0.0599315,76.6
+40204,Illinois,Fr,63.9,1.50598,92.8
+40206,VCU,Fr,0.8,-11.0334,
+40207,Butler,Sr,32.7,1.67732,
+40214,Loyola (IL),So,12,-6.04389,27.6
+40220,Northern Kentucky,So,66.8,-2.76099,
+40221,Milwaukee,Fr,18.3,-2.60453,45.2
+40225,Eastern Kentucky,Sr,14.1,-2.86069,
+40228,Northern Kentucky,Fr,49.2,-0.185343,
+40229,Sacred Heart,Jr,0.2,-7.66471,
+40243,Fairfield,Fr,47.1,0.449477,
+40253,Alabama,Fr,20.2,-3.34414,90.6
+40255,Washington State,So,26,-4.13631,
+40256,Washington State,Fr,14.9,-5.16825,26.0
+40257,Washington State,Fr,16.6,-1.7258,
+40260,Washington,Fr,82.2,3.3624,90.4
+40284,Houston,Jr,34.2,1.83024,50.4
+40286,Idaho,Jr,22.6,-8.26292,36.6
+40303,Stetson,Fr,77,-3.01188,
+40304,Buffalo,Jr,64.2,3.99018,
+40317,Idaho,Fr,19.5,-1.93495,54.8
+40341,Akron,Jr,56,0.951021,19.0
+40344,Drexel,Sr,0.6,-20.0502,
+40345,Drexel,Fr,1,-6.77828,
+40347,Liberty,Fr,0.9,-22.6199,
+40352,Campbell,So,0.3,8.59176,
+40354,Arkansas,Jr,0.1,-39.4261,
+40356,Florida,Fr,0.3,-12.792,
+40357,Auburn,Fr,0.7,1.54112,
+40359,Oregon,Jr,0.3,-1.10825,
+40363,Mississippi State,So,0.7,-15.256,
+40364,Ole Miss,Jr,2,2.30224,
+40385,Prairie View,Jr,67.9,-5.44593,
+40386,Prairie View,Fr,3.1,-2.75028,
+40387,Prairie View,Fr,6.9,-12.2144,
+40388,Prairie View,Fr,0.1,-7.56078,
+40392,Prairie View,Jr,4.9,-5.23039,
+40395,Minnesota,Fr,14.9,-6.31894,
+40399,Michigan,Fr,17.9,0.0330697,76.4
+40401,Manhattan,Fr,3.8,-15.5612,
+40402,Jackson State,So,73.6,0.236506,
+40403,The Citadel,Sr,7.5,-8.31575,
+40404,Grambling,Jr,55.7,-6.64498,
+40406,Grambling,Jr,33.5,-10.5359,
+40408,Chattanooga,Fr,1.7,-5.03095,
+40409,Chattanooga,Fr,7.5,0.269014,
+40410,Chattanooga,Fr,1.6,1.63419,5.0
+40411,Minnesota,Fr,23.5,-3.00254,45.4
+40412,The Citadel,Jr,0.1,66.0379,
+40413,Manhattan,Fr,65.7,-0.821055,
+40414,Jackson State,Fr,20.6,-6.90463,
+40415,Chattanooga,Fr,0.4,-16.8824,3.0
+40422,The Citadel,Fr,47.1,-1.78847,
+40426,Marist,Fr,36.7,-5.6654,
+40427,East Carolina,Jr,30.7,-3.88579,
+40428,Wyoming,So,32.5,0.479699,
+40437,Chattanooga,Jr,37.3,-3.73283,
+40439,Seton Hall,Fr,1.8,6.82901,23.2
+40441,Syracuse,Fr,75.1,8.42877,85.8
+40442,Wyoming,Fr,38.9,-3.47023,23.0
+40443,Syracuse,Fr,85.1,1.98226,93.4
+40445,Louisiana Tech,Sr,22.8,-7.55433,69.0
+40447,Holy Cross,Fr,19.1,0.586473,
+40448,Holy Cross,Fr,3.3,-18.34,
+40451,Holy Cross,Fr,69.7,0.43762,38.4
+40452,Colgate,Fr,23.1,-4.57948,
+40453,Colgate,Fr,31.9,-10.4503,
+40454,Fairfield,Fr,45.9,-1.20123,
+40455,UCSB,Fr,2.6,-5.55872,17.0
+40456,Robert Morris,Fr,68.5,-5.07375,13.0
+40457,Holy Cross,Fr,30.5,-6.02962,1.8
+40458,James Madison,Fr,3,-13.367,
+40460,College of Charleston,Fr,70.6,1.61714,
+40461,Indiana,Fr,56.3,6.48377,96.2
+40467,Providence,Fr,37.2,2.02907,22.2
+40469,South Carolina State,Sr,62,1.18174,
+40474,Cal State Fullerton,Fr,67.4,0.521042,
+40475,Belmont,Fr,46,2.89794,
+40476,Cal State Fullerton,Fr,0.2,-4.35793,
+40477,Belmont,Fr,27.4,-5.84119,
+40480,Cal State Fullerton,Jr,60.5,0.83871,
+40481,Cal State Fullerton,Fr,45.8,-5.57861,
+40485,Evansville,Fr,12.2,-6.48167,11.6
+40486,Illinois State,Fr,4.2,-9.30826,18.2
+40490,Bradley,Fr,74.9,-3.18811,39.8
+40491,Bradley,Fr,80,-3.28673,
+40493,Bradley,Fr,56.1,-4.86153,
+40495,Drake,Fr,24.1,-2.2589,19.6
+40497,Drake,Fr,22.1,-2.71983,42.6
+40498,Indiana,Fr,19.4,3.86025,76.8
+40499,Colorado,Jr,56.6,2.23714,47.4
+40500,Louisiana Tech,Fr,0.9,8.4547,
+40501,Prairie View,Jr,65.4,-5.54188,
+40502,Milwaukee,Sr,28.8,-0.949457,
+40503,UTSA,Fr,5,-4.79462,
+40509,Southern Illinois,Fr,35.8,1.48002,
+40513,Southern Illinois,Fr,25.8,-2.20164,
+40521,Maryland,Fr,55.1,3.51338,99.0
+40523,Florida Gulf Coast,Fr,38.6,-4.33454,38.0
+40530,Kennesaw State,Fr,1.3,-13.2214,
+40535,Seton Hall,Fr,19.6,-2.39271,62.6
+40537,Sam Houston State,Jr,44.5,-4.25043,
+40538,Sam Houston State,Jr,62.6,-2.75203,
+40539,Sam Houston State,Jr,6.3,-10.57,
+40540,Northwestern State,Fr,0.6,-10.4337,
+40543,Northwestern State,Fr,25.8,-11.548,
+40545,Northwestern State,Fr,1.3,-8.66704,
+40566,North Carolina A&T,Sr,28.5,-5.68744,
+40570,Oregon,Fr,3.9,3.26018,77.8
+40575,Fordham,So,0.3,-2.52795,
+40576,Fordham,Fr,68.2,3.04769,
+40577,Fordham,Fr,11.5,-3.12837,14.0
+40578,Fordham,Fr,43.8,-5.09014,
+40579,George Mason,Fr,51,-2.63832,
+40580,George Mason,Fr,14.5,-2.41484,
+40582,George Mason,Fr,28.9,-4.60377,
+40583,George Washington,Fr,10.7,-4.38291,2.0
+40599,Iowa,Fr,7.7,-0.786269,
+40608,Presbyterian,Fr,29.3,-8.44698,
+40616,Louisiana,So,0.5,5.60681,
+40627,Auburn,Jr,37.8,1.14642,
+40628,Florida,Fr,67.7,5.18881,87.4
+40631,Alabama,Fr,2.4,-2.87109,
+40632,Auburn,Fr,45.1,1.0748,87.2
+40633,Alabama,Fr,31.7,8.29292,70.0
+40634,Alabama,Fr,13.5,1.62105,60.6
+40635,Auburn,Fr,2.2,-15.5441,
+40637,Auburn,Fr,59.6,-1.87249,26.4
+40638,Auburn,Sr,1.6,-6.30268,
+40643,Mississippi Valley State,Jr,49.1,-3.84458,
+40649,Navy,Fr,0.2,24.3224,
+40650,Syracuse,So,0.5,-19.1765,
+40656,Morehead State,Jr,61.9,0.963,48.8
+40660,South Dakota,So,5.6,-7.64885,
+40664,Grand Canyon,Sr,11.1,-2.98033,
+40671,Auburn,Fr,0.2,-12.7973,
+40685,Wake Forest,Fr,0.1,-2.58505,
+40697,Iowa State,Fr,1,-3.75467,26.6
+40716,Rice,So,1.7,-17.2812,
+40720,Arizona,Fr,1.2,-5.77668,
+40721,Texas-Rio Grande Valley,Fr,0.6,-34.6137,
+40722,Rice,Fr,9.4,-4.85351,
+40724,Washington,Jr,0.4,-13.1864,
+40726,Rice,Fr,53.6,-3.08766,60.4
+40728,Mississippi State,Jr,1.1,-17.244,
+40730,Tennessee,Fr,0.6,-13.3089,
+40735,Jackson State,Jr,70.2,-0.188205,
+40736,Boise State,Fr,10.9,-5.44085,
+40737,Loyola Marymount,Jr,54.6,0.108912,
+40738,Samford,Sr,51.4,1.6406,
+40740,Alabama State,Fr,0.7,-4.62098,
+40744,St. Francis (NY),Sr,0.2,-35.7853,
+40745,Eastern Kentucky,Fr,0.2,33.629,
+40746,Northern Illinois,So,11.5,-1.94968,
+40747,Denver,Fr,0.1,-5.30461,
+40750,South Carolina,So,0.5,-9.20996,
+40751,Arkansas-Pine Bluff,Fr,44.2,-4.48639,
+40754,Mississippi Valley State,Jr,9.3,-7.63177,
+40755,Mississippi Valley State,Jr,3,-12.3293,
+40759,Mississippi Valley State,Fr,56.8,-8.66992,
+40761,Mississippi Valley State,Jr,47.7,-2.18753,
+40762,Mississippi Valley State,Fr,13.1,-7.43452,
+40763,Mississippi Valley State,Fr,2.4,-11.4445,
+40764,Mississippi Valley State,Jr,15.8,-5.05829,
+40770,Arkansas-Pine Bluff,Fr,14.4,-7.30426,
+40771,Arkansas-Pine Bluff,Jr,20.6,-6.41259,
+40772,Grambling,Jr,48.3,-4.86395,
+40774,Arkansas-Pine Bluff,Jr,20.3,-4.29567,
+40776,Arkansas-Pine Bluff,Fr,50.1,-6.32004,
+40777,Arkansas-Pine Bluff,Jr,38.3,-2.40753,
+40782,Grambling,Fr,73.2,-2.99484,
+40783,Syracuse,Jr,76.3,4.46871,91.8
+40788,Savannah State,Sr,65,-4.68104,
+40789,Marshall,So,27.1,-2.63225,
+40791,Abilene Christian,Fr,18.9,-7.56814,
+40809,Abilene Christian,Fr,28,-7.87002,
+40811,Tennessee State,Fr,22.1,-3.11813,
+40812,UTEP,Fr,1.3,-8.53404,
+40814,UTEP,Fr,17,-3.18807,60.0
+40820,UTSA,Jr,68.8,-4.97807,
+40821,Tennessee State,Jr,7.4,-4.90785,
+40827,Savannah State,Jr,26.4,-2.22491,
+40836,Weber State,Fr,53.5,0.135014,
+40838,Minnesota,Fr,49.1,-1.62907,72.6
+40839,Bradley,Fr,16.6,-7.88038,
+40840,Bradley,Fr,22.4,-9.49206,28.2
+40841,Bradley,Fr,60.9,-3.56736,
+40842,Virginia Tech,Jr,2.5,-4.8259,
+40843,Virginia Tech,Fr,47.1,3.59488,76.0
+40844,Virginia Tech,Jr,8.7,6.701,58.0
+40845,Virginia Tech,Fr,33.5,4.23765,87.8
+40846,Virginia Tech,Fr,56.9,1.19556,80.0
+40849,Arizona,Sr,53.5,8.15593,
+40851,Bradley,Fr,15,-3.43485,
+40852,Bradley,Fr,63.2,-1.09993,
+40853,Western Michigan,Fr,19.2,-7.22026,
+40854,Penn State,Fr,24.7,-2.48282,34.6
+40859,South Alabama,Fr,28.5,-5.34701,41.6
+40860,Louisiana-Monroe,Fr,2.3,-22.5242,
+40861,South Alabama,So,47.7,-0.472162,
+40862,Louisiana-Monroe,Fr,62.5,1.42503,
+40867,Utah State,Fr,34.9,2.52643,
+40868,Oregon,Sr,0.7,-19.9082,
+40869,Southeast Missouri State,Fr,63,-4.45282,
+40870,UTEP,Fr,9.3,-6.56326,66.6
+40872,Southeast Missouri State,Fr,37.1,-8.37082,45.6
+40874,UTEP,Jr,79.3,3.72086,
+40876,Southeast Missouri State,Fr,7.6,-11.5517,
+40878,Southeast Missouri State,Fr,22.9,-5.75528,
+40880,Mississippi State,Fr,0.6,-9.3672,63.8
+40882,Kansas,Fr,13.5,3.35011,99.2
+40883,Kansas,Fr,5.1,6.92122,84.0
+40884,Villanova,Fr,4.6,2.10007,75.4
+40885,Villanova,Fr,59.8,3.57852,95.8
+40886,Oklahoma,Fr,7.3,-3.33619,73.6
+40887,Oklahoma,Jr,13.4,1.0226,
+40890,Maryland,So,16.9,2.39266,62.2
+40904,Wisconsin,Fr,23,1.19595,70.8
+40906,McNeese State,Fr,62.4,-4.06583,
+40909,Lamar,Fr,61.7,-1.75207,
+40913,Lamar,Fr,2.6,1.54446,
+40914,Cal State Northridge,Fr,72.3,1.28158,
+40915,Lamar,Fr,48.6,-3.33707,
+40932,North Dakota,Fr,71.6,0.361234,
+40937,Nebraska,So,1.4,-7.08675,
+40941,Minnesota,Fr,38.6,-4.22957,75.2
+40944,Richmond,Fr,0.1,-10.2046,
+40951,UMass,Fr,26.9,-3.04772,6.4
+40953,George Washington,Fr,2.7,-4.15111,
+40954,St. John's (NY),Fr,49.1,0.987108,78.6
+40958,Virginia,So,43.6,6.5438,67.4
+40962,Austin Peay,Fr,1.6,-9.31957,10.2
+40977,Southern Miss,Jr,41,-5.84345,
+40982,Austin Peay,Jr,60.2,-2.00038,
+40994,UTSA,Jr,6.2,-13.9624,
+40999,LSU,Fr,26.8,-1.94332,89.0
+41000,Georgia,Fr,31.8,0.0778078,71.0
+41005,Florida,Fr,27.9,5.42133,81.6
+41006,Kansas,Jr,83.1,7.99145,76.6
+41008,Tennessee State,Fr,11.9,-7.58546,
+41009,Georgia,Fr,21.9,0.346776,62.2
+41010,Georgia,Fr,16.4,0.330442,69.0
+41011,Georgia,Fr,0.3,-15.3601,
+41012,Georgia,Fr,40.9,-1.42187,36.2
+41029,Iona,Fr,1.8,-7.82125,
+41034,UT-Martin,Jr,53.3,2.50881,
+41046,Marshall,Fr,4.8,-0.515725,
+41056,South Dakota,Jr,51.9,0.431552,
+41064,VCU,Jr,71.1,4.93746,50.4
+41068,Seton Hall,Jr,8.1,-1.81759,59.8
+41077,Iowa,Fr,24.3,4.75508,43.6
+41081,Louisville,Sr,69.3,4.15223,24.6
+41082,Nebraska,Fr,60.3,0.271905,85.0
+41089,Oral Roberts,Fr,47.1,3.65729,
+41092,North Dakota State,Fr,21.4,-1.58559,
+41100,Southern Illinois,Jr,0.9,-5.82927,
+41101,Bradley,Fr,2.7,-15.1336,
+41102,New Mexico,Sr,0.3,-22.6795,
+41103,Nevada,Fr,1.2,-4.55548,
+41104,Nevada,Fr,0.1,-30.1716,
+41105,Fresno State,Fr,0.7,-15.0656,
+41108,Boise State,Sr,51.9,1.25424,54.0
+41110,UMass-Lowell,Fr,39.4,-4.08085,
+41113,Georgia Southern,Jr,0.4,-19.9712,
+41115,Northern Colorado,Jr,23.8,-7.12306,
+41117,Central Connecticut,Jr,27.5,-10.8654,
+41119,St. Peter's,Fr,0.2,-42.0198,
+41131,Cal State Northridge,Jr,60,-3.13963,69.0
+41133,Michigan State,Fr,39.2,2.15928,86.0
+41137,Eastern Illinois,Fr,28.7,-1.55909,
+41138,Eastern Illinois,Fr,1.2,-14.9638,
+41139,Eastern Illinois,Fr,40.6,-6.36643,
+41140,Eastern Illinois,Fr,19.6,-4.46449,9.4
+41141,Eastern Illinois,Fr,3.9,3.24317,
+41142,Alabama A&M,Jr,40.7,-3.92971,
+41144,Alabama A&M,Fr,21.1,-3.2344,
+41145,Alabama A&M,Fr,5.7,-15.6499,
+41150,Incarnate Word,Jr,4.5,-12.1657,
+41154,Marshall,Fr,4.1,2.44726,
+41156,Elon,Fr,55.3,-0.74032,
+41167,Marshall,Fr,8.2,-3.77852,
+41170,UTSA,Fr,1.8,-10.766,
+41172,Tennessee Tech,Jr,44.9,-1.77465,
+41173,Tennessee Tech,So,7.9,-2.85584,
+41175,Tennessee Tech,Fr,12.2,-4.87439,
+41176,Tennessee Tech,Fr,22.7,-4.52067,
+41180,Richmond,Jr,85.8,0.555716,12.6
+41188,Grambling,Sr,67.3,-6.45424,
+41196,Wyoming,Fr,21,-4.22538,7.4
+41198,Wyoming,Jr,1.8,-14.9945,
+41202,Boston College,Fr,47.4,-1.64149,
+41207,Boston College,Fr,35.6,-2.06491,24.0
+41215,Louisiana,Jr,11.2,-3.95512,
+41216,Georgia State,Fr,0.3,-3.50074,
+41217,Louisiana,Jr,21.2,2.32122,
+41218,Louisiana,Sr,1.5,-7.01386,
+41221,Georgia State,Fr,11.7,-0.934877,8.2
+41223,High Point,Fr,36.9,-4.77494,
+41224,Tulane,Sr,28.9,2.0274,63.2
+41226,Murray State,Fr,19.1,-4.18312,
+41227,Murray State,Fr,17,-0.165534,
+41228,UAB,Fr,2.6,-2.02475,
+41231,Murray State,Jr,6.2,-14.7802,
+41232,SIU-Edwardsville,Fr,78.1,-1.29131,
+41233,SIU-Edwardsville,Jr,13.7,-5.12549,
+41234,Southeast Missouri State,Fr,17.7,-8.26856,
+41235,SIU-Edwardsville,Sr,22.2,-6.42888,
+41240,Saint Mary's,Fr,4.7,-2.27479,
+41241,Wake Forest,Fr,17.1,0.679492,82.8
+41242,Wake Forest,Fr,76.2,1.94577,80.4
+41251,UNC,Fr,11.1,1.2593,69.2
+41254,Santa Clara,Fr,48.2,-3.12717,
+41255,Santa Clara,Fr,29.9,-1.53128,
+41256,San Francisco,Fr,12.8,-5.43841,
+41257,Santa Clara,Fr,75.3,-1.535,
+41258,San Francisco,Fr,34.9,-0.899513,
+41259,Cleveland State,Fr,19.7,-3.2403,
+41263,San Francisco,Fr,4.5,-10.6626,
+41265,New Orleans,Fr,49.6,-5.38113,
+41269,Wright State,Sr,48.2,0.648391,
+41272,McNeese State,Jr,42,-5.64047,
+41273,McNeese State,Fr,74.2,-3.65094,
+41274,New Orleans,Fr,15.2,-7.93253,
+41275,McNeese State,Fr,13.1,-10.5041,
+41276,New Orleans,Jr,56.1,0.0722886,
+41277,New Orleans,Fr,30,-7.99941,
+41284,Florida A&M,Fr,56.6,-5.38603,
+41290,Florida A&M,Fr,1.3,-29.237,
+41291,Florida,Jr,11.2,-0.791947,63.8
+41299,Mount St. Mary's,So,71.3,-2.76381,
+41306,Colorado,Fr,0.5,-12.9977,
+41310,Hofstra,Fr,29.9,-2.50587,38.8
+41312,Arizona State,Jr,61.4,1.42569,
+41313,Arizona State,Jr,40.8,-0.807292,61.6
+41316,California,Fr,70.9,7.46516,98.8
+41317,Kentucky,Fr,87.1,8.00807,98.2
+41318,Colorado,So,3.8,-7.6688,
+41321,Florida A&M,Fr,25.2,-8.85834,
+41325,Florida A&M,Fr,53.8,-5.85848,
+41343,Ohio,Jr,70.7,0.67589,81.2
+41352,Ole Miss,Fr,19.8,-2.36537,64.6
+41354,Mississippi State,Fr,67.1,4.67349,79.8
+41355,LSU,Fr,76.4,1.28557,97.0
+41356,LSU,Fr,86.5,10.2081,100.0
+41357,Ole Miss,Jr,68.2,2.44053,
+41358,Ole Miss,Fr,10.2,0.38846,66.0
+41364,Mississippi State,Fr,15.6,-2.13296,79.2
+41366,Toledo,Fr,1.9,-27.3152,33.4
+41368,UCF,Fr,5.1,-8.69846,59.0
+41371,SMU,Fr,1.3,-11.5501,68.8
+41373,South Florida,Fr,88,-2.31054,17.2
+41374,South Florida,Fr,8,-5.36189,58.4
+41382,UCF,Fr,43.7,4.66932,71.8
+41383,Louisiana-Monroe,Jr,12.5,-3.95584,
+41387,Robert Morris,Jr,62.5,-2.67817,
+41389,Delaware State,Jr,22,-7.98436,
+41407,Loyola (MD),Fr,0.6,-1.15378,
+41420,Cal Poly,So,29.6,-5.27983,53.6
+41430,Southeast Missouri State,Jr,70,-3.52838,
+41444,Chicago State,Jr,37.8,-7.32477,
+41447,Houston,Jr,75.9,5.72465,47.8
+41455,Oral Roberts,Jr,2.1,5.00134,
+41456,Ohio,Fr,43.6,-0.0923121,
+41458,Iowa,Jr,5.9,1.46095,
+41463,Weber State,So,43.2,-1.01833,
+41466,Tennessee State,Sr,0.1,-4.50018,
+41470,Oklahoma,Fr,22.2,3.29688,61.6
+41471,Syracuse,Fr,0.2,-2.90235,
+41474,Duquesne,Fr,19.7,2.38163,14.8
+41476,Kansas,Fr,21.7,5.81734,95.4
+41478,North Carolina A&T,Jr,40.9,-3.51315,
+41479,UNC,Sr,1.2,-10.6751,
+41480,NC State,Fr,4.3,-8.66422,65.2
+41483,Pitt,Jr,1.9,-1.17535,
+41484,Pitt,Fr,0.9,-7.37032,
+41498,Dayton,Fr,21.8,-5.95751,52.0
+41511,Alabama A&M,Sr,75.1,-1.0761,
+41513,Georgetown,Fr,43.5,1.65611,91.0
+41514,Akron,Fr,44.9,0.500533,5.4
+41515,Eastern Illinois,Jr,52.2,-2.64227,
+41516,Eastern Illinois,Fr,70.6,-2.45192,5.8
+41517,Eastern Illinois,Jr,55.7,1.33695,
+41518,Quinnipiac,Fr,57.3,-3.05041,
+41519,Quinnipiac,Jr,66,2.79909,
+41520,Quinnipiac,Fr,15.8,-5.74807,
+41521,Quinnipiac,Jr,46.7,-1.99354,
+41522,Quinnipiac,Fr,0.7,-19.558,
+41523,UNC Wilmington,Fr,17.9,-0.921275,
+41524,UNC Wilmington,Fr,57.4,0.0850398,
+41531,Chicago State,Jr,45.7,-4.09653,
+41532,Oakland,Fr,17.4,1.84136,
+41533,Bowling Green State,Fr,2.2,-0.409088,
+41534,Wisconsin,Fr,31.4,1.82003,36.4
+41538,Eastern Illinois,Jr,32.8,-1.74981,
+41541,Stetson,Fr,10.7,-9.26665,
+41544,Georgetown,Fr,26.8,1.49246,64.2
+41545,Coppin State,Jr,70.7,-5.47199,
+41547,Western Kentucky,Fr,0.4,-11.2688,
+41548,Western Kentucky,Fr,69.6,-1.05488,17.8
+41549,UTSA,Fr,30.4,-7.9174,
+41550,Fairfield,Sr,19.2,-3.76426,
+41551,Western Kentucky,Fr,26.9,-2.29006,22.6
+41552,Western Kentucky,Jr,68.9,2.47668,
+41553,UT-Martin,Fr,9,-9.36237,
+41554,UT-Martin,Jr,5.5,-10.2671,
+41555,UT-Martin,Jr,26.1,-4.32509,
+41556,UTSA,Fr,38,-6.4791,
+41564,Minnesota,Jr,1.5,-17.7693,
+41572,Fordham,Fr,14.9,-3.086,49.2
+41574,UNLV,Fr,51.8,-0.140458,98.0
+41575,Manhattan,Fr,0.1,-5.49638,
+41576,Utah State,Fr,4.2,-7.68249,
+41577,Manhattan,Fr,6.5,-8.78394,
+41587,UCSB,Fr,37.9,-2.4597,
+41589,Colorado State,Fr,40.2,-3.0118,
+41590,South Carolina State,Jr,70.7,-0.884736,
+41591,Savannah State,Fr,24,-4.42268,
+41593,Savannah State,Fr,1.1,-11.7532,
+41594,Indiana,Fr,33.2,7.9074,41.4
+41596,South Carolina State,Jr,18.4,-4.75248,
+41598,UT Arlington,Fr,29.7,-0.612043,
+41599,UT Arlington,Jr,26.5,2.00432,
+41600,Troy,Jr,61.6,-6.29301,
+41601,Troy,Fr,42.1,-2.71597,
+41602,Troy,Fr,70.3,1.65774,
+41603,Troy,Fr,33.1,-3.97176,
+41605,Jacksonville,Jr,57.1,-1.1391,
+41610,Jacksonville,Jr,13.8,-4.8133,
+41618,Incarnate Word,Fr,37.4,-7.48288,
+41621,Kansas State,Jr,37.4,0.973944,
+41622,Kansas State,Jr,32,-0.140518,
+41627,Wake Forest,Fr,35.7,0.676331,63.2
+41628,Kansas State,Fr,63.3,1.81361,50.2
+41630,Iowa State,Jr,13.4,-0.0330771,
+41632,Southern Miss,Jr,52.9,-4.96038,
+41633,Southern Miss,Fr,34.7,-6.48844,
+41635,Abilene Christian,Jr,50.1,-6.57441,
+41636,Rice,Fr,83.1,0.33231,42.4
+41637,Wofford,Fr,71.2,1.75322,
+41638,Rice,Fr,0.3,-15.5995,
+41639,Wofford,Fr,18.4,-8.64348,
+41640,Eastern Washington,Fr,19.8,-0.552973,
+41641,Eastern Washington,Fr,11.5,-3.73254,
+41643,Eastern Washington,So,7.2,-0.479648,
+41646,Southern Miss,Fr,32.5,-5.1172,
+41649,St. Peter's,So,46.2,-3.17316,
+41650,UC-Irvine,Fr,21.9,-1.46228,
+41655,Navy,Fr,0.2,-14.0868,
+41663,Kennesaw State,Fr,24,-5.70103,
+41664,Idaho,Fr,5.7,0.155202,
+41667,Eastern Washington,Fr,8.1,-7.39302,
+41669,Arizona,Fr,54.5,3.56775,97.6
+41683,Arizona State,Fr,1,-2.18815,
+41686,St. John's (NY),Jr,4,-7.30188,
+41689,Cleveland State,Fr,2.6,-1.3339,
+41693,Temple,Fr,10,0.783383,63.4
+41694,Tulsa,Fr,1.4,-0.749008,
+41695,Tulsa,Fr,21.9,-1.60309,8.0
+41697,St. John's (NY),Fr,41.2,-5.18584,62.4
+41699,St. John's (NY),Fr,72.8,-1.79266,77.2
+41704,Lamar,Fr,8.9,-10.1134,
+41709,Marshall,So,65.1,-0.0205295,
+41720,South Carolina State,Jr,1.8,-7.68349,
+41721,Maryland,Jr,66.4,7.72254,94.8
+41725,Iowa,Jr,1.1,-3.53528,
+41727,Missouri,Fr,61.9,-2.13924,22.8
+41728,Missouri,Fr,34.4,1.18074,74.0
+41730,Missouri,Fr,65.5,2.25047,67.2
+41731,South Carolina,Fr,9.8,-7.29723,21.8
+41732,Missouri,Fr,43.1,-1.2266,37.6
+41734,Missouri,Jr,31.4,-1.30346,
+41737,South Carolina,Fr,47,-1.95093,95.2
+41738,South Carolina,Fr,7.6,-0.45046,53.4
+41739,Stony Brook,Jr,74.1,-0.178432,
+41743,Florida State,Fr,11.6,-0.722238,35.8
+41745,Louisville,Fr,42.3,6.22759,91.8
+41746,Florida State,Fr,71.7,0.889506,96.8
+41747,Florida State,Jr,25.1,-0.153677,
+41748,Florida State,Fr,42.3,4.22181,80.2
+41749,Florida State,Fr,74.3,4.13566,92.4
+41754,Louisville,Fr,47.7,5.53915,94.4
+41759,Florida Gulf Coast,Fr,44.3,0.0956794,69.8
+41771,Georgia State,Jr,78.6,1.25649,92.8
+41780,Georgia Tech,Sr,56.6,-1.0671,81.8
+41781,Stetson,Fr,4.6,-8.24308,
+41785,UT-Martin,Jr,4.5,-11.9253,
+41799,Maryland-Eastern Shore,Jr,49,-7.23585,
+41804,ETSU,Fr,2.5,-2.20859,
+41805,USC Upstate,Fr,63.1,-7.01604,
+41806,Creighton,Jr,15.7,1.59033,
+41811,Richmond,Fr,16,-4.45121,6.2
+41816,Richmond,Fr,8,-6.30261,
+41823,Rhode Island,Fr,33.5,2.03134,
+41827,Rhode Island,So,8.5,-6.48019,
+41828,Navy,Fr,3.5,-12.3985,
+41829,Rhode Island,Fr,40.5,1.84595,13.6
+41832,UMass,Fr,12.2,-3.39476,38.2
+41834,Toledo,Fr,57.2,1.70712,3.8
+41848,Kennesaw State,Fr,33.8,-5.99538,
+41849,Virginia,Fr,0.8,-27.6325,
+41850,Duquesne,Fr,0.1,-3.73089,
+41851,Dayton,Fr,0.1,-2.19092,
+41853,Fordham,Fr,0.3,20.6206,
+41860,Fordham,Fr,0.1,-5.7468,
+41864,Loyola Marymount,Fr,19.8,-0.381436,
+41878,Holy Cross,Jr,1,-23.4645,
+41879,Texas Southern,Fr,69.5,4.78492,77.2
+41880,Pacific,So,42.5,-6.50987,
+41883,St. Joseph's,So,0.1,-27.6824,
+41884,UNC Wilmington,Fr,12.7,1.13425,
+41885,UNC Wilmington,Fr,8.2,-4.81249,
+41888,St. Bonaventure,Jr,0.1,-3.2814,
+41890,UC-Riverside,Jr,73.3,-0.223619,
+41891,UC-Riverside,Fr,16.2,-2.76615,
+41892,UNC Greensboro,Fr,0.4,-20.2442,
+41893,Marist,Fr,30.2,-6.5904,
+41894,UC-Riverside,Fr,34.8,1.04114,
+41895,UC-Riverside,Jr,62.8,-0.376247,
+41902,Loyola (IL),So,0.4,-0.108343,
+41907,DePaul,Fr,70.4,0.083962,39.2
+41911,Loyola (MD),Sr,59.3,-2.37613,
+41915,Colgate,Fr,0.3,-7.37198,
+41917,Dayton,Fr,0.1,-2.19092,
+41924,LIU,Fr,1,-5.98408,
+41927,Utah Valley,Fr,3.2,-10.5177,
+41928,Utah Valley,Fr,49,-0.97711,
+41929,Kansas City,Fr,18.4,-7.41465,
+41930,Central Connecticut,Fr,87.1,-3.2441,
+41933,Kansas City,Jr,3.6,-7.85018,
+41934,Kansas City,Jr,82.5,0.565011,
+41935,Marist,Fr,1.3,-10.7069,
+41936,George Mason,Fr,73.2,-0.793891,
+41937,Western Kentucky,Fr,0.9,-9.72727,
+41938,Western Kentucky,Fr,0.7,-16.088,
+41939,Central Connecticut,Fr,45.5,-6.71808,
+41940,Morgan State,Fr,43.1,-7.49427,
+41941,Bryant,Fr,78.9,0.688866,
+41942,Bryant,Fr,3.6,-15.4883,
+41943,UConn,Fr,12.8,-3.30043,83.4
+41954,Marist,Fr,2,-18.6199,
+41965,St. Peter's,Jr,0.2,-24.1605,
+41968,Texas State,Jr,49.3,1.41624,
+41969,Texas State,Fr,19.1,-7.31408,
+41970,Texas State,Fr,6.4,-4.46754,
+41971,Texas State,Fr,2.7,-14.9773,
+41972,Texas State,Jr,18.6,-10.0689,
+41974,Gardner-Webb,Fr,38.1,1.58612,
+41977,Morgan State,Fr,27,-7.47178,
+41979,Gardner-Webb,So,18.5,-5.76356,
+41980,Coastal Carolina,Fr,19.5,-4.96517,
+41981,Coastal Carolina,Fr,3.2,-18.1655,
+41982,UT Arlington,Jr,59.9,3.7541,
+41983,UT Arlington,Jr,7.8,3.37438,
+41984,Eastern Kentucky,Sr,76.2,0.945562,
+41987,Oregon,Sr,0.7,-6.87238,
+41998,Auburn,Fr,10.8,-5.71411,55.6
+41999,Wake Forest,So,0.4,3.61327,
+42007,Presbyterian,Jr,22,-9.05978,
+42008,Ohio State,Fr,73.2,2.27637,92.2
+42017,Miami (OH),So,15.2,-4.79358,
+42020,Montana,Fr,76.8,-0.749905,
+42021,Central Arkansas,Sr,77.6,-0.158519,
+42022,North Texas,Jr,79.7,0.911007,
+42024,Middle Tennessee,Fr,9.4,-10.4023,9.2
+42025,Middle Tennessee,So,36.6,-6.88657,
+42026,North Texas,Fr,68.9,-1.66395,5.6
+42029,Idaho State,Jr,90.3,2.35762,
+42030,Idaho State,Fr,43.6,-2.9783,
+42031,Idaho State,Fr,1.6,-1.92233,
+42032,Idaho State,So,31,-5.70067,
+42033,Idaho State,Fr,21.4,-7.60111,
+42034,Marist,Fr,53.8,-5.36077,
+42035,Montana,Jr,82.3,-0.395562,
+42048,Elon,Fr,70.6,3.38764,
+42049,Elon,Fr,38.8,-1.16704,
+42050,Elon,Fr,7.5,-2.90386,
+42051,Texas Southern,Sr,62,-1.08064,
+42052,Elon,Fr,11.7,-7.32092,
+42053,Drexel,Fr,82.9,1.07932,19.2
+42054,Delaware,Fr,2,-7.05577,
+42064,Columbia,Fr,0.1,-22.0317,
+42066,Columbia,Fr,0.4,0.703542,
+42067,Columbia,Fr,34.8,1.24192,
+42069,Columbia,So,21.6,-5.24408,
+42072,St. Francis (NY),So,44.9,-4.83556,
+42075,Iowa,Jr,1.1,-8.42812,
+42077,Cornell,Fr,73.9,1.10021,
+42080,Austin Peay,Fr,34.2,-2.58337,
+42082,Portland State,Fr,0.3,-6.92117,
+42087,James Madison,Jr,58.6,3.80728,
+42097,Miami (OH),Sr,5.4,-3.82591,
+42106,Mercer,So,60.8,-1.41881,
+42110,Texas,Fr,50.6,1.50649,89.8
+42122,Texas,Fr,44.7,4.28022,91.2
+42129,Vanderbilt,Fr,19.4,1.98731,67.6
+42130,Tennessee,Fr,44,2.36457,50.0
+42131,Tennessee,Fr,4.6,-5.48986,
+42132,Tennessee,So,8.9,-1.88153,
+42134,Nicholls State,Sr,28.1,-7.77558,39.0
+42135,Tennessee,Fr,28.7,1.00581,27.8
+42136,South Carolina,Fr,8.9,2.00306,27.4
+42139,Iona,Fr,1.2,-10.6646,
+42141,Howard,Jr,1.1,-13.1948,
+42145,Boston College,Fr,1.1,-3.19874,
+42150,Washington State,Jr,34,-3.11115,
+42153,Butler,Fr,9.4,0.915171,45.2
+42160,Florida,Jr,35.1,3.31808,
+42179,Little Rock,Fr,5.5,0.0883176,
+42182,Eastern Kentucky,Fr,74.8,0.484229,
+42192,Illinois State,Fr,6.8,0.0226779,4.0
+42199,San Francisco,So,0.3,-29.0987,
+42203,UC-Riverside,Fr,3.3,-12.8463,
+42206,UC-Riverside,Jr,7.3,-10.7937,
+42225,Longwood,Fr,34.9,-9.07649,
+42228,Detroit,Jr,0.5,-4.94672,
+42229,Milwaukee,Fr,0.6,-15.1265,
+42230,Harvard,Fr,0.3,-15.6028,
+42233,VMI,So,0.1,-38.4207,
+42247,Marshall,So,55.8,-0.282945,
+42250,Georgia Southern,So,0.4,-21.9433,
+42255,Iowa State,Jr,17.9,0.440454,36.4
+42257,Longwood,Fr,1,-9.56373,
+42258,Maryland-Eastern Shore,Fr,32.7,-3.90492,
+42260,South Alabama,Jr,37.5,0.585834,
+42274,Holy Cross,Jr,1.1,-11.1586,
+42278,UC-Riverside,Jr,49.6,-1.73784,
+42279,Rutgers,Fr,72.1,1.14606,82.0
+42280,Norfolk State,Fr,42,-4.04304,
+42282,Texas A&M,Fr,2.4,9.73116,80.6
+42283,Alcorn State,Fr,8.6,-11.8481,
+42284,Alcorn State,Jr,18.6,-9.45654,
+42286,Alcorn State,Jr,44.3,0.575904,
+42287,Alcorn State,Fr,3.1,-9.10944,
+42289,Rutgers,Fr,50.8,-2.97077,53.6
+42290,Rutgers,Jr,14.3,0.976273,
+42291,Army,Fr,28.6,-6.69234,
+42296,Campbell,So,69.5,-3.16948,
+42309,Central Michigan,So,0.2,-4.45265,
+42310,Oklahoma State,Sr,0.4,-26.7534,
+42311,TCU,So,54.5,2.65949,
+42312,TCU,Fr,48.5,0.0800534,53.2
+42314,Iowa State,Fr,2.8,-5.69367,41.2
+42315,Iowa State,Jr,0.6,-22.6565,
+42316,Kansas,So,1.1,-2.49146,
+42317,Oklahoma State,Fr,0.1,-2.56481,
+42319,TCU,So,64.5,2.5163,46.4
+42320,Texas Tech,Fr,0.6,0.13681,
+42322,Bethune-Cookman,Jr,54.4,-5.58543,
+42323,Bethune-Cookman,Fr,36.6,-4.47911,
+42324,Coppin State,Jr,58.9,-2.46176,
+42326,Bethune-Cookman,Jr,25.3,-5.75551,
+42327,Utah Valley,Jr,29.4,-2.50144,
+42328,Bethune-Cookman,Fr,24.5,-8.75736,
+42329,Bethune-Cookman,Jr,50.6,-3.77683,
+42332,Coppin State,Jr,46.9,-1.88907,
+42334,Army,Fr,0.4,-24.8895,
+42352,Rhode Island,Fr,0.2,-8.9244,
+42354,UIC,Fr,91.2,-3.96315,54.0
+42360,San Diego State,Fr,15.8,1.13921,
+42362,Liberty,Fr,51.8,1.04254,
+42364,Liberty,Fr,8.1,-8.90493,
+42365,High Point,Fr,0.5,-22.091,
+42366,Liberty,Fr,20.3,-3.88023,
+42367,Liberty,Fr,76.7,-1.9317,
+42369,New Mexico,Fr,12.8,-0.787266,40.6
+42370,New Mexico,Fr,16.1,0.73649,55.4
+42372,VMI,Fr,1.7,-19.5315,
+42373,VMI,Fr,0.5,-8.17216,
+42374,Western Carolina,Fr,37.7,-5.0164,
+42375,Western Carolina,Fr,46.2,-1.9917,
+42376,Samford,Fr,53.2,0.511503,
+42377,Samford,Fr,14.4,-1.27036,
+42378,VMI,Fr,36.4,-6.18487,
+42383,Western Carolina,Jr,5.7,-6.45233,
+42384,Western Carolina,Fr,11.8,-5.19835,
+42385,St. Peter's,So,0.4,-5.70139,
+42386,Northwestern State,Fr,19.2,-7.68603,
+42388,Houston Christian,Fr,35.5,-3.53283,
+42390,Grand Canyon,So,26.5,-2.57892,
+42397,High Point,So,0.7,-9.86261,
+42398,Coppin State,Jr,54.6,-1.96599,
+42399,Green Bay,Fr,4,-1.86666,
+42402,Detroit,Fr,0.9,-10.2959,
+42405,Montana,Fr,44.5,-1.46903,
+42407,NJIT,Fr,0.7,-23.9425,
+42408,Central Connecticut,Fr,34.8,-8.52895,
+42409,Green Bay,Jr,35.8,1.72423,
+42410,Green Bay,Fr,20.9,-4.3236,
+42411,Jacksonville State,Fr,37.2,0.935203,
+42412,Jacksonville State,Fr,29.6,-5.47241,
+42413,Morehead State,Fr,27.7,-3.80089,25.0
+42414,Morehead State,Fr,21.2,-2.4899,
+42415,Morehead State,Fr,0.7,-19.8715,
+42417,Morehead State,Jr,22.7,0.731819,
+42419,UAB,Jr,46.6,3.22492,
+42420,Murray State,Jr,80.4,1.2398,
+42422,St. John's (NY),Fr,45.2,3.95639,61.2
+42424,Monmouth,Fr,8.9,-2.22343,
+42425,Kansas City,Fr,20.2,-4.43348,
+42431,Saint Francis (PA),Fr,0.6,2.80552,
+42436,Clemson,Fr,0.6,-30.6074,
+42437,Bryant,Fr,74.7,-3.13574,
+42439,Western Kentucky,Jr,34.9,-2.8864,
+42442,Youngstown State,Fr,31,-4.35482,8.4
+42443,Youngstown State,Fr,51.4,-4.3047,8.6
+42444,Brown,Fr,25.9,-5.38448,15.8
+42445,Brown,Fr,25.4,-4.77965,
+42446,Arkansas,Fr,42.1,-2.75078,86.6
+42447,Wright State,Jr,2.8,-5.50797,
+42448,Youngstown State,Fr,8.5,-4.90642,
+42449,Youngstown State,Jr,40.5,-3.97543,
+42451,Kentucky,Fr,0.8,-7.14997,
+42452,Kentucky,Fr,75.2,4.36239,97.8
+42453,Brown,Fr,5.3,-7.27157,
+42454,Brown,Fr,40.8,-2.64866,
+42456,Central Connecticut,Fr,22,-13.2377,
+42459,Canisius,Fr,39.6,-5.63492,
+42460,Utah Valley,Jr,60.1,-4.96046,
+42465,Iona,Jr,43.7,-6.73762,
+42467,Northwestern State,Fr,63.2,-4.111,
+42469,Mercer,So,1.6,-10.6976,
+42473,Northwestern State,Jr,17.5,-7.50487,
+42485,Florida,Jr,18.3,-1.92396,70.8
+42495,Tulane,Fr,37.6,-5.57754,64.6
+42498,East Carolina,Jr,8.9,-8.0234,
+42499,East Carolina,Fr,3.4,-5.81705,47.8
+42500,East Carolina,Fr,66.8,5.47906,25.6
+42501,UIC,Fr,13.6,-9.23295,3.4
+42502,Vanderbilt,Fr,19.3,1.55944,73.2
+42503,Vanderbilt,Fr,7.8,1.49643,64.0
+42507,Memphis,Fr,29.1,-0.339603,20.8
+42508,Memphis,Fr,20,1.0582,81.2
+42509,Memphis,Fr,14.4,-3.74247,89.6
+42510,Memphis,Fr,77.5,4.16632,93.0
+42514,New Orleans,Fr,4.1,-15.0921,
+42515,Houston,Jr,12.6,0.847788,
+42518,Illinois,Sr,12.3,-6.77727,27.6
+42519,Manhattan,Sr,65.8,0.206008,
+42535,Cal State Northridge,Sr,52.1,-3.67819,
+42543,Youngstown State,Fr,24,-5.94756,7.6
+42556,Charlotte,Fr,64.4,1.12924,
+42575,Radford,Fr,62.9,1.56981,9.0
+42595,Providence,Fr,6.8,-1.39383,21.6
+42596,West Virginia,Fr,43.8,5.16519,87.0
+42598,Wake Forest,Fr,0.1,-2.58505,
+42608,Texas-Rio Grande Valley,Jr,4.1,-17.5878,
+42615,Temple,Fr,25.4,1.2374,70.4
+42616,Western Michigan,Sr,61,0.52456,
+42624,Seattle,Fr,25.6,-5.58423,
+42631,Oakland,Fr,11.5,-2.09568,
+42652,New Mexico State,Fr,28.9,-3.50959,
+42660,Illinois,Fr,22.9,-4.05761,84.8
+42665,St. Joseph's,Fr,45.1,0.512635,46.8
+42670,Seton Hall,Fr,2.3,-0.532148,51.2
+42671,Utah State,Sr,19.3,2.21952,
+42674,Michigan State,So,0.2,-27.9071,
+42686,Texas State,Jr,35,-2.85841,
+42693,IU Indy,Jr,52,-2.02239,16.4
+42695,West Virginia,Jr,17.7,-0.325231,
+42696,San Jose State,Fr,61.2,-1.50637,48.6
+42697,Texas Tech,Jr,24.2,0.576077,
+42698,Texas Tech,Fr,0.8,-14.1078,
+42699,Xavier,Jr,0.4,0.42842,
+42701,St. John's (NY),Fr,2.4,-10.4098,
+42703,Texas Tech,Fr,10.7,-5.21714,51.8
+42704,Indiana,Fr,0.6,-0.74155,
+42705,Xavier,Fr,0.2,-34.6656,
+42707,Coastal Carolina,Fr,1.7,-4.49871,4.4
+42709,Coppin State,Fr,2.8,-3.184,
+42710,Coppin State,Fr,27.8,-8.99639,
+42711,Coppin State,Jr,63.4,-3.01394,
+42712,Coppin State,Jr,12.1,-4.35673,
+42713,Coppin State,Jr,11.3,-4.61716,
+42721,Charleston Southern,Fr,77,-2.75422,
+42726,Dartmouth,Fr,0.6,-30.1462,
+42730,Mississippi State,Fr,1.1,-9.67422,
+42732,Alabama State,So,23,0.72482,
+42733,Alabama State,Jr,0.6,-10.0437,
+42734,Alabama State,Jr,4.8,-9.10563,
+42736,Kentucky,Jr,6.2,2.44842,
+42739,Alabama State,Fr,20.4,-3.35151,
+42741,Weber State,Fr,8.1,-3.99712,
+42742,Western Michigan,Fr,38.3,-2.7754,49.4
+42743,Incarnate Word,Fr,38.8,-4.44476,
+42744,Texas A&M-Corpus Christi,Jr,6.1,1.11707,
+42746,NJIT,So,0.2,-42.9016,
+42749,Weber State,Fr,34,-5.23201,
+42750,Western Michigan,Fr,51,-3.19035,9.8
+42751,Weber State,Fr,0.7,-16.2624,
+42752,Old Dominion,Sr,1.8,-16.3789,
+42755,UNC Greensboro,Fr,0.3,-12.1153,
+42756,Western Illinois,Fr,37,-2.27004,
+42757,Western Illinois,Fr,0.2,-13.8755,
+42760,UNC Greensboro,Fr,40.6,-1.62408,
+42761,UNC Greensboro,Fr,71,-1.52069,
+42764,Samford,Fr,0.4,-20.5777,
+42765,Samford,Fr,62.5,-0.830103,
+42768,Florida Gulf Coast,Jr,0.1,-3.80779,
+42780,Kentucky,Fr,39,4.95833,99.8
+42783,Nicholls State,Sr,66.4,-6.52434,
+42785,Santa Clara,So,11.3,-3.20869,
+42788,Pacific,Jr,53.4,-0.564117,
+42789,Pacific,Fr,15.8,-2.69591,28.8
+42790,Pepperdine,Fr,1.8,0.247765,
+42791,BYU,Fr,76.7,3.65719,86.8
+42793,Pepperdine,Fr,60,-0.962238,
+42794,Monmouth,Jr,50.3,3.27658,72.8
+42795,Houston,Fr,59.5,1.46463,40.4
+42797,BYU,Fr,9.6,-3.00987,49.4
+42798,Providence,Fr,24.2,1.78783,42.2
+42803,Stetson,Fr,0.2,-5.99893,57.8
+42804,Jacksonville State,Jr,6.7,-7.72487,
+42805,Jacksonville State,Jr,47.3,-0.062139,
+42806,Jacksonville State,Fr,71.2,-2.46676,
+42807,Jacksonville State,Fr,30.9,-3.96202,
+42808,Eastern Kentucky,Fr,24,-2.55537,
+42812,Eastern Kentucky,Fr,12.4,-2.20302,
+42813,Southern Miss,Fr,37.9,-5.1869,2.6
+42820,St. Peter's,So,34.1,-1.96788,54.8
+42826,Bowling Green State,Fr,52.8,-1.17313,
+42837,Harvard,Fr,58,-5.16323,35.2
+42839,SIU-Edwardsville,Jr,11.8,-6.39918,
+42841,Penn,Fr,56.6,-3.36947,1.4
+42842,Penn,Fr,59.7,0.162807,
+42845,Princeton,Fr,0.7,-4.91439,
+42846,Princeton,Fr,8.7,-1.25434,
+42849,Youngstown State,Jr,85.9,-1.75334,
+42861,Northern Kentucky,Fr,19.6,-6.26788,
+42862,Central Connecticut,Jr,3,-12.742,
+42865,Cincinnati,Fr,17.1,-0.802963,69.6
+42866,Florida Gulf Coast,So,19.2,-3.25356,
+42873,Wright State,Fr,19,-3.39393,
+42876,Dayton,Fr,18.4,2.39063,13.8
+42884,Northern Kentucky,Fr,0.2,-40.6031,
+42900,Pitt,Sr,18.6,2.76076,67.2
+42908,UC-Riverside,Fr,0.3,1.22643,
+42912,Stephen F. Austin,Fr,8,-6.19634,
+42924,Jacksonville State,Sr,70.6,-1.0217,
+42927,Marquette,Jr,56.5,5.08632,93.6
+42952,Marquette,Fr,7.5,-4.42138,73.0
+42953,Marquette,Fr,72.7,0.637725,85.2
+42955,Marquette,Fr,6.2,-2.56834,62.0
+42956,Marquette,Fr,59,0.258673,74.8
+42957,DePaul,Fr,35.3,-2.4131,
+42958,DePaul,Fr,2.4,-9.12676,43.0
+42961,Minnesota,Fr,65.5,0.357906,66.8
+42964,Marquette,Fr,0.6,-13.2344,
+42968,Dayton,Fr,13.2,5.35496,19.4
+42980,Wagner,So,1,-6.55922,
+42982,UNC Wilmington,So,38.9,0.0491333,19.6
+42990,Marquette,Fr,82.6,3.49062,98.4
+43008,Alabama,So,1,-14.3636,
+43015,Xavier,Fr,22.9,3.93594,72.2
+43016,Houston Christian,Fr,25,4.85916,
+43017,Texas A&M,Fr,0.6,1.93938,
+43027,Washington State,Jr,53.3,-2.04733,
+43029,Washington,Fr,59.2,4.13086,79.4
+43040,Dayton,Jr,77,6.86438,
+43041,Idaho,So,1.9,-5.40302,
+43058,Idaho State,Jr,51.8,-0.879719,
+43061,West Virginia,Fr,0.2,-0.146102,
+43064,Cal State Bakersfield,Fr,51.8,1.13541,50.6
+43065,Pitt,Fr,24.3,-2.00566,78.2
+43073,Cal State Bakersfield,Jr,29.1,5.0204,
+43075,Southeastern Louisiana,Sr,0.6,-13.8258,
+43077,SMU,Sr,0.5,10.2065,
+43078,SMU,So,0.3,17.4694,
+43084,Indiana,Sr,0.4,-10.7616,
+43085,Morgan State,Fr,14.2,-2.45883,
+43088,South Carolina,Fr,2,5.51186,77.2
+43091,Norfolk State,Jr,23.5,-8.44953,
+43098,North Carolina Central,Jr,7.6,-4.59516,
+43100,Dayton,Fr,44,4.64418,33.4
+43103,Houston Christian,Fr,0.3,-38.4802,
+43106,Stanford,Fr,21.2,-3.48702,73.4
+43109,North Carolina A&T,Fr,9,-3.83299,
+43118,Long Beach State,So,61.2,3.98851,
+43129,UNC,Fr,7.6,3.04203,81.0
+43132,Alabama State,Jr,66.9,-3.69841,6.2
+43138,Nevada,Fr,68.7,2.06945,36.6
+43143,Princeton,Fr,35.9,-1.49719,
+43146,Texas-Rio Grande Valley,Fr,17.6,-8.72617,
+43148,Alcorn State,Sr,0,-57.8459,
+43149,Western Illinois,Fr,0.9,-10.5271,
+43152,Western Illinois,Fr,27.6,-6.56265,
+43155,South Dakota,Fr,29.8,-6.17512,
+43156,South Dakota State,Fr,34.6,-0.679286,
+43158,South Dakota,Fr,27.3,-3.02115,
+43160,Stephen F. Austin,Jr,3.7,-7.5305,
+43163,Delaware State,Jr,18.1,-9.57412,
+43165,Indiana,Sr,86.5,6.35241,96.0
+43169,Hofstra,Fr,6.9,-5.72947,
+43177,Arkansas-Pine Bluff,Sr,25.2,-6.77597,
+43180,BYU,Fr,3.5,1.8841,56.6
+43182,Portland,Fr,1.8,-7.31066,
+43183,Gonzaga,Fr,1.4,1.87137,
+43184,Portland,Fr,18.6,-3.59281,
+43185,Portland,Fr,10.1,-8.15621,
+43195,Charlotte,Jr,52.8,0.408768,
+43196,Columbia,Fr,3.5,1.60177,
+43198,Mississippi Valley State,Jr,60.9,-1.17242,
+43199,William & Mary,Fr,12.5,-1.92361,
+43200,Charlotte,So,30.1,-6.84224,
+43206,Charlotte,Fr,79.4,-1.49052,21.2
+43209,Lafayette,Fr,56.1,-3.7765,
+43210,Georgetown,Fr,52.2,3.39252,84.2
+43211,Robert Morris,Fr,0.5,-3.21668,
+43212,Lafayette,Fr,24.8,-5.65747,
+43213,Lafayette,Fr,1.5,-23.5162,
+43217,Robert Morris,Fr,18.7,-8.63717,
+43219,Morehead State,Jr,62.8,2.59784,
+43223,Canisius,So,2.8,-16.1159,
+43225,Campbell,Fr,83.4,-1.51601,
+43232,Charleston Southern,Fr,13.9,-6.77191,
+43238,Nevada,Fr,7.9,-1.93053,
+43239,Harvard,Fr,3.1,-10.9155,21.4
+43240,Dartmouth,Fr,36.5,-4.28205,
+43245,Cornell,Fr,0.8,-13.0391,
+43246,Cornell,Fr,21.1,-6.3272,
+43248,Rider,Fr,4.5,-10.2581,
+43249,Texas A&M,Fr,44.9,4.53166,94.2
+43252,Niagara,So,12.5,-8.97787,
+43253,Cornell,Fr,47.3,-4.93377,
+43254,Stanford,Sr,0.3,-2.97559,
+43255,Niagara,Jr,47.2,-3.88148,
+43256,Grand Canyon,Sr,63.7,0.332504,
+43261,St. Peter's,Fr,43.6,-1.96415,
+43263,Alabama A&M,Jr,64.5,-4.50073,
+43265,UCSB,Fr,0.6,-18.2718,
+43266,Nevada,Fr,73.6,3.09989,66.4
+43278,UMass-Lowell,Fr,27.2,-4.37756,
+43279,Georgia Tech,Sr,76,4.48336,
+43280,UMass-Lowell,Fr,78.1,-2.67309,
+43281,UMass-Lowell,Fr,49.9,-7.85199,
+43283,Towson,Fr,13.2,1.97559,
+43284,Vermont,Fr,11.5,-0.0787135,
+43285,Vermont,Sr,3.9,-8.67094,
+43289,UNC Wilmington,Jr,81,2.10695,
+43290,Michigan State,Jr,3.5,6.03569,
+43292,Kentucky,Fr,14.4,1.84689,90.8
+43294,ETSU,Jr,80,0.858085,
+43315,Iowa,Fr,6,-4.62334,44.6
+43321,South Florida,Sr,72.6,-2.12299,63.8
+43328,Bowling Green State,Jr,68.3,-0.745182,
+43341,North Carolina Central,Jr,5.9,-10.7986,
+43351,Longwood,Sr,65,-4.15847,
+43352,Sam Houston State,Fr,11.8,-3.31381,
+43354,Southeastern Louisiana,Fr,55.3,-3.01567,
+43355,Creighton,Fr,3.3,4.21126,
+43364,Oral Roberts,Sr,0.3,-27.0041,
+43368,DePaul,Fr,2.4,-6.5712,45.0
+43372,South Alabama,Jr,70.4,-2.42929,38.8
+43373,Oregon,Jr,64.8,10.2361,
+43374,New Mexico,Fr,19.5,-1.53968,56.6
+43386,Middle Tennessee,Jr,78.2,5.1944,48.4
+43388,Charlotte,Fr,60.8,-3.13992,
+43389,Tennessee Tech,Fr,1.1,-10.03,
+43390,Southeastern Louisiana,Fr,45.9,-4.28428,
+43392,Binghamton,Fr,71.5,-5.57119,
+43396,Akron,Fr,0.3,-3.50409,
+43404,Omaha,Fr,36.9,-1.38181,
+43413,Omaha,Fr,4,-9.62246,
+43419,Nicholls State,Jr,37.8,-7.89442,
+43455,Louisville,Fr,1.9,-1.17318,
+43461,Bowling Green State,Jr,52.2,-3.16888,
+43463,La Salle,Fr,21.3,-6.75679,
+43464,Fresno State,Fr,0.7,-28.3364,
+43465,Stanford,So,0.6,-2.93034,
+43473,Stanford,Jr,0.3,-41.729,
+43474,Bowling Green State,Fr,37,-4.74403,
+43475,Louisville,Fr,21.5,-1.14392,93.2
+43477,Iona,So,65.4,3.31237,
+43494,Little Rock,Sr,44.3,0.0348092,
+43500,Southern,Jr,29.8,-3.19944,52.4
+43507,Norfolk State,So,1.9,-3.79522,
+43509,Southern,Jr,23,-5.37398,
+43511,Southern,Jr,0.1,-5.87095,
+43530,Houston Christian,Jr,1.6,-14.6428,
+43539,Cleveland State,Fr,37.6,-2.68961,4.6
+43542,Pacific,Fr,0.6,-6.01033,
+43546,Iona,Fr,23.8,-0.0751373,
+43548,Boston College,Fr,59.8,-0.333546,38.6
+43549,North Texas,Fr,22.4,-10.5704,32.8
+43551,Portland State,Sr,75.4,-2.40678,33.2
+43554,Longwood,Fr,20.9,-5.50375,
+43555,George Mason,Fr,85,0.258655,
+43556,Oral Roberts,Fr,24.1,-1.17419,
+43557,New Mexico,Fr,5.8,-5.49019,
+43559,Boston College,Fr,4.6,2.18476,23.4
+43561,Oral Roberts,So,0.1,-16.76,
+43563,North Dakota State,Fr,74.5,-0.559174,12.0
+43564,UNLV,Fr,47.1,4.30443,90.6
+43569,Tennessee,Fr,39.3,-3.04968,48.0
+43570,Fairfield,Fr,56.3,0.263026,60.2
+43575,Boston College,Fr,57.8,0.178691,69.4
+43580,Oral Roberts,Fr,52,-1.75507,
+43586,South Carolina,Fr,0.5,-2.62205,
+43587,UNLV,Fr,39.6,-3.09482,72.8
+43590,Northwestern State,Jr,0.6,12.9159,
+43593,Saint Mary's,Fr,24.4,4.91412,
+43602,Cleveland State,Fr,78.1,-3.74906,
+43604,Northeastern,Fr,6.6,-2.77327,
+43605,Northeastern,Fr,25.1,-0.645083,
+43606,San Diego,Fr,5.9,-7.76846,
+43607,Siena,Fr,1.1,4.28116,
+43609,Rider,Fr,43.5,-4.12621,
+43612,Northeastern,Fr,6,-6.38755,
+43613,Cal Poly,Fr,0.2,-5.27568,
+43614,Northeastern,Fr,2.6,-12.9982,9.6
+43615,Northeastern,Fr,50.3,2.09665,52.4
+43618,North Texas,Fr,44.4,-3.80416,
+43619,Manhattan,So,0.5,-6.44087,
+43620,Robert Morris,Fr,67.1,-0.953469,
+43623,Lehigh,Fr,71.4,-1.5619,
+43625,Lehigh,So,1.2,-18.7469,
+43626,Georgia Southern,Sr,36.3,-5.70328,
+43627,Loyola (MD),Fr,17.8,-6.9717,
+43628,Northern Illinois,Fr,37.8,-0.323759,54.2
+43629,Northern Illinois,Fr,45.6,-2.36952,17.4
+43631,Miami (OH),So,47.2,-2.3233,
+43633,Northern Illinois,Fr,45,2.56555,
+43634,Northern Illinois,Fr,11.9,0.482386,0.6
+43635,Northern Illinois,Fr,41.7,-0.0995998,7.2
+43638,Ohio,Fr,7.4,-8.53939,
+43639,Lamar,Fr,47.7,-5.82073,
+43641,Miami (FL),Fr,1,4.69872,
+43642,Air Force,Fr,0.1,-8.20073,
+43644,Buffalo,Fr,63.1,3.96999,
+43649,Air Force,Fr,0.4,-26.3704,
+43650,Air Force,Fr,2.6,-10.0129,
+43651,Air Force,Fr,0.1,-5.84579,
+43652,Air Force,Fr,2.6,-5.58881,
+43655,Air Force,Fr,0.2,-17.3759,
+43656,Air Force,Fr,15.4,-3.71879,
+43658,Siena,Fr,65.3,2.5363,37.4
+43659,Siena,Fr,20.4,-2.1312,
+43661,Texas A&M,Fr,50.3,5.90918,82.6
+43662,St. Peter's,Fr,5.3,-18.8445,
+43663,Siena,Fr,50.5,-2.45358,
+43664,St. Peter's,Fr,83.6,-1.35502,
+43667,Texas A&M,Fr,54.7,8.32409,94.0
+43668,Texas A&M,Fr,0.9,-17.1312,
+43679,Georgia Southern,Fr,12.8,-4.8394,
+43682,Wagner,Sr,0.9,-4.90109,
+43687,San Jose State,Fr,66.7,-2.46189,11.8
+43692,Georgia State,Fr,18.2,-5.5944,19.2
+43693,UCF,Fr,40,-2.23118,57.6
+43703,Maryland,Fr,2.4,3.32962,
+43708,North Texas,Fr,29.9,-8.25269,27.0
+43710,Rutgers,Fr,32,-3.08724,20.2
+43713,Albany (NY),Jr,10.8,-4.54365,
+43720,Robert Morris,Fr,0.5,1.09286,
+43725,UNLV,Jr,3.3,-6.4158,
+43734,Arizona,Fr,10,2.28586,90.2
+43736,BYU,Fr,48,5.83576,49.6
+43742,Tennessee State,Jr,7,-1.25985,
+43751,Hofstra,Sr,87.3,1.10867,
+43752,Harvard,Fr,70,-0.193689,36.8
+43762,Chattanooga,Sr,48.8,0.963374,
+43772,Savannah State,Jr,7.1,-12.0031,
+43774,Texas Tech,Fr,10.1,-4.03946,24.6
+43776,Murray State,Fr,9.8,-4.84296,
+43778,SIU-Edwardsville,Jr,80.5,-2.71884,
+43780,Dartmouth,Jr,24.7,-4.21953,
+43790,San Jose State,Fr,59.3,5.45346,
+43796,Eastern Kentucky,So,16.5,-12.1203,
+43804,Prairie View,Jr,11,-7.34495,
+43811,Yale,Sr,24.3,0.228496,
+43818,San Jose State,Fr,43.7,-6.0408,
+43822,Dartmouth,Fr,78.3,-0.358713,47.4
+43824,Old Dominion,Fr,38.2,-1.10859,22.0
+43826,Missouri State,Fr,47.7,-0.873974,
+43827,BYU,So,0.8,-19.416,
+43829,BYU,Fr,0.3,-9.73147,
+43832,BYU,So,1.8,0.153466,
+43833,Mount St. Mary's,Jr,77.2,-0.1788,
+43835,Marshall,Jr,80.9,0.19406,
+43840,Hawaii,Sr,43.3,2.31095,
+43856,Grand Canyon,So,46,-2.79673,1.6
+43861,LIU,Jr,81.5,0.641204,
+43867,Cornell,Fr,0.6,-7.31366,
+43871,Portland,Fr,41.1,-4.01015,
+43872,Notre Dame,Fr,27.5,4.18168,77.0
+43873,Rutgers,Sr,50.2,-2.21573,
+43874,Notre Dame,Fr,36.1,3.01054,79.6
+43876,Abilene Christian,Fr,71.4,-3.01865,
+43883,Virginia,Fr,8.1,-0.397598,68.2
+43884,Florida Gulf Coast,Fr,1.1,-5.81989,
+43885,Cleveland State,Fr,16.9,-5.41725,
+43894,Miami (FL),Fr,5.6,6.16875,59.4
+43902,Memphis,Jr,15.7,-3.31671,
+43904,Saint Francis (PA),Fr,13,-5.81215,
+43905,Western Carolina,Fr,0.1,2.10048,
+43913,Arizona State,Fr,0.5,7.10779,
+43924,Chicago State,Fr,23.5,-5.4546,
+43928,Jackson State,Fr,0.2,-7.19049,
+43929,Cal State Bakersfield,Jr,72.5,5.92046,
+43930,Cal State Bakersfield,Fr,1.1,-13.8487,
+43933,Cal State Bakersfield,Jr,43.3,-1.87912,
+43934,The Citadel,Fr,24.3,-4.88552,
+43935,Chicago State,Fr,32.2,-5.67772,
+43936,Chicago State,Jr,40.9,-4.06832,
+43937,Jackson State,Jr,33.8,-4.65715,
+43938,Buffalo,Jr,72.4,1.37707,
+43939,Jackson State,Fr,0.1,-7.21517,
+43952,San Francisco,Fr,0.8,-23.853,
+43957,San Francisco,Jr,58.1,0.393255,
+43958,Grambling,Jr,9.9,-10.9185,
+43960,Kent State,Sr,60.6,1.19099,
+43961,San Francisco,Fr,0.6,-15.3296,
+43962,UNLV,Fr,6.4,-3.33289,
+43964,San Francisco,Fr,33.4,-4.48225,
+43965,Albany (NY),Fr,5.3,-3.17603,
+43966,NJIT,Fr,0.3,-3.69251,
+43967,Texas State,Fr,1.8,-24.8973,
+43968,Incarnate Word,Fr,0.4,-6.83143,
+43971,Sacred Heart,Fr,11.6,-2.60372,
+43974,Grambling,Jr,54.1,-1.51811,
+43979,The Citadel,Fr,23.3,-3.25326,
+43980,North Dakota State,So,35.7,-4.85102,
+43985,The Citadel,Fr,45.4,-6.081,
+43988,IU Indy,Fr,0.6,-24.7337,
+43989,IU Indy,Fr,29.4,-0.343193,29.6
+43991,Omaha,Fr,7.4,-3.82663,
+43993,Omaha,Fr,82.3,7.59997,
+43995,SMU,Fr,43.5,2.47394,56.0
+43997,St. Joseph's,Fr,37.8,5.92742,32.6
+44009,Santa Clara,Sr,4.7,-11.5744,
+44021,Florida International,Fr,0.2,-23.9291,
+44022,Louisiana Tech,Fr,52.1,0.392423,1.6
+44023,Pacific,Fr,0.4,14.8242,
+44024,Louisiana Tech,Fr,25.8,-1.50725,
+44025,San Diego,Fr,63.2,-2.62893,
+44026,San Diego,Fr,44.7,-3.73713,48.2
+44028,Saint Mary's,Fr,42.6,1.04876,
+44030,San Diego,Fr,13.1,-8.42428,
+44032,San Diego,Fr,26.5,-4.15763,
+44035,UNC,Jr,1,-7.68442,
+44037,Memphis,Sr,1.6,-8.81674,
+44038,Memphis,Fr,2,-19.8161,22.4
+44041,East Carolina,Fr,0.2,-23.7567,
+44042,East Carolina,Sr,1.1,-6.89667,
+44043,Memphis,Fr,13.8,-6.36299,49.0
+44055,Rutgers,So,6.2,-9.23929,
+44059,Ohio,Fr,71.5,3.13516,
+44060,Colorado State,Sr,69.2,2.44205,
+44061,Toledo,Fr,9,-7.94068,
+44062,Ohio,Fr,10.4,1.25972,
+44065,Toledo,Fr,68.5,0.659416,
+44071,Oral Roberts,Jr,63.3,0.68978,
+44082,Princeton,Fr,54.7,5.71873,43.4
+44083,Yale,Fr,1.5,-12.3224,
+44084,Missouri,Fr,2,-0.0170396,
+44085,Yale,Fr,8.4,-4.57169,
+44086,Yale,Fr,0.9,-5.90564,
+44087,Yale,Fr,1.3,-7.18646,
+44088,Yale,Fr,13,0.955826,
+44089,Presbyterian,Fr,35.1,-7.40372,
+44090,Marist,Fr,77.9,-2.24197,
+44091,Marist,Fr,74.8,-2.61689,
+44092,Lamar,Fr,7.1,-7.72177,35.8
+44093,Radford,Fr,3,-12.2381,
+44094,Radford,Fr,8.8,-6.9897,
+44097,Radford,Fr,22.3,-2.80244,
+44105,Jackson State,Jr,0,158.44,
+44111,Seattle,Fr,22.7,-6.78156,
+44112,Harvard,Fr,0.3,-4.55889,
+44177,Purdue-Fort Wayne,Fr,19.2,-7.3998,
+44185,Purdue-Fort Wayne,Fr,3.6,-7.39676,
+44204,New Mexico State,Fr,21,-1.59049,40.6
+44221,Butler,So,10.7,-0.675108,53.0
+44274,Louisiana Tech,So,72,1.38443,
+44279,Harvard,Sr,50.3,2.09466,
+44282,Niagara,Jr,82.1,-2.88684,
+44379,North Carolina A&T,Fr,3.8,-12.9427,
+44415,Little Rock,Jr,56.6,3.76388,
+44475,George Washington,So,0.8,-12.2391,63.0
+44477,George Washington,So,8.5,-2.12847,28.4
+44568,USC,So,13,0.867221,73.4
+44571,Washington State,Jr,24.4,-3.12092,2.6
+44590,Delaware,So,90.3,-1.79391,
+44624,Bradley,Fr,22.6,-1.11929,
+44628,Drake,Fr,39,0.83121,
+44742,Missouri,So,36.8,-1.95484,45.4
+44758,Cal State Fullerton,So,66,-2.10089,
+44768,Valparaiso,So,40.5,2.20998,
+44771,UTEP,Fr,3.9,-16.8882,41.0
+44785,Presbyterian,So,73.9,3.48661,
+44872,Miami (FL),Fr,28.3,9.73608,70.2
+44900,Utah State,Jr,52.8,-1.73733,
+44953,Texas,So,1.8,-2.31029,78.2
+44975,Little Rock,So,0.9,11.2401,
+44977,Arkansas State,Jr,78.2,-2.81901,
+44992,Gardner-Webb,Fr,5.2,-12.2422,
+44995,San Jose State,Jr,35.4,-4.56222,
+45002,Miami (FL),So,28,2.4116,79.2
+45029,California,Jr,73.5,5.0973,74.6
+45057,Alcorn State,Fr,21.1,-8.81538,
+45100,USC,So,14.3,3.15223,68.8
+45180,South Carolina,So,31.4,0.146787,70.0
+45210,Memphis,Jr,61,3.50814,
+45218,Utah Valley,Jr,4.6,-3.38228,
+45246,Northern Iowa,So,2.3,-12.0965,
+45317,Campbell,So,71,-6.14627,
+45386,Texas A&M,Fr,5.3,3.80911,91.4
+45389,Siena,Fr,11.3,3.06113,
+45428,Texas A&M-Corpus Christi,Sr,0.5,-27.6609,
+45429,Texas A&M-Corpus Christi,So,48,-2.40562,
+45443,Tennessee Tech,Jr,52.8,-3.00874,
+45468,North Texas,Jr,3.2,-2.49681,
+45469,North Texas,Jr,31.4,-3.88439,
+45488,Southern Illinois,Jr,53.7,1.2428,
+45552,Portland State,So,59.1,-1.18088,
+45557,Michigan,So,38.5,2.96694,21.0
+45559,Michigan,So,30.1,-2.43206,58.4
+45589,Ohio State,Fr,42.2,2.67148,90.0
+45605,Houston,Jr,53,0.764945,82.8
+45664,UNC Greensboro,Jr,68.3,1.89381,
+45667,Buffalo,So,64,1.91153,46.6
+45702,Little Rock,Sr,0.1,-20.3241,
+45703,Little Rock,Jr,77.2,3.02009,
+45739,Albany (NY),Jr,28,-3.11679,
+45767,Syracuse,Fr,22.4,-2.58926,84.4
+45860,Georgetown,So,5,-3.04795,89.2
+45867,Jacksonville State,So,1.3,-16.2842,
+45882,Texas-Rio Grande Valley,So,25.8,-7.08582,
+45905,Loyola Marymount,So,68.6,-1.11893,66.0
+45921,Holy Cross,Fr,10.9,-8.06766,
+45960,Maine,So,52.3,-4.02842,
+45967,Southern Miss,So,56.2,-7.94476,
+45991,Eastern Michigan,Jr,32.9,-2.59748,51.4
+46083,UCLA,Jr,11.9,-0.877675,60.2
+46127,Western Michigan,Jr,35.1,-1.90475,
+46146,Tennessee State,,0,,
+46210,Temple,Fr,23.1,-3.51094,75.0
+46227,Nebraska,Jr,73.7,3.70581,89.4
+46236,UConn,Jr,7.2,-0.00532065,70.0
+46337,Georgetown,Jr,41.6,0.743006,82.0
+46339,Purdue-Fort Wayne,So,22.4,-6.13141,
+46373,Washington,So,17.9,-0.748388,66.6
+46431,Iona,Fr,36.6,-0.93341,
+46440,TCU,Fr,8.9,-4.32743,46.2
+46487,Fairfield,So,13,-0.964655,
+46517,Houston,So,53,1.64745,
+46525,Illinois,Jr,70.4,3.43891,89.0
+46551,Kentucky,Fr,25.4,3.95141,88.2
+46561,Prairie View,Jr,33.3,-0.662435,
+46680,NC State,So,75.6,3.29657,88.0
+46681,NC State,So,63.9,3.79159,85.6
+46802,La Salle,Fr,6.3,-6.25238,
+46827,Liberty,So,53.8,-5.40122,
+46839,UConn,Jr,0.9,-11.1222,
+46864,Chicago State,Fr,50.5,-6.97417,
+46868,Cal State Bakersfield,Jr,1.1,-12.4714,
+46899,Marshall,Fr,15,-3.87842,
+46956,East Carolina,Jr,39.9,-0.738065,
+47002,Purdue,So,67.9,7.65066,76.0
+47041,Oregon,Fr,18,-0.478134,77.6
+47051,Purdue-Fort Wayne,Jr,39.6,3.09666,
+47085,Quinnipiac,Sr,73.5,-1.73245,
+47246,Milwaukee,So,5,-11.9258,
+47275,Florida International,Jr,63.5,-2.85287,
+47288,Coppin State,Jr,78.8,-3.613,
+47321,Florida A&M,Jr,38.3,-12.8954,
+47323,Florida A&M,Fr,69.6,-4.75287,
+47412,New Mexico,So,72.8,-2.52488,76.8
+47415,Campbell,So,17.1,-6.99548,
+47417,Oakland,So,13.3,-3.92569,
+47420,Mississippi State,So,0.5,-0.170707,60.0
+47458,Stetson,Jr,48.7,-5.80996,
+47609,Ole Miss,Fr,6.4,-9.87092,21.8
+47615,Mississippi State,Fr,64.5,-0.788348,98.6
+47633,Texas Tech,So,1.8,1.19881,
+47714,Little Rock,Jr,32.7,-1.86433,
+47812,Minnesota,Jr,53.8,0.354608,
+47827,Fairfield,Fr,39.9,-0.489715,
+47856,Colorado State,Jr,77.5,1.22263,
+47935,Utah,So,24.7,-2.14237,16.6
+47946,Michigan,So,12.7,1.68667,94.8
+47984,Robert Morris,Fr,40.4,-6.64189,
+47993,Canisius,Jr,25.5,-6.04982,
+48006,St. Peter's,Fr,10.8,-5.86004,
+48015,New Hampshire,Fr,16.1,0.638475,
+48032,Creighton,Fr,2.9,-10.7078,41.8
+48036,DePaul,Fr,0.7,-20.145,
+48091,Boston College,Fr,38.8,-1.21765,48.4
+48111,Virginia Tech,So,8.7,3.16084,50.0
+48139,South Alabama,Jr,40.5,-6.66818,
+48197,Toledo,Fr,21.4,-5.24938,34.8
+48253,Purdue-Fort Wayne,Jr,0.3,-13.1784,
+48260,Maine,Fr,59.3,-0.61754,
+48263,Maine,Fr,39.6,0.17065,
+48454,Nebraska,Fr,30,-1.17246,78.0
+48460,Utah,Jr,4.4,3.78402,
+48465,St. John's (NY),Jr,62.3,-1.18562,55.4
+48522,Utah,So,32.7,4.2575,89.0
+48567,Southern Utah,Fr,1.7,-17.6619,
+48645,UIC,Fr,20.7,-6.28121,
+48647,Columbia,Sr,78.3,3.3666,
+48658,VCU,Fr,2,-0.631421,30.6
+48776,Utah,Jr,19.8,-0.0596664,
+48794,South Carolina State,Jr,21.1,-4.05705,
+48833,South Carolina State,Sr,21.4,-5.66364,
+48861,Brown,So,18,-4.77455,
+48884,Washington State,Jr,63.1,-1.96859,
+48921,Wake Forest,So,59,3.19967,
+48967,Delaware State,Fr,73.9,-2.2349,
+48973,UCF,Jr,31.5,-1.53203,
+49070,Arizona,Fr,12.9,1.40983,93.6
+49079,Robert Morris,So,50.4,-0.801395,
+49081,Robert Morris,Sr,72.5,0.800898,
+49098,Western Kentucky,Jr,31.6,-1.45199,40.2
+49144,Texas Southern,Jr,26.8,-2.84667,8.4
+49173,BYU,So,24.1,-2.92891,
+49255,Detroit,Fr,36.2,-2.91981,
+49287,Arkansas,Fr,0.5,-2.41699,
+49334,Seton Hall,Jr,1,-8.41692,
+49383,Michigan State,So,20.7,4.89745,64.6
+49388,Houston Christian,So,7.6,-7.12247,
+49428,Fordham,Jr,41.2,-1.513,70.6
+49495,USC,Jr,20.9,-1.02689,
+49514,College of Charleston,So,13.8,-11.2191,
+49569,Wake Forest,So,27.4,0.135302,21.6
+49607,Purdue,Jr,24,3.70508,87.8
+49621,San Diego,So,66.1,-0.604446,
+49623,San Diego,So,54.9,-2.00468,
+49681,San Francisco,Jr,47.6,-0.195389,
+49684,Saint Mary's,Fr,4.3,-6.24964,
+50127,North Texas,Sr,84.2,-3.251,85.8
+50159,Penn,,0.1,-36.5907,
+50166,Monmouth,Fr,0.1,-3.22137,
+50417,Saint Francis (PA),Fr,6.5,-14.6923,
+51878,Oklahoma,Fr,29.6,0.452347,77.0
+51915,New Mexico State,So,45.4,0.762068,
+51944,UMass,So,46.5,-0.114563,
+51991,Sacred Heart,Fr,71.7,-3.89017,32.0
+51999,Boise State,Fr,26,-5.04817,72.4
+52011,Liberty,So,58,-3.74372,
+52013,USC Upstate,Fr,27.3,-4.15743,
+52014,Marquette,So,70.1,1.75572,88.4
+52030,Texas,Fr,33,-0.528992,88.8
+52070,Northern Illinois,So,64.5,1.82087,
+52111,Pitt,Fr,27.8,2.48144,55.4
+52116,Radford,Fr,19.2,-6.92407,
+52139,Louisiana Tech,Jr,8,-7.11858,
+52178,Wisconsin,Fr,20,-1.47814,24.2
+52239,Providence,Fr,3.3,-5.00723,27.2
+52491,North Carolina Central,Sr,67.6,-4.72823,

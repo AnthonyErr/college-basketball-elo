@@ -23,6 +23,7 @@ import numpy as np
 from scipy.linalg import solve as la_solve
 import utils
 import elo
+import rosters
 
 GAME_VAR = 110.0          # variance (pts^2) of a final margin around the true strength difference
 MARKET_VAR = 40.0         # variance (pts^2) of the closing spread around the true strength difference. None = ignore lines
@@ -38,6 +39,12 @@ OUTCOME_VAR = 100.0       # game-to-game noise (pts^2) used to turn a predicted 
 GAMES_REQUIRED = elo.GAMES_REQUIRED  # teams with fewer games in a season are dropped at the season reset
 PRUNE_DAYS = 30           # non-D1 teams idle this many days are removed (exact marginalization, keeps it fast)
 MAX_LINE = 40             # ignore spreads this large or larger (data errors)
+# Preseason roster model (rosters.py). For D1 teams with player data, the preseason rating is predicted from last
+# season's rating, the conference average, returning and incoming-transfer production, and recruits, instead of
+# SEASON_CARRY alone. Fit on 2013-14 through 2020-21 with `python rosters.py --fit`. None turns it off.
+ROSTER_COEFS = {'intercept': -4.547, 'last_rating': 0.707, 'conference_avg': 0.249, 'returning_share': 7.834,
+	'returning_value': 0.693, 'transfer_share': 7.364, 'transfer_value': 0.617, 'recruits': 1.084}
+ROSTER_PRESEASON_SD = 3.5 # offseason uncertainty (pts) for teams with a roster projection; PRESEASON_SD for the rest
 POINTS_TO_ELO = -elo.ELO_TO_POINTS_FACTOR
 CONFERENCE_DICT = elo.CONFERENCE_DICT
 
@@ -233,6 +240,7 @@ class KalmanSim():
 		keep.sort()
 		self._keep_slots(keep)
 		k = self.n
+		projected = self._roster_projections(int(date[:4])) if ROSTER_COEFS else {}
 		groups = {}
 		for i in range(1, k):
 			groups.setdefault(self.teams[self.slots[i]].conference, []).append(i)
@@ -245,15 +253,34 @@ class KalmanSim():
 		self.mu[:k] = A @ self.mu[:k]
 		P = A @ self.P[:k, :k] @ A.T
 		P = (P + P.T) / 2
-		P[np.arange(1, k), np.arange(1, k)] += PRESEASON_SD ** 2
+		added = np.full(k, PRESEASON_SD ** 2)
+		for slot in projected: added[slot] = ROSTER_PRESEASON_SD ** 2
+		P[np.arange(1, k), np.arange(1, k)] += added[1:]
 		P[0, 0] += HOME_ADV_SD ** 2
 		self.P[:k, :k] = P
+		for slot, points in projected.items(): #the regression above keeps the D1 average, so self.center still applies
+			self.mu[slot] = self.center + points
 		d = _ordinal(date)
 		self.day = d #offseason uncertainty comes from PRESEASON_SD, so no daily drift across the offseason
 		for team in self.teams.values():
 			team.season_game_count = 0
 			team.last_played = d
 		self._update_center()
+
+	def _roster_projections(self, season):
+		'''
+		{slot: preseason rating in points vs. an average D1 team} for D1 teams with player data (see rosters.py)
+		'''
+		ratings = {t.name: t.points for t in self.teams.values()}
+		conf_avg = rosters.conference_averages(ratings, {t.name: t.conference for t in self.teams.values()})
+		c = ROSTER_COEFS
+		out = {}
+		for name, f in rosters.features(season, ratings).items():
+			team = self.teams[name]
+			if team.conference == 'Other': continue
+			out[team.slot] = (c['intercept'] + c['last_rating'] * team.points + c['conference_avg'] * conf_avg[team.conference]
+				+ sum(c[n] * x for n, x in zip(rosters.FEATURES, f)))
+		return out
 
 	def get_top(self, x):
 		return sorted([(t.name, round(t.elo, 0), "{0:+.0f}".format(t.elo - t.snapshots[-1][-1])) for t in self.teams.values()], key = lambda x: x[1], reverse = True)[:x]
@@ -297,7 +324,8 @@ CACHE_FOLDER = '.cache/'
 
 def _settings():
 	return (GAME_VAR, MARKET_VAR, DAILY_DRIFT_VAR, SEASON_CARRY, PRESEASON_SD, NEW_TEAM_MEAN, NEW_TEAM_SD, FIRST_SEASON_SD,
-		HOME_ADV, HOME_ADV_SD, OUTCOME_VAR, GAMES_REQUIRED, PRUNE_DAYS, MAX_LINE, POINTS_TO_ELO)
+		HOME_ADV, HOME_ADV_SD, OUTCOME_VAR, GAMES_REQUIRED, PRUNE_DAYS, MAX_LINE, POINTS_TO_ELO,
+		tuple(sorted(ROSTER_COEFS.items())) if ROSTER_COEFS else None, ROSTER_PRESEASON_SD, rosters.data_signature())
 
 def cached_sim(data_filepath, data, stop_short = '99999999', last_snap = 7):
 	'''

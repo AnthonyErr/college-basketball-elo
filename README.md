@@ -10,7 +10,7 @@ Team ratings and game predictions for NCAA Division I men's college basketball, 
 - predict a single matchup, home or neutral site
 - fill out a bracket, or simulate a tournament thousands of times to get each team's odds of reaching each round
 
-The default rating engine is a **Kalman filter** (`kalman.py`). In backtests on seasons it was never tuned on, it is more accurate than the original Elo model in every week of the season. Its ratings are reported on the familiar Elo scale (about 1500 for an average D1 team, 24.78 rating points = 1 point of spread), so rankings and spreads read the same way. The Elo model is still available: set `RATING_MODEL = 'elo'` at the top of `elo.py`.
+The default rating engine is a **Kalman filter** (`kalman.py`). In backtests on seasons it was never tuned on, it is more accurate than the original Elo model in every week of the season. Each team's preseason rating comes from its **roster**: how much of last season's production returns, and what incoming transfers and recruits bring, with each transfer judged by how good the team he produced for was (`rosters.py`). Its ratings are reported on the familiar Elo scale (about 1500 for an average D1 team, 24.78 rating points = 1 point of spread), so rankings and spreads read the same way. The Elo model is still available: set `RATING_MODEL = 'elo'` at the top of `elo.py`.
 
 A GitHub Actions workflow runs every morning to fetch yesterday's results, update the ratings, predict the day's games, and commit the results. **[Today's predictions](docs/index.md)** are in `docs/index.md`.
 
@@ -30,8 +30,8 @@ This repository is a fork of [grdavis/college-basketball-elo](https://github.com
 
 | Workflow | When | What it does |
 |---|---|---|
-| `daily_predictions.yml` | Every day at 14:23 UTC (9:23 AM ET in winter), or on demand | `python predictions.py -A`: fetches results through yesterday, updates ratings, predicts today's games, writes `Outputs/`, `docs/index.md` and `docs/index.html`, publishes to Datawrapper, and commits |
-| `weekly_rankings.yml` | Mondays at 17:17 UTC, or on demand | `python elo.py -t 50`: fetches results, updates ratings, and commits a top 50 ranking to `Outputs/` |
+| `daily_predictions.yml` | Every day at 14:23 UTC (9:23 AM ET in winter), or on demand | `python predictions.py -A`: fetches results through yesterday and this season's player stats, updates ratings, predicts today's games, writes `Outputs/`, `docs/index.md` and `docs/index.html`, publishes to Datawrapper, and commits |
+| `weekly_rankings.yml` | Mondays at 17:17 UTC, or on demand | `python elo.py -t 50`: fetches results and player stats, updates ratings, and commits a top 50 ranking to `Outputs/` |
 | `tournament_predictions.yaml` | On demand | Predicts a single bracket for `Data/latest_tournament.csv` |
 | `tournament_sims.yml` | On demand | Runs 10,000 simulations of `Data/latest_tournament.csv` |
 
@@ -58,7 +58,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-The game data is in the repository, so there is nothing to download first. Each run fetches any games completed since the latest data file, through yesterday. The first rating run on new data takes about a minute; results are then cached in `.cache/`, so later runs on the same data load in a second or two. `predictions.py` keeps only the 3 most recent data files, spreads files, and daily prediction files, deleting older ones.
+The game and player data are in the repository, so there is nothing to download first. Each run fetches any games completed since the latest data file, through yesterday, and refreshes this season's player stats (at most every 6 hours). The first rating run on new data takes about a minute; results are then cached in `.cache/`, so later runs on the same data load in a second or two. `predictions.py` keeps only the 3 most recent data files, spreads files, and daily prediction files, deleting older ones.
 
 ## Usage
 
@@ -143,6 +143,13 @@ Replays every season and scores each morning's predictions using only games from
 | `-m`, `--model` | `kalman`, `elo`, or `both` (default) |
 | `-s`, `--split` | First season of the held-out test (default 2021) |
 
+#### rosters.py: player data
+```
+python rosters.py --download 2009 2026
+python rosters.py --fit
+```
+`--download` re-downloads player stats for a range of seasons (start years, so 2025 is 2025-26) into `Data/players/`. `--fit` refits the preseason roster model on the 2013-14 through 2020-21 seasons and prints new `ROSTER_COEFS` to paste into `kalman.py`. If Torvik adds a team name that isn't in `Data/torvik_mapping.csv`, the download prints a warning naming it.
+
 ## Methodology
 
 #### Kalman filter ratings (default)
@@ -153,7 +160,19 @@ Every game day:
 2. **Predict.** A game's predicted home margin is home strength − away strength + home-court advantage (none at a neutral site). The win probability is `Φ(margin / sqrt(100 + uncertainty))`, where Φ is the normal distribution and the uncertainty comes from the covariance, so games involving teams the model knows little about get less extreme probabilities.
 3. **Update.** All of the day's games are folded in at once, each giving two observations: the final margin (noise variance 110) and, when there is one, the closing Vegas spread (noise variance 40). The market knows about injuries, roster turnover, and the transfer portal, so early in the season, when the filter is uncertain, results and lines move ratings a lot. By February ratings have settled and move much less. Because the covariance is tracked, a result also moves teams connected to the two that played, which is how a non-conference upset informs the rest of a conference.
 
-Each offseason, ratings regress 25% toward their conference average, and 4 points of uncertainty are added for graduation, the NBA draft, and the transfer portal. Teams new to the system (mostly non-D1 opponents) start 35 points below an average D1 team with 12 points of uncertainty. To keep the filter fast, non-D1 teams idle for 30 days are dropped from the state, which in a Kalman filter doesn't change any other team's rating.
+**Preseason ratings from rosters.** Each offseason, a D1 team's new rating is predicted from last season's rating and its conference, plus what its roster returns and brings in. Player stats come from [Bart Torvik](https://barttorvik.com/). Each player's **level** is his old team's rating, adjusted by how his box plus-minus compared to his teammates'. Then, for the new season's roster:
+
+| Input | What it measures | Effect |
+|---|---|---|
+| Last season's rating | Where the team was | × 0.71 |
+| Conference average | Pull toward the conference | × 0.25 |
+| Returning share | Share of last season's minutes played by players who are back | +7.8 pts if everyone returns |
+| Returning value | Whether the returners were better than the team as a whole | × 0.69 |
+| Transfer share | Share of minutes coming from players who transferred in (from their old teams) | +7.4 pts per 100% |
+| Transfer value | How far above **their new team** the transfers' levels are, weighted by minutes | × 0.62 |
+| Recruits | Incoming freshmen, graded by recruiting rating: 1 for a 100-rated recruit, scaling down to 0 at 70 | +1.1 pts per 1 |
+
+Because transfers are measured against their new team, a 10-point scorer from a top-10 team is a big upgrade for a bottom-100 team, while a star from a weak team adds little to a contender. Transfers' share of minutes grew from 2% in 2013-14 to 32% in 2025-26, which is why this matters more every year. These teams get 3.5 points of preseason uncertainty. Non-D1 teams, and seasons without player data, fall back to regressing 25% toward the conference average with 4 points of uncertainty. Teams new to the system (mostly non-D1 opponents) start 35 points below an average D1 team with 12 points of uncertainty. To keep the filter fast, non-D1 teams idle for 30 days are dropped from the state, which in a Kalman filter doesn't change any other team's rating.
 
 Compared to Elo, this replaces the hand-tuned pieces (K-factor, margin-of-victory multiplier, market adjustment schedule) with one probabilistic model, where each game's weight comes from how uncertain the ratings involved are. All settings are at the top of `kalman.py`.
 
@@ -187,7 +206,7 @@ The pull starts at about 0.6 of the gap and fades toward 0.1 as teams play games
 ## Performance
 
 #### Held-out results
-The Kalman filter was tuned to minimize Brier score on the 2013-14 through 2020-21 seasons only, using a coordinate search over about 40 configurations. Everything from 2021-22 on was held out as a test. `backtest.py` reproduces these numbers.
+The Kalman filter was tuned to minimize Brier score on the 2013-14 through 2020-21 seasons only, using a coordinate search over about 40 configurations, and the roster model was fit on the same seasons. Everything from 2021-22 on was held out as a test. `backtest.py` reproduces these numbers.
 
 Held-out seasons, 2021-22 through 2026-27 so far (about 31,000 games). "Spread error vs. Vegas" is how much further the predicted spread lands from the final margin than the closing line does, in points (lower is better):
 
@@ -195,15 +214,20 @@ Held-out seasons, 2021-22 through 2026-27 so far (about 31,000 games). "Spread e
 |---|---|---|---|---|
 | Original Elo (K = 47, no market adjustment) | 0.1721 | 0.5113 | +0.41 | 49.9% |
 | Elo with market adjustment (`RATING_MODEL = 'elo'`) | 0.1671 | 0.4982 | +0.16 | 50.1% |
-| **Kalman filter (default)** | **0.1661** | **0.4935** | **+0.12** | 52.1% |
+| Kalman filter without rosters (`ROSTER_COEFS = None`) | 0.1662 | 0.4936 | +0.12 | 52.1% |
+| **Kalman filter with roster preseason (default)** | **0.1656** | **0.4919** | **+0.07** | 53.3% |
 
-Spread error vs. Vegas by week of the season, Kalman filter with Elo in parentheses:
+Spread error vs. Vegas by week of the season, with the Kalman filter without rosters in parentheses:
 
 | Week | 1 | 2 | 3 | 4-5 | 6-8 | 9-12 | 13+ |
 |---|---|---|---|---|---|---|---|
-| Kalman (Elo) | +0.59 (+0.67) | +0.19 (+0.31) | +0.14 (+0.19) | +0.18 (+0.19) | +0.01 (+0.07) | +0.06 (+0.09) | +0.06 (+0.09) |
+| With rosters (without) | +0.23 (+0.59) | +0.05 (+0.19) | +0.08 (+0.14) | +0.14 (+0.18) | −0.02 (+0.01) | +0.06 (+0.06) | +0.06 (+0.06) |
 
-Week 1 is still the weak spot, because the first games are predicted from last season's carried-over ratings. Closing that gap would take preseason information such as returning minutes or transfer portal rankings.
+The roster model cut the week-1 gap to Vegas by 60%, and weeks 1-3 improved in every held-out season. Across all held-out games the improvement is about 5 standard errors for Brier and 7 for spread error, so it isn't noise. By February the games themselves have taken over and the two versions agree.
+
+One caveat: the backtest knows each season's full roster (every player who appeared in a game that season), while the daily run only knows players who have appeared so far. On opening night it has no current-season rosters and uses the old regression; within a few days nearly every team is covered. Players who sit out a whole season, for example with an injury, are also invisible to the backtest. Real early-season gains are likely a little smaller than above.
+
+**Blending in Elo** was also tested: a second Kalman filter learning how much to trust the Kalman and Elo predictions game by game. The two engines' errors are 94% correlated (99% by February), and the blend improved held-out Brier by only 0.00005. Even blend weights picked with hindsight on the test seasons gained just 0.0002, so the ratings use the Kalman filter alone.
 
 What tuning found:
 - Teams change more within a season than expected; more daily drift was better.
@@ -213,7 +237,7 @@ What tuning found:
 
 #### Is there a betting edge?
 Probably not against closing lines:
-- When the Kalman filter disagrees with the closing line by 3+ points, its side covered 54.7% of the time in the tuning seasons but only 52.1% in the held-out seasons, below the 52.4% needed to break even at -110. The cover rate drifted from 55-63% in some early seasons down to about 48-51% from 2024-25 on, so the market has gotten sharper.
+- When the Kalman filter disagrees with the closing line by 3+ points, its side covered 55.8% of the time in the tuning seasons but 53.3% in the held-out seasons (about 2,750 games). That's only about one standard error above the 52.4% needed to break even at -110, and some of it may come from the backtest's roster hindsight described above. Before the roster model, the held-out rate was 52.1%, and it had drifted from 55-63% in some early seasons down to about 48-51% from 2024-25 on, so the market has gotten sharper.
 - Betting only when the disagreement is large relative to the filter's own uncertainty helped in the tuning seasons but not in the held-out seasons.
 - Simple angles against the closing line, 2013-2026: home teams cover 49.9%, and the average final margin is 1.004 × the line. Rest days, back-to-backs, last season's results, and conference vs. non-conference games were all within noise. The one pattern outside noise: home favorites of 12-18 points cover only 47.8% (about 7,000 games), so betting the underdog there wins about 52.2%, right at break-even.
 
@@ -251,17 +275,20 @@ Predicted win probability vs. actual win rate. Teams given an X% chance won abou
 ## Data sources and repository layout
 - **Scores and spreads:** [Scores and Odds](https://www.scoresandodds.com/ncaab) since the 2023-24 season. Earlier scores came from [Sports Reference](https://www.sports-reference.com/cbb/) and earlier spreads from [SportsBookReviewsOnline](https://www.sportsbookreviewsonline.com/scoresoddsarchives/ncaabasketball/ncaabasketballoddsarchives.htm).
 - **Neutral sites:** the [TeamRankings](https://www.teamrankings.com/ncb/schedules/season/) schedule.
+- **Player stats:** [Bart Torvik](https://barttorvik.com/), one file per season since 2009-10, with stable player IDs that follow players through transfers. Each run downloads only the current season.
 
 | Path | Contents |
 |---|---|
 | `elo.py` | Elo model, `RATING_MODEL` switch, and the rankings command |
 | `kalman.py` | Kalman filter rating engine (default) |
+| `rosters.py` | Player data download and the preseason roster features |
 | `predictions.py` | Daily, single-game, bracket, and simulation predictions |
 | `backtest.py` | Season-by-season accuracy backtest |
 | `scraper.py`, `spread_enricher.py` | Fetch scores, schedules, neutral sites, and live spreads |
 | `datawrapper_publisher.py` | Publishes tables to Datawrapper and builds `docs/index.html` |
 | `tuning.py` | Elo tuning and the charts above |
-| `Data/` | Game data (`YYYYMMDD-YYYYMMDD.csv`: neutral flag, away team, away score, home team, home score, date, away spread), `conferences.csv`, team name mappings between sources, tournament brackets |
+| `Data/` | Game data (`YYYYMMDD-YYYYMMDD.csv`: neutral flag, away team, away score, home team, home score, date, away spread), `conferences.csv`, team name mappings between sources (including `torvik_mapping.csv`), tournament brackets |
+| `Data/players/` | Player season stats by season start year: Torvik player ID, team, class, minutes %, box plus-minus, recruiting rating |
 | `New_Spreads/` | Recent live-spread snapshots |
 | `Outputs/` | Prediction and ranking CSVs, with tournament results by season |
 | `docs/` | The daily predictions page |

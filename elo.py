@@ -213,7 +213,9 @@ def main(topteams = False, stop_short = '99999999', period = 7):
 
 	data = utils.read_csv(filepath)
 	if RATING_MODEL == 'kalman':
-		import kalman
+		import kalman, rosters
+		if kalman.ROSTER_COEFS and stop_short >= data[-1][5]:
+			rosters.refresh_current_season(data) #this season's rosters, for the preseason roster adjustment
 		this_sim = kalman.cached_sim(filepath, data, stop_short, period)
 	else:
 		this_sim = sim(data, K_FACTOR, SEASON_CARRY, HOME_ADVANTAGE, stop_short, period)
