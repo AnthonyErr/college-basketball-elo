@@ -12,6 +12,57 @@ import os
 DATA_FOLDER = utils.DATA_FOLDER
 ALL_ROUNDS = ['first', 'second', 'sixteen', 'eight', 'four', 'final', 'champion']
 
+# common names for teams whose name in the data is different (the single-game predictor accepts these, any case)
+TEAM_ALIASES = {
+	'North Carolina': 'UNC', 'Connecticut': 'UConn', 'Southern California': 'USC', 'Brigham Young': 'BYU',
+	'Louisiana State': 'LSU', 'Texas Christian': 'TCU', 'Southern Methodist': 'SMU', 'Central Florida': 'UCF',
+	'Virginia Commonwealth': 'VCU', 'Mississippi': 'Ole Miss', 'Pittsburgh': 'Pitt', 'Massachusetts': 'UMass',
+	'UMass Lowell': 'UMass-Lowell', 'Nevada-Las Vegas': 'UNLV', 'Alabama-Birmingham': 'UAB', 'Texas-El Paso': 'UTEP',
+	'Texas-San Antonio': 'UTSA', 'Texas-Arlington': 'UT Arlington', 'UTRGV': 'Texas-Rio Grande Valley',
+	'East Tennessee State': 'ETSU', 'Long Island': 'LIU', 'Long Island University': 'LIU', 'Illinois-Chicago': 'UIC',
+	'Maryland-Baltimore County': 'UMBC', 'Virginia Military Institute': 'VMI', 'North Carolina State': 'NC State',
+	'Miami': 'Miami (FL)', 'Miami Florida': 'Miami (FL)', 'Miami Ohio': 'Miami (OH)', "St. John's": "St. John's (NY)",
+	"Saint John's": "St. John's (NY)", "Saint Joseph's": "St. Joseph's", "Saint Peter's": "St. Peter's",
+	'Loyola Chicago': 'Loyola (IL)', 'Loyola Maryland': 'Loyola (MD)', 'Albany': 'Albany (NY)', 'UC Davis': 'UC-Davis',
+	'UC Irvine': 'UC-Irvine', 'UC Riverside': 'UC-Riverside', 'UC San Diego': 'UC-San Diego', 'UC Santa Barbara': 'UCSB',
+	'Cal': 'California', 'SIUE': 'SIU-Edwardsville', 'SIU Edwardsville': 'SIU-Edwardsville', 'UT Martin': 'UT-Martin',
+	'Tennessee-Martin': 'UT-Martin', 'UAPB': 'Arkansas-Pine Bluff', 'UMES': 'Maryland-Eastern Shore',
+	'Louisiana-Lafayette': 'Louisiana', 'ULM': 'Louisiana-Monroe', 'FIU': 'Florida International',
+	'FAU': 'Florida Atlantic', 'FGCU': 'Florida Gulf Coast', 'FDU': 'Fairleigh Dickinson', 'SFA': 'Stephen F. Austin',
+	'Purdue Fort Wayne': 'Purdue-Fort Wayne', 'UMKC': 'Kansas City', 'Detroit Mercy': 'Detroit',
+	'Sam Houston': 'Sam Houston State', 'McNeese': 'McNeese State', 'Nicholls': 'Nicholls State',
+	'Texas A&M Corpus Christi': 'Texas A&M-Corpus Christi', 'Pennsylvania': 'Penn', 'Prairie View A&M': 'Prairie View',
+	'Saint Francis': 'Saint Francis (PA)', 'Queens': 'Queens (NC)', 'Grambling State': 'Grambling',
+	'Middle Tennessee State': 'Middle Tennessee', 'Southern Mississippi': 'Southern Miss',
+	'Bowling Green': 'Bowling Green State', 'Charleston': 'College of Charleston', 'Wisconsin-Milwaukee': 'Milwaukee',
+	'Wisconsin-Green Bay': 'Green Bay', 'Nebraska-Omaha': 'Omaha', 'Arkansas-Little Rock': 'Little Rock',
+	'Cal State Long Beach': 'Long Beach State', 'UNCW': 'UNC Wilmington', 'UNCG': 'UNC Greensboro',
+	'UNCA': 'UNC Asheville',
+}
+
+def resolve_team_name(known_teams, name):
+	'''
+	returns the data's name for 'name': exact match, then case-insensitive or alias match, then the closest spelling
+	(a typo of an alias counts too). Prints a note whenever it switches names. Returns None if nothing is close
+	'''
+	if name in known_teams: return name
+	candidates = {t.lower(): t for t in known_teams}
+	candidates.update({alias.lower(): team for alias, team in TEAM_ALIASES.items() if team in known_teams and alias.lower() not in candidates})
+	query = name.lower()
+	match = candidates.get(query)
+	if match is None:
+		#closest spelling; typos rarely change the first letter, so that breaks ties (e.g. "Dook" is as close to "Ohio" as to "Duke")
+		matcher = difflib.SequenceMatcher(b = query)
+		def score(candidate):
+			matcher.set_seq1(candidate)
+			return matcher.ratio() + (0.05 if candidate[:1] == query[:1] else 0)
+		best = max(candidates, key = score)
+		matcher.set_seq1(best)
+		if matcher.ratio() < 0.4: return None
+		match = candidates[best]
+	print(f'Auto team switch: "{name}" -> "{match}"')
+	return match
+
 def matchups_from_list(team_list):
 	'''
 	convert a list of team names to a list of tuples that will match up consecutive teams together as opponents
@@ -213,12 +264,18 @@ def main(auto = False, forecast_date = False, matchup = False, neutral = False, 
 	elo_state = elo.main(stop_short = stop_short)
 	if matchup != False:
 		home, away = matchup
-		#an unknown name would silently become a brand-new (weak) team, so stop and suggest the right spelling
-		unknown = [t for t in (home, away) if t.split('/')[0] not in elo_state.teams or ('/' in t and t.split('/')[1] not in elo_state.teams)]
-		if unknown:
-			for t in unknown:
-				suggestions = difflib.get_close_matches(t, list(elo_state.teams), n = 5, cutoff = 0.4)
-				print(f'Unknown team "{t}". Did you mean: ' + (', '.join(suggestions) if suggestions else '(no close matches)'))
+		#an unknown name would silently become a brand-new (weak) team, so switch it to the closest known name
+		def resolve(name):
+			parts = []
+			for part in name.split('/'):
+				match = resolve_team_name(elo_state.teams, part)
+				if match is None:
+					print(f'Unknown team "{part}" and no close match found')
+					return None
+				parts.append(match)
+			return '/'.join(parts)
+		home, away = resolve(home), resolve(away)
+		if home is None or away is None:
 			return
 		print('Ratings through ' + elo_state.date)
 		if neutral:
