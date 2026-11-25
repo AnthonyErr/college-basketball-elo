@@ -1,231 +1,272 @@
-[![daily-predictions](https://github.com/grdavis/college-basketball-elo/actions/workflows/daily_predictions.yml/badge.svg)](https://github.com/grdavis/college-basketball-elo/actions/workflows/daily_predictions.yml)
-[![weekly-rankings](https://github.com/grdavis/college-basketball-elo/actions/workflows/weekly_rankings.yml/badge.svg)](https://github.com/grdavis/college-basketball-elo/actions/workflows/weekly_rankings.yml)
+[![daily-predictions](https://github.com/AnthonyErr/college-basketball-elo/actions/workflows/daily_predictions.yml/badge.svg)](https://github.com/AnthonyErr/college-basketball-elo/actions/workflows/daily_predictions.yml)
+[![weekly-rankings](https://github.com/AnthonyErr/college-basketball-elo/actions/workflows/weekly_rankings.yml/badge.svg)](https://github.com/AnthonyErr/college-basketball-elo/actions/workflows/weekly_rankings.yml)
+
 # college-basketball-elo
-### [Latest Daily Predictions](https://grdavis.github.io/college-basketball-elo/) (includes tournament probabilities when `DW_PROBABILITIES_CHART_ID` is set)
-Inspired by the folks at [FiveThirtyEight](https://fivethirtyeight.com/) who leverage [Elo rating systems](https://en.wikipedia.org/wiki/Elo_rating_system) to make their [NBA](https://projects.fivethirtyeight.com/2021-nba-predictions/) and [NFL](https://projects.fivethirtyeight.com/2020-nfl-predictions/) predictions, I created my own version of the Elo rating system for NCAA Men's College Basketball. You can use scripts in this repository to see team ratings, predict individual games, predict tournaments, or even simulate entire tournaments thousands of times as of any date in the last 14 years. This documentation walks through usage, methodology, tuning, and performance.
 
-This version of the Elo rating system is primarily based on FiveThirtyEight's [NBA methodology](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/) with some tuning adjustments. Game log data goes back to the start of the 2010 season. [Sports Reference](https://www.sports-reference.com/cbb/) was the data source through the 22-23 season, but has been switched to [Scores and Odds](https://www.scoresandodds.com/ncaab) to start the 23-24 season. Similarly, historical spreads data came from [SportsBookReviewsOnline](https://www.sportsbookreviewsonline.com/scoresoddsarchives/ncaabasketball/ncaabasketballoddsarchives.htm) through the 22-23 season, but will come from Scores and Odds moving forward. 
+Team ratings and game predictions for NCAA Division I men's college basketball, with game data going back to the 2010-11 season. Use it to:
 
-**Rating engine (updated November 2026):** the default rating engine is now a [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) (`kalman.py`), in the spirit of Glickman and Stern's state-space models for sports scores. In backtests on seasons it was never tuned on (2021-22 onward), it is more accurate than the Elo model in every week of the season. See [Kalman Filter Ratings](#kalman-filter-ratings-default) and [Tuning and Performance](#tuning-and-performance). Its ratings are reported on the same Elo-style scale (24.78 rating points = 1 point of spread, and the average D1 team is about 1500), so rankings and spreads read the same way. The Elo model is still available: set `RATING_MODEL = 'elo'` at the top of `elo.py`. The Elo sections below describe that model.
+- rank teams as of any date since 2010
+- predict every game on today's schedule, with live Vegas spreads alongside for comparison
+- predict a single matchup, home or neutral site
+- fill out a bracket, or simulate a tournament thousands of times to get each team's odds of reaching each round
 
-Using GitHub Actions, every morning, `predictions.py` is run to make predictions for that day's college basketball games. In addition to the Elo model's spread predictions, the output is also enriched by scraping the latest spreads from [Scores and Odds](https://www.scoresandodds.com/ncaab). Another workflow runs every Monday during the season to produce a top 100 ranking of teams. The outputs of both of these workflows can be found in the [Outputs](https://github.com/grdavis/college-basketball-elo/tree/main/Outputs) folder.
+The default rating engine is a **Kalman filter** (`kalman.py`). In backtests on seasons it was never tuned on, it is more accurate than the original Elo model in every week of the season. Its ratings are reported on the familiar Elo scale (about 1500 for an average D1 team, 24.78 rating points = 1 point of spread), so rankings and spreads read the same way. The Elo model is still available: set `RATING_MODEL = 'elo'` at the top of `elo.py`.
+
+A GitHub Actions workflow runs every morning to fetch yesterday's results, update the ratings, predict the day's games, and commit the results. **[Today's predictions](docs/index.md)** are in `docs/index.md`.
+
+This repository is a fork of [grdavis/college-basketball-elo](https://github.com/grdavis/college-basketball-elo), which built the original Elo model, the data pipeline, and the visualizations in the Elo sections below.
+
+## Contents
+- [Automated runs](#automated-runs)
+- [Setup](#setup)
+- [Usage](#usage): [elo.py](#elopy-rankings), [predictions.py](#predictionspy-predictions), [backtest.py](#backtestpy-accuracy)
+- [Methodology](#methodology): [Kalman filter](#kalman-filter-ratings-default), [Elo](#elo-ratings)
+- [Performance](#performance)
+- [Elo tuning notes](#elo-tuning-notes)
+- [Data sources and repository layout](#data-sources-and-repository-layout)
+- [Troubleshooting the workflows](#troubleshooting-the-workflows)
+
+## Automated runs
+
+| Workflow | When | What it does |
+|---|---|---|
+| `daily_predictions.yml` | Every day at 14:23 UTC (9:23 AM ET in winter), or on demand | `python predictions.py -A`: fetches results through yesterday, updates ratings, predicts today's games, writes `Outputs/`, `docs/index.md` and `docs/index.html`, publishes to Datawrapper, and commits |
+| `weekly_rankings.yml` | Mondays at 17:17 UTC, or on demand | `python elo.py -t 50`: fetches results, updates ratings, and commits a top 50 ranking to `Outputs/` |
+| `tournament_predictions.yaml` | On demand | Predicts a single bracket for `Data/latest_tournament.csv` |
+| `tournament_sims.yml` | On demand | Runs 10,000 simulations of `Data/latest_tournament.csv` |
+
+Scheduled runs are set off the top of the hour, when GitHub most often delays or drops them. The two scheduled workflows share a concurrency group, so they never push at the same time.
+
+**Datawrapper (optional).** The daily run publishes interactive tables to [Datawrapper](https://www.datawrapper.de/) when these repository secrets are set. Without them it falls back to plain tables in `docs/`.
+
+| Secret | Used for |
+|---|---|
+| `DATAWRAPPER_API_TOKEN` | Required for any Datawrapper publishing |
+| `DW_PREDICTIONS_CHART_ID` | Updates an existing predictions chart instead of creating a new one |
+| `DW_RANKINGS_CHART_ID` | Updates an existing top 100 rankings chart |
+| `DW_PROBABILITIES_CHART_ID` | Shows a tournament probabilities chart on the daily page |
+
+**Web page.** `docs/index.html` is rebuilt every day. To serve it as a website, turn on GitHub Pages for this repository (Settings → Pages → deploy from branch `main`, folder `/docs`).
+
+## Setup
+
+The code runs on Python 3.8 (the workflows use 3.8.15, because several dependencies are pinned to versions that need it).
+
+```
+python -m venv .venv
+.venv\Scripts\activate        # Windows; use source .venv/bin/activate on macOS/Linux
+pip install -r requirements.txt
+```
+
+The game data is in the repository, so there is nothing to download first. Each run fetches any games completed since the latest data file, through yesterday. The first rating run on new data takes about a minute; results are then cached in `.cache/`, so later runs on the same data load in a second or two. `predictions.py` keeps only the 3 most recent data files, spreads files, and daily prediction files, deleting older ones.
 
 ## Usage
-There are several ways to use this program. They are organized into two scripts, each with several optional inputs to control functionality.
 
-#### elo.py
-This script allows you to view the top elo-rated teams at any given time since the start of the 2010 season. In addition to specifying the historical date of interest, you also have the ability to control multiple aspects of the output with optional arguments.
-```
-python3 elo.py
-```
-By default, the script will:
-1. Refresh data through games completed yesterday
-2. Calculate the latest team Elo ratings
-3. Open a Plotly table displaying the top 25 teams, their Elo ratings, and their change in rating from 7 days earlier. Also a part of the table is _Point Spread vs. Next Rank_. This indicates by how many points a team would be favored over the next team in the rankings. In the example below, Gonzaga would be a 4.0 favorite over Illinois, Illinois a 1.1 point favorite over Baylor, Baylor a 2.7 point favorite over Iowa, and so on.
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/default_elo_output.png?raw=true)
+All dates are `YYYYMMDD`. Every command accepts `-h` for help.
 
-The script can be run with the following options:
-  * `-h` or `--help`: Displays the help messages for this script
-  * `-t` or `--topteams`: Specify with an integer how many of the top teams to output. The default is to display the top 25
-  * `-d` or `--date`: Use to see the top teams as of a date in the past. Enter date as a YYYYMMDD integer (e.g. 20190320). The default is to calculate through the last game in the most recent data
-  * `-p` or `--period`: The default is to display the Elo ratings change over the last 7 days in the table. Specify an integer number of days to use for that column instead of 7
+#### elo.py: rankings
+```
+python elo.py
+```
+Fetches results through yesterday, updates the ratings, and shows the top 25 teams with their rating, the point spread over the next-ranked team, and the change over the last 7 days. The table opens in a browser when a display is available, and is always saved as a CSV in `Outputs/`.
 
-#### predictions.py
-This script allows you to make a number of different types of predictions using the Elo model. You can predict all scheduled games on a future day, ad-hoc individual matchups, populate a traditional bracket with picks, or simulate a tournament to get each team's chances of making it to each round. Similar to elo.py, you have the option to specify a historical date of interest along with a number of other options depending on the desired functionality.
+| Option | Meaning |
+|---|---|
+| `-t`, `--topteams` | How many teams to show (default 25) |
+| `-d`, `--date` | Show the rankings as of a past date |
+| `-p`, `--period` | Days to use for the rating change column (default 7) |
 
-###### Example 1
-```
-python3 predictions.py -F '20210327'
-```
-This example demonstrates the default functionality of the script. This will return predictions for all games scheduled according to [Scores and Odds](https://www.scoresandodds.com/ncaab) on the date specified date with the `-F` flag. If no date is specified (`python3 predictions.py`) predictions will be made based on today's schedule. The output is a Plotly table showing each matchup, each team's win probability, and predicted spread. There is also an indicator for whether or not the game is played at a neutral site as sourced from [TeamRankings](https://www.teamrankings.com/ncb/schedules/season/). If the specified date is not today, the output will not have any information in the live spreads column. The output tables are saved in the `Outputs` folder as a csv for further examination. Running this script before 3/27/2021, we can use the latest version of the model to predict the outcomes of games scheduled for that day:
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/future_game_predictions.png?raw=true)
-You can also quickly see what the model would have picked for all games on a day in the past by setting `-F` to the date of the games and `-d` to the date on which the predictions would have been made. This is how you can quickly see what the model would have picked for every game on 3/22/2021 based on what we knew through 3/21/2021:
-```
-python3 predictions.py -F '20210322' -d '20210321'
-```
+![Example rankings output](Images/default_elo_output.png)
+*Example output (Elo model, March 2021).*
 
-###### Example 2
+#### predictions.py: predictions
+
+**Today's games** (the default):
 ```
-python3 predictions.py -G 'UConn' 'Maryland' -n
+python predictions.py
+python predictions.py -F 20210322 -d 20210321
 ```
-In this example we want to predict the result of the first round matchup in the 2021 NCAA Tournament between UConn and Maryland. No date is specified, so the model will update the data through games completed yesterday and simulate as if this game is played tomorrow (which it is at the time of writing). The `-n` flag indicates the game is played at a neutral site, so no home-court advantage is applied to UConn. This returns that UConn is favored by 2.5 points (Vegas says 3):
+Predicts every game on the [Scores and Odds](https://www.scoresandodds.com/ncaab) schedule for today, or for the date given with `-F`. Each row has both teams' win probabilities and predicted spreads, the live Vegas spread, the gap between the two, and whether the game is at a neutral site (from [TeamRankings](https://www.teamrankings.com/ncb/schedules/season/)). Teams marked `*` have no games in the model yet, so treat those predictions with caution. The second command shows what the model would have picked on 3/22/2021 using only games through 3/21/2021.
+
+**One game:**
+```
+python predictions.py -G UConn Maryland -n
+```
+The first team is home; `-n` means a neutral site. For the 2021 NCAA tournament first round, with ratings through the day before (`-d 20210319`):
 ```
 Ratings through 20210319
 UConn vs. Maryland @ neutral site
-UConn 59% -2.5 Maryland 41% 2.5
+UConn 58% -2.0 Maryland 42% 2.0
 ```
-The advantage of this use over the default `predictions.py` functionality is you can predict the results of a hypothetical matchup or one that is not scheduled on our games data source yet.
+Team names don't have to match the data exactly. Capitalization doesn't matter, common names work (`North Carolina` → `UNC`, `Connecticut` → `UConn`, `Pittsburgh` → `Pitt`, `Loyola Chicago` → `Loyola (IL)`; the list is `TEAM_ALIASES` in `predictions.py`), and typos switch to the closest match. Every switch is printed, for example `Auto team switch: "Marylnd" -> "Maryland"`. A name with nothing close stops the prediction instead of being treated as a brand-new team.
 
-###### Example 3
+**A bracket:**
 ```
-python3 predictions.py -P 'Data/tournament_results_2021.csv' -m 1
+python predictions.py -P Data/tournament_results_2021.csv -m 1
 ```
-In this example, we want the model to predict the outcomes of a tournament with the matchups specified in `tournament_results_2021.csv` by selecting the team it thinks is most likely to win each of the 63 games in a traditional March Madness tournament. `tournament_results_2021.csv` must have a power of 2 (e.g. 64, 32, 128) team names in its first column in matchup order. Row 1 plays row 2. The winner of that matchup plays the winner of row 3 vs. row 4, and so on until there is only 1 team remaining. It does not matter what is actually in `tournament_results_2021.csv` outside of that first column. The script will predict a bracket from that starting point. The `-m` flag specifies how the model should determine the winner of each matchup. In this case, `1` tells the model to always select the team that is favored by Elo rating. `0` would tell the model to choose probabilistically (default) and `2` would choose randomly. 
+The first column of the file must list a power of 2 teams in matchup order: row 1 plays row 2, the winner plays the winner of rows 3 and 4, and so on. Other columns are ignored. The output adds a column per round, with each winner's probability of winning that game. `-m` decides each game: `0` picks winners at random according to their win probability (default), `1` always picks the favorite, `2` flips a coin.
 
-As an output, you will see your original first column, then half the number of teams in the second column, a quarter in the third, and so on until a column has just 1 name. A team that advances from one column to the next is deemed to have won their matchup. The last team remaining (in the rightmost column) is the champion. Next to each team name will be the percent probability that this team won their previous matchup. In this example, you see Gonzaga is predicted as the 2021 champion and had a 64% chance of winning their matchup with Illinois in the finals. If `-m` was set to `0`, Gonzaga would have a 64% chance of being picked to win this matchup. Instead, since `-m` was set to `1`, Gonzaga was picked automatically because their Elo rating is greater than Illinois'. The output tables are saved in the `Outputs` folder as a csv for further examination.
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/bracket_pred_current_output.png?raw=true)
+![Example bracket output](Images/bracket_pred_current_output.png)
 
-###### Example 4
+**Tournament simulations:**
 ```
-python3 predictions.py -S 'Data/tournament_results_2019.csv' 10000 -d '20190320'
+python predictions.py -S Data/tournament_results_2019.csv 10000 -d 20190320
 ```
-In this example, we are simulating 10,000 possible outcomes for the 2019 March Madness tournament based on the Elo ratings from 3/20/2019 (the day before the tournament started). The `-d` flag, which is optional, was used here to roll the ratings back to the specific date where we would have made the predictions prior to the 2019 tournament. If it was not specified, the simulations would be for the 2019 tournament matchups, but with today's Elo ratings (which are not as favorable to Duke, for example). The `-d` flag can also be used with the functionality demonstrated in examples 1, 2, and 3. 
+Plays the bracket out 10,000 times and reports the share of simulations in which each team reached each round, sorted by championship odds. Here `-d` uses ratings from the day before the 2019 tournament.
 
-As an output you will see one column for each round of the tournament a team could possibly make it to - including being named champion. Each row tells us in what share of simulations that team made it to the corresponding round. For example, in ~63% of simulations, Virginia made it to the Elite 8. In ~15%, they won the whole thing (which they did end up doing). The output is sorted by this final column. The winners of each matchup in each simulation are chosen probabilistically. The output tables are saved in the `Outputs` folder as a csv for further examination. 
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/historical_simulation_output.png?raw=true)
+![Example simulation output](Images/historical_simulation_output.png)
 
-For completeness, `predictions.py` can be run with the following options:
-  * `-h` or `--help`: Displays the help messages for this script
-  * `-F` or `--ForecastDate`: Use if trying to predict games for a particular date in the future, set `-F` equal to the day you want to predict. If games are scheduled on our games data source, the output will be predictions for all games. `-F` can also be used on dates in the past, just make sure to also specify `-d` - the day through which the model is allowed to use information in making its predictions. Enter date as YYYYMMDD (e.g. 20190315).
-  * `-G` or `--GamePredictor`: Use this to predict a single game. Supply a home team and an away team - both as strings. Use `-n` flag to indicate a neutral site. This can be used in conjunction with the `-d` flag to make predictions as they would have been made in the past
-  * `-n` or `--neutral`: If provided and using `--GamePredictor`, this will indicate the matchup should be simulated as if the teams are at a neutral location. No advantage will be given to the home team (the first team listed)
-  * `-S` or `SimMode`: Use this to run monte carlo simulations for a tournament and see in what share of simulations a team makes it to each round. Enter the filename storing the tournament participants as a string and an integer number of simulations to run. Don't forget to use `-d` if predicting this tournament as of a date in the past
-  * `-d` or `--dateSim`: Specify a date in the past on which to make predictions. `-d` can be thought of as the "stop short" date. The model will freeze Elo ratings on the date specified to simulate what it would be like to make predictions as of that date. Enter date as a YYYYMMDD integer (e.g. 20190320). If not specified, the default is to calculate through the last game in the most recent data. `-d` can be specified at any time (making future/past game predictions for a day, single game predictions, single bracket predictions, or simulating bracket outcomes)
-  * `-P` or `--PredictBracket`: Use to predict results of a tournament (i.e. generate a single bracket). Enter the filename storing the tournament participants in the first column. Use the `-m` flag to specify how each matchup should be decided. Don't forget to use `-d` if predicting this tournament as of a date in the past
-  * `-m` or `--mode`: By default, the winner for each matchup in a tournament prediction is selected probabilistically (mode 0). Use `1` to have the model always pick the 'better' team according to Elo ratings. Use `2` to decide each matchup with a coinflip (random selection)
-  * `-r` or `--round`: When using `-P` or `-S`, optionally specify which round of the tournament file to start making predictions from (e.g. 0 = predict advancements from the 0th column onwards in the tournament file)
-  * `-o` or `--output`: When using `-S` (SimMode), save the probabilities CSV to this path (e.g. `Outputs/2026/2026 Pre-Tournament Probabilities.csv`)
-  * `--datawrapper`: When using `-S` (SimMode), publish the probabilities table to [Datawrapper](https://www.datawrapper.de/) for a sortable, embeddable visualization. Requires `DATAWRAPPER_API_TOKEN`; optionally set `DW_PROBABILITIES_CHART_ID` to update an existing chart.
+| Option | Meaning |
+|---|---|
+| `-F`, `--ForecastDate` | Predict games on this date instead of today. For a past date, add `-d` |
+| `-G`, `--GamePredictor` | Predict one game: home team, then away team |
+| `-n`, `--neutral` | With `-G`: neutral site, no home-court advantage |
+| `-P`, `--PredictBracket` | Predict one bracket from this file |
+| `-m`, `--mode` | With `-P`: `0` probabilistic (default), `1` favorite, `2` coin flip |
+| `-S`, `--SimMode` | Simulate this bracket file this many times |
+| `-r`, `--round` | With `-P` or `-S`: start from this column of the bracket file (0 = first) |
+| `-o`, `--output` | With `-S`: also save the probabilities CSV to this path |
+| `--datawrapper` | With `-S`: publish the probabilities table to Datawrapper (needs `DATAWRAPPER_API_TOKEN`; uses `DW_PROBABILITIES_CHART_ID` if set) |
+| `-d`, `--dateSim` | Use ratings as of this date. Works with every mode |
+| `-A`, `--auto` | Used by the daily workflow to adjust for the runner's UTC clock |
 
-Team names must match the spelling in the data, for example `UNC`, `NC State`, `Loyola (IL)`, and `St. John's (NY)`. An unrecognized name stops with a list of close matches instead of being treated as a brand-new team.
+All prediction tables are also saved as CSVs in `Outputs/`.
 
-#### backtest.py
-This script replays every season in the data and scores each morning's predictions, using only games from earlier days, the same way the daily predictions work. It reports Brier score and log loss, how far predicted spreads land from final margins compared to the closing Vegas spread, and how often the model's side covers when it disagrees with the line by 3+ points, all by week of season. Seasons before the split year are the tuning period; seasons from the split year on are reported separately as a held-out test.
+#### backtest.py: accuracy
 ```
-python3 backtest.py
+python backtest.py
 ```
-  * `-m` or `--model`: `kalman`, `elo`, or `both` (default)
-  * `-s` or `--split`: first season of the held-out test (default 2021, since the Kalman filter was tuned on 2013-14 through 2020-21)
+Replays every season and scores each morning's predictions using only games from earlier days, exactly as the daily run works. It reports Brier score, log loss, how much further the predicted spreads land from the final margins than the closing Vegas spread does, and how often the model's side covers when it disagrees with the line by 3+ points, all by week of the season. Seasons before the split are the tuning period and are reported separately from the held-out test seasons.
+
+| Option | Meaning |
+|---|---|
+| `-m`, `--model` | `kalman`, `elo`, or `both` (default) |
+| `-s`, `--split` | First season of the held-out test (default 2021) |
 
 ## Methodology
-#### Kalman Filter Ratings (default)
-Each team has a hidden strength, measured in points relative to an average D1 team. The filter keeps a best estimate of every team's strength plus a full covariance matrix. The covariance captures how uncertain each estimate is and how the estimates are tied together through common opponents. Home-court advantage is part of the state too, and is learned from the data (currently about 3.2 points).
 
-Every game day, the filter does three things:
-1. **Drift:** every team's uncertainty grows a little (0.1 points² per day), because teams change during a season.
-2. **Predict:** for each game, the predicted home margin is home strength − away strength + home-court advantage (0 at a neutral site). The covariance gives the uncertainty of that prediction, and the win probability is `Φ(predicted margin / sqrt(100 + uncertainty))`, where Φ is the normal distribution. So predictions involving teams the model knows little about are less extreme.
-3. **Update:** all of the day's games are folded in at once, with two observations per game: the final margin (noise variance 110) and, when there is one, the closing Vegas spread (noise variance 40). How far a rating moves depends on how uncertain it is. Early in the season the filter is uncertain, so results and lines move ratings a lot. By February ratings are settled and move much less. Because the covariance is tracked, a result also moves teams connected to the two teams that played. That's how a non-conference upset informs the rest of a conference.
+#### Kalman filter ratings (default)
+Each team has a hidden strength, measured in points relative to an average D1 team. The filter tracks a best estimate of every team's strength, plus a covariance matrix: how uncertain each estimate is, and how the estimates are linked through common opponents. Home-court advantage is part of the state as well and is learned from the data (currently about 3.2 points).
 
-Each offseason, ratings regress 25% toward their conference average, and 4 points of uncertainty are added for graduation, the NBA draft, and the transfer portal. Teams new to the system (mostly non-D1 opponents) start 35 points below the average D1 team, with 12 points of uncertainty. To keep the filter fast, non-D1 teams that haven't played in 30 days are dropped from the state. In a Kalman filter that doesn't change any other team's rating. Results are cached per data file in `.cache/`, so only the first run on new data takes about a minute.
+Every game day:
+1. **Drift.** Every team's uncertainty grows a little (0.1 points² per day), because teams change during a season.
+2. **Predict.** A game's predicted home margin is home strength − away strength + home-court advantage (none at a neutral site). The win probability is `Φ(margin / sqrt(100 + uncertainty))`, where Φ is the normal distribution and the uncertainty comes from the covariance, so games involving teams the model knows little about get less extreme probabilities.
+3. **Update.** All of the day's games are folded in at once, each giving two observations: the final margin (noise variance 110) and, when there is one, the closing Vegas spread (noise variance 40). The market knows about injuries, roster turnover, and the transfer portal, so early in the season, when the filter is uncertain, results and lines move ratings a lot. By February ratings have settled and move much less. Because the covariance is tracked, a result also moves teams connected to the two that played, which is how a non-conference upset informs the rest of a conference.
 
-Compared to Elo, this replaces the hand-tuned pieces (K-factor, margin-of-victory multiplier, market adjustment schedule, home-court tweaks) with one probabilistic model, where each game's weight comes from how uncertain the ratings involved are. The rest of this section describes the Elo model.
+Each offseason, ratings regress 25% toward their conference average, and 4 points of uncertainty are added for graduation, the NBA draft, and the transfer portal. Teams new to the system (mostly non-D1 opponents) start 35 points below an average D1 team with 12 points of uncertainty. To keep the filter fast, non-D1 teams idle for 30 days are dropped from the state, which in a Kalman filter doesn't change any other team's rating.
 
-#### Elo Ratings
-The methodology for Elo rating systems is discussed in much more detail in several sources on the web, including the [Elo rating systems](https://en.wikipedia.org/wiki/Elo_rating_system) Wikipedia page. This particular implementation was most closely guided by FiveThirtyEight methodologies for the [NBA](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/) and [NFL](https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/).
+Compared to Elo, this replaces the hand-tuned pieces (K-factor, margin-of-victory multiplier, market adjustment schedule) with one probabilistic model, where each game's weight comes from how uncertain the ratings involved are. All settings are at the top of `kalman.py`.
 
-Elo ratings are useful for addressing differences in strength of schedule. When you get to the end of the season and see a 22-6 team playing a 14-1 team, your instinct might be to think the 14-1 team is favored. They lost only one game all season. However, that 14-1 Colgate team only played 5 different opponents all season - and none of them are particularly challenging opponents. Meanwhile, that 22-6 Arkansas team lost several games, but also played one of the tougher schedules in the country - including 4 games against top-25 teams. Fortunately, Elo accounts for these differences. Colgate's wins don't earn them that many Elo points because they mostly played inferior opponents. Arkansas' wins earned them a lot of points because they were against some teams where they were not expected to win. Thus, Arkansas is heavily favored in their matchup with Colgate.
+#### Elo ratings
+The Elo model follows FiveThirtyEight's [NBA](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/) and [NFL](https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/) methodology, with tuning for college basketball. Every team starts at 1500. Ratings rise after wins and fall after losses, and the winner gains what the loser gives up. Settings are at the top of `elo.py`.
 
-In a particular matchup, the difference in ratings can be used to predict both a win probability and a point spread. At the time of writing (Spring 2021), Arkansas' Elo rating is 2032 while Colgate's is 1849. The difference in ratings is +183 for Arkansas. We can calculate win probability as: 
+**Predictions.** For a rating difference `elo_spread` (including home court):
 ```
-1 / (1 + 10**(-elo_spread/400))
+win_probability = 1 / (1 + 10**(-elo_spread/400))
+point_spread    = elo_spread / -24.78
 ```
-Arkansas' win probability is 74% when we plug in +183 for `elo_spread`. Using -183 for `elo_spread`, we find that Colgate's win probability is 26% `(100% - 74%)`. To convert this difference in Elo ratings to a point spread we can divide +183 by **-24.78**. This tells us Arkansas is a -7.4 point favorite (Vegas says -8.5). 
+For example, a +183 rating edge is a 74% win probability and a 7.4-point spread. Home teams get **+82** rating points (3.3 points); neutral sites get none.
 
-An important part of any sporting event is home-court advantage. Teams receive an automatic boost of **+82** Elo points when they are at home. This implies a 3.31-point advantage `(82/24.78)` at home. No advantage is applied when games are played at neutral locations.
-
-One major advantage of an Elo system is its simplicity. Elo ratings are updated simply by the final results of games. Teams with higher Elo ratings are perceived as better than teams with lower ratings. A team's rating changes after every game they play. The rating goes up after a win and down after a loss. There are two factors that determine by how much it goes up or down:
-1. Elo Difference - A win over an opponent with an Elo rating that is much higher than yours is more meaningful than a win over a team you are rated much higher than and expected to beat. Essentially, bigger upset wins are worth more. On the flipside, more surprising losses to much worse teams will cost more rating points.
-2. Margin of Victory (MoV) - A win by 20+ points is more meaningful than a 1-point win. The more you win by, the more points you are rewarded for the win. On the flipside, the more you lose by, the more points you can expect to lose. The **Margin-of-Victory multiplier** is calculated as:
+**Updates.** How much a rating moves depends on how surprising the result was and the margin of victory:
 ```
-((MoV + 2.5)**.7) / (6 + .006 * elo_margin)
+MoV_multiplier = ((MoV + 2.5)**0.7) / (6 + 0.006 * elo_margin)
+winner_change  = K * MoV_multiplier * (1 - winner_win_probability)
 ```
-The best way to summarize how Elo ratings get adjusted, is to assume that they are constantly trying to converge on accuracy. They want to change as little as possible. If a result is surprising according to the ratings, then the ratings were clearly very wrong, so they should make dramatic changes. However, if the result is about what is expected, there won't be much to adjust. The ratings are close to accurate.
+with **K = 34**. When 63% favorite Alabama beat LSU 80-79 in the 2021 SEC final, Alabama gained only 5 points: it was expected to win by more. When 30% underdog Georgetown beat Creighton 73-48 in the 2021 Big East final, Georgetown gained 35.
 
-The full formula for updating a team's rating is best understood with an example. Let's consider the SEC championship between Alabama and LSU on 3/14/2021. Alabama's Elo rating was 1923 at the time, and LSU's was 1828. We can calculate Alabama's win probability at this neutral-site game is 63%. The final score was Alabama 80, LSU 79. To adjust Alabama, we find that the Elo difference was +95 `(1923 - 1828)` and the MoV was +1. Using the formula above, we find the Margin-of-Victory multiplier to be 0.37. We also need a constant called a K-factor that influences how much each game should adjust the ratings. Our optimal K-factor for every game is **34**. Putting it all together:
-```
-winner_change_in_elo = k_factor * MoV_multiplier * (1 - winner_win_probability)
-+5 = 34 * 0.37 * (1 - 0.63)
-```
-We adjust Alabama's rating up 5 points to 1928 and LSU's down by 5 to 1823 (before the market adjustment described below). Alabama still gets points for winning the game. However, they were expected to win by even more than they did (the model had them at 3.8-point favorites), so they don't get that many points. In contrast, we can look at Georgetown's 73-48 win over Creighton in the Big East Championship on 3/13/2021. Georgetown was a major underdog: 1726 Elo rating vs. 1876 with a win probability of 30%. Not only did they pull of the upset (according to the model), but they won by _a lot_. Thus, the model adjusted heavily:
-```
-winner_change_in_elo = k_factor * MoV_multiplier * (1 - winner_win_probability)
-+35 = 34 * 1.47 * (1 - 0.30)
-```
-
-Elo ratings are meant to be a closed system. Upon initialization, each team starts at an Elo rating of **1500**. The total number of points in the system should not change (1500 * the total number of teams at the start). Therefore, the number of points gained by the winner of a game equals the number of points lost by the loser of the game. In practice, the total number of points in this system does not remain constant because new teams are constantly joining. Some make the jump to D1 from lower divisions, or sometimes D1 schools expand their schedules to non-D1 teams. These late-joiners we should assume are not very good. Thus, they start with an Elo rating of **985** (i.e. they are automatically 21-point underdogs against an average opponent). As noted in [this issue](https://github.com/grdavis/college-basketball-elo/issues/8), teams that have recently elevated to D1 may not actually be this bad, but the model doesn't have enough data on them yet. That will even out over time, but in their nascency, we should not trust predictions involving these teams. We also drop teams from the system at the end of the season if they played less than **10** D1 games. If they re-emerge in a game next season, they will start at **985** again.
-
-In most Elo systems, there is some adjustment made at the end of every season to revert teams back to average. It makes sense that as some players graduate and new players come in, we should be less confident in our current rating for a team. Really good teams should be adjusted down a litte. Really bad teams should be adjusted up a little. FiveThirtyEight, for example, starts every new season by taking `0.75 * end_of_season_rating + 0.25 * league_average_rating` in the NBA. Their NBA new season carryover is 0.75. A wrinkle in this model is that instead of pushing teams towards the overall average rating, we push them towards the average rating _within their conference_. The NBA has parity amongst its teams and the league is relatively small (compared to the 300+ teams in the NCAAB model). Generally, there are large gaps in skill levels not only across teams, but also across entire conferences. With this in mind, the NCAA new season carryover in my Elo model is **0.64** (`0.64 * end_of_season_rating + 0.36 * conference_average_rating`). This is discussed further in the tuning section.
-
-#### Early-Season Market Adjustment
-The weak spot of the reversion above is the start of the season. In November, a team's rating is mostly last season's rating, but with graduations, the NBA draft, and especially the transfer portal, the roster can look nothing like last year's. Backtesting 2013-2026, the model's average spread error trailed Vegas by about 0.8 points in the first two weeks of the season, shrinking to about 0.2 points by February. That gap was even bigger in the portal era (2021 on). Simpler fixes (lower carryover, reverting toward a program's multi-year average, a bigger K-factor early in the season) barely helped.
-
-The betting market already knows who transferred in and out, and the closing spread for every game is already in the dataset. So after each game's normal Elo update, both teams' ratings are nudged toward the closing Vegas spread:
+**Early-season market adjustment.** In November a team's rating is mostly last season's, but with the transfer portal the roster may look nothing like last year's. After each game's normal update, both teams are nudged toward the closing Vegas spread:
 ```
 market_weight = 0.1 + 0.5 * exp(-avg_games_played_this_season / 10)
-home_change_in_elo = market_weight * (vegas_home_margin - elo_home_margin) * 24.78 / 2
-away_change_in_elo = -home_change_in_elo
+home_change   = market_weight * (vegas_home_margin - elo_home_margin) * 24.78 / 2
+away_change   = -home_change
 ```
-Early in the season the pull is strong (about 0.6 of the gap), and it fades toward a floor of 0.1 as teams play games and the results themselves become more informative. Like the regular update it is zero-sum, and games without a line (`NL`) are skipped. The weights live at the top of `elo.py` as `MARKET_WEIGHT`, `MARKET_DECAY`, and `MARKET_FLOOR`; setting the weight and floor to 0 turns the adjustment off.
+The pull starts at about 0.6 of the gap and fades toward 0.1 as teams play games. Games without a line are skipped. Set `MARKET_WEIGHT` and `MARKET_FLOOR` to 0 in `elo.py` to turn it off.
 
-Backtested on 2013-2026, the model's spread error behind Vegas (in points, lower is better):
+**Seasons and new teams.** Each offseason every rating becomes `0.64 × rating + 0.36 × conference average`. Teams new to the system start at **985** (21-point underdogs to an average team), and teams with fewer than **10** games in a season are dropped at the end of it.
 
-| Season week | Before | After |
-|---|---|---|
-| Week 1 | 0.82 | 0.60 |
-| Week 2 | 0.78 | 0.34 |
-| Week 3 | 0.57 | 0.28 |
-| Weeks 4-5 | 0.55 | 0.18 |
-| Weeks 6-8 | 0.43 | 0.11 |
-| Weeks 9-12 | 0.27 | 0.08 |
-| Week 13+ | 0.18 | 0.03 |
+## Performance
 
-Overall Brier score improved from 0.1700 to 0.1661. The trade-off is that the model is no longer fully independent of the market. Week 1 is still the weakest stretch, because the first game of the season is still predicted from last season's carried-over rating.
+#### Held-out results
+The Kalman filter was tuned to minimize Brier score on the 2013-14 through 2020-21 seasons only, using a coordinate search over about 40 configurations. Everything from 2021-22 on was held out as a test. `backtest.py` reproduces these numbers.
 
-## Tuning and Performance
-#### Kalman filter tuning and held-out results
-The Kalman filter's settings were tuned to minimize Brier score on the 2013-14 through 2020-21 seasons only (a coordinate search over about 40 configurations, using the full covariance filter). The 2021-22 season onward was held out as a test. Settings are at the top of `kalman.py`, and `backtest.py` reproduces everything below. What tuning found:
-- Teams change more within a season than expected: more daily drift was better.
-- The closing line is a strong observation, but it shouldn't overrule results: a market noise variance of 40 beat 9, 16, 25, and 80.
-- Shared conference-wide preseason uncertainty, and capping blowout margins, both made predictions worse.
-
-Held-out results (2021-22 through 2026-27 so far, about 31,000 games). Spread error vs. Vegas is how much further the model's predicted spread lands from the final margin than the closing line does, in points (lower is better):
+Held-out seasons, 2021-22 through 2026-27 so far (about 31,000 games). "Spread error vs. Vegas" is how much further the predicted spread lands from the final margin than the closing line does, in points (lower is better):
 
 | Model | Brier | Log loss | Spread error vs. Vegas | Covers when 3+ pts off the line |
 |---|---|---|---|---|
-| Elo before November 2026 (K = 47, no market adjustment) | 0.1721 | 0.5113 | +0.41 | 49.9% |
-| Elo with market adjustment and the old rating-based home-court tweak | 0.1685 | 0.5013 | +0.23 | 51.2% |
+| Original Elo (K = 47, no market adjustment) | 0.1721 | 0.5113 | +0.41 | 49.9% |
 | Elo with market adjustment (`RATING_MODEL = 'elo'`) | 0.1671 | 0.4982 | +0.16 | 50.1% |
 | **Kalman filter (default)** | **0.1661** | **0.4935** | **+0.12** | 52.1% |
 
-The Kalman filter is ahead of Elo in every week of the season. Its spread error vs. Vegas on the held-out seasons, with Elo in parentheses: week 1 +0.59 (+0.67), week 2 +0.19 (+0.31), week 3 +0.14 (+0.19), weeks 4-5 +0.18 (+0.19), weeks 6-8 +0.01 (+0.07), weeks 9-12 +0.06 (+0.09), week 13 on +0.06 (+0.09). Week 1 is still the weak spot, because the first games are predicted from last season's carried-over ratings. Closing that gap would take preseason information such as returning minutes or transfer portal rankings.
+Spread error vs. Vegas by week of the season, Kalman filter with Elo in parentheses:
 
-The old rating-based home-court tweak in `predictions.py` gave home teams below 1600 a bigger boost and home teams above 2000 a smaller one. It was fit to the old K = 47 Elo model, and with the current models it made held-out predictions worse, so it was removed. The Kalman filter learns home-court advantage on its own.
+| Week | 1 | 2 | 3 | 4-5 | 6-8 | 9-12 | 13+ |
+|---|---|---|---|---|---|---|---|
+| Kalman (Elo) | +0.59 (+0.67) | +0.19 (+0.31) | +0.14 (+0.19) | +0.18 (+0.19) | +0.01 (+0.07) | +0.06 (+0.09) | +0.06 (+0.09) |
+
+Week 1 is still the weak spot, because the first games are predicted from last season's carried-over ratings. Closing that gap would take preseason information such as returning minutes or transfer portal rankings.
+
+What tuning found:
+- Teams change more within a season than expected; more daily drift was better.
+- The closing line is a strong observation but shouldn't overrule results: a market noise variance of 40 beat 9, 16, 25, and 80.
+- Shared conference-wide preseason uncertainty and capping blowout margins both made predictions worse.
+- An old rating-based home-court tweak (a bigger boost for weak home teams, a smaller one for strong ones) made held-out predictions worse with both current models and was removed.
 
 #### Is there a betting edge?
-Probably not against closing lines. The closing line is very hard to beat, and the held-out results show it:
-- When the Kalman filter disagrees with the closing line by 3+ points, its side covered 54.7% of the time in the tuning seasons, but only 52.1% in the held-out seasons. That's below the 52.4% needed to break even at -110 odds. By season, the cover rate drifted from 55-63% in some early seasons down to about 48-51% from 2024-25 on, so the market has gotten sharper.
+Probably not against closing lines:
+- When the Kalman filter disagrees with the closing line by 3+ points, its side covered 54.7% of the time in the tuning seasons but only 52.1% in the held-out seasons, below the 52.4% needed to break even at -110. The cover rate drifted from 55-63% in some early seasons down to about 48-51% from 2024-25 on, so the market has gotten sharper.
 - Betting only when the disagreement is large relative to the filter's own uncertainty helped in the tuning seasons but not in the held-out seasons.
-- Simple angles against the closing line, 2013-2026: home teams cover 49.9%, and the average final margin is 1.004 × the line (no bias). Rest days, back-to-backs, last season's results early in the year, and conference vs. non-conference games were all within noise. The one pattern outside noise: home favorites of 12-18 points cover only 47.8% (about 7,000 games). Betting the underdog there wins about 52.2%, which is right at break-even.
+- Simple angles against the closing line, 2013-2026: home teams cover 49.9%, and the average final margin is 1.004 × the line. Rest days, back-to-backs, last season's results, and conference vs. non-conference games were all within noise. The one pattern outside noise: home favorites of 12-18 points cover only 47.8% (about 7,000 games), so betting the underdog there wins about 52.2%, right at break-even.
 
-The model is most useful as an accurate, independent read on each game, not as a betting system. (This is not gambling advice - please bet responsibly.)
+The model is most useful as an accurate, independent read on each game, not as a betting system. This is not gambling advice; please bet responsibly.
 
-#### Elo tuning
-The primary variables subject to tuning were the K-factor, Home-Court Advantage, and New Season Carryover. Secondary variables subject to tuning were the MoV multiplier equation, and the starting Elo rating for new teams joining the system. The primary loss function used for tuning was the [Brier score](https://en.wikipedia.org/wiki/Brier_score). Essentially, this is the sum of the squared difference between predicted win probability and result for every game in the dataset. The result is 1 for a win and 0 for a loss. So if the model gives a team a 70% win probability and they win, the Brier score is `(1 - 0.70)^2 = 0.09`. However, if they lose, the score is 0.49. The goal in the tuning process was to minimize the average Brier score. In every simulation, I don't start tracking Brier until after the 3rd season to give the model some time to instantiate.
+## Elo tuning notes
+These notes and charts come from tuning the Elo model, using data through early 2025. `tuning.py` recreates them.
 
-Throughout tuning, I narrowed in on optimal values of **34**, **+82**, and **0.64** for the primary variables: K-factor, Home-Court Advantage, and New Season Carryover. **These key are updated frequently whenever I go through the tuning process, so documentation may not be up to date.** See the top of `elo.py` for the latest model inputs. 
+The Elo model's K-factor, home-court advantage, and season carryover were tuned to minimize the average [Brier score](https://en.wikipedia.org/wiki/Brier_score), the squared difference between predicted win probability and the result (1 for a win, 0 for a loss), skipping the first 3 seasons while ratings settle.
+- **K = 34** is much larger than FiveThirtyEight's NBA value of 20, partly because ratings in college basketball are spread much wider. Before the market adjustment the best K was 47; the adjustment now does some of the work of moving ratings quickly.
+- **Home court +82** (3.3 points) is less than the raw 2010-2020 average home margin of 7.1 points, which is inflated by lopsided "guarantee games" that strong teams always host.
+- **Carryover 0.64** is lower than the NBA's 0.75, which fits the heavier roster turnover in college. Reverting toward the conference average rather than the overall average keeps strong conferences strong.
+- **New teams at 985** and a margin-of-victory multiplier slightly damped from FiveThirtyEight's NBA version:
 
-All three inputs were surprising in their own way. A K-factor of 34 is much larger than the NBA K-factor of 20 (before the early-season market adjustment was added, the optimal K-factor was 47; the market adjustment now does some of the work of moving ratings quickly). This implies that momentum plays a bigger role in college basketball than in the NBA. A larger K-factor encourages larger swings in Elo rating after every game. This could also be a side effect of having much greater Elo rating matchup disparities than exist in the NBA. The range of Elo values is much larger in NCAAB, so the size of jumps is larger as well. A home-court advantage of +82 implies only a 3.31-point advantage at home - which is less than what the data indicates. From 2010 to 2020, the average NCAA home advantage was 7.1 points, while the NBA was 2.8. Perhaps this number is inflated due to a long right tail of dominant home victories by D1 teams that tend to host more blowout games instead of traveling to blow someone out. For example, Harvard (mid-to-bottom-tier D1) always hosts MIT (mid-tier D3) as part of a friendly rivalry where Harvard always wins by a million. The game is _never_ played at MIT. Games like these are outliers that skew the 7.1-point advantage up while the Elo model discovers that for the _majority_ of games +82 is appropriate. Lastly, a season carryover of 0.64 is lower than the NBA carryover. This makes sense as there is probably much more turnover on these NCAAB teams. Players graduate, transfer, or move on to the NBA every year. I expected the carryover value to be even lower. However, teams tend to be consistent in their recruiting. So a team like Duke that loses several star players every year is also probably bringing in several equally-talented stars next year to replace them. Maybe it makes sense that they aren't hurt much by the turnover. In addition, the other component in the reversion is the conference-average Elo. The ACC, compared to most other conferences, has a very strong Elo. As an example, Duke's Elo goes from 1948 at the end of the 21-22 season to 1887 to start the 22-23 season `(1948 * 0.64 + 1745 ACC average * 0.36 = 1875)`. 
+![Margin-of-victory multiplier](Images/MoV_selection.png)
 
-Secondary tuning of the starting elo for new teams narrowed in on **985**. Lastly, I made minor adjustments to FiveThirtyEight's MoV multiplier equation to reflect the fact that MoV in college games is usually more than in NBA games. After some tinkering, I landed on the MoV multiplier equation explained above that essentially dampens the impact of MoV a little more than the NBA equation:
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/MoV_selection.png?raw=true)
+Average Brier score by season stayed stable, with a slight rise around Covid:
+![Brier score over time](Images/brier_over_time_20250201.png)
 
-The plot below shows the average Brier score, the error function to minimize in tuning, per season over the last 7 years. It is a good sign that the error remains relatively stable over time. The slight uptick in error coincides with Covid. It looks like these disruptions have not not become a trend of increasing error over time.
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/brier_over_time_20250201.png?raw=true)
+The average rating stays near 1500, dipping when many new teams join at 985:
+![Average end-of-season rating](Images/end_of_season_elo_20250201.png)
 
-As mentioned in the methodology section, Elo ratings are meant to be a closed system. Ideally, the total number of points in the system does not change. However, so many new teams join the system that the total number of points is not stable over time. For the most part, this is shown to be the case. The average Elo rating for each team is ~1500. When many teams enter the Elo rating system with their default 985 rating and play just one game (i.e. the MITs of the NCAA world who enter the system just to play one game against Harvard every year) the average rating gets pulled down. To combat this, the model eliminates teams who played less than 10 games in a season at the end of every season. The next time those teams have a Division 1 games, they will need to rejoin the system as a new 985-point team. These new teams in the system help explain why the most recent seasons see a dip in the average Elo rating.
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/end_of_season_elo_20250201.png?raw=true)
+The rating distribution is centered near 1500 with a long right tail of standout teams:
+![Rating distribution](Images/elo_distribution_20250201.png)
 
-The chart below shows the Elo rating distribution as of games through 1/31/2025. This chart shows a distribution centered close to 1500, which is what we should expect for well-sorted teams. 1500 is supposed to be the average. As expected, some teams really distinguish themselves in the long right tail (Auburn in this snapshot).
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/elo_distribution_20250201.png?raw=true)
+24.78 rating points equal 1 point of spread, from a linear fit to the middle 80% of games. The fit holds up to about a 300-point (12-point spread) difference:
+![Rating difference vs. point spread](Images/elo_to_point_spread_20250201.png)
 
-In order to predict point spreads from Elo ratings, we need to determined how many points of Elo difference equal 1 point of final score difference. To do this, I plotted Elo rating differences versus the average resulting score difference in those games. The size of the bubbles is proportional to the number of games in the dataset had that Elo difference. It's a good sign that a clear trend emerges in this plot. Towards the left and right tails of the plot, you can see some curvature. But, for the majority of games, a straight line can help explain the relationship. I fit a linear regression to the middle 80% of the data. In general, the slope of this line indicates that every 24.78 points of Elo difference corresponds to a 1 point difference in predicted point spread. In other words, a team that is 50 Elo points better should be favored by about 2 points in the game. The graph indicates we can confidently convert Elo point differences to point spreads up until the Elo difference is about 300, which is a spread of about 12 points.
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/elo_to_point_spread_20250201.png?raw=true)
+How often Elo-informed picks beat the Vegas spread as the disagreement grows (blue), the share of games that qualify (red), and the 52.38% break-even (green):
+![Spread win rate by disagreement](Images/elo_spread_win_rate_ALL_20250201.png)
 
-Hypothetically, if one was to use this Elo model for gambling, you would want to know how often you could beat vegas by making model-informed bets. That is to say, if the model predicts the game will be closer than Vegas, you would bet on the underdog. And if the model predicts the point differential to be greater than Vegas, you would bet on the favorite. Naturally, the Elo model and Vegas don't always agree with one another. One theory to take advantage of this difference is to only bet on games where the Elo/Vegas spread difference is greater than a certain threshold. Below, tracking the blue line, you see that Elo-informed picks are more and more likely to "win" their bet as the absolute difference between Elo and Vegas spreads increases. However, as you increase your trigger threshold, there are fewer and fewer games meeting the criteria on which to bet (red line). If you did not have some kind of trigger threshold and tried to bet on every game, you would still win 50% of the time - pretty good. The problem is sportsbooks trying to keep some money for themselves with a [vig](https://en.wikipedia.org/wiki/Vigorish). In reality, to break even, you typically need to win 52.38% of the time or more (green line). Making Elo-informed bets only crosses this threshold for games where the Elo/Vegas absolute difference is 7.25 or more. Only 4.3% of games in the database met this criteria, but it is exciting to see the win percentage crosses the threshold at all! A huge shoutout to [SportsBookReviewsOnline](https://www.sportsbookreviewsonline.com/scoresoddsarchives/ncaabasketball/ncaabasketballoddsarchives.htm) for supplying the historical data that made this possible. (This is not gambling advice - please bet responsibly)
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/elo_spread_win_rate_ALL_20250201.png?raw=true)
+Predicted win probability vs. actual win rate. Teams given an X% chance won about X% of the time (R² ≈ 0.99):
+![Calibration](Images/prediction_accuracy_20250201.png)
 
-Lastly, to visualize the accuracy of the Elo model's predictions, I plotted predicted win probability versus actual win percentage. For example, there have been 1,626 games in the dataset (Fall 2010 - Winter 2025) where the model predicted a team's win probability was ~55% (rounded to the nearest 1%). In reality, 897 of those teams won their games. That is a win percentage of 55.2% `(897/1626)` - which means the model's prediction was about right. Over time, teams given an X% chance of winning should win about X% of their games. This plot shows that relationship to be mostly true. Plotted with a linear line of best fit, the R-Squared value is ~0.99.
-![alt text](https://github.com/grdavis/college-basketball-elo/blob/main/Images/prediction_accuracy_20250201.png?raw=true)
+## Data sources and repository layout
+- **Scores and spreads:** [Scores and Odds](https://www.scoresandodds.com/ncaab) since the 2023-24 season. Earlier scores came from [Sports Reference](https://www.sports-reference.com/cbb/) and earlier spreads from [SportsBookReviewsOnline](https://www.sportsbookreviewsonline.com/scoresoddsarchives/ncaabasketball/ncaabasketballoddsarchives.htm).
+- **Neutral sites:** the [TeamRankings](https://www.teamrankings.com/ncb/schedules/season/) schedule.
 
-## Other Functionality
-To backtest or re-tune the Kalman filter, use `backtest.py` and the settings at the top of `kalman.py`. To recreate the Elo visualizations above or re-tune the Elo model, refer to the `tuning.py` file.
+| Path | Contents |
+|---|---|
+| `elo.py` | Elo model, `RATING_MODEL` switch, and the rankings command |
+| `kalman.py` | Kalman filter rating engine (default) |
+| `predictions.py` | Daily, single-game, bracket, and simulation predictions |
+| `backtest.py` | Season-by-season accuracy backtest |
+| `scraper.py`, `spread_enricher.py` | Fetch scores, schedules, neutral sites, and live spreads |
+| `datawrapper_publisher.py` | Publishes tables to Datawrapper and builds `docs/index.html` |
+| `tuning.py` | Elo tuning and the charts above |
+| `Data/` | Game data (`YYYYMMDD-YYYYMMDD.csv`: neutral flag, away team, away score, home team, home score, date, away spread), `conferences.csv`, team name mappings between sources, tournament brackets |
+| `New_Spreads/` | Recent live-spread snapshots |
+| `Outputs/` | Prediction and ranking CSVs, with tournament results by season |
+| `docs/` | The daily predictions page |
+
+## Troubleshooting the workflows
+- **Scheduled runs use an old version of the workflow.** GitHub can keep running a schedule against an old commit (check the commit on the run in the Actions tab). Changing the `cron` line, or disabling and re-enabling the workflow in the Actions tab, makes it pick up the latest version.
+- **`Matrix is singular` in CI.** numpy 1.23 bundles an old OpenBLAS whose AVX-512 code can return wrong results on some newer runner CPUs. The workflows set `OPENBLAS_CORETYPE: Haswell` to avoid it and log the runner's CPU model. If it comes back, the error names the date and the matrix diagnostics.
+- **`Version 3.8.15 ... not found`.** Python 3.8 builds only exist for Ubuntu 24.04 and older, so the workflows pin `runs-on: ubuntu-24.04`. The two on-demand tournament workflows still use `ubuntu-latest` and need the same pin before they will run.
