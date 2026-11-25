@@ -53,6 +53,7 @@ def scrape_scores(date_obj):
 	'''
 	scrape and return stats in the form of a list of lists where each sublist is information from a single game played on the specified day 
 	'''
+	if NEUTRAL_MAP is None: scrape_neutral_data() #fetched on first use rather than on import, so imports stay fast and offline
 	day, month, year = str(date_obj.day), str(date_obj.month), str(date_obj.year)
 	day_stats = []
 	url = URLV2.replace("DAY", day).replace("MONTH", month).replace("YEAR", year)
@@ -203,5 +204,3 @@ def main(file_start, scrape_start, scrape_end, data_filepath = False):
 	else:
 		all_data = []
 	scrape_by_day(file_start, start, end, all_data)
-
-scrape_neutral_data() #automatically called when the file is imported

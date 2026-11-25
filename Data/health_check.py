@@ -70,6 +70,7 @@ def check_4():
     which indicates the name we're mapping to in TR is incorrect
     '''
     # Find teams in TR_NAMES that don't appear in TR_NAMES_MAP values
+    if scraper.TR_NAMES is None: scraper.scrape_neutral_data()
     mapped_teams = set(scraper.TR_NAMES_MAP.values())
     tr_teams = set(scraper.TR_NAMES)
     unmapped_teams = tr_teams - mapped_teams
