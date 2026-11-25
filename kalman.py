@@ -206,7 +206,13 @@ class KalmanSim():
 		S = PHt[oh, :] - PHt[oa, :] + onn[:, None] * PHt[0:1, :]
 		S[np.diag_indices_from(S)] += oR
 		innovation = oy - (mu[oh] - mu[oa] + onn * mu[0])
-		X = la_solve(S, np.column_stack([innovation, PHt.T]), assume_a = 'pos', check_finite = False)
+		try:
+			X = la_solve(S, np.column_stack([innovation, PHt.T]), assume_a = 'pos', check_finite = False)
+		except np.linalg.LinAlgError as e:
+			#S is P projected onto the day's games plus at least MARKET_VAR on the diagonal, so it can only fail here if
+			#the covariance was corrupted (non-finite values, or a BLAS library returning wrong matrix products)
+			raise np.linalg.LinAlgError('%s on %s (%i observations): S finite=%s, min eigenvalue=%.3g, P finite=%s'
+				% (e, rows[0][5], len(oy), np.isfinite(S).all(), np.linalg.eigvalsh(np.nan_to_num(S)).min(), np.isfinite(Pv).all())) from e
 		mu[:n] += PHt @ X[:, 0]
 		Pv -= PHt @ X[:, 1:]
 		for r in rows:
