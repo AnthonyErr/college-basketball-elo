@@ -5,30 +5,30 @@ Note: Teams with * or those written as abbreviations (e.g. BREC) are likely new 
 
 |   Neutral | Away               | Away Win Prob.   |   Away Pred. Spread | Live Away Spread   | Home           | Home Win Prob.   |   Home Pred. Spread | Abs. Pred. Diff.   |
 |----------:|:-------------------|:-----------------|--------------------:|:-------------------|:---------------|:-----------------|--------------------:|:-------------------|
-|         1 | Oklahoma           | 33%              |                 4.5 | -2.5               | Purdue         | 67%              |                -4.5 | 7.0                |
-|         0 | Army               | 17%              |                10.1 | -9.5               | UTSA           | 83%              |               -10.1 | 19.6               |
-|         1 | San Diego State    | 35%              |                 4.2 | -1.5               | Maryland       | 65%              |                -4.2 | 5.7                |
-|         1 | Boston College     | 37%              |                 3.6 | 1.5                | UCF            | 63%              |                -3.6 | 2.1                |
-|         1 | South Carolina     | 36%              |                 3.7 | 4.5                | Arizona State  | 64%              |                -3.7 | 0.8                |
-|         1 | Georgetown         | 13%              |                11.8 | 8.5                | Texas          | 87%              |               -11.8 | 3.3                |
-|         1 | Iowa State         | 62%              |                -3.4 | -4.5               | Tennessee      | 38%              |                 3.4 | 1.1                |
-|         1 | Michigan           | 44%              |                 1.6 | 1.5                | Miami (FL)     | 56%              |                -1.6 | 0.1                |
-|         1 | Utah State         | 41%              |                 2.5 | 1.5                | USC            | 59%              |                -2.5 | 1.0                |
-|         1 | Arkansas           | 37%              |                 3.4 | 5.5                | Michigan State | 63%              |                -3.4 | 2.1                |
-|         1 | Saint Mary's       | 17%              |                 9.9 | 7.5                | UCLA           | 83%              |                -9.9 | 2.4                |
+|         1 | Arkansas           | 37%              |                 3.4 | -1.5               | Michigan State | 63%              |                -3.4 | 4.9                |
+|         1 | Utah State         | 41%              |                 2.5 | -2.5               | USC            | 59%              |                -2.5 | 5.0                |
+|         1 | Saint Mary's       | 17%              |                 9.9 | 1.5                | UCLA           | 83%              |                -9.9 | 8.4                |
 |         1 | Creighton          | 50%              |                -0.1 | -1.5               | TCU            | 50%              |                 0.1 | 1.4                |
 |         1 | DePaul             | 52%              |                -0.5 | NL                 | Pitt           | 48%              |                 0.5 | N/A                |
-|         1 | SMU                | 29%              |                 5.9 | 6.5                | LSU            | 71%              |                -5.9 | 0.6                |
-|         1 | Jacksonville State | 50%              |                -0.1 | -3.5               | UC-Davis       | 50%              |                 0.1 | 3.4                |
+|         1 | SMU                | 29%              |                 5.9 | 7.5                | LSU            | 71%              |                -5.9 | 1.6                |
+|         1 | Jacksonville State | 50%              |                -0.1 | -2.5               | UC-Davis       | 50%              |                 0.1 | 2.4                |
 |         1 | St. John's (NY)    | 51%              |                -0.2 | -1.5               | Louisville     | 49%              |                 0.2 | 1.3                |
 |         1 | Kansas State       | 8%               |                14.7 | 13.5               | Alabama        | 92%              |               -14.7 | 1.2                |
 |         1 | Omaha              | 17%              |                10   | 7.5                | Pacific        | 83%              |               -10   | 2.5                |
 |         1 | Oregon             | 17%              |                10   | 10.5               | Texas Tech     | 83%              |               -10   | 0.5                |
 |         1 | Gonzaga            | 62%              |                -3.1 | -3.5               | Baylor         | 38%              |                 3.1 | 0.4                |
-|         1 | Saint Louis        | 69%              |                -5.1 | NL                 | Stanford       | 31%              |                 5.1 | N/A                |
 |         0 | Incarnate Word     | 8%               |                14.9 | NL                 | Hawaii         | 92%              |               -14.9 | N/A                |
+|         1 | Saint Louis        | 69%              |                -5.1 | NL                 | Stanford       | 31%              |                 5.1 | N/A                |
 |         1 | Colorado State     | 38%              |                 3.1 | NL                 | Clemson        | 62%              |                -3.1 | N/A                |
 |         1 | Georgia            | 40%              |                 2.8 | NL                 | Cincinnati     | 60%              |                -2.8 | N/A                |
+|         0 | Army               | 17%              |                10.1 | NL                 | UTSA           | 83%              |               -10.1 | N/A                |
+|         1 | Oklahoma           | 33%              |                 4.5 | NL                 | Purdue         | 67%              |                -4.5 | N/A                |
+|         1 | San Diego State    | 35%              |                 4.2 | NL                 | Maryland       | 65%              |                -4.2 | N/A                |
+|         1 | Boston College     | 37%              |                 3.6 | NL                 | UCF            | 63%              |                -3.6 | N/A                |
+|         1 | South Carolina     | 36%              |                 3.7 | NL                 | Arizona State  | 64%              |                -3.7 | N/A                |
+|         1 | Georgetown         | 13%              |                11.8 | NL                 | Texas          | 87%              |               -11.8 | N/A                |
+|         1 | Iowa State         | 62%              |                -3.4 | NL                 | Tennessee      | 38%              |                 3.4 | N/A                |
+|         1 | Michigan           | 44%              |                 1.6 | NL                 | Miami (FL)     | 56%              |                -1.6 | N/A                |
 
 # Top 100 Teams by ELO Rating
 |     | Team              |   Elo Rating |   7 Day Change |
